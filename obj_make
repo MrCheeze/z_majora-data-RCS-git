@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.30  1999-03-10 16:11:23+09  kuzuhara
+# 人食い水仙作成
+#
 # Revision 2.29  1999-03-08 21:51:21+09  sumiyosi
 # *** empty log message ***
 #
@@ -1585,3 +1588,8 @@ cp() {
      cp shape/zelda2_boss06/zelda2_boss06.o Boss06.o
      cp shape/zelda2_boss07/zelda2_boss07.o Boss07.o
      cp shape/zelda2_raf/zelda2_raf.o Raf.o
+     cp shape/zelda2_funen/zelda2_funen.o funen.o
+     cp shape/zelda2_raillift/zelda2_raillift.o raillift.o
+     cp shape/zelda2_numa_obj/zelda2_numa_obj.o numa_obj.o
+     cp shape/zelda2_flowerpot/zelda2_flowerpot.o flowerpot.o
+     cp shape/zelda2_spinyroll/zelda2_spinyroll.o spinyroll.o
