@@ -7,7 +7,7 @@ parameter
 keep
 f_keep
 d_keep
-title
+####title
 nintendo_rogo
 obj_make
 #scene_make
