@@ -41,6 +41,7 @@ cp() {
      cp /home/soejima/c/Event/mask/vs_mask_label.inc .
 
 #####	メッセージ
+## 日本語
 #if [ -r shape/MESSAGE/japan/japan.o ]; then
 #     cp shape/MESSAGE/japan/table.h .
 #     cp shape/MESSAGE/japan/extern.h .
@@ -52,6 +53,7 @@ if [ -r shape/MESSAGE/japan2/japan2.o ]; then
 else
     echo -e "\007\033[37;41m只今メッセージは更新中、または壊れています\033[m"
 fi
+## 英語
 if [ -r shape/MESSAGE/USA/USA.o ]; then
      cp shape/MESSAGE/USA/message_define.h .
      cp shape/MESSAGE/USA/usa_table.h .
@@ -59,6 +61,30 @@ if [ -r shape/MESSAGE/USA/USA.o ]; then
      cp shape/MESSAGE/USA/USA.o .
 else
     echo -e "\007\033[37;41m只今【ＵＳＡ版】メッセージは更新中、または壊れています\033[m"
+fi
+## ドイツ語
+if [ -r shape/MESSAGE/GER/GER.o ]; then
+     cp shape/MESSAGE/GER/ger_table.h .
+     cp shape/MESSAGE/GER/ger_extern.h .
+     cp shape/MESSAGE/GER/GER.o .
+else
+    echo -e "\007\033[37;41m只今【ドイツ語版】メッセージは更新中、または壊れています\033[m"
+fi
+## フランス語
+if [ -r shape/MESSAGE/FRA/FRA.o ]; then
+     cp shape/MESSAGE/FRA/fra_table.h .
+     cp shape/MESSAGE/FRA/fra_extern.h .
+     cp shape/MESSAGE/FRA/FRA.o .
+else
+    echo -e "\007\033[37;41m只今【フランス語版】メッセージは更新中、または壊れています\033[m"
+fi
+## スペイン語
+if [ -r shape/MESSAGE/SPA/SPA.o ]; then
+     cp shape/MESSAGE/SPA/spa_table.h .
+     cp shape/MESSAGE/SPA/spa_extern.h .
+     cp shape/MESSAGE/SPA/SPA.o .
+else
+    echo -e "\007\033[37;41m只今【スペイン語版】メッセージは更新中、または壊れています\033[m"
 fi
 
 
