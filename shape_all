@@ -10,5 +10,6 @@ d_keep
 obj_make
 scene_make -f
 dma_make
+mes_make
 pal_dma_make
 dd_dma_make
