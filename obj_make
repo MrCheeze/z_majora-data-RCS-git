@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.235  1998-06-20 16:39:00+10  takahata
+# *** empty log message ***
+#
 # Revision 1.234  1998-06-18 22:17:11+09  umemiya
 # フォールマスターを新シェイプに変更
 #
@@ -1087,3 +1090,4 @@ cp() {
      cp shape/zelda_gm/zelda_gm.o gm.o
      cp shape/zelda_ms/zelda_ms.o ms.o
      cp shape/zelda_hs/zelda_hs.o hs.o
+     cp shape/zelda_ingate/zelda_ingate.o Ingate.o
