@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.40  1999-03-29 13:18:37+09  umemiya
+# スライム追加
+#
 # Revision 2.39  1999-03-25 20:30:36+09  iwawaki
 # *** empty log message ***
 #
@@ -1322,7 +1325,7 @@ cp() {
      cp shape/zelda_go2/zelda_go2.o Go2.o
      cp shape/zelda_stk/zelda_stk.o Stk.o
      cp shape/zelda_ny/zelda_ny.o Ny.o
-     cp shape/zelda_fr/zelda_fr.o Fr.o
+     cp shape/zelda2_fr/zelda2_fr.o Fr.o
      cp shape/zelda_gi_pachinko/zelda_gi_pachinko.o gi_pachinko.o
      cp shape/zelda_gi_boomerang/zelda_gi_boomerang.o gi_boomerang.o
      cp shape/zelda_gi_bow/zelda_gi_bow.o gi_bow.o
