@@ -27,6 +27,7 @@ cp() {
      cp shape/TEXTURE/TITLE/title.o .
 #####	ＰＡＲＡＭＥＴＥＲ
      cp shape/TEXTURE/PARAMETER/parameter.o .
+     cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
 #####	メッセージ
      cp shape/TEXTURE/MESSAGE/texture/texture.o .
      cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
