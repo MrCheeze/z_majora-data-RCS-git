@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.272  1998-08-03 17:54:46+09  nisiwaki
+# SSH 追加
+#
 # Revision 1.271  1998-08-03 11:50:10+09  okajima
 # *** empty log message ***
 #
@@ -1262,3 +1265,4 @@ cp() {
      cp shape/zelda_gi_sutaru/zelda_gi_sutaru.o gi_sutaru.o
      cp shape/zelda_gi_goddess/zelda_gi_goddess.o gi_goddess.o
      cp shape/zelda_ssh/zelda_ssh.o ssh.o
+     cp shape/zelda_ocd/zelda_ocd.o Ocd.o
