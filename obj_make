@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.283  1998-08-11 12:54:11+09  kuzuhara
+# 犬やら鶏小娘やら
+#
 # Revision 1.282  1998-08-10 13:46:26+09  tarukado
 # *** empty log message ***
 #
@@ -1308,3 +1311,5 @@ cp() {
      cp shape/zelda_gelb/zelda_gelb.o Gelb.o
      cp shape/zelda_gr/zelda_gr.o Gr.o
      cp shape/zelda_dog/zelda_dog.o Dog.o
+     cp shape/zelda_jya_iron/zelda_jya_iron.o jya_iron.o
+     cp shape/zelda_jya_door/zelda_jya_door.o jya_door.o
