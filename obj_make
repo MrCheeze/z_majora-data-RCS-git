@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.70  1999-05-11 14:59:28+09  yoshida
+# 紺碧オブジェクト追加
+#
 # Revision 2.69  1999-05-07 10:21:54+09  kuzuhara
 # 水効果？作成
 #
@@ -1740,4 +1743,5 @@ cp() {
      cp shape/zelda2_rat/zelda2_rat.o Rat.o
      cp shape/zelda2_water_effect/zelda2_water_effect.o Water_Effect.o
      cp shape/zelda2_dblue_object/zelda2_dblue_object.o Dblue_Object.o
+     cp shape/zelda2_bal/zelda2_bal.o Bal.o
 
