@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.228  1998-06-15 11:44:43+09  sakakibara
+# *** empty log message ***
+#
 # Revision 1.227  1998-06-11 09:50:02+09  nisiwaki
 # すいません
 #
@@ -1056,3 +1059,4 @@ cp() {
      cp shape/zelda_d_lift/zelda_d_lift.o d_lift.o
      cp shape/zelda_mamenoki/zelda_mamenoki.o mamenoki.o
      cp shape/zelda_goroiwa/zelda_goroiwa.o goroiwa.o
+     cp shape/zelda_gi_milk_2/zelda_gi_milk_2.o gi_milk_2.o
