@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.253  2000-01-07 09:56:06+09  sakaguti
+# 赤いクスリビン入り追加
+#
 # Revision 2.252  2000-01-06 20:53:46+09  iwawaki
 # *** empty log message ***
 #
@@ -1781,7 +1784,7 @@ cp() {
      cp shape/zelda_nw/zelda_nw.o Niw.o
      cp shape/zelda_st/zelda_st.o St.o
      cp shape/zelda_tt/zelda_tt.o Tite.o
-#     cp shape/zelda_rb/zelda_rb.o Reeba.o
+     cp shape/zelda_rb/zelda_rb.o Reeba.o
      cp shape/zelda_ph/zelda_ph.o Peehat.o
      cp shape/zelda_horse/zelda_horse.o Horse.o
 #     cp shape/zelda2_zf/zelda2_zf.o Zf.o
