@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.126  1998/03/03  12:45:20  umemiya
+# Warningのため名前変更
+#
 # Revision 1.125  1998/03/03  08:38:32  nisiwaki
 # *** empty log message ***
 #
@@ -573,5 +576,6 @@ cp() {
      cp shape/zelda_haka_objects/zelda_haka_objects.o haka_objects.o
      cp shape/zelda_key/zelda_key.o gi_key.o
      cp shape/zelda_mir_ray/zelda_mir_ray.o mir_ray.o
+     cp shape/zelda_brob/zelda_brob.o Brob.o
 
 
