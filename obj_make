@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.93  1999-07-15 11:39:50+09  sasaki
+# スタルキッド（改） 追加
+#
 # Revision 2.92  1999-07-14 14:25:32+09  matutani
 # 馬レースチェックバンク追加
 #
@@ -1740,7 +1743,7 @@ cp() {
      cp shape/zelda_po_composer/zelda_po_composer.o Po_Composer.o
      cp shape/zelda2_mu/zelda2_mu.o Mu.o
      cp shape/zelda_wf/zelda_wf.o Wf.o
-     cp shape/zelda_skb/zelda_skb.o Skb.o
+     cp shape/zelda2_skb/zelda2_skb.o Skb.o
      cp shape/zelda_gj/zelda_gj.o gj.o
      cp shape/zelda_geff/zelda_geff.o geff.o
      cp shape/zelda_haka_door/zelda_haka_door.o haka_door.o
