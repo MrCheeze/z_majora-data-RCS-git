@@ -28,3 +28,10 @@ cp() {
 #####	ＭＡＰ
      cp shape/TEXTURE/DD_MAP/dd_map_i.o .
      cp shape/TEXTURE/DD_MAP/dd_map_48x85.o .
+##### メッセージソースというか
+     cp shape/TEXTURE/MESSAGE/message/msg.h dd_msg.h
+     cp shape/TEXTURE/MESSAGE/message/msg.tbl dd_msg.tbl
+     cp shape/TEXTURE/MESSAGE/message/nes_a dd_nes_a
+     cp shape/TEXTURE/MESSAGE/message/nes_b dd_nes_b
+     cp shape/TEXTURE/MESSAGE/message/staff_a dd_staff_a
+     cp shape/TEXTURE/MESSAGE/message/staff_b dd_staff_b
