@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.188  1999-11-16 14:51:39+09  sakaguti
+# ゴロンの墓＆ゴロン温泉
+#
 # Revision 2.187  1999-11-15 19:31:01+09  takesita
 # 剣道場専用丸太追加
 #
@@ -2183,4 +2186,6 @@ cp() {
      cp shape/zelda2_maruta/zelda2_maruta.o Maruta.o
      cp shape/zelda2_ghaka/zelda2_ghaka.o ghaka.o 
      cp shape/zelda2_oyu/zelda2_oyu.o oyu.o
+     cp shape/zelda2_dnq/zelda2_dnq.o Dnq.o
+     cp shape/zelda2_dai/zelda2_dai.o Dai.o
 
