@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.158  1999-10-22 16:04:12+09  sakakibara
+# comb hana
+#
 # Revision 2.157  1999-10-22 15:15:58+09  nisiwaki
 # *** empty log message ***
 #
@@ -1587,7 +1590,7 @@ cp() {
 #     cp shape/zelda_bv_PAL/zelda_bv_PAL.o Bv_PAL.o
 #     cp shape/zelda_efc_crystal_light/zelda_efc_crystal_light.o  efc_crystal_light.o
 #    cp shape/zelda_efc_fire_ball/zelda_efc_fire_ball.o  efc_fire_ball.o
-     cp shape/zelda2_flash/zelda2_flash.o Flash.o
+#    cp shape/zelda2_flash/zelda2_flash.o Flash.o
 #    cp shape/zelda_efc_lgt_shower/zelda_efc_lgt_shower.o   efc_lgt_shower.o
      cp shape/zelda_efc_star_field/zelda_efc_star_field.o   efc_star_field.o
 #    cp shape/zelda_god_lgt/zelda_god_lgt.o god_lgt.o   
