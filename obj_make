@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.306  1998-08-26 21:42:33+09  umemiya
+# 墓下ダンジョンドア追加
+#
 # Revision 1.305  1998-08-26 11:15:38+09  komatu
 # *** empty log message ***
 #
@@ -1407,3 +1410,4 @@ cp() {
      cp shape/zelda_gj/zelda_gj.o gj.o
      cp shape/zelda_geff/zelda_geff.o geff.o
      cp shape/zelda_haka_door/zelda_haka_door.o haka_door.o
+     cp shape/zelda_gs/zelda_gs.o gs.o
