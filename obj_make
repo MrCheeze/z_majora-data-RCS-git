@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.389  2000-06-27 10:01:07+09  soejima
+# *** empty log message ***
+#
 # Revision 2.388  2000-06-19 12:00:24+09  soejima
 # *** empty log message ***
 #
@@ -2719,12 +2722,16 @@ cp() {
      cp shape/zelda2_spdweb/zelda2_spdweb.o Spdweb.o
 #     cp shape/zelda2_yh/zelda2_yh.o Yh.o
      cp shape/zelda2_boss01/zelda2_boss01.o Boss01.o
+     cp shape/zelda2_boss01_pal/zelda2_boss01_pal.o Boss01_pal.o
      cp shape/zelda2_boss02/zelda2_boss02.o Boss02.o
+     cp shape/zelda2_boss02_pal/zelda2_boss02_pal.o Boss02_pal.o
      cp shape/zelda2_boss03/zelda2_boss03.o Boss03.o
+     cp shape/zelda2_boss03_pal/zelda2_boss03_pal.o Boss03_pal.o
      cp shape/zelda2_boss04/zelda2_boss04.o Boss04.o
      cp shape/zelda2_boss05/zelda2_boss05.o Boss05.o
      cp shape/zelda2_boss06/zelda2_boss06.o Boss06.o
      cp shape/zelda2_boss07/zelda2_boss07.o Boss07.o
+     cp shape/zelda2_boss07_pal/zelda2_boss07_pal.o Boss07_pal.o
      cp shape/zelda2_raf/zelda2_raf.o Raf.o
      cp shape/zelda2_funen/zelda2_funen.o funen.o
      cp shape/zelda2_raillift/zelda2_raillift.o raillift.o
@@ -2822,6 +2829,7 @@ cp() {
      cp shape/zelda2_comb/zelda2_comb.o comb.o
      cp shape/zelda2_hana/zelda2_hana.o hana.o
      cp shape/zelda2_boss_hakugin/zelda2_boss_hakugin.o Boss_Hakugin.o
+     cp shape/zelda2_boss_hakugin_pal/zelda2_boss_hakugin_pal.o Boss_Hakugin_pal.o
      cp shape/zelda2_meganeana_obj/zelda2_meganeana_obj.o Meganeana_Obj.o
 #     cp shape/zelda2_gi_nutsmask/v2_mask_00.o gi_nutsmask.o
      cp shape/zelda2_gi_nutsmask/zelda2_gi_nutsmask.o gi_nutsmask.o
