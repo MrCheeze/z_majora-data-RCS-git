@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.114  1998/02/18  02:43:56  matutani
+# 子馬追加
+#
 # Revision 1.113  1998/02/17  02:26:46  nisiwaki
 # *** empty log message ***
 #
@@ -523,5 +526,6 @@ cp() {
      cp shape/zelda_fw/zelda_fw.o fw.o
      cp shape/zelda_medal/medal.o medal.o
      cp shape/zelda_hlc/zelda_hlc.o hlc.o
+     cp shape/zelda_ru1/zelda_ru1.o ru1.o
 
 
