@@ -155,5 +155,5 @@ cp() {
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_jpn.o .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_nes.o .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_gameover.o .
-     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
-     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/map_name.o .
+     cp shape/TEXTURE2/ITEM_NAME2/item_name.o .
+     cp shape/TEXTURE2/ITEM_NAME2/map_name.o .
