@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.351  2000-02-24 19:29:57+09  sakakibara
+# astr_obj
+#
 # Revision 2.350  2000-02-24 17:56:41+09  umemiya
 # *** empty log message ***
 #
@@ -2845,3 +2848,4 @@ cp() {
      cp shape/zelda2_gi_mask06/v2_mask_06.o gi_yofukashimask.o
      cp shape/zelda2_gi_mask16/v2_mask_16.o gi_ge_romask.o
      cp shape/zelda2_astr_obj/zelda2_astr_obj.o astr_obj.o
+     cp shape/zelda2_bsb/zelda2_bsb.o Bsb.o
