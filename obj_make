@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.107  1999-07-28 21:52:06+09  yoshida
+# ビーバー＆小枝 追加
+#
 # Revision 2.106  1999-07-28 21:17:51+09  yoshida
 # *** empty log message ***
 #
@@ -1522,7 +1525,6 @@ cp() {
      cp shape/zelda_sst/zelda_sst.o Sst.o
      cp shape/zelda_sst_PAL/zelda_sst_PAL.o Sst_PAL.o
      cp shape/zelda_go2/zelda_go2.o Go2.o
-     cp shape/zelda_stk/zelda_stk.o Stk.o
      cp shape/zelda_ny/zelda_ny.o Ny.o
      cp shape/zelda2_fr/zelda2_fr.o Fr.o
      cp shape/zelda_gi_pachinko/zelda_gi_pachinko.o gi_pachinko.o
