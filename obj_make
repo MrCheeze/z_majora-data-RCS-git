@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.301  2000-01-28 14:47:56+09  sakaguti
+# zelda_ps → zelda2_ps
+#
 # Revision 2.300  2000-01-28 14:20:49+09  nisiwaki
 # イカーナ村オブジェクト
 #
@@ -2042,7 +2045,7 @@ cp() {
 #    cp shape/zelda_god_lgt/zelda_god_lgt.o god_lgt.o   
 #    cp shape/zelda_light_ring/zelda_light_ring.o light_ring.o   
 #    cp shape/zelda_triforce_spot/zelda_triforce_spot.o  triforce_spot.o
-     cp shape/zelda_sd/zelda_sd.o sd.o
+#     cp shape/zelda_sd/zelda_sd.o sd.o
      cp shape/zelda2_rd/zelda2_rd.o Rd.o
      cp shape/zelda_po_sisters/zelda_po_sisters.o Po_Sisters.o
      cp shape/zelda_heavy_object/zelda_heavy_object.o Heavy_object.o
@@ -2337,7 +2340,7 @@ cp() {
      cp shape/zelda_gi_skj_mask/zelda_gi_skj_mask.o gi_skj_mask.o
      cp shape/zelda_gi_rabit_mask/zelda_gi_rabit_mask.o gi_rabit_mask.o
      cp shape/zelda_gi_truth_mask/zelda_gi_truth_mask.o gi_truth_mask.o
-     cp shape/zelda_siofuki/zelda_siofuki.o siofuki.o
+#     cp shape/zelda_siofuki/zelda_siofuki.o siofuki.o
      cp shape/zelda_stream/zelda_stream.o stream.o
      cp shape/zelda2_mm/zelda2_mm.o mm.o
 #     cp shape/zelda_fa/zelda_fa.o fa.o
