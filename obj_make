@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.294  1998-08-20 14:58:06+09  nisiwaki
+# Demo_Kekkai.o 追加
+#
 # Revision 1.293  1998-08-20 13:56:54+09  umemiya
 # フィールドポウ追加
 #
@@ -1353,3 +1356,4 @@ cp() {
      cp shape/zelda_bowl/zelda_bowl.o Bowl.o
      cp shape/zelda_po_field/zelda_po_field.o Po_Field.o
      cp shape/zelda_demo_kekkai/zelda_demo_kekkai.o Demo_Kekkai.o
+     cp shape/zelda_efc_doughnut/zelda_efc_doughnut.o Efc_Doughnut.o
