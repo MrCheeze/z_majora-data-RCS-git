@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.238  1999-12-15 13:14:30+09  nisiwaki
+# Gla 追加
+#
 # Revision 2.237  1999-12-15 13:04:52+09  kuzuhara
 # 海賊ゲルド作成
 #
@@ -1755,7 +1758,7 @@ cp() {
      cp shape/zelda_black_link/zelda_black_link.o Torch2.o
 #     cp shape/zelda_bl/zelda_bl.o Bl.o
 #     cp shape/zelda_tp/zelda_tp.o Tp.o
-     cp shape/zelda_bw/zelda_bw.o Bw.o
+#     cp shape/zelda_bw/zelda_bw.o Bw.o
 #     cp shape/zelda_ei/zelda_ei.o Ei.o
      cp shape/zelda_horse_normal/zelda_horse_normal.o Horse_Normal.o
 #     cp shape/zelda_oBx/zelda_oBx.o OBX.o
