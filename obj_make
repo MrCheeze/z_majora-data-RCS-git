@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.49  1997/09/27  02:05:28  hayakawa
+# set -xをコメントアウトした
+#
 # Revision 1.48  1997/09/26  06:32:40  sumiyosi
 # *** empty log message ***
 #
@@ -257,3 +260,5 @@ echo cp shape/zelda_oE1/zelda_oE1.o OE1.o
      cp shape/zelda_oE1/zelda_oE1.o OE1.o
 echo cp shape/zelda_oE_anime/zelda_oE_anime.o OE_anime.o
      cp shape/zelda_oE_anime/zelda_oE_anime.o OE_anime.o
+echo cp shape/zelda_oE2/zelda_oE2.o OE2.o
+     cp shape/zelda_oE2/zelda_oE2.o OE2.o
