@@ -39,6 +39,7 @@ cp() {
      cp shape/TEXTURE/TITLE/gate.o .
 #####	ＰＡＲＡＭＥＴＥＲ
      cp shape/TEXTURE2/PARAMETER2/parameter.o .
+     cp shape/TEXTURE2/PARAMETER2/parameter_show.o .
      cp shape/TEXTURE2/PARAMETER2/youbi.o week.o
      cp shape/TEXTURE/DMA_MAKE/DO_ACTION/do_action_idx.o .
 #####	メッセージ
