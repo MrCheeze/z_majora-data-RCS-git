@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.114  1999-08-09 17:05:08+09  sakaguti
+# 犬変えた。
+#
 # Revision 2.113  1999-08-09 15:41:10+09  takesita
 # Ma1.oのコピーもとをかえました。
 #
@@ -1501,7 +1504,8 @@ cp() {
      cp shape/zelda_gi_hearts/zelda_gi_hearts.o gi_hearts.o
      cp shape/zelda_gi_arrowcase/zelda_gi_arrowcase.o gi_arrowcase.o
      cp shape/zelda_gi_bombpouch/zelda_gi_bombpouch.o gi_bombpouch.o
-     cp shape/zelda_in/zelda_in.o In.o
+#     cp shape/zelda_in/zelda_in.o In.o
+     cp shape/zelda2_in/zelda2_in.o In.o
      cp shape/zelda2_tr/zelda2_tr.o Tr.o
      cp shape/zelda_oE1s/zelda_oE1s.o oE1s.o
      cp shape/zelda_oE4s/zelda_oE4s.o oE4s.o
