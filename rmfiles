@@ -1,0 +1,88 @@
+#!/bin/sh
+#
+# 削除するファイルの登録
+# 登録は後ろに追加するようにし、
+# １ヶ月をめどに消去する
+#
+#$Log$
+#
+
+#set -x
+
+#
+#ファイルはここに登録
+#
+RMFILES="
+message
+message.objs
+opening
+opening.map
+opening.objs
+"
+
+echo "使用しなくなったソースを削除します…"
+
+backup_depend() {
+  if [ -f $1 ]
+  then
+    echo $1 を /tmp/rmfiles_$1.$$ にバックアップします
+    cp $1 /tmp/rmfiles_$1.$$
+  fi
+}
+
+delete_depend() {
+  if [ -f $2 ]
+  then
+    echo $1 を $2 から抹消します
+    sed -e "s*\.\./$1**" $2 > /tmp/rmfiles.$$
+    cp /tmp/rmfiles.$$ $2
+    rm -f /tmp/rmfiles.$$
+  fi
+}
+
+delete_source() {
+  if [ -f $1 ]
+  then
+    delete_depend $1 Makedepend
+    delete_depend $1 rom_d/Makedepend
+    delete_depend $1 rom_rom/Makedepend
+    echo $1 を 削除します
+    mv $1 $1.deleted
+  fi
+  if [ -f RCS/$1,v ]
+  then
+    echo RCS/$1,v を 削除します
+    mv RCS/$1,v RCS/$1,v.deleted
+  fi
+}
+
+
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+
+for file in $RMFILES
+do
+    delete_source $file
+done
+
+
+echo '本当に削除するには、\\rm -f *.deleted を実行してください。'
+echo ""
+
+echo "ここで、rmfilesの説明をします"
+echo "ＲＣＳ管理していたファイルが不要になった場合"
+echo "管理ファイルだけを消しても不十分です。"
+echo "他の人がそのファイルをチェックアウトしようとして登録されてしまうのです。"
+echo "つまり、コピーされたファイルも含め、完全に消さないとだめなのです。"
+echo "で、どうするかというとrmfilesに消したいファイル名を登録して、"
+echo "rmfilesをチェックインすれば、他の人がcoallしたときに自動的に削除されます。"
+echo "わかった？（はい／うん）"
+
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
