@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.53  1997/10/01  02:37:59  umemiya
+# *** empty log message ***
+#
 # Revision 1.52  1997/10/01  02:26:14  hayakawa
 # 日付比較コピー
 #
@@ -235,3 +238,5 @@ cp() {
      cp shape/zelda_oE2/zelda_oE2.o OE2.o
      cp shape/zelda_ydan_objects/zelda_ydan_objects.o ydan_objects.o
      cp shape/zelda_gnd/zelda_gnd.o Gnd.o
+     cp shape/zelda_gnd/zelda_gnd.o Gnd.o
+     cp shape/zelda_am/zelda_am.o Am.o
