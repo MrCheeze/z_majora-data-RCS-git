@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.101  1999-07-26 15:40:36+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.100  1999-07-23 17:22:05+09  sakakibara
 # 時計塔の扉
 #
@@ -1742,7 +1745,7 @@ cp() {
      cp shape/zelda_spot00_break/zelda_spot00_break.o spot00_break.o
      cp shape/zelda_gla/zelda_gla.o Gla.o
      cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
-     cp shape/zelda_gelb/zelda_gelb.o Gelb.o
+     cp shape/zelda2_gelb/zelda2_gelb.o Gelb.o
      cp shape/zelda_gr/zelda_gr.o Gr.o
      cp shape/zelda2_dog/zelda2_dog.o Dog.o
      cp shape/zelda_jya_iron/zelda_jya_iron.o jya_iron.o
