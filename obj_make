@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.272  2000-01-15 18:45:17+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.271  2000-01-15 17:41:11+09  iwawaki
 # *** empty log message ***
 #
@@ -2316,7 +2319,6 @@ cp() {
      cp shape/zelda_efc_doughnut/zelda_efc_doughnut.o Efc_Doughnut.o
 #     cp shape/zelda_gi_dekupouch/zelda_gi_dekupouch.o gi_dekupouch.o
      cp shape/zelda_gi_rupy/zelda_gi_rupy.o gi_rupy.o
-#     cp shape/zelda_po_composer/zelda_po_composer.o Po_Composer.o
      cp shape/zelda2_mu/zelda2_mu.o Mu.o
      cp shape/zelda_wf/zelda_wf.o Wf.o
      cp shape/zelda2_skb/zelda2_skb.o Skb.o

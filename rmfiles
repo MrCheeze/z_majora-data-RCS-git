@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+#Revision 2.8  2000-01-15 18:52:04+09  iwawaki
+#*** empty log message ***
+#
 #Revision 2.7  2000-01-15 18:45:11+09  iwawaki
 #*** empty log message ***
 #
@@ -139,14 +142,12 @@ Ice_mjin.o
 Soul_mjin.o
 Wind_mjin.o
 Oka_mjin.o
-Po_Composer.o
 Warp2.o
 Bird.o
 Lightbox.o
 Pu_box.o
 Vase.o
 Im.o
-Tk.o
 Bv.o
 Bv_PAL.o
 efc_crystal_light.o
@@ -189,7 +190,6 @@ gi_pachinko.o
 gi_grass.o
 Gate.o
 Kw1.o
-Ik.o
 gi_ocarina_0.o
 gi_boots_2.o
 gnd_magic.o
@@ -205,9 +205,7 @@ B_ganon2.o
 B_ganon2_PAL.o
 gi_hoverboots.o
 Ec.o
-ssh.o
 spot00_break.o
-Gla.o
 gi_butterfly.o
 Ganon_Anime1.o
 Ganon_Anime2.o
@@ -216,7 +214,6 @@ killer_door.o
 swfl.o
 Skje.o
 Stain.o
-Dno.o
 G_pn_19.o
 G_pn_20.o
 G_pn_21.o
