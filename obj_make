@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.375  2000-03-08 14:56:53+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.374  2000-03-08 11:35:14+09  iwawaki
 # *** empty log message ***
 #
@@ -2848,7 +2851,8 @@ cp() {
      cp shape/zelda2_zog/zelda2_zog.o Zog.o
      cp shape/zelda2_rotlift/zelda2_rotlift.o Rotlift.o
      cp shape/zelda2_posthouse_obj/zelda2_posthouse_obj.o Posthouse_obj.o
-     cp shape/zelda2_gi_mask09/v2_mask_09.o gi_jsonmask.o
+#     cp shape/zelda2_gi_mask09/v2_mask_09.o gi_jsonmask.o
+     cp shape/zelda2_gi_mask09/zelda2_gi_mask09.o gi_jsonmask.o
 #     cp shape/zelda2_gi_mask14/v2_mask_14.o gi_bigelfmask.o
      cp shape/zelda2_gi_mask14/zelda2_gi_mask14.o gi_bigelfmask.o
 #     cp shape/zelda2_gi_mask15/v2_mask_15.o gi_gibudomask.o
