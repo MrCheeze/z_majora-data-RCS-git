@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.197  1998/04/30 00:17:16  sumiyosi
+# *** empty log message ***
+#
 # Revision 1.196  1998/04/28 02:25:38  kuzuhara
 # カカリコ、ゾーラゲート作成
 #
@@ -925,3 +928,4 @@ cp() {
      cp shape/zelda_km1/zelda_km1.o Km1.o
      cp shape/zelda_kw1/zelda_kw1.o Kw1.o
      cp shape/zelda_zo/zelda_zo.o Zo.o
+     cp shape/zelda_kz/zelda_kz.o Kz.o
