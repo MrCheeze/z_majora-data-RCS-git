@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.100  1999-07-23 17:22:05+09  sakakibara
+# 時計塔の扉
+#
 # Revision 2.99  1999-07-23 10:53:32+09  soejima
 # zelda_mag → ZELDA_MAG2 に変更
 #
@@ -1741,7 +1744,7 @@ cp() {
      cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
      cp shape/zelda_gelb/zelda_gelb.o Gelb.o
      cp shape/zelda_gr/zelda_gr.o Gr.o
-     cp shape/zelda_dog/zelda_dog.o Dog.o
+     cp shape/zelda2_dog/zelda2_dog.o Dog.o
      cp shape/zelda_jya_iron/zelda_jya_iron.o jya_iron.o
      cp shape/zelda_jya_door/zelda_jya_door.o jya_door.o
      cp shape/zelda_kibako2/zelda_kibako2.o kibako2.o
