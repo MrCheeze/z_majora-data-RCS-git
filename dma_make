@@ -42,8 +42,9 @@ cp() {
      cp shape/TEXTURE/MAP/map_grand.o .
      cp shape/TEXTURE/MAP/map_YDAN.o .
      cp shape/TEXTURE/MAP/map_DDAN.o .
-     cp shape/TEXTURE/MAP/map_HIDAN.o .
+     cp shape/TEXTURE/MAP/map_BDAN.o .
      cp shape/TEXTURE/MAP/map_BMORI.o .
+     cp shape/TEXTURE/MAP/map_HIDAN.o .
      cp shape/TEXTURE/MAP/map_48x85.o .
 #####	ＶＲーＢＯＸ
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_div8_idx.o .
@@ -126,9 +127,9 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_pal.o .
 #####	カレイド・スコープ
-     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
-     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
-     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_field.o .
-     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_dungeon.o .
-     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
-     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/map_name.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_field.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_dungeon.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/map_name.o .
