@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.52  1997/10/01  02:26:14  hayakawa
+# 日付比較コピー
+#
 # Revision 1.51  1997/09/29  11:50:51  umemiya
 # 妖精ダンジョンオブジェ追加
 #
@@ -231,3 +234,4 @@ cp() {
      cp shape/zelda_oE_anime/zelda_oE_anime.o OE_anime.o
      cp shape/zelda_oE2/zelda_oE2.o OE2.o
      cp shape/zelda_ydan_objects/zelda_ydan_objects.o ydan_objects.o
+     cp shape/zelda_gnd/zelda_gnd.o Gnd.o
