@@ -1,9 +1,11 @@
-#!/bin/sh
-set -x
+#!/bin/shset -x
 #
 # $Id$
 #
 # $Log$
+# Revision 1.16  1997/07/17  02:50:13  tarukado
+# *** empty log message ***
+#
 # Revision 1.15  1997/07/17  02:49:41  tarukado
 # *** empty log message ***
 #
@@ -124,3 +126,11 @@ echo cp shape/zelda_ph/zelda_ph.o Ph.o
      cp shape/zelda_ph/zelda_ph.o Ph.o
 echo cp shape/zelda_rb/zelda_rb.o Rb.o
      cp shape/zelda_rb/zelda_rb.o Rb.o
+echo cp shape/zelda_tt/zelda_tt.o Tt.o
+     cp shape/zelda_tt/zelda_tt.o Tt.o
+echo cp shape/zelda_nw/zelda_nw.o Nw.o
+     cp shape/zelda_nw/zelda_nw.o Nw.o
+echo cp shape/zelda_tg2/zelda_tg2.o Tg2.o
+     cp shape/zelda_tg2/zelda_tg2.o Tg2.o
+echo cp shape/zelda_kogoma/zelda_kogoma.o Gol.o
+     cp shape/zelda_kogoma/zelda_kogoma.o Gol.o
