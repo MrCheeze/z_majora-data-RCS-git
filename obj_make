@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.214  1998-06-01 23:47:04+10  sumiyosi
+# ねえちゃん、おじさん追加。
+#
 # Revision 1.213  1998-06-01 20:11:45+10  hayakawa
 # object_hidan_objects[456]消した
 #
@@ -993,5 +996,5 @@ cp() {
      cp shape/zelda_bba/zelda_bba.o Bba.o
      cp shape/zelda_gi_ocarina_0/zelda_gi_ocarina_0.o gi_ocarina_0.o
      cp shape/zelda_ds/zelda_ds.o Ds.o
-     cp shape/zelda_bba/zelda_ane.o Ane.o
-     cp shape/zelda_bba/zelda_boj.o Boj.o
+     cp shape/zelda_ane/zelda_ane.o Ane.o
+     cp shape/zelda_boj/zelda_boj.o Boj.o
