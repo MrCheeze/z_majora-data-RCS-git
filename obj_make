@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.169  1999-11-02 20:12:48+09  takesita
+# 墓石を追加。
+#
 # Revision 2.168  1999-11-01 20:01:09+09  sakakibara
 # dhouse
 #
@@ -2108,3 +2111,4 @@ cp() {
      cp shape/zelda2_danpei_object/zelda2_danpei_object.o Danpei_Object.o
      cp shape/zelda2_dhouse/zelda2_dhouse.o dhouse.o
      cp shape/zelda2_hakaisi/zelda2_hakaisi.o Hakaisi.o
+     cp shape/zelda_po/zelda_po.o Po.o
