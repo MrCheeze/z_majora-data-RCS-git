@@ -12,4 +12,4 @@ d_keep
 obj_make
 #scene_make
 scene_make_bash
-dma_make
+#####dma_make
