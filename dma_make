@@ -33,6 +33,7 @@ cp() {
 #####	ファイル選択面
 #     cp shape/TEXTURE/TITLE/title.o .
      cp shape/TEXTURE2/FILE_NAME/file_name.o title.o
+     cp shape/TEXTURE2/NES/FILE_NAME/nes_file_name.o .
 #####	ＧＡＴＥＷＡＹ
      cp shape/TEXTURE/TITLE/gate.o .
 #####	ＰＡＲＡＭＥＴＥＲ
