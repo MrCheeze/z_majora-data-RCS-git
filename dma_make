@@ -176,7 +176,11 @@ cp() {
 ######
 ######
 ######
-###### ＮＥＳ
+#######
+################### ＮＥＳ
+######
+#####	ＰＡＲＡＭＥＴＥＲ
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_parameter.o .
 ######
      cp shape/TEXTURE2/NES/ITEM_NAME2/nes_item_name_test.raw .
      cp shape/TEXTURE2/NES/ITEM_NAME2/nes_map_name_test.raw .
