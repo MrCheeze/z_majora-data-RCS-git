@@ -4,7 +4,10 @@
 # 登録は後ろに追加するようにし、
 # １ヶ月をめどに消去する
 #
-#$Log$
+# $Log$
+#Revision 2.10  2000-02-01 22:18:21+09  iwawaki
+#*** empty log message ***
+#
 #Revision 2.9  2000-01-15 19:17:33+09  iwawaki
 #*** empty log message ***
 #
@@ -66,293 +69,6 @@ RMFILES="
 hidan_objects4.o
 hidan_objects5.o
 hidan_objects6.o
-opening
-opening.map
-opening.objs
-map_pal.o
-message
-message.objs
-map_make
-title
-title.map
-title.objs
-parameter
-parameter.map
-parameter.objs
-parameter.objs~
-parameter~
-nintendo_rogo
-OF1.o
-gjyo_objects.o
-Baby_skel.o
-Ironknack.o
-Soldier.o
-Human.o
-Fire.o
-Reeba.o
-Kdodongo.o
-Kdodongo_PAL.o
-Zf.o
-Go.o
-Go_PAL.o
-Gol.o
-Dodojr.o
-Tp.o
-OAX.o
-Ei.o
-OBX.o
-O_anime.o
-OA2.o
-spot00_objects.o
-Mb.o
-Sk2.o
-OE1.o
-OE_anime.o
-OE2.o
-Gnd.o
-OA3.o
-OA4.o
-OA5.o
-OA6.o
-OA7.o
-OA8.o
-OA9.o
-OB2.o
-OB3.o
-OB4.o
-Horse_Ganon.o
-Horse_Zelda.o
-Opening_Demo1.o
-OE3.o
-OE4.o
-menkuri_objects.o
-OE5.o
-OE6.o
-OE7.o
-OE8.o
-OE9.o
-OE10.o
-OE11.o
-OE12.o
-OA10.o
-OA11.o
-Yukabyun.o
-Mjin.o
-Flash_mjin.o
-Dark_mjin.o
-Flame_mjin.o
-Ice_mjin.o
-Soul_mjin.o
-Wind_mjin.o
-Oka_mjin.o
-Warp2.o
-Bird.o
-Lightbox.o
-Pu_box.o
-Vase.o
-Im.o
-Bv.o
-Bv_PAL.o
-efc_crystal_light.o
-efc_fire_ball.o
-efc_flash.o
-efc_lgt_shower.o
-god_lgt.o
-light_ring.o
-triforce_spot.o
-Gndd.o
-fd.o
-fd_PAL.o
-fw.o
-medal.o
-Haka.o
-ru1.o
-fd2.o
-Rl.o
-demo_tre_lgt.o
-gi_jewel.o
-nb.o
-mo.o
-mo_PAL.o
-gi_medal.o
-Tr.o
-oE1s.o
-oE4s.o
-oF1s.o
-tw.o
-tw_PAL.o
-bxa.o
-Av.o
-gi_gerudo.o
-B_ganon.o
-B_ganon_PAL.o
-Sst.o
-Sst_PAL.o
-Go2.o
-gi_pachinko.o
-gi_grass.o
-Gate.o
-Kw1.o
-gi_ocarina_0.o
-gi_boots_2.o
-gnd_magic.o
-d_elevator.o
-Ingate.o
-gi_gloves.o
-gi_coin.o
-fa.o
-gi_bracelet.o
-efc_erupc.o
-Zl2_Anime2.o
-B_ganon2.o
-B_ganon2_PAL.o
-gi_hoverboots.o
-Ec.o
-spot00_break.o
-gi_butterfly.o
-Ganon_Anime1.o
-Ganon_Anime2.o
-Ganon_Anime3.o
-killer_door.o
-swfl.o
-Skje.o
-Stain.o
-G_pn_19.o
-G_pn_20.o
-G_pn_21.o
-G_pn_24.o
-G_pn_29.o
-G_pn_32.o
-G_pn_43.o
-G_pn_44.o
-G_pn_46.o
-G_pn_54.o
-G_pn_00.o
-G_pn_01.o
-G_pn_02.o
-G_pn_03.o
-G_pn_04.o
-G_pn_05.o
-G_pn_06.o
-G_pn_07.o
-G_pn_08.o
-G_pn_09.o
-G_pn_10.o
-G_pn_11.o
-G_pn_12.o
-G_pn_13.o
-G_pn_14.o
-G_pn_15.o
-G_pn_16.o
-G_pn_17.o
-G_pn_18.o
-G_pn_22.o
-G_pn_23.o
-G_pn_25.o
-G_pn_26.o
-G_pn_27.o
-G_pn_28.o
-G_pn_30.o
-G_pn_31.o
-G_pn_33.o
-G_pn_34.o
-G_pn_35.o
-G_pn_36.o
-G_pn_37.o
-G_pn_38.o
-G_pn_39.o
-G_pn_40.o
-G_pn_41.o
-G_pn_42.o
-G_pn_45.o
-G_pn_47.o
-G_pn_48.o
-G_pn_49.o
-G_pn_50.o
-G_pn_51.o
-G_pn_52.o
-G_pn_53.o
-G_pn_55.o
-G_pn_56.o
-G_pn_57.o
-G_pn_58.o
-G_pn_59.o
-G_pn_60.o
-G_pn_61.o
-G_pn_64.o
-G_pn_65.o
-G_pn_66.o
-G_pn_68.o
-G_pn_69.o
-G_pn_70.o
-G_pn_71.o
-G_pn_73.o
-G_pn_74.o
-G_pn_75.o
-G_pn_78.o
-G_pn_79.o
-G_pn_80.o
-G_pn_81.o
-G_pn_82.o
-G_pn_83.o
-G_pn_84.o
-G_pn_01_PAL.o
-G_pn_02_PAL.o
-G_pn_03_PAL.o
-G_pn_04_PAL.o
-G_pn_05_PAL.o
-G_pn_06_PAL.o
-G_pn_07_PAL.o
-G_pn_08_PAL.o
-G_pn_09_PAL.o
-G_pn_10_PAL.o
-G_pn_11_PAL.o
-G_pn_12_PAL.o
-G_pn_13_PAL.o
-G_pn_14_PAL.o
-G_pn_15_PAL.o
-G_pn_16_PAL.o
-G_pn_17_PAL.o
-G_pn_18_PAL.o
-G_pn_19_PAL.o
-G_pn_20_PAL.o
-G_pn_21_PAL.o
-G_pn_22_PAL.o
-G_pn_23_PAL.o
-G_pn_24_PAL.o
-G_pn_25_PAL.o
-G_pn_26_PAL.o
-G_pn_27_PAL.o
-G_pn_28_PAL.o
-G_pn_29_PAL.o
-G_pn_30_PAL.o
-G_pn_31_PAL.o
-G_pn_32_PAL.o
-G_pn_33_PAL.o
-G_pn_34_PAL.o
-G_pn_35_PAL.o
-G_pn_36_PAL.o
-G_pn_37_PAL.o
-G_pn_38_PAL.o
-G_pn_39_PAL.o
-G_pn_40_PAL.o
-G_pn_41_PAL.o
-G_pn_42_PAL.o
-G_pn_43_PAL.o
-G_pn_44_PAL.o
-G_pn_45_PAL.o
-G_pn_46_PAL.o
-G_pn_47_PAL.o
-G_pn_48_PAL.o
-G_pn_49_PAL.o
-G_pn_50_PAL.o
-G_pn_51_PAL.o
-G_pn_52_PAL.o
-G_pn_53_PAL.o
-G_pn_54_PAL.o
-G_pn_55_PAL.o
-G_pn_56_PAL.o
-G_pn_57_PAL.o
 "
 
 echo "使用しなくなったソースを削除します…"
@@ -368,35 +84,55 @@ backup_depend() {
 delete_depend() {
   if [ -f $2 ]
   then
-    echo $1 を $2 から抹消します
-    sed -e "s*\.\./$1**" $2 > /tmp/rmfiles.$$
+    echo "$1 を $2 から抹消します (s! $1 ! !)"
+    sed -e "s! $1 ! !" $2 > /tmp/rmfiles.$$
     cp /tmp/rmfiles.$$ $2
     rm -f /tmp/rmfiles.$$
   fi
 }
 
-delete_source() {
-  if [ -f $1 ]
+delete_depend2() {
+  if [ -f $2 ]
   then
-    delete_depend $1 Makedepend
-    delete_depend $1 rom_d/Makedepend
-    delete_depend $1 rom_rom/Makedepend
-    echo $1 を 削除します
-    mv $1 $1.deleted
-  fi
-  if [ -f RCS/$1,v ]
-  then
-    echo RCS/$1,v を 削除します
-    mv RCS/$1,v RCS/$1,v.deleted
+    echo "$1 を $2 から抹消します (s! \.\./$1 ! !)"
+    sed -e "s! \.\./$1 ! !" $2 > /tmp/rmfiles.$$
+    cp /tmp/rmfiles.$$ $2
+    rm -f /tmp/rmfiles.$$
   fi
 }
 
+#リネームによる削除
+delete_mv() {
+    if [ -f $1 ]
+    then
+	echo "$1 を 削除します"
+	mv $1 $1~deleted~
+    fi
+}
 
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
+find_delete() {
+    find . -name "$1" -print -exec rm -f {} \;
+}
+
+delete_source() {
+    if [ -f $1 ]
+    then
+	src=$1
+	rcs=RCS/$1,v
+	obj=${src%.c}.o
+	rel=${src%.c}.rel
+	delete_depend $1 Makedepend
+	delete_depend2 $1 rom_d/Makedepend
+	delete_depend2 $1 rom_x/Makedepend
+	delete_depend2 $1 rom_f/Makedepend
+	delete_depend2 $1 rom_s/Makedepend
+	delete_depend2 $1 rom_c/Makedepend
+	delete_mv $src
+	delete_mv $rcs
+	find_delete $obj
+	find_delete $rel
+    fi
+}
 
 for file in $RMFILES
 do
@@ -404,20 +140,5 @@ do
 done
 
 
-echo '本当に削除するには、\\rm -f *.deleted を実行してください。'
-echo ""
-
-echo "ここで、rmfilesの説明をします"
-echo "ＲＣＳ管理していたファイルが不要になった場合"
-echo "管理ファイルだけを消しても不十分です。"
-echo "他の人がそのファイルをチェックアウトしようとして登録されてしまうのです。"
-echo "つまり、コピーされたファイルも含め、完全に消さないとだめなのです。"
-echo "で、どうするかというとrmfilesに消したいファイル名を登録して、"
-echo "rmfilesをチェックインすれば、他の人がcoallしたときに自動的に削除されます。"
-echo "わかった？（はい／うん）"
-
-echo ""
-echo ""
-echo ""
-echo ""
+echo '本当に削除するには、\\rm -f *~deleted~ を実行してください。'
 echo ""
