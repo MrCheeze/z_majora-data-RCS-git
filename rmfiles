@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+# Revision 1.2  1997/10/11  06:59:02  soejima
+# *** empty log message ***
+#
 # Revision 1.1  1997/09/03  06:03:11  soejima
 # Initial revision
 #
@@ -20,6 +23,9 @@ opening
 opening.map
 opening.objs
 map_pal.o
+message
+message.objs
+map_make
 "
 
 echo "使用しなくなったソースを削除します…"
