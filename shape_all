@@ -1,7 +1,32 @@
 #!/bin/sh
-set -x
 #
 # $Id$
 #
-ld -r -o map_005.o -objectlist map_005.objs
+echo play
+     play
+
+echo title
+     title
+
+echo map_000
+     map_000
+
+echo map_001
+     map_001
+
+echo map_002
+     map_002
+
+echo map_003
+     map_003
+
+echo map_004
+     map_004
+
+echo map_0042
+     map_0042
+
+echo map_005
+     map_005
+
 
