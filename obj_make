@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.189  1999-11-16 22:06:29+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.188  1999-11-16 14:51:39+09  sakaguti
 # ゴロンの墓＆ゴロン温泉
 #
@@ -1941,7 +1944,7 @@ cp() {
      cp shape/zelda2_d_lift/zelda2_d_lift.o d_lift.o
      cp shape/zelda2_mamenoki/zelda2_mamenoki.o mamenoki.o
      cp shape/zelda2_goroiwa/zelda2_goroiwa.o goroiwa.o
-     cp shape/zelda_toryo/zelda_toryo.o toryo.o
+     cp shape/zelda2_toryo/zelda2_toryo.o toryo.o
      cp shape/zelda_daiku/zelda_daiku.o daiku.o
      cp shape/zelda_stopge/zelda_stopge.o stopge.o
      cp shape/zelda2_nwc/zelda2_nwc.o nwc.o
