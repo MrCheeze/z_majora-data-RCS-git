@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.239  1998-06-24 20:32:24+09  okajima
+# 地名テロップのテクスチャを変えた（日本語、英語混在）
+#
 # Revision 1.238  1998-06-24 11:46:07+09  takahata
 # *** empty log message ***
 #
@@ -1104,3 +1107,4 @@ cp() {
      cp shape/zelda_tsubo/zelda_tsubo.o tsubo.o
      cp shape/zelda_gi_gloves/zelda_gi_gloves.o gi_gloves.o
      cp shape/zelda_gi_coin/zelda_gi_coin.o gi_coin.o
+     cp shape/zelda_kanban/zelda_kanban.o kanban.o
