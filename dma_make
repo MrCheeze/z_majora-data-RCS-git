@@ -26,7 +26,7 @@ cp() {
 }
 
 #####	ＳＨＯＷ
-     cp shape/TEXTURE2/SPACE_WORLD/space_world.o .
+     cp shape/TEXTURE2/E3/e3_select/e3_select.o space_world.o
 
 #####	任天堂ロゴ
      cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
