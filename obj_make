@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.204  1999-11-25 11:57:54+09  takesita
+# 止め売りナッツ追加
+#
 # Revision 2.203  1999-11-24 21:14:26+09  sakaguti
 # 売りナッツ
 #
@@ -1797,7 +1800,7 @@ cp() {
      cp shape/zelda_gi_map/zelda_gi_map.o gi_map.o
      cp shape/zelda2_oF1d/zelda2_oF1d.o oF1d_map.o
      cp shape/zelda_ru2/zelda_ru2.o ru2.o
-     cp shape/zelda_gi_shield_1/zelda_gi_shield_1.o gi_shield_1.o
+#     cp shape/zelda_gi_shield_1/zelda_gi_shield_1.o gi_shield_1.o
      cp shape/zelda_dekujr/zelda_dekujr.o dekujr.o
      cp shape/zelda_gi_magicpot/zelda_gi_magicpot.o gi_magicpot.o
      cp shape/zelda_gi_bomb_1/zelda_gi_bomb_1.o gi_bomb_1.o
@@ -1813,7 +1816,7 @@ cp() {
 #     cp shape/zelda_gi_gerudo/zelda_gi_gerudo.o gi_gerudo.o
      cp shape/zelda_gi_arrow/zelda_gi_arrow.o gi_arrow.o
      cp shape/zelda_gi_bomb_2/zelda_gi_bomb_2.o gi_bomb_2.o
-     cp shape/zelda_gi_egg/zelda_gi_egg.o gi_egg.o
+#     cp shape/zelda_gi_egg/zelda_gi_egg.o gi_egg.o
      cp shape/zelda_gi_scale/zelda_gi_scale.o gi_scale.o
 #	cp shape/zelda_gi_shield_2/zelda_gi_shield_2.o gi_shield_2.o
     cp shape/zelda2_gi_shield_01/v2_shield_01.o gi_shield_2.o
@@ -1953,7 +1956,7 @@ cp() {
      cp shape/zelda2_ani/zelda2_ani.o ani.o
      cp shape/zelda_gi_shield_3/zelda_gi_shield_3.o gi_shield_3.o
      cp shape/zelda_gi_letter/zelda_gi_letter.o gi_letter.o
-     cp shape/zelda_gi_clothes/zelda_gi_clothes.o gi_clothes.o
+#     cp shape/zelda_gi_clothes/zelda_gi_clothes.o gi_clothes.o
      cp shape/zelda_gi_bean/zelda_gi_bean.o gi_bean.o
      cp shape/zelda_gi_fish/zelda_gi_fish.o gi_fish.o
      cp shape/zelda_gi_saw/zelda_gi_saw.o gi_saw.o
@@ -1991,7 +1994,7 @@ cp() {
      cp shape/zelda_ge1/zelda_ge1.o Ge1.o
      cp shape/zelda_yabusame_point/zelda_yabusame_point.o yabusame_point.o
 #     cp shape/zelda_gi_boots_2/zelda_gi_boots_2.o gi_boots_2.o
-     cp shape/zelda_gi_seed/zelda_gi_seed.o gi_seed.o
+#     cp shape/zelda_gi_seed/zelda_gi_seed.o gi_seed.o
 #     cp shape/zelda_gnd_magic/zelda_gnd_magic.o gnd_magic.o
 #     cp shape/zelda_d_elevator/zelda_d_elevator.o d_elevator.o
      cp shape/zelda_d_hsblock/zelda_d_hsblock.o d_hsblock.o
@@ -2077,7 +2080,7 @@ cp() {
      cp shape/zelda_kibako2/zelda_kibako2.o kibako2.o
      cp shape/zelda2_dns/zelda2_dns.o Dns.o
      cp shape/zelda2_dnk/zelda2_dnk.o Dnk.o
-     cp shape/zelda_gi_fire/zelda_gi_fire.o gi_fire.o
+#     cp shape/zelda_gi_fire/zelda_gi_fire.o gi_fire.o
      cp shape/zelda_gi_insect/zelda_gi_insect.o gi_insect.o
 #     cp shape/zelda_gi_butterfly/zelda_gi_butterfly.o gi_butterfly.o
      cp shape/zelda_gi_ghost/zelda_gi_ghost.o gi_ghost.o
