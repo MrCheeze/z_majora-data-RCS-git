@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.369  2000-03-04 18:08:40+09  umemiya
+# 死神追加
+#
 # Revision 2.368  2000-03-04 14:54:17+09  matutani
 # ダンペイリフト（レール）
 #
@@ -2916,3 +2919,5 @@ cp() {
      cp shape/zelda2_and/zelda2_and.o And.o
      cp shape/zelda2_obj_danpeilift/zelda2_obj_danpeilift.o Obj_Danpeilift.o
      cp shape/zelda2_death/zelda2_death.o Death.o
+     cp shape/zelda2_msmo/zelda2_msmo.o Msmo.o
+     cp shape/zelda2_drs/zelda2_drs.o Drs.o
