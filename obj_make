@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.84  1999-06-25 11:15:51+09  umemiya
+# ブロッブ削除して、時計塔内・回転廊下追加
+#
 # Revision 2.83  1999-06-16 15:27:26+09  nisiwaki
 # Ta.o を 変更
 #
@@ -1791,3 +1794,4 @@ cp() {
      cp shape/zelda2_crace_object/zelda2_crace_object.o Crace_Object.o
      cp shape/zelda2_bigslime/zelda2_bigslime.o Bigslime.o
      cp shape/zelda2_dno/zelda2_dno.o Dno.o
+     cp shape/zelda2_obj_etcetera/MOGURI/MOGURI.o Obj_Moguri.o
