@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.292  1998-08-20 11:41:00+09  kuzuhara
+# ボムチュウ屋見えない壁
+#
 # Revision 1.291  1998-08-19 18:51:25+09  takahata
 # *** empty log message ***
 #
@@ -1014,9 +1017,6 @@ cp() {
      cp shape/zelda_mjin_oka/zelda_mjin_oka.o Oka_mjin.o
      cp shape/zelda_spot06_objects/zelda_spot06_objects.o spot06_objects.o
      cp shape/zelda_ice_objects/zelda_ice_objects.o ice_objects.o
-#     cp shape/zelda_hidan_objects4/zelda_hidan_objects4.o hidan_objects4.o
-#     cp shape/zelda_hidan_objects5/zelda_hidan_objects5.o hidan_objects5.o
-#     cp shape/zelda_hidan_objects6/zelda_hidan_objects6.o hidan_objects6.o
      cp shape/zelda_mori_hineri1a/zelda_mori_hineri1a.o mori_hineri1a.o
      cp shape/zelda_mori_hineri2/zelda_mori_hineri2.o mori_hineri2.o
      cp shape/zelda_mori_hineri2a/zelda_mori_hineri2a.o mori_hineri2a.o
@@ -1348,3 +1348,4 @@ cp() {
      cp shape/zelda_gi_ghost/zelda_gi_ghost.o gi_ghost.o
      cp shape/zelda_gi_soul/zelda_gi_soul.o gi_soul.o
      cp shape/zelda_bowl/zelda_bowl.o Bowl.o
+     cp shape/zelda_po_field/zelda_po_field.o Po_Field.o
