@@ -36,8 +36,8 @@ cp() {
      cp shape/TEXTURE/MESSAGE/texture/texture.o .
      cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
      cp shape/TEXTURE/MESSAGE/message/message.o .
-     cp shape/TEXTURE/MESSAGE/NES/font_e.o .
-     cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
+##########     cp shape/TEXTURE/MESSAGE/NES/font_e.o .
+##########     cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
 #####	ＭＡＰ
      cp shape/TEXTURE/MAP/map_grand.o .
      cp shape/TEXTURE/MAP/map_i.o .
