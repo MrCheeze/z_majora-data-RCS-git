@@ -8,6 +8,7 @@ keep
 f_keep
 d_keep
 title
+opening
 obj_make
 scene_make
 dma_make
