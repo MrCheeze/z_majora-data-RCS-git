@@ -67,6 +67,14 @@ echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_div8_idx.o .
 echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_pal.o .
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_div8_idx.o .
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_pal.o .
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
 echo cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o icon_item_idx.o
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o icon_item_idx.o
 echo cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o item_name_idx.o
