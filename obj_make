@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.28  1999-03-05 16:33:25+09  kuzuhara
+# ボス領域確保
+#
 # Revision 2.27  1999-03-04 20:13:19+09  sumiyosi
 # *** empty log message ***
 #
@@ -1246,7 +1249,7 @@ cp() {
      cp shape/zelda_tr/zelda_tr.o Tr.o
      cp shape/zelda_oE1s/zelda_oE1s.o oE1s.o
      cp shape/zelda_oE4s/zelda_oE4s.o oE4s.o
-     cp shape/zelda_os_anime/zelda_os_anime.o os_anime.o
+     cp shape/zelda2_npc_anime/zelda2_npc_anime.o os_anime.o
      cp shape/zelda_gi_bottle/zelda_gi_bottle.o gi_bottle.o
      cp shape/zelda_dy_obj/zelda_dy_obj.o dy_obj.o
      cp shape/zelda_gi_stick/zelda_gi_stick.o gi_stick.o
