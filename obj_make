@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.260  2000-01-11 14:26:44+09  nisiwaki
+# *** empty log message ***
+#
 # Revision 2.259  2000-01-11 10:21:17+09  nisiwaki
 # ゾーラドラム追加
 #
@@ -2472,3 +2475,5 @@ cp() {
      cp shape/zelda2_dmask/zelda2_dmask.o Dmask.o
      cp shape/zelda2_gi_reserve_c_01/v2_reserve_c_01.o gi_pendant.o
      cp shape/zelda2_zod/zelda2_zod.o Zod.o
+     cp shape/zelda2_kumo30/zelda2_kumo30.o Kumo30.o
+     cp shape/zelda2_yasi/zelda2_yasi.o Yasi.o
