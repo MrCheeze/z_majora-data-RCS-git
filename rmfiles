@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+#Revision 2.1  1998-10-22 21:42:44+09  hayakawa
+#ＲＯＭ出しバージョン(NTSC)
+#
 #Revision 1.7  1998-10-09 16:52:01+09  komatu
 #*** empty log message ***
 #
@@ -59,6 +62,10 @@ parameter~
 nintendo_rogo
 OF1.o
 gjyo_objects.o
+Baby_skel.o
+Ironknack.o
+Slime.o
+Soldier.o
 "
 
 echo "使用しなくなったソースを削除します…"

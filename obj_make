@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.5  1998-10-28 18:33:51+09  komatu
+# du_PAL.oの追加
+#
 # Revision 2.4  1998-10-28 13:30:23+09  okajima
 # *** empty log message ***
 #
@@ -993,31 +996,26 @@ cp() {
 }
 
      cp shape/zelda_field_keep/zelda_field_keep.o Field_keep.o
-     cp shape/zelda_dangeon_keep/zelda_dangeon_keep.o Dangeon_keep.o
+     cp shape/zelda2_dangeon_keep/zelda2_dangeon_keep.o Dangeon_keep.o
      cp shape/zelda_link_new/Anime_Data/Anime_Data.o Link_anime_data.o
 
 #     cp shape/zelda_link_ci/Boy/Boy.o Link_boy.o
 #     cp shape/zelda_link_ci/Child/Child.o Link_child.o
 
-     cp shape/zelda_link_new/Skeleton/Boy/Boy.o Link_boy.o
-     cp shape/zelda_link_new/Skeleton/Child/Child.o Link_child.o
+     cp shape/zelda2_link_new/Skeleton/Boy/Boy.o Link_boy.o
+     cp shape/zelda2_link_new/Skeleton/Child/Child.o Link_child.o
+     cp shape/zelda2_link_new/Skeleton/Goron/Goron.o Link_goron.o
 #     cp /home/nisiwaki/ZELDA/LINK/Boy/Boy.o Link_boy.o
 #     cp /home/nisiwaki/ZELDA/LINK/Child/Child.o Link_child.o
 
 #     cp /home/yoshida/gamegen/cnv/LINK/main/Boy/Boy.o Link_boy.o
 #     cp /home/yoshida/gamegen/cnv/LINK/main/Child/Child.o Link_child.o
 
-     cp shape/zelda_baby_skel/zelda_baby_skel.o Baby_skel.o 
      cp shape/zelda_box/zelda_box.o Box.o
      cp shape/zelda_dodongo/zelda_dodongo.o Dodongo.o
      cp shape/zelda_fire/zelda_fire.o Fire.o
      cp shape/zelda_human/zelda_human.o Human.o
-     cp shape/zelda_ironknack/zelda_ironknack.o Ironknack.o
      cp shape/zelda_nw/zelda_nw.o Niw.o
-#     cp shape/zelda_rock/zelda_rock.o Rock.o
-#     cp shape/zelda_skelton/zelda_skelton.o Skelton.o
-     cp shape/zelda_slime/zelda_slime.o Slime.o
-     cp shape/zelda_soldier/zelda_soldier.o Soldier.o
      cp shape/zelda_st/zelda_st.o St.o
      cp shape/zelda_tt/zelda_tt.o Tite.o
      cp shape/zelda_rb/zelda_rb.o Reeba.o
@@ -1038,7 +1036,6 @@ cp() {
      cp shape/zelda_kogoma/zelda_kogoma.o Gol.o
      cp shape/zelda_bubble/zelda_bubble.o Bubble.o
      cp shape/zelda_dodojr/zelda_dodojr.o Dodojr.o
-#     cp shape/zelda_torch2/zelda_torch2.o Torch2.o
      cp shape/zelda_black_link/zelda_black_link.o Torch2.o
      cp shape/zelda_bl/zelda_bl.o Bl.o
      cp shape/zelda_tp/zelda_tp.o Tp.o
@@ -1051,7 +1048,6 @@ cp() {
      cp shape/zelda_ddan_objects/zelda_ddan_objects.o ddan_objects.o
      cp shape/zelda_hidan_objects/zelda_hidan_objects.o hidan_objects.o
      cp shape/zelda_horse_ganon/zelda_horse_ganon.o Horse_Ganon.o
-#     cp shape/zelda_oF1/zelda_oF1.o OF1.o
      cp shape/zelda_oA2/zelda_oA2.o OA2.o
      cp shape/zelda_spot00_objects/zelda_spot00_objects.o spot00_objects.o
      cp shape/zelda_mb/zelda_mb.o Mb.o
@@ -1097,7 +1093,6 @@ cp() {
      cp shape/zelda_mizu_objects/zelda_mizu_objects.o mizu_objects.o
      cp shape/zelda_fantomHG/zelda_fantomHG.o FantomHG.o
      cp shape/zelda_fantomHG_PAL/zelda_fantomHG_PAL.o FantomHG_PAL.o
-#     cp shape/zelda_oB1/zelda_oB1.o OB1.o
      cp shape/zelda_sh/zelda_sh.o OB1.o
      cp shape/zelda_mori_hineri1/zelda_mori_hineri1.o mori_hineri1.o
      cp shape/zelda_bb/zelda_bb.o Bb.o
@@ -1146,7 +1141,6 @@ cp() {
      cp shape/zelda_vm/zelda_vm.o Vm.o
      cp shape/zelda_bv/zelda_bv.o Bv.o
      cp shape/zelda_bv_PAL/zelda_bv_PAL.o Bv_PAL.o
-#     cp shape/zelda_firecircle/zelda_firecircle.o  Firecircle.o
      cp shape/zelda_efc_crystal_light/zelda_efc_crystal_light.o  efc_crystal_light.o
      cp shape/zelda_efc_fire_ball/zelda_efc_fire_ball.o  efc_fire_ball.o
      cp shape/zelda_efc_flash/zelda_efc_flash.o   efc_flash.o
@@ -1171,9 +1165,6 @@ cp() {
      cp shape/zelda_ru1/zelda_ru1.o ru1.o
      cp shape/zelda_spot02_objects/zelda_spot02_objects.o spot02_objects.o
      cp shape/zelda_haka/zelda_haka.o Haka.o
-#     cp shape/zelda_magic_wind/zelda_magic_wind.o magic_wind.o
-#     cp shape/zelda_magic_fire/zelda_magic_fire.o magic_fire.o
-#     cp shape/zelda_magic_ice/zelda_magic_ice.o magic_ice.o
      cp shape/zelda_syokudai/zelda_syokudai.o syokudai.o
      cp shape/zelda_vba/zelda_vba.o fd2.o
      cp shape/zelda_dh/zelda_dh.o Dh.o
@@ -1188,7 +1179,6 @@ cp() {
      cp shape/zelda_spot09_obj/zelda_spot09_obj.o spot09_obj.o
      cp shape/zelda_spot18_obj/zelda_spot18_obj.o spot18_obj.o
      cp shape/zelda_boss_door/zelda_boss_door.o bdoor.o
-#     cp shape/zelda_va/zelda_va.o Va.o
      cp shape/zelda_shop_tana/zelda_shop_tana.o shop_dungen.o
      cp shape/zelda_spot17_obj/zelda_spot17_obj.o spot17_obj.o
      cp shape/zelda_nb/zelda_nb.o nb.o
@@ -1399,7 +1389,6 @@ cp() {
      cp shape/zelda_ik/zelda_ik.o Ik.o
      cp shape/zelda_ahg/zelda_ahg.o Ahg.o
      cp shape/zelda_cne/zelda_cne.o Cne.o
-#     cp shape/zelda_gi_niwatori/zelda_gi_niwatori.o gi_niwatori.o
      cp shape/zelda_gi_chicken/zelda_gi_chicken.o gi_niwatori.o
      cp shape/zelda_skj/zelda_skj.o Skj.o
      cp shape/zelda_gi_bottle_letter/zelda_gi_bottle_letter.o gi_bottle_letter.o
@@ -1426,7 +1415,6 @@ cp() {
      cp shape/zelda_d_lift/zelda_d_lift.o d_lift.o
      cp shape/zelda_mamenoki/zelda_mamenoki.o mamenoki.o
      cp shape/zelda_goroiwa/zelda_goroiwa.o goroiwa.o
-#     cp shape/zelda_gi_milk_2/zelda_gi_milk_2.o gi_milk_2.o
      cp shape/zelda_toryo/zelda_toryo.o toryo.o
      cp shape/zelda_daiku/zelda_daiku.o daiku.o
      cp shape/zelda_stopge/zelda_stopge.o stopge.o
