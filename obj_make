@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.217  1999-12-06 10:49:54+09  kuzuhara
+# うつぼ
+#
 # Revision 2.216  1999-12-04 16:58:08+09  yoshida
 # 金のタツノオトシゴ
 #
@@ -2299,3 +2302,4 @@ cp() {
      cp shape/zelda2_bee/zelda2_bee.o Bee.o
      cp shape/zelda2_ot/zelda2_ot.o Ot.o
      cp shape/zelda2_utubo/zelda2_utubo.o Utubo.o
+     cp shape/zelda2_dora/zelda2_dora.o Dora.o
