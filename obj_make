@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.360  2000-03-01 13:05:23+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.359  2000-03-01 10:49:43+09  takesita
 # じゅうたん商人のバンクを移動しました。
 #
@@ -2880,3 +2883,4 @@ cp() {
      cp shape/zelda2_smtower/zelda2_smtower.o Smtower.o
      cp shape/zelda2_thiefbird/zelda2_thiefbird.o Thiefbird.o
      cp shape/zelda2_gi_mask21/v2_mask_21.o gi_bakuretsumask.o
+     cp shape/zelda2_yado_obj/zelda2_yado_obj.o Yado_Obj.o
