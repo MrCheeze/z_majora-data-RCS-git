@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.185  1998-04-17 10:54:19+09  nisiwaki
+# Demo_6K, object_demo_6k 追加
+#
 # Revision 1.184  1998/04/15 09:54:05  okajima
 # *** empty log message ***
 #
@@ -871,3 +874,4 @@ cp() {
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
      cp shape/zelda_ani/zelda_ani.o ani.o
      cp shape/zelda_demo_6k/zelda_demo_6k.o D6k.o
+     cp shape/zelda_gi_shield_3/zelda_gi_shield_3.o gi_shield_3.o
