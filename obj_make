@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.234  1998-06-18 22:17:11+09  umemiya
+# フォールマスターを新シェイプに変更
+#
 # Revision 1.233  1998-06-18 13:07:32+09  komatu
 # OF1をけした
 #
@@ -1081,3 +1084,6 @@ cp() {
      cp shape/zelda_nwc/zelda_nwc.o nwc.o
      cp shape/zelda_blkobj/zelda_blkobj.o blkobj.o
      cp shape/zelda_hakach_objects/zelda_hakach_objects.o hakach_objects.o
+     cp shape/zelda_gm/zelda_gm.o gm.o
+     cp shape/zelda_ms/zelda_ms.o ms.o
+     cp shape/zelda_hs/zelda_hs.o hs.o
