@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.128  1998/03/03  14:07:27  yoshida
+# *** empty log message ***
+#
 # Revision 1.127  1998/03/03  13:40:37  umemiya
 # ブロッブ追加
 #
@@ -585,5 +588,6 @@ cp() {
      cp shape/zelda_key/zelda_key.o gi_key.o
      cp shape/zelda_mir_ray/zelda_mir_ray.o mir_ray.o
      cp shape/zelda_brob/zelda_brob.o Brob.o
+     cp shape/zelda_gi_jewel/zelda_gi_jewel.o gi_jewel.o
 
 
