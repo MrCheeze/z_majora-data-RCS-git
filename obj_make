@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.147  1998/03/18  13:46:47  yoshida
+# インゴー追加
+#
 # Revision 1.146  1998/03/17  10:40:59  takahata
 # *** empty log message ***
 #
@@ -664,3 +667,4 @@ cp() {
      cp shape/zelda_gi_arrowcase/zelda_gi_arrowcase.o gi_arrowcase.o
      cp shape/zelda_gi_bombpouch/zelda_gi_bombpouch.o gi_bombpouch.o
      cp shape/zelda_in/zelda_in.o In.o
+     cp shape/zelda_tr/zelda_tr.o Tr.o
