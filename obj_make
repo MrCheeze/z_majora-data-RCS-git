@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.86  1999-06-30 15:16:04+09  kuzuhara
+# アイゴール作成
+#
 # Revision 2.85  1999-06-30 11:43:47+09  nisiwaki
 # MOGURI 追加
 #
@@ -1387,7 +1390,8 @@ cp() {
      cp shape/zelda_du_PAL/zelda_du_PAL.o du_PAL.o
      cp shape/zelda_fw/zelda_fw.o fw.o
      cp shape/zelda_medal/medal.o medal.o
-     cp shape/zelda_hlc/zelda_hlc.o hlc.o
+#     cp shape/zelda_hlc/zelda_hlc.o hlc.o
+     cp shape/zelda2_hlc/zelda2_hlc.o hlc.o
      cp shape/zelda_ru1/zelda_ru1.o ru1.o
      cp shape/zelda_haka/zelda_haka.o Haka.o
      cp shape/zelda_syokudai/zelda_syokudai.o syokudai.o
