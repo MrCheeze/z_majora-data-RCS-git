@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.59  1997/10/16  08:44:16  sumiyosi
+# En_GirlB→子ゼルダに変更。
+#
 # Revision 1.58  1997/10/08  14:18:04  sumiyosi
 # インパ（マスク付）追加
 #
@@ -257,4 +260,8 @@ cp() {
      cp shape/zelda_dekubaba/zelda_dekubaba.o Dekubaba.o
      cp shape/zelda_oF1/zelda_oF1.o OF1.o
      cp shape/zelda_oA3/zelda_oA3.o OA3.o
+     cp shape/zelda_oA4/zelda_oA4.o OA4.o
+     cp shape/zelda_oA5/zelda_oA5.o OA5.o
+     cp shape/zelda_oA6/zelda_oA6.o OA6.o
+     cp shape/zelda_oA7/zelda_oA7.o OA7.o
 
