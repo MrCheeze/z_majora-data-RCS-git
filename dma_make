@@ -34,7 +34,8 @@ cp() {
      cp shape/TEXTURE/MESSAGE/message/message.o .
 #####	ＭＡＰ
      cp shape/TEXTURE/MAP/map_grand.o .
-     cp shape/TEXTURE/MAP/map_ddan.o .
+     cp shape/TEXTURE/MAP/map_YDAN.o .
+     cp shape/TEXTURE/MAP/map_DDAN.o .
      cp shape/TEXTURE/MAP/map_HIDAN.o .
      cp shape/TEXTURE/MAP/map_48x85.o .
 #####	ＶＲーＢＯＸ
