@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.374  2000-03-08 11:35:14+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.373  2000-03-08 11:18:18+09  sasaki
 # stk3 add
 #
@@ -2344,7 +2347,8 @@ cp() {
 #     cp shape/zelda_gi_egg/zelda_gi_egg.o gi_egg.o
 #     cp shape/zelda_gi_scale/zelda_gi_scale.o gi_scale.o
 #	cp shape/zelda_gi_shield_2/zelda_gi_shield_2.o gi_shield_2.o
-    cp shape/zelda2_gi_shield_01/v2_shield_01.o gi_shield_2.o
+#    cp shape/zelda2_gi_shield_01/v2_shield_01.o gi_shield_2.o
+     cp shape/zelda2_gi_shield_01/zelda2_gi_shield_01.o gi_shield_2.o
 #     cp shape/zelda_gi_hookshot/zelda_gi_hookshot.o gi_hookshot.o
      cp shape/zelda2_gi_hookshot/zelda2_gi_hookshot.o gi_hookshot.o
      cp shape/zelda_gi_ocarina/zelda_gi_ocarina.o gi_ocarina.o
@@ -2592,9 +2596,11 @@ cp() {
 #     cp shape/zelda_zl2_anime1/zelda_zl2_anime1.o Zl2_Anime1.o
 #     cp shape/zelda_zl2_anime2/zelda_zl2_anime2.o Zl2_Anime2.o
 #     cp shape/zelda_gi_golonmask/zelda_gi_golonmask.o gi_golonmask.o
-     cp shape/zelda2_gi_goronmask/v2_mask_01.o gi_golonmask.o
+#     cp shape/zelda2_gi_goronmask/v2_mask_01.o gi_golonmask.o
+     cp shape/zelda2_gi_goronmask/zelda2_gi_goronmask.o gi_golonmask.o
 #     cp shape/zelda_gi_zoramask/zelda_gi_zoramask.o gi_zoramask.o
-     cp shape/zelda2_gi_zoramask/v2_mask_02.o gi_zoramask.o
+#     cp shape/zelda2_gi_zoramask/v2_mask_02.o gi_zoramask.o
+     cp shape/zelda2_gi_zoramask/zelda2_gi_zoramask.o gi_zoramask.o
 #     cp shape/zelda_gi_gerudomask/zelda_gi_gerudomask.o gi_gerudomask.o
 #     cp shape/zelda_ganon2/zelda_ganon2.o B_ganon2.o
 #     cp shape/zelda_ganon2_PAL/zelda_ganon2_PAL.o B_ganon2_PAL.o
@@ -2650,7 +2656,8 @@ cp() {
      cp shape/zelda_cow/zelda_cow.o Cow.o
 #     cp shape/zelda_cob/zelda_cob.o Cob.o
 #     cp shape/zelda_gi_sword_1/zelda_gi_sword_1.o gi_sword_1.o
-    cp shape/zelda2_gi_sword_1/v2_sword_01.o gi_sword_1.o
+#    cp shape/zelda2_gi_sword_1/v2_sword_01.o gi_sword_1.o
+     cp shape/zelda2_gi_sword_1/zelda2_gi_sword_1.o gi_sword_1.o
 #     cp shape/zelda_killer_door/zelda_killer_door.o killer_door.o
      cp shape/zelda_ouke_haka/zelda_ouke_haka.o ouke_haka.o
 #     cp shape/zelda2_timeblock/zelda2_timeblock.o timeblock.o
@@ -2753,11 +2760,13 @@ cp() {
      cp shape/zelda2_shn/zelda2_shn.o Shn.o
      cp shape/zelda2_sd/zelda2_sd.o Sd.o
      cp shape/zelda2_bigicicle/zelda2_bigicicle.o Bigicicle.o
-     cp shape/zelda2_gi_bottle_15/v2_bottle_15.o gi_bottle_15.o
+#     cp shape/zelda2_gi_bottle_15/v2_bottle_15.o gi_bottle_15.o
+     cp shape/zelda2_gi_bottle_15/zelda2_gi_bottle_15.o gi_bottle_15.o
      cp shape/zelda2_tk/zelda2_tk.o Tk.o
      cp shape/zelda2_market_obj/zelda2_market_obj.o market_obj.o
-     cp shape/zelda2_gi_reserve00/v2_reserve_00.o gi_moon_stone.o
-     cp shape/zelda2_gi_reserve01/v2_reserve_01.o gi_kenrisyo.o
+     cp shape/zelda2_gi_reserve00/zelda2_gi_reserve00.o gi_moon_stone.o
+#     cp shape/zelda2_gi_reserve01/v2_reserve_01.o gi_kenrisyo.o
+     cp shape/zelda2_gi_reserve01/zelda2_gi_reserve01.o gi_kenrisyo.o
      cp shape/zelda2_lightblock/zelda2_lightblock.o lightblock.o
      cp shape/zelda2_takaraya_objects/zelda2_takaraya_objects.o Takaraya_objects.o
      cp shape/zelda2_wdhand/zelda2_wdhand.o Wdhand.o
@@ -2769,7 +2778,8 @@ cp() {
      cp shape/zelda2_hana/zelda2_hana.o hana.o
      cp shape/zelda2_boss_hakugin/zelda2_boss_hakugin.o Boss_Hakugin.o
      cp shape/zelda2_meganeana_obj/zelda2_meganeana_obj.o Meganeana_Obj.o
-     cp shape/zelda2_gi_nutsmask/v2_mask_00.o gi_nutsmask.o
+#     cp shape/zelda2_gi_nutsmask/v2_mask_00.o gi_nutsmask.o
+     cp shape/zelda2_gi_nutsmask/zelda2_gi_nutsmask.o gi_nutsmask.o
      cp shape/zelda2_stk2/zelda2_stk2.o Stk2.o
      cp shape/zelda2_spot11_obj/zelda2_spot11_obj.o Spot11_Obj.o
      cp shape/zelda2_danpei_object/zelda2_danpei_object.o Danpei_Object.o
@@ -2781,7 +2791,8 @@ cp() {
      cp shape/zelda2_goronswitch/zelda2_goronswitch.o goronswitch.o
      cp shape/zelda2_delf/zelda2_delf.o Delf.o
      cp shape/zelda2_botihasira/zelda2_botihasira.o Botihasira.o
-     cp shape/zelda2_gi_bigbomb/v2_bigbomb.o gi_bigbomb.o
+#     cp shape/zelda2_gi_bigbomb/v2_bigbomb.o gi_bigbomb.o
+     cp shape/zelda2_gi_bigbomb/zelda2_gi_bigbomb.o gi_bigbomb.o
      cp shape/zelda2_pst/zelda2_pst.o Pst.o
      cp shape/zelda2_bsmask/zelda2_bsmask.o Bsmask.o
      cp shape/zelda2_po_composer/zelda2_po_composer.o Po_Composer.o
@@ -2802,9 +2813,12 @@ cp() {
      cp shape/zelda2_dnt/zelda2_dnt.o Dnt.o
      cp shape/zelda2_yukiyama/zelda2_yukiyama.o Yukiyama.o
      cp shape/zelda2_icefloe/zelda2_icefloe.o Icefloe.o
-     cp shape/zelda2_gi_bottle_16/v2_bottle_16.o gi_bottle_16.o
-     cp shape/zelda2_gi_bottle_22/v2_bottle_22.o gi_bottle_22.o
-     cp shape/zelda2_gi_gold_dust/v2_gold_dust.o gi_gold_dust.o
+#     cp shape/zelda2_gi_bottle_16/v2_bottle_16.o gi_bottle_16.o
+     cp shape/zelda2_gi_bottle_16/zelda2_gi_bottle_16.o gi_bottle_16.o
+#     cp shape/zelda2_gi_bottle_22/v2_bottle_22.o gi_bottle_22.o
+     cp shape/zelda2_gi_bottle_22/zelda2_gi_bottle_22.o gi_bottle_22.o
+#     cp shape/zelda2_gi_gold_dust/v2_gold_dust.o gi_gold_dust.o
+     cp shape/zelda2_gi_gold_dust/zelda2_gi_gold_dust.o gi_gold_dust.o
      cp shape/zelda2_bee/zelda2_bee.o Bee.o
      cp shape/zelda2_ot/zelda2_ot.o Ot.o
      cp shape/zelda2_utubo/zelda2_utubo.o Utubo.o
@@ -2819,9 +2833,12 @@ cp() {
      cp shape/zelda2_ishi/zelda2_ishi.o ishi.o
      cp shape/zelda2_hakugin_demo/zelda2_hakugin_demo.o Hakugin_Demo.o
      cp shape/zelda2_jg/zelda2_jg.o jg.o
-     cp shape/zelda2_gi_sword_2/v2_sword_02.o gi_sword_2.o
-     cp shape/zelda2_gi_sword_3/v2_sword_03.o gi_sword_3.o
-     cp shape/zelda2_gi_sword_4/v2_sword_04.o gi_sword_4.o
+#     cp shape/zelda2_gi_sword_2/v2_sword_02.o gi_sword_2.o
+     cp shape/zelda2_gi_sword_2/zelda2_gi_sword_2.o gi_sword_2.o
+#     cp shape/zelda2_gi_sword_3/v2_sword_03.o gi_sword_3.o
+     cp shape/zelda2_gi_sword_3/zelda2_gi_sword_3.o gi_sword_3.o
+#     cp shape/zelda2_gi_sword_4/v2_sword_04.o gi_sword_4.o
+     cp shape/zelda2_gi_sword_4/zelda2_gi_sword_4.o gi_sword_4.o
      cp shape/zelda2_um/zelda2_um.o um.o
      cp shape/zelda2_rb/zelda2_rb.o Rb.o
      cp shape/zelda2_mbar_obj/zelda2_mbar_obj.o mbar_obj.o
@@ -2832,34 +2849,45 @@ cp() {
      cp shape/zelda2_rotlift/zelda2_rotlift.o Rotlift.o
      cp shape/zelda2_posthouse_obj/zelda2_posthouse_obj.o Posthouse_obj.o
      cp shape/zelda2_gi_mask09/v2_mask_09.o gi_jsonmask.o
-     cp shape/zelda2_gi_mask14/v2_mask_14.o gi_bigelfmask.o
-     cp shape/zelda2_gi_mask15/v2_mask_15.o gi_gibudomask.o
+#     cp shape/zelda2_gi_mask14/v2_mask_14.o gi_bigelfmask.o
+     cp shape/zelda2_gi_mask14/zelda2_gi_mask14.o gi_bigelfmask.o
+#     cp shape/zelda2_gi_mask15/v2_mask_15.o gi_gibudomask.o
+     cp shape/zelda2_gi_mask15/zelda2_gi_mask15.o gi_gibudomask.o
      cp shape/zelda2_inibs_object/zelda2_inibs_object.o Inibs_Object.o
      cp shape/zelda2_tree/zelda2_tree.o Tree.o
      cp shape/zelda2_kaizoku_obj/zelda2_kaizoku_obj.o Kaizoku_obj.o
-     cp shape/zelda2_gi_reserve_b_00/v2_reserve_b_00.o gi_inn_key.o
-     cp shape/zelda2_gi_reserve_c_00/v2_reserve_c_00.o gi_c_letter.o
+#     cp shape/zelda2_gi_reserve_b_00/v2_reserve_b_00.o gi_inn_key.o
+     cp shape/zelda2_gi_reserve_b_00/zelda2_gi_reserve_b_00.o gi_inn_key.o
+#     cp shape/zelda2_gi_reserve_c_00/v2_reserve_c_00.o gi_c_letter.o
+     cp shape/zelda2_gi_reserve_c_00/zelda2_gi_reserve_c_00.o gi_c_letter.o
      cp shape/zelda2_zob/zelda2_zob.o Zob.o
      cp shape/zelda2_milkbar/zelda2_milkbar.o Milkbar.o
      cp shape/zelda2_dmask/zelda2_dmask.o Dmask.o
-     cp shape/zelda2_gi_reserve_c_01/v2_reserve_c_01.o gi_pendant.o
+#     cp shape/zelda2_gi_reserve_c_01/v2_reserve_c_01.o gi_pendant.o
+     cp shape/zelda2_gi_reserve_c_01/zelda2_gi_reserve_c_01.o gi_pendant.o
      cp shape/zelda2_zod/zelda2_zod.o Zod.o
      cp shape/zelda2_kumo30/zelda2_kumo30.o Kumo30.o
      cp shape/zelda2_yasi/zelda2_yasi.o Yasi.o
      cp shape/zelda2_tanron1/zelda2_tanron1.o Tanron1.o
      cp shape/zelda2_tanron2/zelda2_tanron2.o Tanron2.o
      cp shape/zelda2_tanron3/zelda2_tanron3.o Tanron3.o
-     cp shape/zelda2_gi_mushroom/v2_mushroom.o gi_mushroom2.o
+#     cp shape/zelda2_gi_mushroom/v2_mushroom.o gi_mushroom2.o
+     cp shape/zelda2_gi_mushroom/zelda2_gi_mushroom.o gi_mushroom2.o
      cp shape/zelda2_chan/zelda2_chan.o Chan.o
-     cp shape/zelda2_gi_mask10/v2_mask_10.o gi_romanimask.o
+#     cp shape/zelda2_gi_mask10/v2_mask_10.o gi_romanimask.o
+     cp shape/zelda2_gi_mask10/zelda2_gi_mask10.o gi_romanimask.o
      cp shape/zelda2_zos/zelda2_zos.o Zos.o
      cp shape/zelda2_f40_switch/zelda2_f40_switch.o f40_switch.o
      cp shape/zelda2_lodmoon/zelda2_lodmoon.o Lod_Moon.o
      cp shape/zelda2_trO/zelda2_trO.o Tro.o
-     cp shape/zelda2_gi_mask12/v2_mask_12.o gi_posthat.o
-     cp shape/zelda2_gi_mask23/v2_mask_23.o gi_giantmask.o
-     cp shape/zelda2_gi_bottle_21/v2_bottle_21.o gi_syatoromani.o
-     cp shape/zelda2_gi_camera/v2_camera.o gi_picturebox.o
+#     cp shape/zelda2_gi_mask12/v2_mask_12.o gi_posthat.o
+     cp shape/zelda2_gi_mask12/zelda2_gi_mask12.o gi_posthat.o
+#     cp shape/zelda2_gi_mask23/v2_mask_23.o gi_giantmask.o
+     cp shape/zelda2_gi_mask23/zelda2_gi_mask23.o gi_giantmask.o
+#     cp shape/zelda2_gi_bottle_21/v2_bottle_21.o gi_syatoromani.o
+     cp shape/zelda2_gi_bottle_21/zelda2_gi_bottle_21.o gi_syatoromani.o
+#     cp shape/zelda2_gi_camera/v2_camera.o gi_picturebox.o
+     cp shape/zelda2_gi_camera/zelda2_gi_camera.o gi_picturebox.o
      cp shape/zelda2_dinofos/zelda2_dinofos.o Dinofos.o
      cp shape/zelda2_kamejima/zelda2_kamejima.o Kamejima.o
      cp shape/zelda2_nb/zelda2_nb.o Nb.o
@@ -2890,48 +2918,61 @@ cp() {
      cp shape/zelda2_tanron5/zelda2_tanron5.o Tanron5.o
      cp shape/zelda2_dt/zelda2_dt.o Dt.o
      cp shape/zelda2_famos/zelda2_famos.o Famos.o
-     cp shape/zelda2_gi_mask03/v2_mask_03.o gi_yusyamask.o
+#     cp shape/zelda2_gi_mask03/v2_mask_03.o gi_yusyamask.o
+     cp shape/zelda2_gi_mask03/zelda2_gi_mask03.o gi_yusyamask.o
      cp shape/zelda2_cha/zelda2_cha.o Cha.o
      cp shape/zelda2_dinner/zelda2_dinner.o Dinner.o
-     cp shape/zelda2_gi_reserve_b_01/v2_reserve_b_01.o gi_sokutatsu.o
+#     cp shape/zelda2_gi_reserve_b_01/v2_reserve_b_01.o gi_sokutatsu.o
+     cp shape/zelda2_gi_reserve_b_01/zelda2_gi_reserve_b_01.o gi_sokutatsu.o
      cp shape/zelda2_lastday/zelda2_lastday.o Lastday.o
      cp shape/zelda2_bai/zelda2_bai.o Bai.o
      cp shape/zelda2_ikn_demo/zelda2_ikn_demo.o Ikndemo.o
      cp shape/zelda2_yb/zelda2_yb.o Yb.o
      cp shape/zelda2_rz/zelda2_rz.o Rz.o
-     cp shape/zelda2_gi_fieldmap/v2_fieldmap.o gi_fieldmap.o
+#     cp shape/zelda2_gi_fieldmap/v2_fieldmap.o gi_fieldmap.o
+     cp shape/zelda2_gi_fieldmap/zelda2_gi_fieldmap.o gi_fieldmap.o
      cp shape/zelda2_bjt/zelda2_bjt.o Bjt.o
      cp shape/zelda2_taru/zelda2_taru.o Taru.o
      cp shape/zelda2_moonston/zelda2_moonston.o Moonston.o
-     cp shape/zelda2_gi_schedule/v2_schedule.o gi_techo.o
-     cp shape/zelda2_gi_stonemask/v2_mask_19.o gi_stonemask.o
+#     cp shape/zelda2_gi_schedule/v2_schedule.o gi_techo.o
+     cp shape/zelda2_gi_schedule/zelda2_gi_schedule.o gi_techo.o
+#     cp shape/zelda2_gi_stonemask/v2_mask_19.o gi_stonemask.o
+     cp shape/zelda2_gi_stonemask/zelda2_gi_stonemask.o gi_stonemask.o
      cp shape/zelda2_zoraband/zelda2_zoraband.o Zoraband.o
      cp shape/zelda2_kepn_koya/zelda2_kepn_koya.o Kepn_Koya.o
      cp shape/zelda2_obj_usiyane/zelda2_obj_usiyane.o Obj_Usiyane.o
-     cp shape/zelda2_gi_mask05/v2_mask_05.o gi_kerfaymask.o
-     cp shape/zelda2_gi_mask11/v2_mask_11.o gi_zachomask.o
-     cp shape/zelda2_gi_mask20/v2_mask_20.o gi_breemask.o
+#     cp shape/zelda2_gi_mask05/v2_mask_05.o gi_kerfaymask.o
+     cp shape/zelda2_gi_mask05/zelda2_gi_mask05.o gi_kerfaymask.o
+#     cp shape/zelda2_gi_mask11/v2_mask_11.o gi_zachomask.o
+     cp shape/zelda2_gi_mask11/zelda2_gi_mask11.o gi_zachomask.o
+#     cp shape/zelda2_gi_mask20/v2_mask_20.o gi_breemask.o
+     cp shape/zelda2_gi_mask20/zelda2_gi_mask20.o gi_breemask.o
      cp shape/zelda2_nnh/zelda2_nnh.o Nnh.o
      cp shape/zelda2_kzsaku/zelda2_kzsaku.o Kzsaku.o
      cp shape/zelda2_obj_milk_bin/zelda2_obj_milk_bin.o Obj_Milk_Bin.o
      cp shape/zelda2_random_obj/zelda2_random_obj.o Random_Obj.o
      cp shape/zelda2_kujiya/zelda2_kujiya.o Kujiya.o
      cp shape/zelda2_kitan/zelda2_kitan.o Kitan.o
-     cp shape/zelda2_gi_mask06/v2_mask_06.o gi_yofukashimask.o
-     cp shape/zelda2_gi_mask16/v2_mask_16.o gi_ge_romask.o
+#     cp shape/zelda2_gi_mask06/v2_mask_06.o gi_yofukashimask.o
+     cp shape/zelda2_gi_mask06/zelda2_gi_mask06.o gi_yofukashimask.o
+#     cp shape/zelda2_gi_mask16/v2_mask_16.o gi_ge_romask.o
+     cp shape/zelda2_gi_mask16/zelda2_gi_mask16.o gi_ge_romask.o
      cp shape/zelda2_astr_obj/zelda2_astr_obj.o astr_obj.o
      cp shape/zelda2_bsb/zelda2_bsb.o Bsb.o
      cp shape/zelda2_fall2/zelda2_fall2.o Fall2.o
      cp shape/zelda2_sth/zelda2_sth.o Sth.o
-     cp shape/zelda2_gi_mssa/mssa_mask.o gi_sunmask.o
+#     cp shape/zelda2_gi_mssa/mssa_mask.o gi_sunmask.o
+     cp shape/zelda2_gi_mssa/zelda2_gi_mssa.o gi_sunmask.o
      cp shape/zelda2_smtower/zelda2_smtower.o Smtower.o
      cp shape/zelda2_thiefbird/zelda2_thiefbird.o Thiefbird.o
-     cp shape/zelda2_gi_mask21/v2_mask_21.o gi_bakuretsumask.o
+#     cp shape/zelda2_gi_mask21/v2_mask_21.o gi_bakuretsumask.o
+     cp shape/zelda2_gi_mask21/zelda2_gi_mask21.o gi_bakuretsumask.o
      cp shape/zelda2_yado_obj/zelda2_yado_obj.o Yado_Obj.o
      cp shape/zelda2_syoten/zelda2_syoten.o Syoten.o
      cp shape/zelda2_moonend/zelda2_moonend.o Moonend.o
      cp shape/zelda2_ob/zelda2_ob.o Ob.o
-     cp shape/zelda2_gi_bottle_04/v2_bottle_04.o gi_fairy.o
+#     cp shape/zelda2_gi_bottle_04/v2_bottle_04.o gi_fairy.o
+     cp shape/zelda2_gi_bottle_04/zelda2_gi_bottle_04.o gi_fairy.o
      cp shape/zelda2_and/zelda2_and.o And.o
      cp shape/zelda2_obj_danpeilift/zelda2_obj_danpeilift.o Obj_Danpeilift.o
      cp shape/zelda2_death/zelda2_death.o Death.o
