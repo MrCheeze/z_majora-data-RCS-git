@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.192  1999-11-18 16:05:00+09  nisiwaki
+# 鍛冶屋（ガボラ）追加
+#
 # Revision 2.191  1999-11-18 11:35:48+09  umemiya
 # アイアンナック、デッドハンド、ドドンゴ復帰
 # ビリ、バリ削除
@@ -2199,4 +2202,4 @@ cp() {
      cp shape/zelda2_dnq/zelda2_dnq.o Dnq.o
      cp shape/zelda2_dai/zelda2_dai.o Dai.o
      cp shape/zelda2_kgy/zelda2_kgy.o kgy.o
-
+     cp shape/zelda2_fb/zelda2_fb.o fb.o
