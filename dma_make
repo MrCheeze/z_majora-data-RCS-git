@@ -173,6 +173,6 @@ cp() {
 ######
      cp shape/TEXTURE2/NES/ITEM_NAME2/nes_item_name_test.raw .
      cp shape/TEXTURE2/NES/ITEM_NAME2/nes_map_name_test.raw .
-     cp shape/TEXTURE2/NES/ICON_ITEM2/icon_item_nes.o .
+     cp shape/TEXTURE2/NES/ICON_ITEM2/nes_icon_item_nes.o .
 #####	ＤＯ ＡＣＴＩＯＮ
      cp shape/TEXTURE2/NES/DO_ACTION2/nes_do_action_idx.o .
