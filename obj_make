@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.264  1998-07-23 13:03:46+09  kuzuhara
+# 案山子
+#
 # Revision 1.263  1998-07-21 16:14:43+09  kuzuhara
 # ガノン２作成
 #
@@ -1227,3 +1230,4 @@ cp() {
      cp shape/zelda_gi_gerudomask/zelda_gi_gerudomask.o gi_gerudomask.o
      cp shape/zelda_ganon2/zelda_ganon2.o B_ganon2.o
      cp shape/zelda_ka/zelda_ka.o Ka.o
+     cp shape/zelda_ts/zelda_ts.o Ts.o
