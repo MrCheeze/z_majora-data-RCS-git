@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.172  1999-11-08 13:35:33+09  kuzuhara
+# ヒップループ追加
+#
 # Revision 2.171  1999-11-05 10:59:20+09  umemiya
 # 雪魔神追加
 #
@@ -2120,3 +2123,4 @@ cp() {
      cp shape/zelda_po/zelda_po.o Po.o
      cp shape/zelda2_snowman/zelda2_snowman.o Snowman.o
      cp shape/zelda2_pp/zelda2_pp.o Pp.o
+     cp shape/zelda2_goronswitch/zelda2_goronswitch.o goronswitch.o
