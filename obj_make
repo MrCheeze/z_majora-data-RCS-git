@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.80  1999-06-04 14:32:16+09  yoshida
+# *** empty log message ***
+#
 # Revision 2.79  1999-06-04 10:11:10+09  sumiyosi
 # *** empty log message ***
 #
@@ -1672,7 +1675,6 @@ cp() {
      cp shape/zelda_gi_sutaru/zelda_gi_sutaru.o gi_sutaru.o
      cp shape/zelda_gi_goddess/zelda_gi_goddess.o gi_goddess.o
      cp shape/zelda_ssh/zelda_ssh.o ssh.o
-     cp shape/zelda_ocd/zelda_ocd.o Ocd.o
      cp shape/zelda_bg/zelda_bg.o Bg.o
      cp shape/zelda2_bombiwa/zelda2_bombiwa.o bombiwa.o
      cp shape/zelda_hintnuts/zelda_hintnuts.o Hintnuts.o
@@ -1778,3 +1780,4 @@ cp() {
      cp shape/zelda2_yukimura_obj/zelda2_yukimura_obj.o Yukimura_Obj.o
      cp shape/zelda2_hanareyama_obj/zelda2_hanareyama_obj.o Hanareyama_Obj.o
      cp shape/zelda2_crace_object/zelda2_crace_object.o Crace_Object.o
+     cp shape/zelda2_bigslime/zelda2_bigslime.o Bigslime.o
