@@ -152,6 +152,10 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET/vr_MARKET_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET/vr_MARKET_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_pal.o .
 #####	カレイド・スコープ
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
