@@ -1,0 +1,49 @@
+#!/usr/local/bin/bash
+#set -x
+#
+# $Id$
+#
+
+cp2() {
+    if [ ! -e $1 ]; then
+	echo "ファイルがありません $1"
+    else
+	if [ ! -e $2 -o $1 -nt $2 ]; then
+	    echo    cp $1 $2
+	    command cp $1 $2
+	fi
+    fi
+}
+cp() {
+    SRC=$1
+    DEST=$2
+    SRCBASE=`basename $SRC`
+    if [ -d $DEST ]; then
+	cp2 $SRC $DEST/$SRCBASE
+    else
+	cp2 $SRC $DEST
+    fi
+}
+
+#####	メモリエラーメッセージ
+     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg.o .
+
+#####	イベント制御コード
+     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/change/save_list_txt.inc .
+     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/tool/week_event_reg.inc .
+
+#####	メッセージ
+     cp shape/MESSAGE/japan/table.h .
+     cp shape/MESSAGE/japan/extern.h .
+     cp shape/MESSAGE/japan/japan.o .
+     cp shape/TEXTURE/MESSAGE/texture/texture.o .
+     cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
+###
+     cp shape/TEXTURE/MESSAGE/font/font_e.o .
+     cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
+     cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o .
+##### メッセージソースというか
+     cp shape/TEXTURE/MESSAGE/NES/nes_a nes_a
+     cp shape/TEXTURE/MESSAGE/NES/nes_b nes_b
+     cp shape/TEXTURE/MESSAGE/STAFF/staff_a staff_a
+     cp shape/TEXTURE/MESSAGE/STAFF/staff_b staff_b
