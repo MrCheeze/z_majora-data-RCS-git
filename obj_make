@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.303  2000-01-29 14:33:42+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.302  2000-01-29 14:07:49+09  kuzuhara
 # sd と siofuki 削除
 #
@@ -2648,3 +2651,4 @@ cp() {
      cp shape/zelda2_redead_obj/zelda2_redead_obj.o Redead_Obj.o
      cp shape/zelda2_ikninside_obj/zelda2_ikninside_obj.o Ikninside_Obj.o
      cp shape/zelda2_iknv_obj/zelda2_iknv_obj.o Iknv_Obj.o
+     cp shape/zelda2_pamera/zelda2_pamera.o Pamera.o
