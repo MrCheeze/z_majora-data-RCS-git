@@ -28,7 +28,7 @@ cp() {
 #####	ＭＡＰ
      cp shape/TEXTURE/DD_MAP/dd_map_i.o .
      cp shape/TEXTURE/DD_MAP/dd_map_48x85.o .
-##### メッセージソースというか
+##### メッセージソースというか(ROMのデッドコピー)
      cp shape/TEXTURE/MESSAGE/message/msg.h dd_msg.h
      cp shape/TEXTURE/MESSAGE/message/msg.tbl dd_msg.tbl
      cp shape/TEXTURE/MESSAGE/message/nes_a dd_nes_a

@@ -39,6 +39,13 @@ cp() {
      cp shape/TEXTURE/MESSAGE/NES/font_e.o .
      cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
      cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o .
+##### メッセージソースというか
+     cp shape/TEXTURE/MESSAGE/message/msg.h msg.h
+     cp shape/TEXTURE/MESSAGE/message/msg.tbl msg.tbl
+     cp shape/TEXTURE/MESSAGE/message/nes_a nes_a
+     cp shape/TEXTURE/MESSAGE/message/nes_b nes_b
+     cp shape/TEXTURE/MESSAGE/message/staff_a staff_a
+     cp shape/TEXTURE/MESSAGE/message/staff_b staff_b
 #####	ＭＡＰ
 ####################     cp shape/TEXTURE/MAP/map_grand.o .
      cp shape/TEXTURE/MAP/map_fm.o map_grand.o
