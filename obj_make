@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.233  1998-06-18 13:07:32+09  komatu
+# OF1をけした
+#
 # Revision 1.232  1998-06-16 18:36:07+09  umemiya
 # 墓下子供ダンジョンオブジェ追加
 #
@@ -754,7 +757,7 @@ cp() {
      cp shape/zelda_kdodongo/zelda_kdodongo.o Kdodongo.o
      cp shape/zelda_zl1/zelda_zl1.o Zl1.o
      cp shape/zelda_ff/zelda_ff.o Ff.o
-     cp shape/zelda_wm/zelda_wm.o Wm.o
+     cp shape/zelda_wm2/zelda_wm2.o Wm.o
      cp shape/zelda_po/zelda_po.o Po.o
      cp shape/zelda_oAx/zelda_oAx.o OAX.o
      cp shape/zelda_oc2/zelda_oc2.o Oc.o
