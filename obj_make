@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.224  1999-12-07 16:09:38+09  takesita
+# 張り子の牛追加
+#
 # Revision 2.223  1999-12-07 14:48:08+09  yoshida
 # デク執事追加
 #
@@ -2327,3 +2330,4 @@ cp() {
      cp shape/zelda2_bigpo/zelda2_bigpo.o Bigpo.o
      cp shape/zelda2_hariko/zelda2_hariko.o Hariko.o
      cp shape/zelda2_dnj/zelda2_dnj.o Dnj.o
+     cp shape/zelda2_sinkai_kabe/zelda2_sinkai_kabe.o Sinkai_Kabe.o
