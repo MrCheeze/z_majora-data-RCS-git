@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.366  2000-03-03 16:59:30+09  sakaguti
+# 青妖精
+#
 # Revision 2.365  2000-03-03 14:56:04+09  nisiwaki
 # *** empty log message ***
 #
@@ -2904,3 +2907,4 @@ cp() {
      cp shape/zelda2_moonend/zelda2_moonend.o Moonend.o
      cp shape/zelda2_ob/zelda2_ob.o Ob.o
      cp shape/zelda2_gi_bottle_04/v2_bottle_04.o gi_fairy.o
+     cp shape/zelda2_and/zelda2_and.o And.o
