@@ -33,12 +33,12 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg_pal.o .
 
 #####	イベント制御コード
-     cp /home/soejima/c/Event/change/save_list_txt.inc .
-     cp /home/soejima/c/Event/tool/week_event_reg.inc .
+     cp shape/Event/change/save_list_txt.inc .
+     cp shape/Event/tool/week_event_reg.inc .
 
 #####	お面対応メッセージテーブル
-     cp /home/soejima/c/Event/mask/vs_mask_message.inc .
-     cp /home/soejima/c/Event/mask/vs_mask_label.inc .
+     cp shape/Event/mask/vs_mask_message.inc .
+     cp shape/Event/mask/vs_mask_label.inc .
 
 #####	メッセージ
 ## 日本語
