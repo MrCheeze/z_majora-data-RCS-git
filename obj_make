@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.190  1999-11-17 14:29:57+09  yoshida
+# *** empty log message ***
+#
 # Revision 2.189  1999-11-16 22:06:29+09  sumiyosi
 # *** empty log message ***
 #
@@ -1592,7 +1595,7 @@ cp() {
      cp shape/zelda_bubble/zelda_bubble.o Bubble.o
 #     cp shape/zelda_dodojr/zelda_dodojr.o Dodojr.o
      cp shape/zelda_black_link/zelda_black_link.o Torch2.o
-     cp shape/zelda_bl/zelda_bl.o Bl.o
+#     cp shape/zelda_bl/zelda_bl.o Bl.o
 #     cp shape/zelda_tp/zelda_tp.o Tp.o
      cp shape/zelda_bw/zelda_bw.o Bw.o
 #     cp shape/zelda_ei/zelda_ei.o Ei.o
@@ -1638,7 +1641,7 @@ cp() {
 #     cp shape/zelda_oE10/zelda_oE10.o OE10.o
 #     cp shape/zelda_oE11/zelda_oE11.o OE11.o
 #     cp shape/zelda_oE12/zelda_oE12.o OE12.o
-     cp shape/zelda_vali/zelda_vali.o Vali.o
+#     cp shape/zelda_vali/zelda_vali.o Vali.o
 #     cp shape/zelda_oA10/zelda_oA10.o OA10.o
 #     cp shape/zelda_oA11/zelda_oA11.o OA11.o
      cp shape/zelda_fantomHG/zelda_fantomHG.o FantomHG.o
@@ -1706,7 +1709,7 @@ cp() {
 #     cp shape/zelda_haka/zelda_haka.o Haka.o
      cp shape/zelda_syokudai/zelda_syokudai.o syokudai.o
 #     cp shape/zelda_vba/zelda_vba.o fd2.o
-#     cp shape/zelda_dh/zelda_dh.o Dh.o
+     cp shape/zelda_dh/zelda_dh.o Dh.o
      cp shape/zelda_efc_tw/zelda_efc_tw.o efc_tw.o
 #     cp shape/zelda_rl/zelda_rl.o Rl.o
 #     cp shape/zelda_tre_lgt/zelda_tre_lgt.o demo_tre_lgt.o
@@ -1918,7 +1921,7 @@ cp() {
      cp shape/zelda_mastergolon/zelda_mastergolon.o mastergolon.o
      cp shape/zelda_masterzoora/zelda_masterzoora.o masterzoora.o
      cp shape/zelda_aob/zelda_aob.o Aob.o
-#     cp shape/zelda_ik/zelda_ik.o Ik.o
+     cp shape/zelda2_ik/zelda2_ik.o Ik.o
      cp shape/zelda_ahg/zelda_ahg.o Ahg.o
      cp shape/zelda_cne/zelda_cne.o Cne.o
      cp shape/zelda_gi_chicken/zelda_gi_chicken.o gi_niwatori.o
