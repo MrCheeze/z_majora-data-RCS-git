@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.111  1999-08-06 09:11:46+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.110  1999-08-05 16:51:43+09  takesita
 # フーセンポー追加。
 #
@@ -1888,3 +1891,4 @@ cp() {
      cp shape/zelda2_twig/zelda2_twig.o Twig.o
      cp shape/zelda2_dekucity_obj/zelda2_dekucity_obj.o dekucity_obj.o
      cp shape/zelda2_po_fusen/zelda2_po_fusen.o Po_Fusen.o
+     cp shape/zelda2_racetsubo/zelda2_racetsubo.o racetsubo.o
