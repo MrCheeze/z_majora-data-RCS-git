@@ -5,6 +5,7 @@ set -x
 #
 play
 title
+opening
 map_000
 map_001
 map_002
