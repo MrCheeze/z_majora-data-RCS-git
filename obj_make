@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.126  1999-09-21 12:11:05+09  takesita
+# 風車小屋おじさんミニゲーム的追加。
+#
 # Revision 2.125  1999-09-14 15:02:57+09  takesita
 # Fu_Kaiten.o追加
 #
@@ -1940,3 +1943,4 @@ cp() {
      cp shape/zelda2_open_obj/zelda2_open_obj.o open_obj.o
      cp shape/zelda2_fu_kaiten/zelda2_fu_kaiten.o Fu_Kaiten.o
      cp shape/zelda2_fu_mato/zelda2_fu_mato.o Fu_Mato.o
+     cp shape/zelda2_mtoride/zelda2_mtoride.o Mtoride.o
