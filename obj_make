@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.277  1998-08-06 17:58:48+09  umemiya
+# ヒントナッツ追加
+#
 # Revision 1.276  1998-08-06 17:27:19+09  sakakibara
 # ｓｐｏｔ１２ オブジェクト & 汎用爆弾岩追加
 #
@@ -1283,3 +1286,4 @@ cp() {
      cp shape/zelda_spot12_obj/zelda_spot12_obj.o spot12_obj.o
      cp shape/zelda_bombiwa/zelda_bombiwa.o bombiwa.o
      cp shape/zelda_hintnuts/zelda_hintnuts.o Hintnuts.o
+     cp shape/zelda_rs/zelda_rs.o Rs.o
