@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.112  1999-08-06 18:02:50+09  sakakibara
+# レース壷
+#
 # Revision 2.111  1999-08-06 09:11:46+09  sakaguti
 # *** empty log message ***
 #
@@ -1528,7 +1531,7 @@ cp() {
      cp shape/zelda_gi_hookshot/zelda_gi_hookshot.o gi_hookshot.o
      cp shape/zelda_gi_ocarina/zelda_gi_ocarina.o gi_ocarina.o
      cp shape/zelda_gi_milk/zelda_gi_milk.o gi_milk.o
-     cp shape/zelda_ma1/zelda_ma1.o Ma1.o
+     cp shape/zelda2_ma1/zelda2_ma1.o Ma1.o
      cp shape/zelda_ganon/zelda_ganon.o B_ganon.o
      cp shape/zelda_ganon_PAL/zelda_ganon_PAL.o B_ganon_PAL.o
      cp shape/zelda_ganon_anime1/zelda_ganon_anime1.o Ganon_Anime1.o
