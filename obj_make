@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.82  1997/12/18  06:07:05  umemiya
+# *** empty log message ***
+#
 # Revision 1.81  1997/12/18  04:10:51  umemiya
 # *** empty log message ***
 #
@@ -11,7 +14,7 @@
 # *** empty log message ***
 #
 # Revision 1.79  1997/12/17  04:57:10  umemiya
-# 森の神殿・オブジェ追加
+# 森の神殿・ひねり回廊部屋追加
 #
 # Revision 1.78  1997/12/16  05:59:21  sumiyosi
 # *** empty log message ***
@@ -360,3 +363,4 @@ cp() {
      cp shape/zelda_oB1/zelda_oB1.o OB1.o
      cp shape/zelda_mori_hineri1/zelda_mori_hineri1.o mori_hineri1.o
      cp shape/zelda_bb/zelda_bb.o Bb.o
+     cp shape/zelda_toki_objects/zelda_toki_objects.o toki_objects.o
