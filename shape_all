@@ -1,32 +1,16 @@
 #!/bin/sh
+set -x
 #
 # $Id$
 #
-echo play
-     play
-
-echo title
-     title
-
-echo map_000
-     map_000
-
-echo map_001
-     map_001
-
-echo map_002
-     map_002
-
-echo map_003
-     map_003
-
-echo map_004
-     map_004
-
-echo map_0042
-     map_0042
-
-echo map_005
-     map_005
+play
+title
+map_000
+map_001
+map_002
+map_003
+map_004
+map_0042
+map_005
 
 
