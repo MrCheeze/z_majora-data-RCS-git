@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.143  1999-10-07 21:38:10+09  yoshida
+# *** empty log message ***
+#
 # Revision 2.142  1999-10-07 19:25:24+09  sakaguti
 # *** empty log message ***
 #
@@ -2008,4 +2011,5 @@ cp() {
      cp shape/zelda2_bigicicle/zelda2_bigicicle.o Bigicicle.o
      cp shape/zelda2_gi_bottle_15/v2_bottle_15.o gi_bottle_15.o
      cp shape/zelda2_tk/zelda2_tk.o Tk.o
+     cp shape/zelda2_market_obj/zelda2_market_obj.o market_obj.o
 
