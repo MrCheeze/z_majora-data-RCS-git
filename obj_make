@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.248  2000-01-05 14:12:49+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.247  1999-12-28 10:54:28+09  umemiya
 # 毒カエルスライム、紺碧回転部屋削除
 #
@@ -2428,3 +2431,4 @@ cp() {
      cp shape/zelda2_kaizoku_obj/zelda2_kaizoku_obj.o Kaizoku_obj.o
      cp shape/zelda2_gi_reserve_b_00/v2_reserve_b_00.o gi_inn_key.o
      cp shape/zelda2_gi_reserve_c_00/v2_reserve_c_00.o gi_c_letter.o
+     cp shape/zelda2_zob/zelda2_zob.o Zob.o
