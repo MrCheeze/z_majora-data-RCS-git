@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.68  1997/11/12  08:21:34  umemiya
+# 面クリダンジョンオブジェクト追加
+#
 # Revision 1.67  1997/11/12  07:03:41  sumiyosi
 # *** empty log message ***
 #
@@ -302,4 +305,11 @@ cp() {
      cp shape/zelda_oE3/zelda_oE3.o OE3.o
      cp shape/zelda_oE4/zelda_oE4.o OE4.o
      cp shape/zelda_menkuri_objects/zelda_menkuri_objects.o menkuri_objects.o
+     cp shape/zelda_oE5/zelda_oE5.o OE5.o
+     cp shape/zelda_oE6/zelda_oE6.o OE6.o
+     cp shape/zelda_oE7/zelda_oE7.o OE7.o
+     cp shape/zelda_oE8/zelda_oE8.o OE8.o
+     cp shape/zelda_oE9/zelda_oE9.o OE9.o
+     cp shape/zelda_oE10/zelda_oE10.o OE10.o
+     cp shape/zelda_oE11/zelda_oE11.o OE11.o
 
