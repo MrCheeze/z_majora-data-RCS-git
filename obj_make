@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.24  1999-03-02 17:51:15+09  sakakibara
+# *** empty log message ***
+#
 # Revision 2.23  1999-03-02 15:57:27+09  yoshida
 # 間違いを修正
 #
@@ -1556,3 +1559,4 @@ cp() {
      cp shape/zelda2_fwall/zelda2_fwall.o Fwall.o
      cp shape/zelda2_jso/zelda2_jso.o Jso.o
      cp shape/zelda2_knight/zelda2_knight.o Knight.o
+     cp shape/zelda2_icicle/zelda2_icicle.o Icicle.o
