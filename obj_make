@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.275  2000-01-17 10:52:47+09  nisiwaki
+# *** empty log message ***
+#
 # Revision 2.274  2000-01-15 20:30:01+09  sakakibara
 # f40_switch
 #
@@ -2199,7 +2202,7 @@ cp() {
 #     cp shape/zelda2_md/zelda2_md.o Md.o
      cp shape/zelda_km1/zelda_km1.o Km1.o
 #     cp shape/zelda_kw1/zelda_kw1.o Kw1.o
-     cp shape/zelda_zo/zelda_zo.o Zo.o
+     cp shape/zelda2_zo/zelda2_zo.o Zo.o
 #     cp shape/zelda_kz/zelda_kz.o Kz.o
      cp shape/zelda_umajump/zelda_umajump.o Umajump.o
      cp shape/zelda_masterkokiri/zelda_masterkokiri.o masterkokiri.o
