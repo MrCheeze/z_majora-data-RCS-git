@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.137  1999-09-30 13:49:01+09  sakakibara
+# dkjail_obj
+#
 # Revision 2.136  1999-09-27 19:34:33+09  kuzuhara
 # パメット作成
 #
@@ -1979,3 +1982,4 @@ cp() {
      cp shape/zelda2_lotus/zelda2_lotus.o Lotus.o
      cp shape/zelda2_tl/zelda2_tl.o Tl.o
      cp shape/zelda2_dkjail_obj/zelda2_dkjail_obj.o dkjail_obj.o
+     cp shape/zelda2_visiblock/zelda2_visiblock.o visiblock.o
