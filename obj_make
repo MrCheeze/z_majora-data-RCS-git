@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.115  1999-08-09 20:40:04+09  matutani
+# zelda_in.oをzelda2_in.oにした。
+#
 # Revision 2.114  1999-08-09 17:05:08+09  sakaguti
 # 犬変えた。
 #
@@ -1902,3 +1905,4 @@ cp() {
      cp shape/zelda2_dekucity_obj/zelda2_dekucity_obj.o dekucity_obj.o
      cp shape/zelda2_po_fusen/zelda2_po_fusen.o Po_Fusen.o
      cp shape/zelda2_racetsubo/zelda2_racetsubo.o racetsubo.o
+     cp shape/zelda2_ha/zelda2_ha.o ha.o
