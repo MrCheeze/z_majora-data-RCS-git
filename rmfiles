@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+#Revision 1.4  1998-01-20 16:58:41+09  soejima
+#*** empty log message ***
+#
 # Revision 1.3  1997/10/13  13:21:41  soejima
 # *** empty log message ***
 #
@@ -22,6 +25,9 @@
 #ファイルはここに登録
 #
 RMFILES="
+hidan_objects4.o
+hidan_objects5.o
+hidan_objects6.o
 opening
 opening.map
 opening.objs
