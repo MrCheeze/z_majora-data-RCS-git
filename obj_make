@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.85  1997/12/24  06:34:10  sumiyosi
+# 大ゼルダ追加
+#
 # Revision 1.84  1997/12/24  05:06:09  umemiya
 # トラップ床ビュン追加
 #
@@ -372,3 +375,11 @@ cp() {
      cp shape/zelda_toki_objects/zelda_toki_objects.o toki_objects.o
      cp shape/zelda_yukabyun/zelda_yukabyun.o Yukabyun.o
      cp shape/zelda_zl2/zelda_zl2.o Zl2.o
+     cp shape/zelda_mjin/zelda_mjin.o Mjin.o
+     cp shape/zelda_mjin_flash/zelda_mjin_flash.o Mjin_flash.o
+     cp shape/zelda_mjin_dark/zelda_mjin_dark.o Mjin_dark.o
+     cp shape/zelda_mjin_flame/zelda_mjin_flame.o Mjin_flame.o
+     cp shape/zelda_mjin_ice/zelda_mjin_ice.o Mjin_ice.o
+     cp shape/zelda_mjin_soul/zelda_mjin_soul.o Mjin_soul.o
+     cp shape/zelda_mjin_wind/zelda_mjin_wind.o Mjin_wind.o
+     cp shape/zelda_mjin_oka/zelda_mjin_oka.o Mjin_oka.o
