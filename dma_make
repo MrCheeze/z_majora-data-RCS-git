@@ -156,4 +156,5 @@ cp() {
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_gameover.o .
 #     cp shape/TEXTURE2/ITEM_NAME2/item_name.o .
      cp shape/TEXTURE2/ITEM_NAME2/item_name_test.raw .
-     cp shape/TEXTURE2/ITEM_NAME2/map_name.o .
+#     cp shape/TEXTURE2/ITEM_NAME2/map_name.o .
+     cp shape/TEXTURE2/ITEM_NAME2/map_name_test.raw .
