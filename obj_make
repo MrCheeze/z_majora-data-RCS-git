@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.185  1999-11-15 14:34:55+09  sakaguti
+# コロン勇者の霊
+#
 # Revision 2.184  1999-11-15 11:33:23+09  nisiwaki
 # *** empty log message ***
 #
@@ -2170,4 +2173,5 @@ cp() {
      cp shape/zelda2_spidertent/zelda2_spidertent.o spidertent.o
      cp shape/zelda2_zoraegg/zelda2_zoraegg.o zoraegg.o
      cp shape/zelda2_kbt/zelda2_kbt.o kbt.o
-     cp shape/zelda2_gg/gg.o gg.o
+     cp shape/zelda2_gg/zelda2_gg.o gg.o
+     cp shape/zelda2_maruta/zelda2_maruta.o Maruta.o
