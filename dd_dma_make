@@ -32,9 +32,9 @@ cp() {
      cp shape/TEXTURE/MESSAGE/DD/zld64_msg_data.o dd_message.o .
      cp shape/TEXTURE/MESSAGE/DD/zld64_msg_data.h dd_msg.h
      cp shape/TEXTURE/MESSAGE/DD/zld64_msg_data.tbl dd_msg.tbl
-     cp shape/TEXTURE/MESSAGE/message/nes_a dd_nes_a
-     cp shape/TEXTURE/MESSAGE/message/nes_b dd_nes_b
+     cp shape/TEXTURE/MESSAGE/NES/nes_a dd_nes_a
+     cp shape/TEXTURE/MESSAGE/NES/nes_b dd_nes_b
      cp shape/TEXTURE/MESSAGE/NES/nes_c.o dd_nes_c.o
-     cp shape/TEXTURE/MESSAGE/message/staff_a dd_staff_a
-     cp shape/TEXTURE/MESSAGE/message/staff_b dd_staff_b
+     cp shape/TEXTURE/MESSAGE/STAFF/staff_a dd_staff_a
+     cp shape/TEXTURE/MESSAGE/STAFF/staff_b dd_staff_b
      cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o dd_staff_c.o
