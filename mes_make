@@ -36,9 +36,13 @@ cp() {
      cp /home/soejima/c/Event/mask/vs_mask_message.inc .
 
 #####	メッセージ
+if [ -r shape/MESSAGE/japan/japan.o ]; then
      cp shape/MESSAGE/japan/table.h .
      cp shape/MESSAGE/japan/extern.h .
      cp shape/MESSAGE/japan/japan.o .
+else
+    echo "只今メッセージは更新中または壊れています"
+fi
      cp shape/TEXTURE/MESSAGE/texture/texture.o .
      cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
 ###
