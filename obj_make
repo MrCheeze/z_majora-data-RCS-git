@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.142  1999-10-07 19:25:24+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.141  1999-10-05 10:54:08+09  umemiya
 # 大ツララ追加
 #
@@ -2004,3 +2007,5 @@ cp() {
      cp shape/zelda2_sd/zelda2_sd.o sd.o
      cp shape/zelda2_bigicicle/zelda2_bigicicle.o Bigicicle.o
      cp shape/zelda2_gi_bottle_15/v2_bottle_15.o gi_bottle_15.o
+     cp shape/zelda2_tk/zelda2_tk.o Tk.o
+
