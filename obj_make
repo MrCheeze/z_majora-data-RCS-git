@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.78  1999-06-01 13:11:31+09  umemiya
+# *** empty log message ***
+#
 # Revision 2.77  1999-06-01 11:59:21+09  umemiya
 # field40オブジェ追加
 #
@@ -1770,3 +1773,4 @@ cp() {
      cp shape/zelda2_en_fall/zelda2_en_fall.o Fall.o
      cp shape/zelda2_f40_obj/zelda2_f40_obj.o F40_Obj.o
      cp shape/zelda2_yukimura_obj/zelda2_yukimura_obj.o Yukimura_Obj.o
+     cp shape/zelda2_hanareyama_obj/zelda2_hanareyama_obj.o Hanareyama_Obj.o
