@@ -146,6 +146,7 @@ cp() {
 ##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_pal.o .
 #####	カレイド・スコープ
      cp shape/TEXTURE2/ICON_ITEM2/icon_item.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_test.raw .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_24.o .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_field.o .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_dungeon.o .
