@@ -1,0 +1,49 @@
+#!/bin/sh
+set -x
+#
+# $Id$
+#
+# $Log$
+
+echo cp shape/zelda_link/Skeleton/Boy/Boy.o Link_boy.o
+     cp shape/zelda_link/Skeleton/Boy/Boy.o Link_boy.o
+echo cp shape/zelda_link/Skeleton/Child/Child.o Link_child.o
+     cp shape/zelda_link/Skeleton/Child/Child.o Link_child.o
+echo cp shape/zelda_baby_skel/zelda_baby_skel.o Baby_skel.o 
+     cp shape/zelda_baby_skel/zelda_baby_skel.o Baby_skel.o 
+echo cp shape/zelda_bee/zelda_bee.o Bee.o
+     cp shape/zelda_bee/zelda_bee.o Bee.o
+echo cp shape/zelda_box/zelda_box.o Box.o
+     cp shape/zelda_box/zelda_box.o Box.o
+echo cp shape/zelda_dodongo/zelda_dodongo.o Dodongo.o
+     cp shape/zelda_dodongo/zelda_dodongo.o Dodongo.o
+echo cp shape/zelda_fire/zelda_fire.o Fire.o
+     cp shape/zelda_fire/zelda_fire.o Fire.o
+echo cp shape/zelda_firefly/zelda_firefly.o Firefly.o
+     cp shape/zelda_firefly/zelda_firefly.o Firefly.o
+echo cp shape/zelda_human/zelda_human.o Human.o
+     cp shape/zelda_human/zelda_human.o Human.o
+echo cp shape/zelda_ironknack/zelda_ironknack.o Ironknack.o
+     cp shape/zelda_ironknack/zelda_ironknack.o Ironknack.o
+echo cp shape/zelda_niw/zelda_niw.o Niw.o
+     cp shape/zelda_niw/zelda_niw.o Niw.o
+echo cp shape/zelda_okuta/zelda_okuta.o Okuta.o
+     cp shape/zelda_okuta/zelda_okuta.o Okuta.o
+echo cp shape/zelda_poh/zelda_poh.o Poh.o
+     cp shape/zelda_poh/zelda_poh.o Poh.o
+echo cp shape/zelda_rock/zelda_rock.o Rock.o
+     cp shape/zelda_rock/zelda_rock.o Rock.o
+echo cp shape/zelda_skelton/zelda_skelton.o Skelton.o
+     cp shape/zelda_skelton/zelda_skelton.o Skelton.o
+echo cp shape/zelda_slime/zelda_slime.o Slime.o
+     cp shape/zelda_slime/zelda_slime.o Slime.o
+echo cp shape/zelda_soldier/zelda_soldier.o Soldier.o
+     cp shape/zelda_soldier/zelda_soldier.o Soldier.o
+echo cp shape/zelda_tite/zelda_tite.o Tite.o
+     cp shape/zelda_tite/zelda_tite.o Tite.o
+echo cp shape/zelda_wallmaster/zelda_wallmaster.o Wallmaster.o
+     cp shape/zelda_wallmaster/zelda_wallmaster.o Wallmaster.o
+echo cp shape/zelda_reeba/zelda_reeba.o Reeba.o
+     cp shape/zelda_reeba/zelda_reeba.o Reeba.o
+echo cp shape/zelda_peehat/zelda_peehat.o Peehat.o
+     cp shape/zelda_peehat/zelda_peehat.o Peehat.o
