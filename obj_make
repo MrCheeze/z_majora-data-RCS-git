@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.182  1998/04/15 03:07:41  nisiwaki
+# 魔法関係 削除
+#
 # Revision 1.181  1998/04/14 09:22:47  takahata
 # *** empty log message ***
 #
@@ -816,3 +819,4 @@ cp() {
      cp shape/zelda_gi_glasses/zelda_gi_glasses.o gi_glasses.o
      cp shape/zelda_scene_name/g_pn_*.o .
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
+     cp shape/zelda_ani/zelda_ani.o ani.o
