@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.371  2000-03-06 23:17:24+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.370  2000-03-06 13:24:25+09  sumiyosi
 # *** empty log message ***
 #
@@ -2862,6 +2865,9 @@ cp() {
      cp shape/zelda2_dor02/zelda2_dor02.o Dor02.o
      cp shape/zelda2_dor03/zelda2_dor03.o Dor03.o
      cp shape/zelda2_dor04/zelda2_dor04.o Dor04.o
+     cp shape/zelda2_wdor01/zelda2_wdor01.o Wdor01.o
+     cp shape/zelda2_wdor02/zelda2_wdor02.o Wdor02.o
+     cp shape/zelda2_wdor03/zelda2_wdor03.o Wdor03.o
      cp shape/zelda2_last_obj/zelda2_last_obj.o Last_Obj.o
      cp shape/zelda2_redead_obj/zelda2_redead_obj.o Redead_Obj.o
      cp shape/zelda2_ikninside_obj/zelda2_ikninside_obj.o Ikninside_Obj.o
