@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.282  1998-08-10 13:46:26+09  tarukado
+# *** empty log message ***
+#
 # Revision 1.281  1998-08-08 16:05:20+09  umemiya
 # 売りナッツ追加
 #
@@ -1303,3 +1306,5 @@ cp() {
      cp shape/zelda_gla/zelda_gla.o Gla.o
      cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
      cp shape/zelda_gelb/zelda_gelb.o Gelb.o
+     cp shape/zelda_gr/zelda_gr.o Gr.o
+     cp shape/zelda_dog/zelda_dog.o Dog.o
