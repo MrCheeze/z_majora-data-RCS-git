@@ -28,6 +28,9 @@ cp() {
 #####	メモリエラーメッセージ
      cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg.o .
 
+#####	ＳＨＯＷ
+     cp shape/TEXTURE/TITLE/e3.o .
+
 #####	任天堂ロゴ
      cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
 #####	ＴＩＴＬＥ
