@@ -88,6 +88,16 @@ else
 fi
 
 
+## ＧＡＴＥＷＡＹ版
+if [ -r shape/MESSAGE/NesG/NesG.o ]; then
+     cp shape/MESSAGE/NesG/nesG_table.h .
+     cp shape/MESSAGE/NesG/nesG_extern.h .
+     cp shape/MESSAGE/NesG/NesG.o .
+else
+    echo -e "\007\033[37;41m只今【ＧＡＴＥＷＡＹ版】メッセージは更新中、または壊れています\033[m"
+fi
+
+
      cp shape/TEXTURE/MESSAGE/texture/texture.o .
      cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
 ###
