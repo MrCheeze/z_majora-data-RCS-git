@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.300  2000-01-28 14:20:49+09  nisiwaki
+# イカーナ村オブジェクト
+#
 # Revision 2.299  2000-01-27 18:16:11+09  matutani
 # 汎用馬のバンク削除
 #
@@ -2407,7 +2410,8 @@ cp() {
      cp shape/zelda_geff/zelda_geff.o geff.o
      cp shape/zelda_haka_door/zelda_haka_door.o haka_door.o
      cp shape/zelda_gs/zelda_gs.o gs.o
-     cp shape/zelda_ps/zelda_ps.o ps.o
+#     cp shape/zelda_ps/zelda_ps.o ps.o
+     cp shape/zelda2_ps/zelda2_ps.o ps.o
      cp shape/zelda2_omoya_obj/zelda2_omoya_obj.o Bwall.o
      cp shape/zelda_crow/zelda_crow.o Crow.o
      cp shape/zelda_cow/zelda_cow.o Cow.o
