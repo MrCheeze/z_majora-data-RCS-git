@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.244  1999-12-22 14:22:59+09  yoshida
+# *** empty log message ***
+#
 # Revision 2.243  1999-12-21 17:34:52+09  sakaguti
 # ゲットアイテム追加
 #
@@ -2412,3 +2415,4 @@ cp() {
      cp shape/zelda2_gi_mask14/v2_mask_14.o gi_bigelfmask.o
      cp shape/zelda2_gi_mask15/v2_mask_15.o gi_gibudomask.o
      cp shape/zelda2_inibs_object/zelda2_inibs_object.o Inibs_Object.o
+     cp shape/zelda2_tree/zelda2_tree.o Tree.o
