@@ -63,6 +63,10 @@ echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_div8_idx.o .
 echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_pal.o .
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_div8_idx.o .
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_pal.o .
 echo cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_idx.o .
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_idx.o .
 echo cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name_idx.o .
