@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.31  1999-03-11 16:06:36+09  sakakibara
+# *** empty log message ***
+#
 # Revision 2.30  1999-03-10 16:11:23+09  kuzuhara
 # 人食い水仙作成
 #
@@ -1462,7 +1465,7 @@ cp() {
      cp shape/zelda_d_hsblock/zelda_d_hsblock.o d_hsblock.o
      cp shape/zelda2_d_lift/zelda2_d_lift.o d_lift.o
      cp shape/zelda_mamenoki/zelda_mamenoki.o mamenoki.o
-     cp shape/zelda_goroiwa/zelda_goroiwa.o goroiwa.o
+     cp shape/zelda2_goroiwa/zelda2_goroiwa.o goroiwa.o
      cp shape/zelda_toryo/zelda_toryo.o toryo.o
      cp shape/zelda_daiku/zelda_daiku.o daiku.o
      cp shape/zelda_stopge/zelda_stopge.o stopge.o
