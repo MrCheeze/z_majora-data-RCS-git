@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.151  1999-10-19 11:33:07+09  kuzuhara
+# 町内止め兵士できたー
+#
 # Revision 2.150  1999-10-15 11:49:38+09  umemiya
 # 宝箱屋・オブジェ、水中デドハンド追加
 #
@@ -2039,3 +2042,4 @@ cp() {
      cp shape/zelda2_takaraya_objects/zelda2_takaraya_objects.o Takaraya_objects.o
      cp shape/zelda2_wdhand/zelda2_wdhand.o Wdhand.o
      cp shape/zelda2_sdn/zelda2_sdn.o Sdn.o
+     cp shape/zelda2_snowwd/zelda2_snowwd.o Snowwd.o
