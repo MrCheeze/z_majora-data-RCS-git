@@ -38,10 +38,14 @@ cp() {
      cp /home/soejima/c/Event/mask/vs_mask_label.inc .
 
 #####	メッセージ
-if [ -r shape/MESSAGE/japan/japan.o ]; then
-     cp shape/MESSAGE/japan/table.h .
-     cp shape/MESSAGE/japan/extern.h .
-     cp shape/MESSAGE/japan/japan.o .
+#if [ -r shape/MESSAGE/japan/japan.o ]; then
+#     cp shape/MESSAGE/japan/table.h .
+#     cp shape/MESSAGE/japan/extern.h .
+#     cp shape/MESSAGE/japan/japan.o .
+if [ -r shape/MESSAGE/japan2/japan2.o ]; then
+     cp shape/MESSAGE/japan2/table.h .
+     cp shape/MESSAGE/japan2/extern.h .
+     cp shape/MESSAGE/japan2/japan2.o japan.o
 else
     echo -e "\007\033[37;41m只今メッセージは更新中、または壊れています\033[m"
 fi
