@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.89  1999-07-06 16:42:49+09  nisiwaki
+# zelda_aniを zelda2_aniに変更
+#
 # Revision 2.88  1999-07-05 15:57:20+09  sumiyosi
 # *** empty log message ***
 #
@@ -1811,3 +1814,4 @@ cp() {
      cp shape/zelda2_eg/zelda2_eg.o Eg.o
      cp shape/zelda2_trU/zelda2_trU.o Tru.o
      cp shape/zelda2_trT/zelda2_trT.o Trt.o
+     cp shape/zelda2_hakugin_obj/zelda2_hakugin_obj.o hakugin_obj.o
