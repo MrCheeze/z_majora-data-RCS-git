@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.253  1998-07-14 19:58:36+09  nisiwaki
+# js 追加
+#
 # Revision 1.252  1998-07-14 11:58:10+09  takahata
 # *** empty log message ***
 #
@@ -1168,3 +1171,4 @@ cp() {
      cp shape/zelda_gi_ticketstone/zelda_gi_ticketstone.o gi_ticketstone.o
      cp shape/zelda_gi_brokensword/zelda_gi_brokensword.o gi_brokensword.o
      cp shape/zelda_js/zelda_js.o Js.o
+     cp shape/zelda_cs/zelda_cs.o cs.o
