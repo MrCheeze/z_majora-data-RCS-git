@@ -25,8 +25,9 @@ cp() {
     fi
 }
 
-#####	メモリエラーメッセージ
+#####	初期チェック用エラーメッセージ
      cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg.o .
+     cp shape/TEXTURE/DMA_MAKE/memerrmsg/locerrmsg.o .
 
 #####	イベント制御コード
      cp /home/soejima/c/Event/change/save_list_txt.inc .
