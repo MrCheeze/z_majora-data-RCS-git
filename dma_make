@@ -60,8 +60,10 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_pal.o .
 #####	ＶＲーＢＯＸ（２５６）
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_pal.o .
