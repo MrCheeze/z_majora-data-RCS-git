@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.370  2000-03-06 13:24:25+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.369  2000-03-04 18:08:40+09  umemiya
 # 死神追加
 #
@@ -2516,6 +2519,7 @@ cp() {
      cp shape/zelda2_an1/zelda2_an1.o An1.o
      cp shape/zelda2_an2/zelda2_an2.o An2.o
      cp shape/zelda2_an3/zelda2_an3.o An3.o
+     cp shape/zelda2_an4/zelda2_an4.o An4.o
      cp shape/zelda2_boj/zelda2_boj.o Boj.o
      cp shape/zelda_elf_message/field/field.o EM_field.o
      cp shape/zelda_elf_message/ydan/ydan.o EM_ydan.o
