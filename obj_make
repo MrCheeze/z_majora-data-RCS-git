@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.108  1999-07-29 17:21:07+09  sasaki
+# *** empty log message ***
+#
 # Revision 2.107  1999-07-28 21:52:06+09  yoshida
 # ビーバー＆小枝 追加
 #
@@ -1877,3 +1880,4 @@ cp() {
      cp shape/zelda2_tokei_tobira/zelda2_tokei_tobira.o tokei_tobira.o
      cp shape/zelda2_az/zelda2_az.o Az.o
      cp shape/zelda2_twig/zelda2_twig.o Twig.o
+     cp shape/zelda2_dekucity_obj/zelda2_dekucity_obj.o dekucity_obj.o
