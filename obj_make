@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.356  2000-02-29 11:49:26+09  sakaguti
+# 太陽のお面追加
+#
 # Revision 2.355  2000-02-28 17:25:03+09  nisiwaki
 # 金スタ屋の子供
 #
@@ -2864,3 +2867,4 @@ cp() {
      cp shape/zelda2_fall2/zelda2_fall2.o Fall2.o
      cp shape/zelda2_sth/zelda2_sth.o Sth.o
      cp shape/zelda2_gi_mssa/mssa_mask.o gi_sunmask.o
+     cp shape/zelda2_smtower/zelda2_smtower.o Smtower.o
