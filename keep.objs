@@ -1,4 +1,6 @@
 shape/zelda_keep/zelda_keep.o
+shape/zelda_link/Anime_Table/Anime_Table.o
+shape/zelda_marker/Shape/Shape.o
 shape/TEXTURE/button/button.o
 shape/TEXTURE/frame.a/frame.a.o
 shape/TEXTURE/heart/heart.o
