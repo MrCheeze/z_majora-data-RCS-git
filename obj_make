@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.110  1998/02/12  07:04:06  nisiwaki
+# *** empty log message ***
+#
 # Revision 1.109  1998/02/12  02:43:54  morita
 # fd追加
 #
@@ -448,13 +451,13 @@ cp() {
      cp shape/zelda_yukabyun/zelda_yukabyun.o Yukabyun.o
      cp shape/zelda_zl2/zelda_zl2.o Zl2.o
      cp shape/zelda_mjin/zelda_mjin.o Mjin.o
-     cp shape/zelda_mjin_flash/zelda_mjin_flash.o Mjin_flash.o
-     cp shape/zelda_mjin_dark/zelda_mjin_dark.o Mjin_dark.o
-     cp shape/zelda_mjin_flame/zelda_mjin_flame.o Mjin_flame.o
-     cp shape/zelda_mjin_ice/zelda_mjin_ice.o Mjin_ice.o
-     cp shape/zelda_mjin_soul/zelda_mjin_soul.o Mjin_soul.o
-     cp shape/zelda_mjin_wind/zelda_mjin_wind.o Mjin_wind.o
-     cp shape/zelda_mjin_oka/zelda_mjin_oka.o Mjin_oka.o
+     cp shape/zelda_mjin_flash/zelda_mjin_flash.o Flash_mjin.o
+     cp shape/zelda_mjin_dark/zelda_mjin_dark.o Dark_mjin.o
+     cp shape/zelda_mjin_flame/zelda_mjin_flame.o Flame_mjin.o
+     cp shape/zelda_mjin_ice/zelda_mjin_ice.o Ice_mjin.o
+     cp shape/zelda_mjin_soul/zelda_mjin_soul.o Soul_mjin.o
+     cp shape/zelda_mjin_wind/zelda_mjin_wind.o Wind_mjin.o
+     cp shape/zelda_mjin_oka/zelda_mjin_oka.o Oka_mjin.o
      cp shape/zelda_hidan_objects1/zelda_hidan_objects1.o hidan_objects1.o
      cp shape/zelda_hidan_objects2/zelda_hidan_objects2.o hidan_objects2.o
      cp shape/zelda_hidan_objects3/zelda_hidan_objects3.o hidan_objects3.o
