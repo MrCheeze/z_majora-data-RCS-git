@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.123  1999-09-10 15:12:35+09  sakakibara
+# オープニングダンジョン・オブジェクト
+#
 # Revision 2.122  1999-09-08 11:05:10+09  iwawaki
 # *** empty log message ***
 #
@@ -1575,7 +1578,7 @@ cp() {
      cp shape/zelda2_fr/zelda2_fr.o Fr.o
 #     cp shape/zelda_gi_pachinko/zelda_gi_pachinko.o gi_pachinko.o
      cp shape/zelda_gi_boomerang/zelda_gi_boomerang.o gi_boomerang.o
-     cp shape/zelda_gi_bow/zelda_gi_bow.o gi_bow.o
+     cp shape/zelda2_gi_bow/zelda2_gi_bow.o gi_bow.o
      cp shape/zelda_gi_glasses/zelda_gi_glasses.o gi_glasses.o
      cp shape/zelda_scene_name2/G_pn_01/G_pn_01.o .
      cp shape/zelda_scene_name2/G_pn_02/G_pn_02.o .
