@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.79  1997/12/17  04:57:10  umemiya
+# 森の神殿・オブジェ追加
+#
 # Revision 1.78  1997/12/16  05:59:21  sumiyosi
 # *** empty log message ***
 #
@@ -350,3 +353,4 @@ cp() {
      cp shape/zelda_fantomHG/zelda_fantomHG.o FantomHG.o
      cp shape/zelda_oB1/zelda_oB1.o OB1.o
      cp shape/zelda_mori_objects/zelda_mori_objects.o mori_objects.o
+     cp shape/zelda_bb/zelda_bb.o Bb.o
