@@ -65,8 +65,8 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_pal.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_div8_idx.o .
@@ -100,8 +100,8 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_pal.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_div8_idx.o .
@@ -114,8 +114,8 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_pal.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_div8_idx.o .
