@@ -33,8 +33,8 @@ cp() {
      cp shape/TEXTURE/MESSAGE/message/message.o .
 #####	ＭＡＰ
      cp shape/TEXTURE/MAP/map_grand.o .
+     cp shape/TEXTURE/MAP/map_ddan.o .
      cp shape/TEXTURE/MAP/map_48x85.o .
-     cp shape/TEXTURE/MAP/map_56x73.o .
 #####	ＶＲーＢＯＸ
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_pal.o .
