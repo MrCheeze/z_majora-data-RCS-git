@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.221  1999-12-07 11:58:41+09  umemiya
+# *** empty log message ***
+#
 # Revision 2.220  1999-12-07 11:08:37+09  umemiya
 # ビッグポウ追加
 #
@@ -1869,7 +1872,8 @@ cp() {
 #     cp shape/zelda_gi_scale/zelda_gi_scale.o gi_scale.o
 #	cp shape/zelda_gi_shield_2/zelda_gi_shield_2.o gi_shield_2.o
     cp shape/zelda2_gi_shield_01/v2_shield_01.o gi_shield_2.o
-     cp shape/zelda_gi_hookshot/zelda_gi_hookshot.o gi_hookshot.o
+#     cp shape/zelda_gi_hookshot/zelda_gi_hookshot.o gi_hookshot.o
+     cp shape/zelda2_gi_hookshot/zelda2_gi_hookshot.o gi_hookshot.o
      cp shape/zelda_gi_ocarina/zelda_gi_ocarina.o gi_ocarina.o
      cp shape/zelda_gi_milk/zelda_gi_milk.o gi_milk.o
      cp shape/zelda2_ma1/zelda2_ma1.o Ma1.o
