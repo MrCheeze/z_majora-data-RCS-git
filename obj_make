@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.71  1999-05-17 16:33:04+09  takesita
+# フーセンマン（Bal.o）追加
+#
 # Revision 2.70  1999-05-11 14:59:28+09  yoshida
 # 紺碧オブジェクト追加
 #
@@ -1744,4 +1747,5 @@ cp() {
      cp shape/zelda2_water_effect/zelda2_water_effect.o Water_Effect.o
      cp shape/zelda2_dblue_object/zelda2_dblue_object.o Dblue_Object.o
      cp shape/zelda2_bal/zelda2_bal.o Bal.o
+     cp shape/zelda2_warp_uzu/zelda2_warp_uzu.o Warp_Uzu.o
 
