@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 # $Log$
+# Revision 2.14  2000-07-03 12:05:29+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.13  2000-07-03 11:54:29+09  iwawaki
 # *** empty log message ***
 #
@@ -79,6 +82,9 @@ hidan_objects4.o
 hidan_objects5.o
 hidan_objects6.o
 Heavy_object.o
+keep_PAL
+keep_PAL.objs
+keep_PAL.map
 keep_PAL.o
 "
 
