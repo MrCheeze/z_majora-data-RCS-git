@@ -4,7 +4,12 @@ set -x
 # $Id$
 #
 # $Log$
+# Revision 1.1  1997/05/26  06:37:52  iwawaki
+# Initial revision
+#
 
+echo cp shape/zelda_link/Anime_Data/Anime_Data.o Link_anime_data.o
+     cp shape/zelda_link/Anime_Data/Anime_Data.o Link_anime_data.o
 echo cp shape/zelda_link/Skeleton/Boy/Boy.o Link_boy.o
      cp shape/zelda_link/Skeleton/Boy/Boy.o Link_boy.o
 echo cp shape/zelda_link/Skeleton/Child/Child.o Link_child.o
