@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.293  1998-08-20 13:56:54+09  umemiya
+# フィールドポウ追加
+#
 # Revision 1.292  1998-08-20 11:41:00+09  kuzuhara
 # ボムチュウ屋見えない壁
 #
@@ -1349,3 +1352,4 @@ cp() {
      cp shape/zelda_gi_soul/zelda_gi_soul.o gi_soul.o
      cp shape/zelda_bowl/zelda_bowl.o Bowl.o
      cp shape/zelda_po_field/zelda_po_field.o Po_Field.o
+     cp shape/zelda_demo_kekkai/zelda_demo_kekkai.o Demo_Kekkai.o
