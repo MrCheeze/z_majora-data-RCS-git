@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.56  1999-04-15 11:40:21+09  nisiwaki
+# 石碑関係のオブジェ
+#
 # Revision 2.55  1999-04-14 17:24:32+09  umemiya
 # コウモリ追加
 #
@@ -1336,7 +1339,7 @@ cp() {
      cp shape/zelda_dy_obj/zelda_dy_obj.o dy_obj.o
      cp shape/zelda_gi_stick/zelda_gi_stick.o gi_stick.o
      cp shape/zelda_gi_map/zelda_gi_map.o gi_map.o
-     cp shape/zelda_oF1d/zelda_oF1d.o oF1d_map.o
+     cp shape/zelda2_oF1d/zelda2_oF1d.o oF1d_map.o
      cp shape/zelda_ru2/zelda_ru2.o ru2.o
      cp shape/zelda_gi_shield_1/zelda_gi_shield_1.o gi_shield_1.o
      cp shape/zelda_dekujr/zelda_dekujr.o dekujr.o
@@ -1544,7 +1547,7 @@ cp() {
      cp shape/zelda_stopge/zelda_stopge.o stopge.o
      cp shape/zelda2_nwc/zelda2_nwc.o nwc.o
      cp shape/zelda_hakach_objects/zelda_hakach_objects.o hakach_objects.o
-     cp shape/zelda_gm/zelda_gm.o gm.o
+     cp shape/zelda2_gm/zelda2_gm.o gm.o
      cp shape/zelda_ms/zelda_ms.o ms.o
      cp shape/zelda_hs/zelda_hs.o hs.o
      cp shape/zelda_ingate/zelda_ingate.o Ingate.o
@@ -1679,7 +1682,7 @@ cp() {
      cp shape/zelda2_yama_object/zelda2_yama_object.o yama_obj.o
      cp shape/zelda2_kibako/zelda2_kibako.o kibako.o
      cp shape/zelda2_tsg/zelda2_tsg.o tsg.o
-     cp shape/zelda2_gm/zelda2_gm.o Gmo.o
+     cp shape/zelda2_gmo/zelda2_gmo.o Gmo.o
      cp shape/zelda2_bat/zelda2_bat.o Bat.o
      cp shape/zelda2_sekihi/link/link.o sekihiL.o
      cp shape/zelda2_sekihi/goro/goro.o sekihiG.o
