@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.278  2000-01-19 11:39:00+09  sakaguti
+# ポストハット、巨人のお面を追加
+#
 # Revision 2.277  2000-01-19 10:15:09+09  sumiyosi
 # *** empty log message ***
 #
@@ -1875,7 +1878,7 @@ cp() {
 #     cp shape/zelda_kogoma/zelda_kogoma.o Gol.o
      cp shape/zelda_bubble/zelda_bubble.o Bubble.o
 #     cp shape/zelda_dodojr/zelda_dodojr.o Dodojr.o
-     cp shape/zelda_black_link/zelda_black_link.o Torch2.o
+     cp shape/zelda2_kerfay/zelda2_kerfay.o Torch2.o
 #     cp shape/zelda_bl/zelda_bl.o Bl.o
 #     cp shape/zelda_tp/zelda_tp.o Tp.o
 #     cp shape/zelda_bw/zelda_bw.o Bw.o
