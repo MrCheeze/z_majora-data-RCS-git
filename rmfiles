@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+# Revision 1.3  1997/10/13  13:21:41  soejima
+# *** empty log message ***
+#
 # Revision 1.2  1997/10/11  06:59:02  soejima
 # *** empty log message ***
 #
@@ -26,6 +29,17 @@ map_pal.o
 message
 message.objs
 map_make
+title
+title.map
+title.o
+title.objs
+parameter
+parameter.map
+parameter.o
+parameter.objs
+parameter.objs~
+parameter~
+nintendo_rogo
 "
 
 echo "使用しなくなったソースを削除します…"
