@@ -168,3 +168,9 @@ cp() {
 #####	スケジュール
      cp shape/TEXTURE2/SCHEDULE2/schedule_dma.o .
      cp shape/TEXTURE2/SCHEDULE2/schedule.o .
+#
+######
+###### ＮＥＳ
+######
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_item_name_test.raw .
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_map_name_test.raw .
