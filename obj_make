@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.303  1998-08-26 00:34:00+09  sumiyosi
+# 敵(群れ、カップル、ベビースタル、ワーウルフ)追加。
+#
 # Revision 1.302  1998-08-24 16:58:20+09  umemiya
 # 作曲家ポウ追加
 #
@@ -1395,3 +1398,4 @@ cp() {
      cp shape/zelda_mu/zelda_mu.o Mu.o
      cp shape/zelda_wf/zelda_wf.o Wf.o
      cp shape/zelda_skb/zelda_skb.o Skb.o
+     cp shape/zelda_gj/zelda_gj.o gj.o
