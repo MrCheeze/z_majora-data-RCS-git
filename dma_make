@@ -34,6 +34,7 @@ cp() {
 #####	ＭＡＰ
      cp shape/TEXTURE/MAP/map_grand.o .
      cp shape/TEXTURE/MAP/map_ddan.o .
+     cp shape/TEXTURE/MAP/map_HIDAN.o .
      cp shape/TEXTURE/MAP/map_48x85.o .
 #####	ＶＲーＢＯＸ
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_div8_idx.o .
