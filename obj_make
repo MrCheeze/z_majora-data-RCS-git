@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.231  1998-06-16 12:05:59+09  nisiwaki
+# たくさん増やした
+#
 # Revision 1.230  1998-06-15 17:32:51+09  nisiwaki
 # *** empty log message ***
 #
@@ -864,7 +867,7 @@ cp() {
      cp shape/zelda_tk/zelda_tk.o Tk.o
      cp shape/zelda_vm/zelda_vm.o Vm.o
      cp shape/zelda_bv/zelda_bv.o Bv.o
-     cp shape/zelda_firecircle/zelda_firecircle.o  Firecircle.o
+#     cp shape/zelda_firecircle/zelda_firecircle.o  Firecircle.o
      cp shape/zelda_efc_crystal_light/zelda_efc_crystal_light.o  efc_crystal_light.o
      cp shape/zelda_efc_fire_ball/zelda_efc_fire_ball.o  efc_fire_ball.o
      cp shape/zelda_efc_flash/zelda_efc_flash.o   efc_flash.o
@@ -1071,4 +1074,4 @@ cp() {
      cp shape/zelda_stopge/zelda_stopge.o stopge.o
      cp shape/zelda_nwc/zelda_nwc.o nwc.o
      cp shape/zelda_blkobj/zelda_blkobj.o blkobj.o
-     
+     cp shape/zelda_hakach_objects/zelda_hakach_objects.o hakach_objects.o
