@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.130  1999-09-22 20:31:05+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.129  1999-09-22 16:44:05+09  umemiya
 # 白銀眼鏡壁を削除
 #
@@ -1444,7 +1447,8 @@ cp() {
 #     cp shape/zelda_opdemo1/zelda_opdemo1.o Opening_Demo1.o
      cp shape/zelda_warp1/zelda_warp1.o Warp1.o
      cp shape/zelda_b_heart/zelda_b_heart.o B_heart.o
-     cp shape/zelda2_dekunuts/zelda2_dekunuts.o Dekunuts.o
+     cp shape/zelda2_dekunuts_new/zelda2_dekunuts_new.o Dekunuts.o
+#     cp shape/zelda2_dekunuts/zelda2_dekunuts.o Dekunuts.o
 #     cp shape/zelda_oE3/zelda_oE3.o OE3.o
 #     cp shape/zelda_oE4/zelda_oE4.o OE4.o
 #     cp shape/zelda_menkuri_objects/zelda_menkuri_objects.o menkuri_objects.o
