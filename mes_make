@@ -34,6 +34,7 @@ cp() {
 
 #####	お面対応メッセージテーブル
      cp /home/soejima/c/Event/mask/vs_mask_message.inc .
+     cp /home/soejima/c/Event/mask/vs_mask_label.inc .
 
 #####	メッセージ
 if [ -r shape/MESSAGE/japan/japan.o ]; then
@@ -48,9 +49,12 @@ fi
 ###
      cp shape/TEXTURE/MESSAGE/font/font_e.o .
      cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
-     cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o .
+#2000/03/20     cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o .
+     cp  shape/MESSAGE/staff/staff_c.o .
 ##### メッセージソースというか
      cp shape/TEXTURE/MESSAGE/NES/nes_a nes_a
      cp shape/TEXTURE/MESSAGE/NES/nes_b nes_b
-     cp shape/TEXTURE/MESSAGE/STAFF/staff_a staff_a
-     cp shape/TEXTURE/MESSAGE/STAFF/staff_b staff_b
+#2000/03/20     cp shape/TEXTURE/MESSAGE/STAFF/staff_a staff_a
+#2000/03/20     cp shape/TEXTURE/MESSAGE/STAFF/staff_b staff_b
+     cp shape/MESSAGE/staff/staff_a staff_a
+     cp shape/MESSAGE/staff/staff_b staff_b
