@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.157  1998/03/25  11:45:51  sumiyosi
+# デクの樹Ｊｒ．追加。
+#
 # Revision 1.156  1998/03/25  09:53:46  takahata
 # *** empty log message ***
 #
@@ -706,3 +709,6 @@ cp() {
      cp shape/zelda_ru2/zelda_ru2.o ru2.o
      cp shape/zelda_gi_shield_1/zelda_gi_shield_1.o gi_shield_1.o
      cp shape/zelda_dekujr/zelda_dekujr.o dekujr.o
+     cp shape/zelda_spot06_objects/zelda_spot06_objects.o spot06_objects.o
+     cp shape/zelda_ice_objects/zelda_ice_objects.o ice_objects.o
+
