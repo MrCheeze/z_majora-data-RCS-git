@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.151  1998/03/23  06:04:29  takahata
+# *** empty log message ***
+#
 # Revision 1.150  1998/03/21  06:43:33  sumiyosi
 # 村人シェアード実験追加。
 #
@@ -507,7 +510,6 @@ cp() {
      cp shape/zelda_po/zelda_po.o Po.o
      cp shape/zelda_oAx/zelda_oAx.o OAX.o
      cp shape/zelda_oc2/zelda_oc2.o Oc.o
-     cp shape/zelda_th/zelda_th.o Th.o
      cp shape/zelda_tg2/zelda_tg2.o Tg2.o
      cp shape/zelda_kogoma/zelda_kogoma.o Gol.o
      cp shape/zelda_bubble/zelda_bubble.o Bubble.o
@@ -682,3 +684,4 @@ cp() {
      cp shape/zelda_oE4s/zelda_oE4s.o oE4s.o
      cp shape/zelda_os_anime/zelda_os_anime.o os_anime.o
      cp shape/zelda_gi_bottle/zelda_gi_bottle.o gi_bottle.o
+     cp shape/zelda_dy_obj/zelda_dy_obj.o dy_obj.o
