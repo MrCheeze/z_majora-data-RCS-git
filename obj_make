@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.43  1999-03-31 21:14:04+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.42  1999-03-31 14:15:18+09  kuzuhara
 # ピラニア作成
 #
@@ -1636,3 +1639,4 @@ cp() {
      cp shape/zelda2_pr/zelda2_pr.o Pr.o
      cp shape/zelda2_f52_obj/zelda2_f52_obj.o F52_Obj.o
      cp shape/zelda2_f53_obj/zelda2_f53_obj.o F53_Obj.o
+     cp shape/zelda2_yama_object/zelda2_yama_object.o yama_obj.o
