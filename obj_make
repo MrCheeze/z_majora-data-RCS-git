@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.102  1998/01/27  07:00:42  umemiya
+# 巨大魚ダンジョン・オブジェ追加
+#
 # Revision 1.101  1998/01/26  10:26:26  iwawaki
 # 今寺町です
 #
@@ -477,4 +480,5 @@ cp() {
      cp shape/zelda_light_ring/zelda_light_ring.o light_ring.o   
      cp shape/zelda_triforce_spot/zelda_triforce_spot.o  triforce_spot.o
      cp shape/zelda_bdan_objects/zelda_bdan_objects.o bdan_objects.o
+     cp shape/zelda_sd/zelda_sd.o Sd.o
 
