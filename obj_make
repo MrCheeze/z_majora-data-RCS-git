@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.62  1999-04-22 11:55:57+09  nisiwaki
+# ステンドグラス
+#
 # Revision 2.61  1999-04-22 11:00:16+09  nisiwaki
 # スタルキッドの絵追加
 #
@@ -1633,7 +1636,7 @@ cp() {
      cp shape/zelda_jya_door/zelda_jya_door.o jya_door.o
      cp shape/zelda_kibako2/zelda_kibako2.o kibako2.o
      cp shape/zelda_dns/zelda_dns.o Dns.o
-     cp shape/zelda_dnk/zelda_dnk.o Dnk.o
+     cp shape/zelda2_dnk/zelda2_dnk.o Dnk.o
      cp shape/zelda_gi_fire/zelda_gi_fire.o gi_fire.o
      cp shape/zelda_gi_insect/zelda_gi_insect.o gi_insect.o
      cp shape/zelda_gi_butterfly/zelda_gi_butterfly.o gi_butterfly.o
