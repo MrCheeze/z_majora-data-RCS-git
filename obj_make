@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.390  2000-06-27 10:18:33+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.389  2000-06-27 10:01:07+09  soejima
 # *** empty log message ***
 #
@@ -2637,7 +2640,8 @@ cp() {
      cp shape/zelda_gi_soldout/zelda_gi_soldout.o gi_soldout.o
 #     cp shape/zelda_gi_frog/zelda_gi_frog.o gi_frog.o
      cp shape/TEXTURE2/JAPAN/ZELDA_TITLE2/ZELDA_TITLE2.o mag.o
-     cp shape/TEXTURE2/NES/ZELDA_TITLE2/ZELDA_TITLE2.o nes_mag.o
+     cp shape/TEXTURE2/NES/ZELDA_TITLE2/nes_mag_2.o nes_mag_2.o
+     cp shape/TEXTURE2/NES/ZELDA_TITLE2/nes_mag.o nes_mag.o
      cp shape/TEXTURE2/E3/title/E3title.o E3mag.o
      cp shape/zelda_gt/zelda_gt.o gt.o
 #     cp shape/zelda_efc_erupc/zelda_efc_erupc.o efc_erupc.o
