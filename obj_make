@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.104  1998/01/29  07:58:52  tarukado
+# *** empty log message ***
+#
 # Revision 1.103  1998/01/28  04:30:33  tarukado
 # *** empty log message ***
 #
@@ -484,5 +487,5 @@ cp() {
      cp shape/zelda_triforce_spot/zelda_triforce_spot.o  triforce_spot.o
      cp shape/zelda_bdan_objects/zelda_bdan_objects.o bdan_objects.o
      cp shape/zelda_sd/zelda_sd.o Sd.o
-     cp shape/zelda_sd/zelda_rd.o Rd.o
+     cp shape/zelda_rd/zelda_rd.o Rd.o
 
