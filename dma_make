@@ -1,0 +1,40 @@
+#!/bin/sh
+set -x
+#
+# $Id$
+#
+
+echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_twilightBG_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_twilightBG_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_nightBG_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_nightBG_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_pal.o .
+echo cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
+     cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
+echo cp shape/TEXTURE/DOKIDOKI/dokidoki_heart_idx.o .
+     cp shape/TEXTURE/DOKIDOKI/dokidoki_heart_idx.o .
+echo cp shape/TEXTURE/ICON_ITEM/ICON_ITEM.o .
+     cp shape/TEXTURE/ICON_ITEM/ICON_ITEM.o .
