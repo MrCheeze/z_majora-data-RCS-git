@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.354  2000-02-28 14:18:23+09  nisiwaki
+# 口の開けた月を追加
+#
 # Revision 2.353  2000-02-26 14:47:45+09  nisiwaki
 # *** empty log message ***
 #
@@ -2856,3 +2859,4 @@ cp() {
      cp shape/zelda2_astr_obj/zelda2_astr_obj.o astr_obj.o
      cp shape/zelda2_bsb/zelda2_bsb.o Bsb.o
      cp shape/zelda2_fall2/zelda2_fall2.o Fall2.o
+     cp shape/zelda2_sth/zelda2_sth.o Sth.o
