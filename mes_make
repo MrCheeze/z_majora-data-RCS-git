@@ -32,6 +32,9 @@ cp() {
      cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/change/save_list_txt.inc .
      cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/tool/week_event_reg.inc .
 
+#####	お面対応メッセージテーブル
+     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/mask/mask_event_reg.inc .
+
 #####	メッセージ
      cp shape/MESSAGE/japan/table.h .
      cp shape/MESSAGE/japan/extern.h .
