@@ -1,9 +1,12 @@
-#!/bin/sh
+#!/usr/local/bin/bash
 #set -x
 #
 # $Id$
 #
 # $Log$
+# Revision 1.51  1997/09/29  11:50:51  umemiya
+# 妖精ダンジョンオブジェ追加
+#
 # Revision 1.50  1997/09/29  10:54:54  sumiyosi
 # コキリ族の女の子追加
 #
@@ -155,115 +158,76 @@
 # Initial revision
 #
 
-echo cp shape/zelda_field_keep/zelda_field_keep.o Field_keep.o
+cp2() {
+  if [ ! -e $2 -o $1 -nt $2 ]; then
+    echo    cp $1 $2
+    command cp $1 $2
+  fi
+}
+cp() {
+  SRC=$1
+  DEST=$2
+  SRCBASE=`basename $SRC`
+  if [ -d $DEST ]; then
+    cp2 $SRC $DEST/$SRCBASE
+  else
+    cp2 $SRC $DEST
+  fi
+}
+
      cp shape/zelda_field_keep/zelda_field_keep.o Field_keep.o
-echo cp shape/zelda_dangeon_keep/zelda_dangeon_keep.o Dangeon_keep.o
      cp shape/zelda_dangeon_keep/zelda_dangeon_keep.o Dangeon_keep.o
-echo cp shape/zelda_link/Anime_Data/Anime_Data.o Link_anime_data.o
      cp shape/zelda_link/Anime_Data/Anime_Data.o Link_anime_data.o
-echo cp shape/zelda_link/Skeleton/Boy/Boy.o Link_boy.o
      cp shape/zelda_link/Skeleton/Boy/Boy.o Link_boy.o
-echo cp shape/zelda_link/Skeleton/Child/Child.o Link_child.o
      cp shape/zelda_link/Skeleton/Child/Child.o Link_child.o
-echo cp shape/zelda_baby_skel/zelda_baby_skel.o Baby_skel.o 
      cp shape/zelda_baby_skel/zelda_baby_skel.o Baby_skel.o 
-echo cp shape/zelda_box/zelda_box.o Box.o
      cp shape/zelda_box/zelda_box.o Box.o
-echo cp shape/zelda_dodongo/zelda_dodongo.o Dodongo.o
      cp shape/zelda_dodongo/zelda_dodongo.o Dodongo.o
-echo cp shape/zelda_fire/zelda_fire.o Fire.o
      cp shape/zelda_fire/zelda_fire.o Fire.o
-echo cp shape/zelda_human/zelda_human.o Human.o
      cp shape/zelda_human/zelda_human.o Human.o
-echo cp shape/zelda_ironknack/zelda_ironknack.o Ironknack.o
      cp shape/zelda_ironknack/zelda_ironknack.o Ironknack.o
-echo cp shape/zelda_nw/zelda_nw.o Niw.o
      cp shape/zelda_nw/zelda_nw.o Niw.o
-echo cp shape/zelda_rock/zelda_rock.o Rock.o
      cp shape/zelda_rock/zelda_rock.o Rock.o
-echo cp shape/zelda_skelton/zelda_skelton.o Skelton.o
      cp shape/zelda_skelton/zelda_skelton.o Skelton.o
-echo cp shape/zelda_slime/zelda_slime.o Slime.o
      cp shape/zelda_slime/zelda_slime.o Slime.o
-echo cp shape/zelda_soldier/zelda_soldier.o Soldier.o
      cp shape/zelda_soldier/zelda_soldier.o Soldier.o
-echo cp shape/zelda_st/zelda_st.o St.o
      cp shape/zelda_st/zelda_st.o St.o
-echo cp shape/zelda_tt/zelda_tt.o Tite.o
      cp shape/zelda_tt/zelda_tt.o Tite.o
-echo cp shape/zelda_rb/zelda_rb.o Reeba.o
      cp shape/zelda_rb/zelda_rb.o Reeba.o
-echo cp shape/zelda_ph/zelda_ph.o Peehat.o
      cp shape/zelda_ph/zelda_ph.o Peehat.o
-echo cp shape/zelda_horse/zelda_horse.o Horse.o
      cp shape/zelda_horse/zelda_horse.o Horse.o
-echo cp shape/zelda_zf/zelda_zf.o Zf.o
      cp shape/zelda_zf/zelda_zf.o Zf.o
-echo cp shape/zelda_goma/zelda_goma.o Go.o
      cp shape/zelda_goma/zelda_goma.o Go.o
-echo cp shape/zelda_kdodongo/zelda_kdodongo.o Kdodongo.o
      cp shape/zelda_kdodongo/zelda_kdodongo.o Kdodongo.o
-echo cp shape/zelda_tg/zelda_tg.o Tg.o
      cp shape/zelda_tg/zelda_tg.o Tg.o
-echo cp shape/zelda_ff/zelda_ff.o Ff.o
      cp shape/zelda_ff/zelda_ff.o Ff.o
-echo cp shape/zelda_wm/zelda_wm.o Wm.o
      cp shape/zelda_wm/zelda_wm.o Wm.o
-echo cp shape/zelda_po/zelda_po.o Po.o
      cp shape/zelda_po/zelda_po.o Po.o
-echo cp shape/zelda_oAx/zelda_oAx.o OAX.o
      cp shape/zelda_oAx/zelda_oAx.o OAX.o
-echo cp shape/zelda_oc/zelda_oc.o Oc.o
      cp shape/zelda_oc/zelda_oc.o Oc.o
-echo cp shape/zelda_th/zelda_th.o Th.o
      cp shape/zelda_th/zelda_th.o Th.o
-echo cp shape/zelda_tg2/zelda_tg2.o Tg2.o
      cp shape/zelda_tg2/zelda_tg2.o Tg2.o
-echo cp shape/zelda_kogoma/zelda_kogoma.o Gol.o
      cp shape/zelda_kogoma/zelda_kogoma.o Gol.o
-echo cp shape/zelda_bubble/zelda_bubble.o Bubble.o
      cp shape/zelda_bubble/zelda_bubble.o Bubble.o
-echo cp shape/zelda_dodojr/zelda_dodojr.o Dodojr.o
      cp shape/zelda_dodojr/zelda_dodojr.o Dodojr.o
-echo cp shape/zelda_torch2/zelda_torch2.o Torch2.o
      cp shape/zelda_torch2/zelda_torch2.o Torch2.o
-echo cp shape/zelda_bl/zelda_bl.o Bl.o
      cp shape/zelda_bl/zelda_bl.o Bl.o
-echo cp shape/zelda_tp/zelda_tp.o Tp.o
      cp shape/zelda_tp/zelda_tp.o Tp.o
-echo cp shape/zelda_bw/zelda_bw.o Bw.o
      cp shape/zelda_bw/zelda_bw.o Bw.o
-echo cp shape/zelda_ei/zelda_ei.o Ei.o
      cp shape/zelda_ei/zelda_ei.o Ei.o
-echo cp shape/zelda_horse_normal/zelda_horse_normal.o Horse_Normal.o
      cp shape/zelda_horse_normal/zelda_horse_normal.o Horse_Normal.o
-echo cp shape/zelda_oBx/zelda_oBx.o OBX.o
      cp shape/zelda_oBx/zelda_oBx.o OBX.o
-echo cp shape/zelda_o_anime/zelda_o_anime.o O_anime.o
      cp shape/zelda_o_anime/zelda_o_anime.o O_anime.o
-echo cp shape/zelda_spo04_objects/zelda_spo04_objects.o spot04_objects.o
      cp shape/zelda_spo04_objects/zelda_spo04_objects.o spot04_objects.o
-echo cp shape/zelda_ddan_objects/zelda_ddan_objects.o ddan_objects.o
      cp shape/zelda_ddan_objects/zelda_ddan_objects.o ddan_objects.o
-echo cp shape/zelda_hidan_objects/zelda_hidan_objects.o hidan_objects.o
      cp shape/zelda_hidan_objects/zelda_hidan_objects.o hidan_objects.o
-echo cp shape/zelda_horse_ganon/zelda_horse_ganon.o Horse_Ganon.o
      cp shape/zelda_horse_ganon/zelda_horse_ganon.o Horse_Ganon.o
-echo cp shape/zelda_oA2/zelda_oA2.o OA2.o
      cp shape/zelda_oA2/zelda_oA2.o OA2.o
-echo cp shape/zelda_spot00_objects/zelda_spot00_objects.o spot00_objects.o
      cp shape/zelda_spot00_objects/zelda_spot00_objects.o spot00_objects.o
-echo cp shape/zelda_mb/zelda_mb.o Mb.o
      cp shape/zelda_mb/zelda_mb.o Mb.o
-echo cp shape/zelda_bombf/zelda_bombf.o Bombf.o
      cp shape/zelda_bombf/zelda_bombf.o Bombf.o
-echo cp shape/zelda_sk2/zelda_sk2.o Sk2.o
      cp shape/zelda_sk2/zelda_sk2.o Sk2.o
-echo cp shape/zelda_oE1/zelda_oE1.o OE1.o
      cp shape/zelda_oE1/zelda_oE1.o OE1.o
-echo cp shape/zelda_oE_anime/zelda_oE_anime.o OE_anime.o
      cp shape/zelda_oE_anime/zelda_oE_anime.o OE_anime.o
-echo cp shape/zelda_oE2/zelda_oE2.o OE2.o
      cp shape/zelda_oE2/zelda_oE2.o OE2.o
-echo cp shape/zelda_ydan_objects/zelda_ydan_objects.o ydan_objects.o
      cp shape/zelda_ydan_objects/zelda_ydan_objects.o ydan_objects.o

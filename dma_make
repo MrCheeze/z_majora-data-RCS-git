@@ -1,85 +1,62 @@
-
-#!/bin/sh
+#!/usr/local/bin/bash
 #set -x
 #
 # $Id$
 #
 
-echo cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
+cp2() {
+  if [ ! -e $2 -o $1 -nt $2 ]; then
+    echo    cp $1 $2
+    command cp $1 $2
+  fi
+}
+cp() {
+  SRC=$1
+  DEST=$2
+  SRCBASE=`basename $SRC`
+  if [ -d $DEST ]; then
+    cp2 $SRC $DEST/$SRCBASE
+  else
+    cp2 $SRC $DEST
+  fi
+}
+
      cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods2/vr_bg_woods2_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods2/vr_bg_woods2_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods2/vr_bg_woods2_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods2/vr_bg_woods2_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
-echo cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o icon_item_idx.o
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o icon_item_idx.o
-echo cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o item_name_idx.o
      cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o item_name_idx.o
-echo cp shape/TEXTURE/DMA_MAKE/DO_ACTION/do_action_idx.o .
      cp shape/TEXTURE/DMA_MAKE/DO_ACTION/do_action_idx.o .
-echo cp shape/TEXTURE/DMA_MAKE/DOKIDOKI/dokidoki_heart_idx.o .
      cp shape/TEXTURE/DMA_MAKE/DOKIDOKI/dokidoki_heart_idx.o .
