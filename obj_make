@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.263  1998-07-21 16:14:43+09  kuzuhara
+# ガノン２作成
+#
 # Revision 1.262  1998-07-21 11:27:25+09  takahata
 # *** empty log message ***
 #
@@ -1223,3 +1226,4 @@ cp() {
      cp shape/zelda_gi_zoramask/zelda_gi_zoramask.o gi_zoramask.o
      cp shape/zelda_gi_gerudomask/zelda_gi_gerudomask.o gi_gerudomask.o
      cp shape/zelda_ganon2/zelda_ganon2.o B_ganon2.o
+     cp shape/zelda_ka/zelda_ka.o Ka.o
