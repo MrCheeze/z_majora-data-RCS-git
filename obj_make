@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.292  2000-01-25 11:56:19+09  takesita
+# *** empty log message ***
+#
 # Revision 2.291  2000-01-25 10:56:29+09  takesita
 # 半生ギブト専用ドア追加
 #
@@ -2074,7 +2077,7 @@ cp() {
      cp shape/zelda_gi_magicpot/zelda_gi_magicpot.o gi_magicpot.o
      cp shape/zelda_gi_bomb_1/zelda_gi_bomb_1.o gi_bomb_1.o
 #     cp shape/zelda_oF1s/zelda_oF1s.o oF1s.o
-     cp shape/zelda_ma2/zelda_ma2.o Ma2.o
+     cp shape/zelda2_ma2/zelda2_ma2.o Ma2.o
      cp shape/zelda_gi_purse/zelda_gi_purse.o gi_purse.o
      cp shape/zelda_hni/zelda_hni.o Hni.o
 #     cp shape/zelda_tw/zelda_tw.o tw.o
