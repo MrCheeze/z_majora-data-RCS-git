@@ -11,6 +11,6 @@ obj_make
 #scene_make -f
 scene_make $1
 dma_make
-#mes_make
+mes_make
 pal_dma_make
 dd_dma_make
