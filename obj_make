@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.118  1998/02/20  12:40:12  umemiya
+# 燭台をバンクに設定
+#
 # Revision 1.117  1998/02/20  07:50:43  matutani
 # 魔法（炎、風、氷）
 #
@@ -542,5 +545,6 @@ cp() {
      cp shape/zelda_magic_fire/zelda_magic_fire.o magic_fire.o
      cp shape/zelda_magic_ice/zelda_magic_ice.o magic_ice.o
      cp shape/zelda_syokudai/zelda_syokudai.o syokudai.o
+     cp shape/zelda_vba/zelda_vba.o fd2.o
 
 
