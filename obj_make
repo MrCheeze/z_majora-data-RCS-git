@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.268  2000-01-13 19:33:22+09  sakaguti
+# ロマーニの仮面
+#
 # Revision 2.267  2000-01-13 16:20:14+09  yoshida
 # *** empty log message ***
 #
@@ -2505,3 +2508,4 @@ cp() {
      cp shape/zelda2_gi_mushroom/v2_mushroom.o gi_mushroom2.o
      cp shape/zelda2_chan/zelda2_chan.o Chan.o
      cp shape/zelda2_gi_mask10/v2_mask_10.o gi_romanimask.o
+     cp shape/zelda2_zos/zelda2_zos.o Zos.o
