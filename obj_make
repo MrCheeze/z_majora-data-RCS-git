@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.252  2000-01-06 20:53:46+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.251  2000-01-06 12:29:44+09  sasaki
 # デモ用持ち上げ仮面 追加
 #
@@ -2330,7 +2333,8 @@ cp() {
      cp shape/zelda2_horse_game_check/zelda2_horse_game_check.o Horse_Game_Check.o
      cp shape/zelda2_stk/zelda2_stk.o Stk.o
      cp shape/zelda2_mnk/zelda2_mnk.o Mnk.o
-     cp shape/zelda2_gi_bottle_red/zelda2_gi_bottle_red.o gi_bottle_red.o
+#     cp shape/zelda2_gi_bottle_red/zelda2_gi_bottle_red.o gi_bottle_red.o
+     cp shape/zelda2_gi_bottle_0/zelda2_gi_bottle_0.o gi_bottle_red.o
      cp shape/zelda2_tokei_tobira/zelda2_tokei_tobira.o tokei_tobira.o
      cp shape/zelda2_az/zelda2_az.o Az.o
      cp shape/zelda2_twig/zelda2_twig.o Twig.o
