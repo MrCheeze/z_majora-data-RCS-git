@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.134  1999-09-24 17:30:28+09  kuzuhara
+# cp shape/zelda2_cs/zelda2_cs.o cs.o てな、カンジに変更
+#
 # Revision 2.133  1999-09-24 16:15:42+09  sakaguti
 # zelda_rs/zelda_rs.o → zelda2_rsn/zelda2_rsn.o に変えた。
 #
@@ -1967,4 +1970,4 @@ cp() {
      cp shape/zelda2_mtoride/zelda2_mtoride.o Mtoride.o
      cp shape/zelda2_osn/zelda2_osn.o Osn.o
      cp shape/zelda2_tokei_step/zelda2_tokei_step.o tokei_step.o
-
+     cp shape/zelda2_lotus/zelda2_lotus.o Lotus.o
