@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.281  2000-01-20 19:44:34+09  soejima
+# mag.o
+#
 # Revision 2.280  2000-01-19 18:02:02+09  sakakibara
 # zelda_ny ⇒ zelda2_ny
 #
@@ -1982,7 +1985,7 @@ cp() {
 #    cp shape/zelda_god_lgt/zelda_god_lgt.o god_lgt.o   
 #    cp shape/zelda_light_ring/zelda_light_ring.o light_ring.o   
 #    cp shape/zelda_triforce_spot/zelda_triforce_spot.o  triforce_spot.o
-     cp shape/zelda_sd/zelda_sd.o Sd.o
+     cp shape/zelda_sd/zelda_sd.o sd.o
      cp shape/zelda2_rd/zelda2_rd.o Rd.o
      cp shape/zelda_po_sisters/zelda_po_sisters.o Po_Sisters.o
      cp shape/zelda_heavy_object/zelda_heavy_object.o Heavy_object.o
@@ -2457,7 +2460,7 @@ cp() {
      cp shape/zelda2_ds2n/zelda2_ds2n.o Ds2n.o
      cp shape/zelda2_fsn/zelda2_fsn.o Fsn.o
      cp shape/zelda2_shn/zelda2_shn.o Shn.o
-     cp shape/zelda2_sd/zelda2_sd.o sd.o
+     cp shape/zelda2_sd/zelda2_sd.o Sd.o
      cp shape/zelda2_bigicicle/zelda2_bigicicle.o Bigicicle.o
      cp shape/zelda2_gi_bottle_15/v2_bottle_15.o gi_bottle_15.o
      cp shape/zelda2_tk/zelda2_tk.o Tk.o
