@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.66  1999-04-27 21:47:17+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.65  1999-04-27 17:13:19+09  kuzuhara
 # 渓谷柵作成
 #
@@ -1725,4 +1728,5 @@ cp() {
      cp shape/zelda2_keikoku_obj/zelda2_keikoku_obj.o Keikoku_Obj.o
      cp shape/zelda2_sichitai_obj/zelda2_sichitai_obj.o Sichitai_Obj.o
      cp shape/zelda2_dekucity_ana_obj/zelda2_dekucity_ana_obj.o Dekucity_Ana_Obj.o
+     cp shape/zelda2_rat/zelda2_rat.o Rat.o
 
