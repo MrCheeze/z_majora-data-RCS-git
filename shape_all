@@ -1,0 +1,7 @@
+#!/bin/sh
+set -x
+#
+# $Id$
+#
+ld -r -o map_005.o -objectlist map_005.objs
+
