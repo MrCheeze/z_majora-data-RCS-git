@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.187  1999-11-15 19:31:01+09  takesita
+# 剣道場専用丸太追加
+#
 # Revision 2.186  1999-11-15 16:06:47+09  takesita
 # *** empty log message ***
 #
@@ -2178,3 +2181,6 @@ cp() {
      cp shape/zelda2_kbt/zelda2_kbt.o kbt.o
      cp shape/zelda2_gg/zelda2_gg.o gg.o
      cp shape/zelda2_maruta/zelda2_maruta.o Maruta.o
+     cp shape/zelda2_ghaka/zelda2_ghaka.o ghaka.o 
+     cp shape/zelda2_oyu/zelda2_oyu.o oyu.o
+
