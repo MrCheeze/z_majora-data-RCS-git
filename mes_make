@@ -109,11 +109,18 @@ fi
 ##### メッセージソースというか
      cp shape/TEXTURE/MESSAGE/NES/nes_a nes_a
      cp shape/TEXTURE/MESSAGE/NES/nes_b nes_b
+#
+# ＳＴＡＦＦ
 #2000/03/20     cp shape/TEXTURE/MESSAGE/STAFF/staff_a staff_a
 #2000/03/20     cp shape/TEXTURE/MESSAGE/STAFF/staff_b staff_b
      cp shape/MESSAGE/staff/staff_a staff_a
      cp shape/MESSAGE/staff/staff_b staff_b
+     cp shape/MESSAGE/staff/staff_c.o staff_c.o
 
      cp shape/MESSAGE/usa_staff/staff_a usa_staff_a
      cp shape/MESSAGE/usa_staff/staff_b usa_staff_b
      cp shape/MESSAGE/usa_staff/staff_c.o usa_staff_c.o
+
+     cp shape/MESSAGE/pal_staff/staff_a pal_staff_a
+     cp shape/MESSAGE/pal_staff/staff_b pal_staff_b
+     cp shape/MESSAGE/pal_staff/staff_c.o pal_staff_c.o
