@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.154  1999-10-21 22:06:29+09  yoshida
+# *** empty log message ***
+#
 # Revision 2.153  1999-10-21 21:43:11+09  yoshida
 # じいちゃんディレクトリー変更
 #
@@ -2050,3 +2053,4 @@ cp() {
      cp shape/zelda2_sdn/zelda2_sdn.o Sdn.o
      cp shape/zelda2_snowwd/zelda2_snowwd.o Snowwd.o
 #     cp shape/zelda2_bji/zelda2_bji.o Bji.o
+     cp shape/zelda2_giant/zelda2_giant.o Giant.o
