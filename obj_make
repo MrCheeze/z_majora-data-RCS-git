@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.199  1999-11-24 16:02:47+09  nisiwaki
+# zelda_mk -> zelda2_mk
+#
 # Revision 2.198  1999-11-24 15:39:43+09  sasaki
 # サリア 大ゼルダ シーク 旧スタル バンク削除
 #
@@ -2229,3 +2232,4 @@ cp() {
      cp shape/zelda2_kgy/zelda2_kgy.o kgy.o
      cp shape/zelda2_fb/zelda2_fb.o fb.o
      cp shape/zelda2_taisou/zelda2_taisou.o Taisou.o
+     cp shape/zelda2_gk/zelda2_gk.o gk.o
