@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.58  1999-04-15 21:04:42+09  sumiyosi
+# 子供ナッツ追加。
+#
 # Revision 2.57  1999-04-15 18:19:48+09  sumiyosi
 # *** empty log message ***
 #
@@ -1692,3 +1695,4 @@ cp() {
      cp shape/zelda2_sekihi/nut/nut.o sekihiD.o
      cp shape/zelda2_sekihi/zora/zora.o sekihiZ.o
      cp shape/zelda2_dnc/zelda2_dnc.o Dnc.o
+     cp shape/zelda2_wiz/zelda2_wiz.o Wiz.o
