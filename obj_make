@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.34  1999-03-16 22:13:59+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.33  1999-03-15 16:55:37+09  yoshida
 # ひよこちゃんzelda_nwcをzelda2_nwcへ
 #
@@ -1117,7 +1120,7 @@ cp() {
      cp shape/zelda_wm2/zelda_wm2.o Wm.o
      cp shape/zelda_po/zelda_po.o Po.o
      cp shape/zelda_oAx/zelda_oAx.o OAX.o
-     cp shape/zelda_oc2/zelda_oc2.o Oc.o
+     cp shape/zelda2_oc/zelda2_oc.o Oc.o
      cp shape/zelda_tg2/zelda_tg2.o Tg2.o
      cp shape/zelda_kogoma/zelda_kogoma.o Gol.o
      cp shape/zelda_bubble/zelda_bubble.o Bubble.o
