@@ -44,7 +44,6 @@ cp() {
      cp shape/TEXTURE2/PARAMETER2/story.o .
 #####	ＤＯ ＡＣＴＩＯＮ
      cp shape/TEXTURE2/DO_ACTION2/do_action_idx.o .
-     cp shape/TEXTURE2/E3/DO/E3do_action_idx.o .
 #####	ＭＡＰ
      cp shape/TEXTURE/MAP/map_fm.o map_grand.o
 #     cp shape/TEXTURE/MAP2/map_grand2.o .
@@ -174,3 +173,6 @@ cp() {
 ######
      cp shape/TEXTURE2/NES/ITEM_NAME2/nes_item_name_test.raw .
      cp shape/TEXTURE2/NES/ITEM_NAME2/nes_map_name_test.raw .
+     cp shape/TEXTURE2/NES/ICON_ITEM2/icon_item_nes.o .
+#####	ＤＯ ＡＣＴＩＯＮ
+     cp shape/TEXTURE2/NES/DO_ACTION2/nes_do_action_idx.o .
