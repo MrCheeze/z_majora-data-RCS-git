@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.207  1999-11-26 14:36:17+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.206  1999-11-25 17:27:28+09  sakaguti
 # 売りナッツ消去
 #
@@ -1607,7 +1610,8 @@ cp() {
 #     cp shape/zelda_link_ci/Boy/Boy.o Link_boy.o
 #     cp shape/zelda_link_ci/Child/Child.o Link_child.o
 
-     cp shape/zelda2_link_new/Skeleton/Boy/Boy.o Link_boy.o
+#     cp shape/zelda2_link_new/Skeleton/Boy/Boy.o Link_boy.o
+     cp shape/zelda2_link_new/Skeleton/Boy2/Boy2.o Link_boy.o
      cp shape/zelda2_link_new/Skeleton/Child/Child.o Link_child.o
      cp shape/zelda2_link_new/Skeleton/Goron/Goron.o Link_goron.o
      cp shape/zelda2_link_new/Skeleton/Zora/Zora.o Link_zora.o
