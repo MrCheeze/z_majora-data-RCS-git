@@ -34,6 +34,22 @@ echo cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_pal.o .
      cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_pal.o .
+     cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_pal.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine1_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine1_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine1_pal.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine1_pal.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine2_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine2_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine2_pal.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine2_pal.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine3_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine3_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine3_pal.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine3_pal.o .
 echo cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
      cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
 echo cp shape/TEXTURE/DOKIDOKI/dokidoki_heart_idx.o .
