@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.166  1998/04/06  01:37:13  kuzuhara
+# 大妖精追加
+#
 # Revision 1.165  1998/04/04  10:58:09  matutani
 # レース馬
 #
@@ -740,3 +743,4 @@ cp() {
      cp shape/zelda_gi_purse/zelda_gi_purse.o gi_purse.o
      cp shape/zelda_hni/zelda_hni.o Hni.o
      cp shape/zelda_yousei_zou/zelda_yousei_zou.o yousei_zou.o
+     cp shape/zelda_tw/zelda_tw.o tw.o
