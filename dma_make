@@ -39,8 +39,8 @@ cp() {
      cp shape/TEXTURE/MESSAGE/NES/font_e.o .
      cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
 #####	ＭＡＰ
-####################     cp shape/TEXTURE/MAP/map_grand.o .
-     cp shape/TEXTURE/MAP/map_fm.o map_grand.o
+     cp shape/TEXTURE/MAP/map_grand.o .
+####################     cp shape/TEXTURE/MAP/map_fm.o map_grand.o
      cp shape/TEXTURE/MAP/map_i.o .
 ##########     cp shape/TEXTURE/MAP/map_YDAN.o .
 ##########     cp shape/TEXTURE/MAP/map_DDAN.o .
