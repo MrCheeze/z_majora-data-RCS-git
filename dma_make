@@ -59,6 +59,8 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o icon_item_idx.o
      cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o item_name_idx.o
      cp shape/TEXTURE/DMA_MAKE/DO_ACTION/do_action_idx.o .
