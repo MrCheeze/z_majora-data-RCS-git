@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.184  1998/04/15 09:54:05  okajima
+# *** empty log message ***
+#
 # Revision 1.183  1998/04/15 09:00:53  sumiyosi
 # *** empty log message ***
 #
@@ -867,3 +870,4 @@ cp() {
      cp shape/zelda_scene_name/g_pn_45.o g_pn_45.o
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
      cp shape/zelda_ani/zelda_ani.o ani.o
+     cp shape/zelda_demo_6k/zelda_demo_6k.o D6k.o
