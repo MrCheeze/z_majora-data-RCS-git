@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.169  1998/04/06  09:35:20  kuzuhara
+# 削除俺様大妖精
+#
 # Revision 1.168  1998/04/06  07:03:40  sumiyosi
 # ライクライク＆妖精の像を追加。
 #
@@ -750,3 +753,4 @@ cp() {
      cp shape/zelda_hni/zelda_hni.o Hni.o
      cp shape/zelda_tw/zelda_tw.o tw.o
      cp shape/zelda_rr/zelda_rr.o rr.o
+     cp shape/zelda_bxa/zelda_bxa.o bxa.o
