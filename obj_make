@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.138  1999-10-01 15:44:40+09  sakakibara
+# visiblock
+#
 # Revision 2.137  1999-09-30 13:49:01+09  sakakibara
 # dkjail_obj
 #
@@ -1983,3 +1986,7 @@ cp() {
      cp shape/zelda2_tl/zelda2_tl.o Tl.o
      cp shape/zelda2_dkjail_obj/zelda2_dkjail_obj.o dkjail_obj.o
      cp shape/zelda2_visiblock/zelda2_visiblock.o visiblock.o
+     cp shape/zelda2_tsn/zelda2_tsn.o Tsn.o
+     cp shape/zelda2_ds2n/zelda2_ds2n.o Ds2n.o
+     cp shape/zelda2_fsn/zelda2_fsn.o Fsn.o
+     cp shape/zelda2_shn/zelda2_shn.o Shn.o
