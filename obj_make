@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.90  1999-07-08 17:37:22+09  sakakibara
+# 白銀の砦
+#
 # Revision 2.89  1999-07-06 16:42:49+09  nisiwaki
 # zelda_aniを zelda2_aniに変更
 #
@@ -1284,7 +1287,6 @@ cp() {
      cp shape/zelda_zl1/zelda_zl1.o Zl1.o
      cp shape/zelda_ff/zelda_ff.o Ff.o
      cp shape/zelda_wm2/zelda_wm2.o Wm.o
-     cp shape/zelda_po/zelda_po.o Po.o
      cp shape/zelda_oAx/zelda_oAx.o OAX.o
      cp shape/zelda2_oc/zelda2_oc.o Oc.o
      cp shape/zelda_tg2/zelda_tg2.o Tg2.o
@@ -1815,3 +1817,4 @@ cp() {
      cp shape/zelda2_trU/zelda2_trU.o Tru.o
      cp shape/zelda2_trT/zelda2_trT.o Trt.o
      cp shape/zelda2_hakugin_obj/zelda2_hakugin_obj.o hakugin_obj.o
+     cp shape/zelda2_pfslime/zelda2_pfslime.o Pfslime.o
