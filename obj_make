@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.359  2000-03-01 10:49:43+09  takesita
+# じゅうたん商人のバンクを移動しました。
+#
 # Revision 2.358  2000-02-29 17:28:13+09  umemiya
 # 泥棒鳥追加
 #
@@ -2876,3 +2879,4 @@ cp() {
      cp shape/zelda2_gi_mssa/mssa_mask.o gi_sunmask.o
      cp shape/zelda2_smtower/zelda2_smtower.o Smtower.o
      cp shape/zelda2_thiefbird/zelda2_thiefbird.o Thiefbird.o
+     cp shape/zelda2_gi_mask21/v2_mask_21.o gi_bakuretsumask.o
