@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.95  1999-07-20 10:59:14+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.94  1999-07-16 17:07:41+09  takesita
 # スタルキッドのシェープをzelda_skbをzelda2_skbにしました。
 #
@@ -1834,3 +1837,4 @@ cp() {
      cp shape/zelda2_stk/zelda2_stk.o Stk.o
      cp shape/zelda2_hakugin_051/zelda2_hakugin_051.o Hakugin_051.o
      cp shape/zelda2_hakugin_081/zelda2_hakugin_081.o Hakugin_081.o
+     cp shape/zelda2_mnk/zelda2_mnk.o Mnk.o
