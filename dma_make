@@ -43,15 +43,16 @@ cp() {
      cp shape/TEXTURE2/PARAMETER2/youbi.o week.o
      cp shape/TEXTURE2/DO_ACTION2/do_action_idx.o .
 #####	メッセージ
+     cp shape/MESSAGE/japan/table.h .
+     cp shape/MESSAGE/japan/extern.h .
      cp shape/MESSAGE/japan/japan.o .
      cp shape/TEXTURE/MESSAGE/texture/texture.o .
      cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
+###
      cp shape/TEXTURE/MESSAGE/font/font_e.o .
      cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
      cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o .
 ##### メッセージソースというか
-     cp shape/MESSAGE/japan/table.h .
-     cp shape/MESSAGE/japan/extern.h .
      cp shape/TEXTURE/MESSAGE/NES/nes_a nes_a
      cp shape/TEXTURE/MESSAGE/NES/nes_b nes_b
      cp shape/TEXTURE/MESSAGE/STAFF/staff_a staff_a
