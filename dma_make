@@ -108,8 +108,8 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_pal.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_div8_idx.o .
