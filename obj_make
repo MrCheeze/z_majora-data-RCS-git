@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.63  1997/10/21  09:14:32  matutani
+# ゼルダ馬
+#
 # Revision 1.62  1997/10/20  10:45:48  sumiyosi
 # ハイリア住民さらに追加。
 #
@@ -280,6 +283,7 @@ cp() {
      cp shape/zelda_oB3/zelda_oB3.o OB3.o
      cp shape/zelda_oB4/zelda_oB4.o OB4.o
      cp shape/zelda_horse_zelda/zelda_horse_zelda.o Horse_Zelda.o
+     cp shape/zelda_opdemo1/zelda_opdemo1.o Opening_Demo1.o
 
 	
 
