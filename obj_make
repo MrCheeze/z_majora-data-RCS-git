@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.87  1999-07-02 14:39:17+09  matutani
+# zelda_hlcをzelda2_hlcにした。
+#
 # Revision 2.86  1999-06-30 15:16:04+09  kuzuhara
 # アイゴール作成
 #
@@ -1422,7 +1425,7 @@ cp() {
      cp shape/zelda_gi_arrowcase/zelda_gi_arrowcase.o gi_arrowcase.o
      cp shape/zelda_gi_bombpouch/zelda_gi_bombpouch.o gi_bombpouch.o
      cp shape/zelda_in/zelda_in.o In.o
-     cp shape/zelda_tr/zelda_tr.o Tr.o
+     cp shape/zelda2_tr/zelda2_tr.o Tr.o
      cp shape/zelda_oE1s/zelda_oE1s.o oE1s.o
      cp shape/zelda_oE4s/zelda_oE4s.o oE4s.o
      cp shape/zelda2_npc_anime/zelda2_npc_anime.o os_anime.o
@@ -1803,3 +1806,5 @@ cp() {
      cp shape/zelda2_dno/zelda2_dno.o Dno.o
      cp shape/zelda2_obj_etcetera/MOGURI/MOGURI.o Obj_Moguri.o
      cp shape/zelda2_eg/zelda2_eg.o Eg.o
+     cp shape/zelda2_trU/zelda2_trU.o Tru.o
+     cp shape/zelda2_trT/zelda2_trT.o Trt.o
