@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.109  1999-08-04 14:04:25+09  sakakibara
+# デクナッツシティ・オブジェクト
+#
 # Revision 2.108  1999-07-29 17:21:07+09  sasaki
 # *** empty log message ***
 #
@@ -1881,3 +1884,4 @@ cp() {
      cp shape/zelda2_az/zelda2_az.o Az.o
      cp shape/zelda2_twig/zelda2_twig.o Twig.o
      cp shape/zelda2_dekucity_obj/zelda2_dekucity_obj.o dekucity_obj.o
+     cp shape/zelda2_po_fusen/zelda2_po_fusen.o Po_Fusen.o
