@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.283  2000-01-21 17:30:53+09  sakaguti
+# シャトーロマーニ、写し絵の箱
+#
 # Revision 2.282  2000-01-21 14:42:07+09  kuzuhara
 # sd ＳＤ チェンジ
 #
@@ -2572,3 +2575,4 @@ cp() {
      cp shape/zelda2_gi_mask23/v2_mask_23.o gi_giantmask.o
      cp shape/zelda2_gi_bottle_21/v2_bottle_21.o gi_syatoromani.o
      cp shape/zelda2_gi_camera/v2_camera.o gi_picturebox.o
+     cp shape/zelda2_dinofos/zelda2_dinofos.o Dinofos.o
