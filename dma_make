@@ -4,6 +4,8 @@ set -x
 # $Id$
 #
 
+echo cp shape/TEXTURE/nintendo_rogo/nintendo_rogo.o .
+     cp shape/TEXTURE/nintendo_rogo/nintendo_rogo.o .
 echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_twilightBG_div8_idx.o .
