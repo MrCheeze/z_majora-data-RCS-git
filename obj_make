@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.380  2000-03-10 11:22:02+09  yoshida
+# *** empty log message ***
+#
 # Revision 2.379  2000-03-09 23:03:29+09  sakaguti
 # ダンサーのお面、ブーさんのお面
 #
@@ -3003,3 +3006,4 @@ cp() {
      cp shape/zelda2_gi_mask22/zelda2_gi_mask22.o gi_buusanmask.o
      cp shape/zelda2_gi_mask17/zelda2_gi_mask17.o gi_dancermask.o
      cp shape/zelda2_lbfshot/zelda2_lbfshot.o lbfshot.o
+     cp shape/zelda2_fusen/zelda2_fusen.o Fusen.o
