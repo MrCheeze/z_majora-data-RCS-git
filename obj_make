@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.168  1998/04/06  07:03:40  sumiyosi
+# ライクライク＆妖精の像を追加。
+#
 # Revision 1.167  1998/04/06  03:16:03  morita
 # tw.o
 #
@@ -745,6 +748,5 @@ cp() {
      cp shape/zelda_ma2/zelda_ma2.o Ma2.o
      cp shape/zelda_gi_purse/zelda_gi_purse.o gi_purse.o
      cp shape/zelda_hni/zelda_hni.o Hni.o
-     cp shape/zelda_yousei_zou/zelda_yousei_zou.o yousei_zou.o
      cp shape/zelda_tw/zelda_tw.o tw.o
      cp shape/zelda_rr/zelda_rr.o rr.o
