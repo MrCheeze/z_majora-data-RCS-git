@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.233  1999-12-11 18:39:02+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.232  1999-12-11 17:24:29+09  matutani
 # 馬車追加
 #
@@ -2231,7 +2234,6 @@ cp() {
      cp shape/zelda2_pr/zelda2_pr.o Pr.o
      cp shape/zelda2_f52_obj/zelda2_f52_obj.o F52_Obj.o
      cp shape/zelda2_f53_obj/zelda2_f53_obj.o F53_Obj.o
-     cp shape/zelda2_yama_object/zelda2_yama_object.o yama_obj.o
      cp shape/zelda2_kibako/zelda2_kibako.o kibako.o
      cp shape/zelda2_tsg/zelda2_tsg.o tsg.o
      cp shape/zelda2_gmo/zelda2_gmo.o Gmo.o
