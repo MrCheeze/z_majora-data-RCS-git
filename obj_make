@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.38  1999-03-25 13:33:26+09  umemiya
+# 紺碧の砦・回転部屋追加
+#
 # Revision 2.37  1999-03-24 21:42:22+09  sumiyosi
 # *** empty log message ***
 #
@@ -1616,3 +1619,4 @@ cp() {
      cp shape/zelda2_spinyroll/zelda2_spinyroll.o spinyroll.o
      cp shape/zelda2_ice_block/zelda2_ice_block.o Ice_Block.o
      cp shape/zelda2_dblue_room/zelda2_dblue_room.o Dblue_Room.o
+     cp shape/zelda2_keikoku_demo/zelda2_keikoku_demo.o Keikoku_Demo.o
