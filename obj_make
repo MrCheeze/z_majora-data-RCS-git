@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.302  1998-08-24 16:58:20+09  umemiya
+# 作曲家ポウ追加
+#
 # Revision 1.301  1998-08-22 17:30:07+09  yoshida
 # *** empty log message ***
 #
@@ -1233,6 +1236,7 @@ cp() {
      cp shape/zelda_scene_name2/G_pn_54/G_pn_54.o .
      cp shape/zelda_scene_name2/G_pn_55/G_pn_55.o .
      cp shape/zelda_scene_name2/G_pn_56/G_pn_56.o .
+     cp shape/zelda_scene_name2/G_pn_57/G_pn_57.o .
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
      cp shape/zelda_ani/zelda_ani.o ani.o
      cp shape/zelda_demo_6k/zelda_demo_6k.o D6k.o
@@ -1388,3 +1392,6 @@ cp() {
      cp shape/zelda_spot01_matoya/zelda_spot01_matoya.o spot01_matoya.o
      cp shape/zelda_spot01_matoyab/zelda_spot01_matoyab.o spot01_matoyab.o
      cp shape/zelda_po_composer/zelda_po_composer.o Po_Composer.o
+     cp shape/zelda_mu/zelda_mu.o Mu.o
+     cp shape/zelda_wf/zelda_wf.o Wf.o
+     cp shape/zelda_skb/zelda_skb.o Skb.o
