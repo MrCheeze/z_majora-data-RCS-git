@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.101  1998/01/26  10:26:26  iwawaki
+# 今寺町です
+#
 # Revision 1.100  1998/01/26  09:36:53  nisiwaki
 # デモ用データ追加
 #
@@ -472,5 +475,6 @@ cp() {
      cp shape/zelda_efc_star_field/zelda_efc_star_field.o   efc_star_field.o
      cp shape/zelda_god_lgt/zelda_god_lgt.o god_lgt.o   
      cp shape/zelda_light_ring/zelda_light_ring.o light_ring.o   
-     cp shape/zelda_triforce_spot/zelda_triforce_spot.o  triforce_spot.o   
- 
+     cp shape/zelda_triforce_spot/zelda_triforce_spot.o  triforce_spot.o
+     cp shape/zelda_bdan_objects/zelda_bdan_objects.o bdan_objects.o
+
