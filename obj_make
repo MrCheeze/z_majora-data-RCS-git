@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.195  1998-04-24 14:15:10+09  iwawaki
+# *** empty log message ***
+#
 # Revision 1.194  1998/04/23 09:48:50  kuzuhara
 # ごめん
 #
@@ -914,3 +917,4 @@ cp() {
      cp shape/zelda_gi_grass/zelda_gi_grass.o gi_grass.o
      cp shape/zelda_gi_longsword/zelda_gi_longsword.o gi_longsword.o
      cp shape/zelda_spot01_objects/zelda_spot01_objects.o spot01_objects.o
+     cp shape/zelda_gate/zelda_gate.o Gate.o
