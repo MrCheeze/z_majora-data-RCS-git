@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.296  2000-01-27 14:53:13+09  kuzuhara
+# ボンバーズばんくもどし（T＿T）
+#
 # Revision 2.295  2000-01-26 18:03:12+09  iwawaki
 # *** empty log message ***
 #
@@ -2044,7 +2047,7 @@ cp() {
 #     cp shape/zelda_haka/zelda_haka.o Haka.o
      cp shape/zelda_syokudai/zelda_syokudai.o syokudai.o
 #     cp shape/zelda_vba/zelda_vba.o fd2.o
-     cp shape/zelda_dh/zelda_dh.o Dh.o
+#     cp shape/zelda_dh/zelda_dh.o Dh.o
      cp shape/zelda_efc_tw/zelda_efc_tw.o efc_tw.o
 #     cp shape/zelda_rl/zelda_rl.o Rl.o
 #     cp shape/zelda_tre_lgt/zelda_tre_lgt.o demo_tre_lgt.o
