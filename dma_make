@@ -161,4 +161,5 @@ cp() {
      cp shape/TEXTURE2/ITEM_NAME2/map_name_test.raw .
 
 #####	スケジュール
+     cp shape/TEXTURE2/SCHEDULE2/schedule_dma.o .
      cp shape/TEXTURE2/SCHEDULE2/schedule.o .
