@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.206  1999-11-25 17:27:28+09  sakaguti
+# 売りナッツ消去
+#
 # Revision 2.205  1999-11-25 13:30:00+09  sakaguti
 # ゲットアイテムの卵、デクの盾、ゴロンの服、ゾーラの服、デクのたね、炎を削除
 #
@@ -2074,7 +2077,7 @@ cp() {
     cp shape/zelda2_rsn/zelda2_rsn.o Rs.o
 #     cp shape/zelda_spot00_break/zelda_spot00_break.o spot00_break.o
 #     cp shape/zelda_gla/zelda_gla.o Gla.o
-#     cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
+     cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
      cp shape/zelda2_gelb/zelda2_gelb.o Gelb.o
      cp shape/zelda_gr/zelda_gr.o Gr.o
      cp shape/zelda2_dog2/zelda2_dog2.o Dog.o
