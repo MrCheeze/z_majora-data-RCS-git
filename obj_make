@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.158  1998/03/25  14:00:03  umemiya
+# 氷の洞窟、SPOT06オブジェクトなど追加
+#
 # Revision 1.157  1998/03/25  11:45:51  sumiyosi
 # デクの樹Ｊｒ．追加。
 #
@@ -604,8 +607,8 @@ cp() {
      cp shape/zelda_mjin_soul/zelda_mjin_soul.o Soul_mjin.o
      cp shape/zelda_mjin_wind/zelda_mjin_wind.o Wind_mjin.o
      cp shape/zelda_mjin_oka/zelda_mjin_oka.o Oka_mjin.o
-     cp shape/zelda_hidan_objects2/zelda_hidan_objects2.o hidan_objects2.o
-     cp shape/zelda_hidan_objects3/zelda_hidan_objects3.o hidan_objects3.o
+     cp shape/zelda_spot06_objects/zelda_spot06_objects.o spot06_objects.o
+     cp shape/zelda_ice_objects/zelda_ice_objects.o ice_objects.o
      cp shape/zelda_hidan_objects4/zelda_hidan_objects4.o hidan_objects4.o
      cp shape/zelda_hidan_objects5/zelda_hidan_objects5.o hidan_objects5.o
      cp shape/zelda_hidan_objects6/zelda_hidan_objects6.o hidan_objects6.o
@@ -709,6 +712,4 @@ cp() {
      cp shape/zelda_ru2/zelda_ru2.o ru2.o
      cp shape/zelda_gi_shield_1/zelda_gi_shield_1.o gi_shield_1.o
      cp shape/zelda_dekujr/zelda_dekujr.o dekujr.o
-     cp shape/zelda_spot06_objects/zelda_spot06_objects.o spot06_objects.o
-     cp shape/zelda_ice_objects/zelda_ice_objects.o ice_objects.o
 
