@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.94  1999-07-16 17:07:41+09  takesita
+# スタルキッドのシェープをzelda_skbをzelda2_skbにしました。
+#
 # Revision 2.93  1999-07-15 11:39:50+09  sasaki
 # スタルキッド（改） 追加
 #
@@ -1829,3 +1832,5 @@ cp() {
      cp shape/zelda2_pfslime/zelda2_pfslime.o Pfslime.o
      cp shape/zelda2_horse_game_check/zelda2_horse_game_check.o Horse_Game_Check.o
      cp shape/zelda2_stk/zelda2_stk.o Stk.o
+     cp shape/zelda2_hakugin_051/zelda2_hakugin_051.o Hakugin_051.o
+     cp shape/zelda2_hakugin_081/zelda2_hakugin_081.o Hakugin_081.o
