@@ -1,8 +1,12 @@
-#!/bin/shset -x
+#!/bin/sh
+set -x
 #
 # $Id$
 #
 # $Log$
+# Revision 1.17  1997/07/17  06:08:48  tarukado
+# *** empty log message ***
+#
 # Revision 1.16  1997/07/17  02:50:13  tarukado
 # *** empty log message ***
 #
