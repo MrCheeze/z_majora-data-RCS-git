@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.211  1998-05-29 13:55:38+09  takahata
+# *** empty log message ***
+#
 # Revision 1.210  1998-05-28 13:53:29+09  takahata
 # *** empty log message ***
 #
@@ -777,7 +780,7 @@ cp() {
      cp shape/zelda_mori_hineri2a/zelda_mori_hineri2a.o mori_hineri2a.o
      cp shape/zelda_mori_objects/zelda_mori_objects.o mori_objects.o
      cp shape/zelda_mori_tex/zelda_mori_tex.o mori_tex.o
-     cp shape/zelda_hidan_tex/zelda_hidan_tex.o hidan_tex.o
+     cp shape/zelda_spot08_obj/zelda_spot08_obj.o spot08_obj.o
      cp shape/zelda_warp2/zelda_warp2.o Warp2.o
      cp shape/zelda_hata/zelda_hata.o Hata.o
      cp shape/zelda_bird/zelda_bird.o Bird.o
