@@ -1,3 +1,4 @@
+
 #!/bin/sh
 set -x
 #
@@ -6,38 +7,26 @@ set -x
 
 echo cp shape/TEXTURE/nintendo_rogo/nintendo_rogo.o .
      cp shape/TEXTURE/nintendo_rogo/nintendo_rogo.o .
-###echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
-###     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
-###echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_twilightBG_div8_idx.o .
-###     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_twilightBG_div8_idx.o .
-###echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_nightBG_div8_idx.o .
-###     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_nightBG_div8_idx.o .
-###echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_div8_pal.o .
-###     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_div8_pal.o .
-###echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_idx.o .
-###     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_idx.o .
-###echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_pal.o .
-###     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_pal.o .
-###echo cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_idx.o .
-###     cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_idx.o .
-###echo cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_pal.o .
-###     cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_pal.o .
-echo cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_div8_idx.o .
-     cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_div8_idx.o .
-echo cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_pal.o .
-     cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_pal.o .
-echo cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_idx.o .
-     cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_idx.o .
-echo cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_pal.o .
-     cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_pal.o .
-echo cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_idx.o .
-     cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_idx.o .
-echo cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_pal.o .
-     cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_pal.o .
-echo cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_div8_idx.o .
-     cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_div8_idx.o .
-echo cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_pal.o .
-     cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_pal.o .
+echo cp shape/TEXTURE/VR_BOX/FAY/vr_fayVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/FAY/vr_fayVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/FAY/vr_fayVR_pal.o .
+     cp shape/TEXTURE/VR_BOX/FAY/vr_fayVR_pal.o .
+echo cp shape/TEXTURE/VR_BOX/GARDEN/vr_gardenVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/GARDEN/vr_gardenVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
+     cp shape/TEXTURE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP/r_i_shopVR_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP/r_i_shopVR_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET_DAY/vr_market_dayVR_pal.o .
+     cp shape/TEXTURE/VR_BOX/MARKET_DAY/vr_market_dayVR_pal.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_pal.o .
+     cp shape/TEXTURE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_pal.o .
 echo cp shape/TEXTURE/VR_BOX/fine/vr_fine1_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/fine/vr_fine1_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/fine/vr_fine1_pal.o .
@@ -62,18 +51,6 @@ echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_pal.o .
      cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_pal.o .
-echo cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_div8_idx.o .
-     cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_div8_idx.o .
-echo cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_pal.o .
-     cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_pal.o .
-echo cp shape/TEXTURE/VR_BOX/MARKET/vr_marketN_VR_div8_idx.o .
-     cp shape/TEXTURE/VR_BOX/MARKET/vr_marketN_VR_div8_idx.o .
-echo cp shape/TEXTURE/VR_BOX/MARKET/vr_marketN_VR_pal.o .
-     cp shape/TEXTURE/VR_BOX/MARKET/vr_marketN_VR_pal.o .
-echo cp shape/TEXTURE/VR_BOX/GARDEN/vr_garden_VR_div8_idx.o .
-     cp shape/TEXTURE/VR_BOX/GARDEN/vr_garden_VR_div8_idx.o .
-echo cp shape/TEXTURE/VR_BOX/GARDEN/vr_garden_VR_pal.o .
-     cp shape/TEXTURE/VR_BOX/GARDEN/vr_garden_VR_pal.o .
 echo cp shape/TEXTURE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/woods/vr_bg_woods_pal.o .
