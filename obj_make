@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.50  1997/09/29  10:54:54  sumiyosi
+# コキリ族の女の子追加
+#
 # Revision 1.49  1997/09/27  02:05:28  hayakawa
 # set -xをコメントアウトした
 #
@@ -262,3 +265,5 @@ echo cp shape/zelda_oE_anime/zelda_oE_anime.o OE_anime.o
      cp shape/zelda_oE_anime/zelda_oE_anime.o OE_anime.o
 echo cp shape/zelda_oE2/zelda_oE2.o OE2.o
      cp shape/zelda_oE2/zelda_oE2.o OE2.o
+echo cp shape/zelda_ydan_objects/zelda_ydan_objects.o ydan_objects.o
+     cp shape/zelda_ydan_objects/zelda_ydan_objects.o ydan_objects.o
