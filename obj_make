@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.261  1998-07-20 15:57:05+09  takahata
+# *** empty log message ***
+#
 # Revision 1.260  1998-07-20 15:12:33+09  okajima
 # *** empty log message ***
 #
@@ -1137,7 +1140,8 @@ cp() {
      cp shape/zelda_ik/zelda_ik.o Ik.o
      cp shape/zelda_ahg/zelda_ahg.o Ahg.o
      cp shape/zelda_cne/zelda_cne.o Cne.o
-     cp shape/zelda_gi_niwatori/zelda_gi_niwatori.o gi_niwatori.o
+#     cp shape/zelda_gi_niwatori/zelda_gi_niwatori.o gi_niwatori.o
+     cp shape/zelda_gi_chicken/zelda_gi_chicken.o gi_niwatori.o
      cp shape/zelda_skj/zelda_skj.o Skj.o
      cp shape/zelda_gi_bottle_letter/zelda_gi_bottle_letter.o gi_bottle_letter.o
      cp shape/zelda_bji/zelda_bji.o Bji.o
