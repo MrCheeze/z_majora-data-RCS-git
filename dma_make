@@ -66,6 +66,14 @@ echo cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_pal.o .
      cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_pal.o .
+echo cp shape/TEXTURE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/woods/vr_bg_woods_pal.o .
+     cp shape/TEXTURE/VR_BOX/woods/vr_bg_woods_pal.o .
+echo cp shape/TEXTURE/VR_BOX/woods2/vr_bg_woods2_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/woods2/vr_bg_woods2_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/woods2/vr_bg_woods2_pal.o .
+     cp shape/TEXTURE/VR_BOX/woods2/vr_bg_woods2_pal.o .
 echo cp shape/TEXTURE/ICON_ITEM/icon_item_idx.o .
      cp shape/TEXTURE/ICON_ITEM/icon_item_idx.o .
 echo cp shape/TEXTURE/ITEM_NAME/item_name_idx.o .
