@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.178  1999-11-11 21:06:10+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.177  1999-11-11 18:00:30+09  sakaguti
 # 大爆弾を追加
 #
@@ -2144,3 +2147,4 @@ cp() {
      cp shape/zelda2_botihasira/zelda2_botihasira.o Botihasira.o
      cp shape/zelda2_gi_bigbomb/v2_bigbomb.o gi_bigbomb.o
      cp shape/zelda2_pst/zelda2_pst.o Pst.o
+     cp shape/zelda2_bsmask/zelda2_bsmask.o Bsmask.o
