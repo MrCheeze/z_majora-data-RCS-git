@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.227  1999-12-09 15:01:28+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.226  1999-12-08 17:28:28+09  sakakibara
 # ishi, kin2_obj 追加   timeblock, fence, hampost 削除
 #
@@ -1836,7 +1839,7 @@ cp() {
 #     cp shape/zelda_tre_lgt/zelda_tre_lgt.o demo_tre_lgt.o
 #     cp shape/zelda_haka_objects/zelda_haka_objects.o haka_objects.o
      cp shape/zelda_key/zelda_key.o gi_key.o
-     cp shape/zelda_mir_ray/zelda_mir_ray.o mir_ray.o
+     cp shape/zelda2_mir_ray/zelda2_mir_ray.o mir_ray.o
      cp shape/zelda2_ctower_rot/zelda2_ctower_rot.o Ctower_Rot.o
 #     cp shape/zelda_gi_jewel/zelda_gi_jewel.o gi_jewel.o
      cp shape/zelda2_boss_door/zelda2_boss_door.o bdoor.o
