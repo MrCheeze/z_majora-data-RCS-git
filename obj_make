@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.103  1999-07-27 15:31:38+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.102  1999-07-26 15:52:31+09  nisiwaki
 # ゲルドＢの場所変更
 #
@@ -1427,7 +1430,7 @@ cp() {
      cp shape/zelda_light_ring/zelda_light_ring.o light_ring.o   
      cp shape/zelda_triforce_spot/zelda_triforce_spot.o  triforce_spot.o
      cp shape/zelda_sd/zelda_sd.o Sd.o
-     cp shape/zelda_rd/zelda_rd.o Rd.o
+     cp shape/zelda2_rd/zelda2_rd.o Rd.o
      cp shape/zelda_po_sisters/zelda_po_sisters.o Po_Sisters.o
      cp shape/zelda_heavy_object/zelda_heavy_object.o Heavy_object.o
      cp shape/zelda_gndd/zelda_gndd.o Gndd.o
