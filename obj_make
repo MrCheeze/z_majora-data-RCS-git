@@ -4,6 +4,10 @@
 # $Id$
 #
 # $Log$
+# Revision 2.139  1999-10-04 20:59:26+09  sakaguti
+# （元）宝屋店員、長髪の店員、（元）釣堀屋店員、（元）店員
+# 追加
+#
 # Revision 2.138  1999-10-01 15:44:40+09  sakakibara
 # visiblock
 #
@@ -1990,3 +1994,4 @@ cp() {
      cp shape/zelda2_ds2n/zelda2_ds2n.o Ds2n.o
      cp shape/zelda2_fsn/zelda2_fsn.o Fsn.o
      cp shape/zelda2_shn/zelda2_shn.o Shn.o
+     cp shape/zelda2_sd/zelda2_sd.o sd.o
