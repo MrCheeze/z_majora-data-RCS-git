@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.57  1999-04-15 18:19:48+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.56  1999-04-15 11:40:21+09  nisiwaki
 # 石碑関係のオブジェ
 #
@@ -1688,3 +1691,4 @@ cp() {
      cp shape/zelda2_sekihi/goro/goro.o sekihiG.o
      cp shape/zelda2_sekihi/nut/nut.o sekihiD.o
      cp shape/zelda2_sekihi/zora/zora.o sekihiZ.o
+     cp shape/zelda2_dnc/zelda2_dnc.o Dnc.o
