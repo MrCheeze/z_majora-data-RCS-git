@@ -4,6 +4,9 @@ set -x
 # $Id$
 #
 # $Log$
+# Revision 1.18  1997/07/17  06:25:26  tarukado
+# *** empty log message ***
+#
 # Revision 1.17  1997/07/17  06:08:48  tarukado
 # *** empty log message ***
 #
@@ -102,8 +105,8 @@ echo cp shape/zelda_wallmaster/zelda_wallmaster.o Wallmaster.o
      cp shape/zelda_wallmaster/zelda_wallmaster.o Wallmaster.o
 echo cp shape/zelda_reeba/zelda_reeba.o Reeba.o
      cp shape/zelda_reeba/zelda_reeba.o Reeba.o
-echo cp shape/zelda_peehat/zelda_peehat.o Peehat.o
-     cp shape/zelda_peehat/zelda_peehat.o Peehat.o
+echo cp shape/zelda_ph/zelda_ph.o Peehat.o
+     cp shape/zelda_ph/zelda_ph.o Peehat.o
 echo cp shape/zelda_kingdodongo/zelda_kingdodongo.o Kingdodongo.o
      cp shape/zelda_kingdodongo/zelda_kingdodongo.o Kingdodongo.o
 echo cp shape/zelda_horse/zelda_horse.o Horse.o
