@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+#Revision 2.4  1999-09-01 18:40:28+09  iwawaki
+#*** empty log message ***
+#
 #Revision 2.3  1999-09-01 15:04:18+09  iwawaki
 #*** empty log message ***
 #
@@ -68,7 +71,6 @@ OF1.o
 gjyo_objects.o
 Baby_skel.o
 Ironknack.o
-Slime.o
 Soldier.o
 Human.o
 Fire.o

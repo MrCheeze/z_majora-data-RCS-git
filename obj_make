@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.119  1999-09-01 18:40:34+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.118  1999-09-01 15:04:30+09  iwawaki
 # *** empty log message ***
 #
@@ -1365,9 +1368,9 @@ cp() {
      cp shape/zelda_horse/zelda_horse.o Horse.o
 #     cp shape/zelda2_zf/zelda2_zf.o Zf.o
 #     cp shape/zelda_goma/zelda_goma.o Go.o
-     cp shape/zelda_goma_PAL/zelda_goma_PAL.o Go_PAL.o
+#     cp shape/zelda_goma_PAL/zelda_goma_PAL.o Go_PAL.o
 #     cp shape/zelda_kdodongo/zelda_kdodongo.o Kdodongo.o
-     cp shape/zelda_kdodongo_PAL/zelda_kdodongo_PAL.o Kdodongo_PAL.o
+#     cp shape/zelda_kdodongo_PAL/zelda_kdodongo_PAL.o Kdodongo_PAL.o
      cp shape/zelda_zl1/zelda_zl1.o Zl1.o
      cp shape/zelda_ff/zelda_ff.o Ff.o
      cp shape/zelda_wm2/zelda_wm2.o Wm.o
@@ -1736,7 +1739,7 @@ cp() {
      cp shape/zelda2_gm/zelda2_gm.o gm.o
      cp shape/zelda_ms/zelda_ms.o ms.o
      cp shape/zelda_hs/zelda_hs.o hs.o
-     cp shape/zelda_ingate/zelda_ingate.o Ingate.o
+#     cp shape/zelda_ingate/zelda_ingate.o Ingate.o
      cp shape/zelda_lightswitch/zelda_lightswitch.o lightswitch.o
      cp shape/zelda_kusa/zelda_kusa.o kusa.o
      cp shape/zelda_tsubo/zelda_tsubo.o tsubo.o
