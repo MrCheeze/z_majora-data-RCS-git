@@ -1,0 +1,152 @@
+#!/usr/local/bin/bash
+#set -x
+#
+# $Id$
+#
+
+cp2() {
+    if [ ! -e $1 ]; then
+	echo "ファイルがありません $1"
+    else
+	if [ ! -e $2 -o $1 -nt $2 ]; then
+	    echo    cp $1 $2
+	    command cp $1 $2
+	fi
+    fi
+}
+cp() {
+    SRC=$1
+    DEST=$2
+    SRCBASE=`basename $SRC`
+    if [ -d $DEST ]; then
+	cp2 $SRC $DEST/$SRCBASE
+    else
+	cp2 $SRC $DEST
+    fi
+}
+
+#####	任天堂ロゴ
+     cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
+#####	ＴＩＴＬＥ
+     cp shape/TEXTURE/PAL/TITLE/pal_title.o .
+#####	ＰＡＲＡＭＥＴＥＲ
+     cp shape/TEXTURE/PARAMETER/parameter.o .
+     cp shape/TEXTURE/PAL/TEXTURE/pal_do_action_idx.o .
+#####	メッセージ
+     cp shape/TEXTURE/MESSAGE/texture/texture.o .
+     cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
+     cp shape/TEXTURE/PAL/message/font/font_e.o pal_font_e.o
+     cp shape/TEXTURE/PAL/message/nes/nes_c.o pal_nes_c.o
+     cp shape/TEXTURE/PAL/message/ger/ger_c.o pal_ger_c.o
+     cp shape/TEXTURE/PAL/message/fra/fra_c.o pal_fra_c.o
+     cp shape/TEXTURE/PAL/message/staff/pal_staff_c.o pal_staff_c.o
+##### メッセージソースというか
+     cp shape/TEXTURE/PAL/message/nes/nes_a pal_nes_a
+     cp shape/TEXTURE/PAL/message/nes/nes_b pal_nes_b
+     cp shape/TEXTURE/PAL/message/ger/ger_a pal_ger_a
+     cp shape/TEXTURE/PAL/message/ger/ger_b pal_ger_b
+     cp shape/TEXTURE/PAL/message/fra/fra_a pal_fra_a
+     cp shape/TEXTURE/PAL/message/fra/fra_b pal_fra_b
+     cp shape/TEXTURE/PAL/message/staff/pal_staff_a pal_staff_a
+     cp shape/TEXTURE/PAL/message/staff/pal_staff_b pal_staff_b
+#####	ＭＡＰ
+####################     cp shape/TEXTURE/MAP/map_grand.o .
+     cp shape/TEXTURE/MAP/map_fm.o map_grand.o
+     cp shape/TEXTURE/MAP/map_i.o .
+##########     cp shape/TEXTURE/MAP/map_YDAN.o .
+##########     cp shape/TEXTURE/MAP/map_DDAN.o .
+##########     cp shape/TEXTURE/MAP/map_BDAN.o .
+##########     cp shape/TEXTURE/MAP/map_BMORI.o .
+##########     cp shape/TEXTURE/MAP/map_HIDAN.o .
+     cp shape/TEXTURE/MAP/map_48x85.o .
+#####	ＶＲーＢＯＸ
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_pal.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_pal.o .
+#####	ＶＲーＢＯＸ（２５６）
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_MNVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_MNVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_RUVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_RUVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_pal.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME2/vr_K2VR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME2/vr_K2VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME3/vr_K3VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME3/vr_K3VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME4/vr_K4VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME4/vr_K4VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME5/vr_K5VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME5/vr_K5VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP/vr_SP1a_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP/vr_SP1a_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_pal.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_pal.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_pal.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_pal.o .
+#####	カレイド・スコープ
+     cp shape/TEXTURE/PAL/ICON_ITEM/pal_icon_item.o .
+     cp shape/TEXTURE/PAL/ICON_ITEM/pal_icon_item_24.o .
+     cp shape/TEXTURE/PAL/ICON_ITEM/pal_icon_item_field.o .
+     cp shape/TEXTURE/PAL/ICON_ITEM/pal_icon_item_dungeon.o .
+     cp shape/TEXTURE/PAL/ICON_ITEM/pal_icon_item_nes.o .
+     cp shape/TEXTURE/PAL/ICON_ITEM/pal_icon_item_ger.o .
+     cp shape/TEXTURE/PAL/ICON_ITEM/pal_icon_item_fra.o .
+     cp shape/TEXTURE/PAL/ICON_ITEM/pal_icon_item_gameover.o .
+     cp shape/TEXTURE/PAL/TEXTURE/pal_item_name.o .
+     cp shape/TEXTURE/PAL/TEXTURE/pal_map_name.o .
