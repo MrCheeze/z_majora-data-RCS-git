@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.4  1998-10-28 13:30:23+09  okajima
+# *** empty log message ***
+#
 # Revision 2.3  1998/10/28 03:46:57  komatu
 # PAL用シェイプデータXc_pal.oの追加の間違いを修正
 #
@@ -1161,6 +1164,7 @@ cp() {
      cp shape/zelda_fd/zelda_fd.o fd.o
      cp shape/zelda_fd_PAL/zelda_fd_PAL.o fd_PAL.o
      cp shape/zelda_du/zelda_du.o du.o
+     cp shape/zelda_du_PAL/zelda_du_PAL.o du_PAL.o
      cp shape/zelda_fw/zelda_fw.o fw.o
      cp shape/zelda_medal/medal.o medal.o
      cp shape/zelda_hlc/zelda_hlc.o hlc.o
