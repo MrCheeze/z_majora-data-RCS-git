@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.285  2000-01-22 16:57:03+09  sasaki
+# *** empty log message ***
+#
 # Revision 2.284  2000-01-21 17:43:13+09  umemiya
 # ダイナフォス追加
 #
@@ -2246,7 +2249,7 @@ cp() {
 #     cp shape/zelda_bji/zelda_bji.o Bji.o
      cp shape/zelda_bba/zelda_bba.o Bba.o
 #     cp shape/zelda_gi_ocarina_0/zelda_gi_ocarina_0.o gi_ocarina_0.o
-     cp shape/zelda_ds/zelda_ds.o Ds.o
+#     cp shape/zelda_ds/zelda_ds.o Ds.o
      cp shape/zelda2_an1/zelda2_an1.o An1.o
      cp shape/zelda2_an2/zelda2_an2.o An2.o
      cp shape/zelda2_an3/zelda2_an3.o An3.o
@@ -2580,3 +2583,4 @@ cp() {
      cp shape/zelda2_gi_camera/v2_camera.o gi_picturebox.o
      cp shape/zelda2_dinofos/zelda2_dinofos.o Dinofos.o
      cp shape/zelda2_kamejima/zelda2_kamejima.o Kamejima.o
+     cp shape/zelda2_nb/zelda2_nb.o Nb.o
