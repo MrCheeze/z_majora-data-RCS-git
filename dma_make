@@ -57,8 +57,6 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
@@ -83,6 +81,10 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON/vr_lonronVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_kakarikoVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_kakarikoVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_pal.o .
 #####	カレイド・スコープ
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o icon_item_idx.o
      cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o item_name_idx.o
