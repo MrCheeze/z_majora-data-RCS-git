@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.77  1999-06-01 11:59:21+09  umemiya
+# field40オブジェ追加
+#
 # Revision 2.76  1999-05-27 14:57:33+09  nisiwaki
 # EN_FALL 追加
 #
@@ -1766,3 +1769,4 @@ cp() {
      cp shape/zelda2_driftice/zelda2_driftice.o driftice.o
      cp shape/zelda2_en_fall/zelda2_en_fall.o Fall.o
      cp shape/zelda2_f40_obj/zelda2_f40_obj.o F40_Obj.o
+     cp shape/zelda2_yukimura_obj/zelda2_yukimura_obj.o Yukimura_Obj.o
