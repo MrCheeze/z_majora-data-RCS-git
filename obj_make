@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.295  1998-08-20 15:44:28+09  nisiwaki
+# Efc_Doughnut.o 追加
+#
 # Revision 1.294  1998-08-20 14:58:06+09  nisiwaki
 # Demo_Kekkai.o 追加
 #
@@ -1207,6 +1210,7 @@ cp() {
      cp shape/zelda_scene_name2/G_pn_52/G_pn_52.o .
      cp shape/zelda_scene_name2/G_pn_53/G_pn_53.o .
      cp shape/zelda_scene_name2/G_pn_54/G_pn_54.o .
+     cp shape/zelda_scene_name2/G_pn_55/G_pn_55.o .
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
      cp shape/zelda_ani/zelda_ani.o ani.o
      cp shape/zelda_demo_6k/zelda_demo_6k.o D6k.o
