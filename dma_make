@@ -28,7 +28,7 @@ cp() {
 #####	任天堂ロゴ
      cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
 #####	ＴＩＴＬＥ
-#####     cp shape/TEXTURE/TITLE/title.o .
+     cp shape/TEXTURE/TITLE/title.o .
 #####	ＰＡＲＡＭＥＴＥＲ
      cp shape/TEXTURE/PARAMETER/parameter.o .
      cp shape/TEXTURE/DMA_MAKE/DO_ACTION/do_action_idx.o .
