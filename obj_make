@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.159  1998/03/26  01:58:44  umemiya
+# *** empty log message ***
+#
 # Revision 1.158  1998/03/25  14:00:03  umemiya
 # 氷の洞窟、SPOT06オブジェクトなど追加
 #
@@ -712,4 +715,6 @@ cp() {
      cp shape/zelda_ru2/zelda_ru2.o ru2.o
      cp shape/zelda_gi_shield_1/zelda_gi_shield_1.o gi_shield_1.o
      cp shape/zelda_dekujr/zelda_dekujr.o dekujr.o
+     cp shape/zelda_gi_magicpot/zelda_gi_magicpot.o gi_magicpot.o
+     cp shape/zelda_gi_bomb_1/zelda_gi_bomb_1.o gi_bomb_1.o
 
