@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.314  2000-02-03 13:15:35+09  yoshida
+# *** empty log message ***
+#
 # Revision 2.313  2000-02-01 22:16:37+09  iwawaki
 # *** empty log message ***
 #
@@ -2688,3 +2691,6 @@ cp() {
      cp shape/zelda2_secom_obj/zelda2_secom_obj.o Secom_Obj.o
      cp shape/zelda2_hunsui/zelda2_hunsui.o Hunsui.o
      cp shape/zelda2_uch/zelda2_uch.o uch.o
+     cp shape/zelda2_tanron4/zelda2_tanron4.o Tanron4.o
+     cp shape/zelda2_tanron5/zelda2_tanron5.o Tanron5.o
+     cp shape/zelda2_dt/zelda2_dt.o Dt.o
