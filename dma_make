@@ -42,7 +42,7 @@ cp() {
      cp shape/TEXTURE2/DO_ACTION2/do_action_idx.o .
 #####	ＭＡＰ
      cp shape/TEXTURE/MAP/map_fm.o map_grand.o
-     cp shape/TEXTURE/MAP2/map_grand2.o .
+#     cp shape/TEXTURE/MAP2/map_grand2.o .
      cp shape/TEXTURE/MAP2/map_grand2_test.raw .
      cp shape/TEXTURE/KALEIDO_MAP2/kaleido_map_grand2.o .
      cp shape/TEXTURE/MAP/map_i.o .
@@ -154,5 +154,6 @@ cp() {
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_jpn.o .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_nes.o .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_gameover.o .
-     cp shape/TEXTURE2/ITEM_NAME2/item_name.o .
+#     cp shape/TEXTURE2/ITEM_NAME2/item_name.o .
+     cp shape/TEXTURE2/ITEM_NAME2/item_name_test.raw .
      cp shape/TEXTURE2/ITEM_NAME2/map_name.o .
