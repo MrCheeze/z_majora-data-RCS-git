@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.29  1999-03-08 21:51:21+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.28  1999-03-05 16:33:25+09  kuzuhara
 # ボス領域確保
 #
@@ -1581,3 +1584,4 @@ cp() {
      cp shape/zelda2_boss05/zelda2_boss05.o Boss05.o
      cp shape/zelda2_boss06/zelda2_boss06.o Boss06.o
      cp shape/zelda2_boss07/zelda2_boss07.o Boss07.o
+     cp shape/zelda2_raf/zelda2_raf.o Raf.o
