@@ -4,6 +4,10 @@
 # $Id$
 #
 # $Log$
+# Revision 1.318  1998-10-09 16:51:50+09  komatu
+# gjyo_objects.o を Gjyo_objects.oに
+# 改名した。
+#
 # Revision 1.317  1998-09-23 00:47:28+09  sumiyosi
 # *** empty log message ***
 #
@@ -996,7 +1000,7 @@ cp() {
      cp shape/zelda_ironknack/zelda_ironknack.o Ironknack.o
      cp shape/zelda_nw/zelda_nw.o Niw.o
 #     cp shape/zelda_rock/zelda_rock.o Rock.o
-     cp shape/zelda_skelton/zelda_skelton.o Skelton.o
+#     cp shape/zelda_skelton/zelda_skelton.o Skelton.o
      cp shape/zelda_slime/zelda_slime.o Slime.o
      cp shape/zelda_soldier/zelda_soldier.o Soldier.o
      cp shape/zelda_st/zelda_st.o St.o
