@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.165  1999-10-29 18:36:36+09  umemiya
+# *** empty log message ***
+#
 # Revision 2.164  1999-10-28 17:31:24+09  sasaki
 # スタル アニメ分割
 #
@@ -2092,3 +2095,4 @@ cp() {
      cp shape/zelda2_meganeana_obj/zelda2_meganeana_obj.o Meganeana_Obj.o
      cp shape/zelda2_gi_nutsmask/v2_mask_00.o gi_nutsmask.o
      cp shape/zelda2_stk2/zelda2_stk2.o Stk2.o
+     cp shape/zelda2_spot11_obj/zelda2_spot11_obj.o Spot11_Obj.o
