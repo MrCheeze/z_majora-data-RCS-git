@@ -39,6 +39,7 @@ cp() {
 #####	ＰＡＲＡＭＥＴＥＲ
      cp shape/TEXTURE2/PARAMETER2/parameter.o .
      cp shape/TEXTURE2/PARAMETER2/parameter_show.o .
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_youbi.o nes_week.o
      cp shape/TEXTURE2/PARAMETER2/youbi.o week.o
      cp shape/TEXTURE2/PARAMETER2/daytelop.o .
      cp shape/TEXTURE2/E3/daytelop/E3daytelop.o .
