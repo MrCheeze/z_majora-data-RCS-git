@@ -4,7 +4,7 @@ set -x
 # $Id$
 #
 keep
-keep_PAL
+#keep_PAL
 scene_txt_make
 obj_make
 #scene_make -f
