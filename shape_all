@@ -5,8 +5,7 @@ set -x
 #
 keep
 keep_PAL
-f_keep
-d_keep
+scene_txt_make
 obj_make
 #scene_make -f
 scene_make $1
