@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.167  1998/04/06  03:16:03  morita
+# tw.o
+#
 # Revision 1.166  1998/04/06  01:37:13  kuzuhara
 # 大妖精追加
 #
@@ -744,3 +747,4 @@ cp() {
      cp shape/zelda_hni/zelda_hni.o Hni.o
      cp shape/zelda_yousei_zou/zelda_yousei_zou.o yousei_zou.o
      cp shape/zelda_tw/zelda_tw.o tw.o
+     cp shape/zelda_rr/zelda_rr.o rr.o
