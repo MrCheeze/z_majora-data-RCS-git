@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.149  1998/03/19  06:39:39  sakakibara
+# Spot16 obj 追加
+#
 # Revision 1.148  1998/03/19  03:07:55  nisiwaki
 # Tr.o を 追加
 #
@@ -672,3 +675,6 @@ cp() {
      cp shape/zelda_in/zelda_in.o In.o
      cp shape/zelda_tr/zelda_tr.o Tr.o
      cp shape/zelda_spot16_obj/zelda_spot16_obj.o spot16_obj.o
+     cp shape/zelda_oE1s/zelda_oE1s.o oE1s.o
+     cp shape/zelda_oE4s/zelda_oE4s.o oE4s.o
+     cp shape/zelda_os_anime/zelda_os_anime.o os_anime.o
