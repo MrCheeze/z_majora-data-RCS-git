@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.241  1999-12-20 15:17:28+09  nisiwaki
+# *** empty log message ***
+#
 # Revision 2.240  1999-12-16 18:21:19+09  sakakibara
 # tokei_turret
 #
@@ -2396,3 +2399,5 @@ cp() {
      cp shape/zelda2_kz/zelda2_kz.o Kz.o
      cp shape/zelda2_tokei_turret/zelda2_tokei_turret.o tokei_turret.o
      cp shape/zelda2_zog/zelda2_zog.o Zog.o
+     cp shape/zelda2_rotlift/zelda2_rotlift.o Rotlift.o
+     cp shape/zelda2_posthouse_obj/zelda2_posthouse_obj.o Posthouse_obj.o
