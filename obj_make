@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.237  1999-12-15 13:04:52+09  kuzuhara
+# 海賊ゲルド作成
+#
 # Revision 2.236  1999-12-13 20:06:53+09  sakakibara
 # mbar_obj ikana_obj 追加
 #
@@ -2172,7 +2175,7 @@ cp() {
 #     cp shape/zelda_rs/zelda_rs.o Rs.o
     cp shape/zelda2_rsn/zelda2_rsn.o Rs.o
 #     cp shape/zelda_spot00_break/zelda_spot00_break.o spot00_break.o
-#     cp shape/zelda_gla/zelda_gla.o Gla.o
+     cp shape/zelda2_gla/zelda2_gla.o Gla.o
      cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
      cp shape/zelda2_gelb/zelda2_gelb.o Gelb.o
      cp shape/zelda_gr/zelda_gr.o Gr.o
