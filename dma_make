@@ -40,9 +40,11 @@ cp() {
      cp shape/TEXTURE2/PARAMETER2/parameter_show.o .
      cp shape/TEXTURE2/PARAMETER2/youbi.o week.o
      cp shape/TEXTURE2/PARAMETER2/daytelop.o .
+     cp shape/TEXTURE2/E3/daytelop/E3daytelop.o .
      cp shape/TEXTURE2/PARAMETER2/story.o .
 #####	ＤＯ ＡＣＴＩＯＮ
      cp shape/TEXTURE2/DO_ACTION2/do_action_idx.o .
+     cp shape/TEXTURE2/E3/DO/E3do_action_idx.o .
 #####	ＭＡＰ
      cp shape/TEXTURE/MAP/map_fm.o map_grand.o
 #     cp shape/TEXTURE/MAP2/map_grand2.o .
