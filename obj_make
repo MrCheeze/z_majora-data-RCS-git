@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.266  1998-07-29 13:30:13+09  komatu
+# Zgの追加
+#
 # Revision 1.265  1998-07-23 17:21:56+09  kuzuhara
 # 宝箱屋作成
 #
@@ -1235,3 +1238,6 @@ cp() {
      cp shape/zelda_ka/zelda_ka.o Ka.o
      cp shape/zelda_ts/zelda_ts.o Ts.o
      cp shape/zelda_zg/zelda_zg.o Zg.o
+     cp shape/zelda_gi_hoverboots/zelda_gi_hoverboots.o gi_hoverboots.o
+     cp shape/zelda_gi_m_arrow/zelda_gi_m_arrow.o gi_m_arrow.o
+     cp shape/zelda_ds2/zelda_ds2.o Ds2.o
