@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.35  1999-03-18 15:17:28+09  umemiya
+# オクタロックzelda_oc2をzelda2_ocへ
+#
 # Revision 2.34  1999-03-16 22:13:59+09  sumiyosi
 # *** empty log message ***
 #
@@ -1605,3 +1608,4 @@ cp() {
      cp shape/zelda2_numa_obj/zelda2_numa_obj.o numa_obj.o
      cp shape/zelda2_flowerpot/zelda2_flowerpot.o flowerpot.o
      cp shape/zelda2_spinyroll/zelda2_spinyroll.o spinyroll.o
+     cp shape/zelda2_ice_block/zelda2_ice_block.o Ice_Block.o
