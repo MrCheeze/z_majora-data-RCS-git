@@ -3,14 +3,11 @@ set -x
 #
 # $Id$
 #
-###parameter
 keep
 f_keep
 d_keep
-###title
-###nintendo_rogo
 obj_make
-#scene_make
 scene_make_bash
 dma_make
+pal_dma_make
 dd_dma_make
