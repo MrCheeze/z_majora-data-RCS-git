@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.236  1998-06-22 16:25:36+09  sumiyosi
+# インゴーとめ柵追加。
+#
 # Revision 1.235  1998-06-20 16:39:00+10  takahata
 # *** empty log message ***
 #
@@ -1091,3 +1094,6 @@ cp() {
      cp shape/zelda_ms/zelda_ms.o ms.o
      cp shape/zelda_hs/zelda_hs.o hs.o
      cp shape/zelda_ingate/zelda_ingate.o Ingate.o
+     cp shape/zelda_lightswitch/zelda_lightswitch.o lightswitch.o
+     cp shape/zelda_kusa/zelda_kusa.o kusa.o
+     cp shape/zelda_tsubo/zelda_tsubo.o tsubo.o
