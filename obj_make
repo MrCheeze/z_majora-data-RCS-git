@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.388  2000-06-19 12:00:24+09  soejima
+# *** empty log message ***
+#
 # Revision 2.387  2000-05-08 13:51:09+09  matutani
 # 馬柵データ更新
 #
@@ -2630,7 +2633,7 @@ cp() {
 #     cp shape/zelda_gi_bracelet/zelda_gi_bracelet.o gi_bracelet.o
      cp shape/zelda_gi_soldout/zelda_gi_soldout.o gi_soldout.o
 #     cp shape/zelda_gi_frog/zelda_gi_frog.o gi_frog.o
-     cp shape/TEXTURE2/ZELDA_TITLE2/ZELDA_TITLE2.o mag.o
+     cp shape/TEXTURE2/JAPAN/ZELDA_TITLE2/ZELDA_TITLE2.o mag.o
      cp shape/TEXTURE2/NES/ZELDA_TITLE2/ZELDA_TITLE2.o nes_mag.o
      cp shape/TEXTURE2/E3/title/E3title.o E3mag.o
      cp shape/zelda_gt/zelda_gt.o gt.o
