@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.30  1997/08/25  01:51:32  sumiyosi
+# *** empty log message ***
+#
 # Revision 1.29  1997/08/25  01:49:30  sumiyosi
 # *** empty log message ***
 #
@@ -124,6 +127,8 @@ echo cp shape/zelda_slime/zelda_slime.o Slime.o
      cp shape/zelda_slime/zelda_slime.o Slime.o
 echo cp shape/zelda_soldier/zelda_soldier.o Soldier.o
      cp shape/zelda_soldier/zelda_soldier.o Soldier.o
+echo cp shape/zelda_st/zelda_st.o St.o
+     cp shape/zelda_st/zelda_st.o St.o
 echo cp shape/zelda_tt/zelda_tt.o Tite.o
      cp shape/zelda_tt/zelda_tt.o Tite.o
 echo cp shape/zelda_rb/zelda_rb.o Reeba.o
