@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.180  1999-11-12 13:34:35+09  yoshida
+# ポゥ音楽家追加
+#
 # Revision 2.179  1999-11-11 21:47:28+09  sasaki
 # bsmask add
 #
@@ -2152,3 +2155,4 @@ cp() {
      cp shape/zelda2_pst/zelda2_pst.o Pst.o
      cp shape/zelda2_bsmask/zelda2_bsmask.o Bsmask.o
      cp shape/zelda2_po_composer/zelda2_po_composer.o Po_Composer.o
+     cp shape/zelda2_spidertent/zelda2_spidertent.o spidertent.o
