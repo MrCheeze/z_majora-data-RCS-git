@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.215  1998-06-02 09:12:38+09  sumiyosi
+# 修正。
+#
 # Revision 1.214  1998-06-01 23:47:04+10  sumiyosi
 # ねえちゃん、おじさん追加。
 #
@@ -998,3 +1001,5 @@ cp() {
      cp shape/zelda_ds/zelda_ds.o Ds.o
      cp shape/zelda_ane/zelda_ane.o Ane.o
      cp shape/zelda_boj/zelda_boj.o Boj.o
+     cp shape/zelda_elf_message/field/field.o EM_field.o
+     cp shape/zelda_elf_message/ydan/ydan.o EM_ydan.o
