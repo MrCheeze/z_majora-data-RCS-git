@@ -26,8 +26,11 @@ cp() {
 }
 
 #####	初期チェック用エラーメッセージ
-     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg.o .
      cp shape/TEXTURE/DMA_MAKE/memerrmsg/locerrmsg.o .
+     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg.o .
+     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg_nes.o .
+#     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg_fra.o .
+#     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg_ger.o .
 
 #####	イベント制御コード
      cp /home/soejima/c/Event/change/save_list_txt.inc .
