@@ -5,6 +5,9 @@
 # マップデータ作成用
 #
 # $Log$
+# Revision 1.1  1997/03/25  05:49:22  hayakawa
+# Initial revision
+#
 #
 
 .NOTPARALLEL:				# 並列動作を禁止
@@ -17,6 +20,9 @@ MAKEOPTION += "VMAKEOPT=$(VMAKEOPT)"
 include $(ROOT)/usr/include/make/PRdefs
 include $(ROOT)/usr/local/srd/PR/SRDdefs.mk
 include $(COMMONRULES)
+
+# Makedependを作らない
+MKDEPOPT = 
 
 SHELL = /bin/sh
 
@@ -32,6 +38,7 @@ LCINCS = \
 -I$(ZELDA_SRC) \
 -I$(ZELDA_LIB) \
 -I$(PATCH_INCDIR) -I$(PATCH_INCDIR)/.. \
+-I/home/hayakawa/prj/PR/libc64 \
 -I$(COMMON_INCDIR) -I$(ROOT)/usr/include/PR
 LLDOPTS = \
 $(MKDEPOPT)
@@ -75,13 +82,16 @@ default:	$(TARGETS)
 
 $(XXX)_s.o:$(XXX)_s.c
 $(XXX)_s.c:$(XXX).c
+	rm -f $(XXX)_s.c
 	square $(XXX).c > $(XXX)_s.c
 $(XXX)_c.c:$(XXX).c
-	-rm -f $(XXX)_c.c
+	rm -f $(XXX)_c.c
 	ln -s $(XXX).c $(XXX)_c.c
 $(XXX)_info.o:$(XXX)_info.c
 $(XXX)_vtx.o:$(XXX)_vtx.c
 $(XXX)_vtx.c:$(XXX)_c.c
+	rm -f $(XXX)_vtx.c
 	-$(GT) $(XXX)_c.c > $(XXX)_vtx.c
 $(XXX)x1.o $(XXX).map: $(XXX)_s.o $(XXX)_info.o $(XXX)_vtx.o
+	rm -f $(XXX)x1.map
 	$(LD) -wall -r $(XXX)_s.o $(XXX)_info.o $(XXX)_vtx.o -o $(XXX)x1.o -m > $(XXX)x1.map
