@@ -106,4 +106,4 @@ fi
 
      cp shape/MESSAGE/usa_staff/staff_a usa_staff_a
      cp shape/MESSAGE/usa_staff/staff_b usa_staff_b
-     cp shape/MESSAGE/usa_staff/staff_c.o usa_staff_c
+     cp shape/MESSAGE/usa_staff/staff_c.o usa_staff_c.o
