@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.211  1999-11-30 22:10:17+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.210  1999-11-30 19:14:55+09  sasaki
 # 雪山地形 追加
 #
@@ -1772,8 +1775,8 @@ cp() {
 #     cp shape/zelda_gndd/zelda_gndd.o Gndd.o
 #     cp shape/zelda_fd/zelda_fd.o fd.o
 #     cp shape/zelda_fd_PAL/zelda_fd_PAL.o fd_PAL.o
-     cp shape/zelda_du/zelda_du.o du.o
-     cp shape/zelda_du_PAL/zelda_du_PAL.o du_PAL.o
+#     cp shape/zelda_du/zelda_du.o du.o
+#     cp shape/zelda_du_PAL/zelda_du_PAL.o du_PAL.o
 #     cp shape/zelda_fw/zelda_fw.o fw.o
 #     cp shape/zelda_medal/medal.o medal.o
 #     cp shape/zelda_hlc/zelda_hlc.o hlc.o
@@ -1983,11 +1986,11 @@ cp() {
 #     cp shape/zelda_gi_grass/zelda_gi_grass.o gi_grass.o
      cp shape/zelda_gi_longsword/zelda_gi_longsword.o gi_longsword.o
 #     cp shape/zelda_gate/zelda_gate.o Gate.o
-     cp shape/zelda2_md/zelda2_md.o Md.o
+#     cp shape/zelda2_md/zelda2_md.o Md.o
      cp shape/zelda_km1/zelda_km1.o Km1.o
 #     cp shape/zelda_kw1/zelda_kw1.o Kw1.o
      cp shape/zelda_zo/zelda_zo.o Zo.o
-     cp shape/zelda_kz/zelda_kz.o Kz.o
+#     cp shape/zelda_kz/zelda_kz.o Kz.o
      cp shape/zelda_umajump/zelda_umajump.o Umajump.o
      cp shape/zelda_masterkokiri/zelda_masterkokiri.o masterkokiri.o
      cp shape/zelda_masterkokirihead/zelda_masterkokirihead.o masterkokirihead.o
@@ -2122,7 +2125,7 @@ cp() {
      cp shape/zelda2_omoya_obj/zelda2_omoya_obj.o Bwall.o
      cp shape/zelda_crow/zelda_crow.o Crow.o
      cp shape/zelda_cow/zelda_cow.o Cow.o
-     cp shape/zelda_cob/zelda_cob.o Cob.o
+#     cp shape/zelda_cob/zelda_cob.o Cob.o
 #     cp shape/zelda_gi_sword_1/zelda_gi_sword_1.o gi_sword_1.o
     cp shape/zelda2_gi_sword_1/v2_sword_01.o gi_sword_1.o
 #     cp shape/zelda_killer_door/zelda_killer_door.o killer_door.o
@@ -2169,7 +2172,7 @@ cp() {
      cp shape/zelda2_sekihi/goro/goro.o sekihiG.o
      cp shape/zelda2_sekihi/nut/nut.o sekihiD.o
      cp shape/zelda2_sekihi/zora/zora.o sekihiZ.o
-     cp shape/zelda2_dnc/zelda2_dnc.o Dnc.o
+#     cp shape/zelda2_dnc/zelda2_dnc.o Dnc.o
      cp shape/zelda2_wiz/zelda2_wiz.o Wiz.o
      cp shape/zelda2_ladder/zelda2_ladder.o Ladder.o
      cp shape/zelda2_mkk/zelda2_mkk.o Mkk.o
