@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.187  1998/04/17 08:04:17  takahata
+# *** empty log message ***
+#
 # Revision 1.186  1998-04-17 11:28:10+09  takahata
 # *** empty log message ***
 #
@@ -879,3 +882,5 @@ cp() {
      cp shape/zelda_demo_6k/zelda_demo_6k.o D6k.o
      cp shape/zelda_gi_shield_3/zelda_gi_shield_3.o gi_shield_3.o
      cp shape/zelda_gi_letter/zelda_gi_letter.o gi_letter.o
+     cp shape/zelda_spot15_obj/zelda_spot15_obj.o spot15_obj.o
+     cp shape/zelda_jya_obj/zelda_jya_obj.o jya_obj.o
