@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.352  2000-02-25 14:48:42+09  kuzuhara
+# びっぐすたる
+#
 # Revision 2.351  2000-02-24 19:29:57+09  sakakibara
 # astr_obj
 #
@@ -2625,7 +2628,7 @@ cp() {
      cp shape/zelda2_sekihi/link/link.o sekihiL.o
      cp shape/zelda2_sekihi/goro/goro.o sekihiG.o
      cp shape/zelda2_sekihi/nut/nut.o sekihiD.o
-     cp shape/zelda2_sekihi/zora/zora.o sekihiZ.o
+     cp shape/zelda2_sekihi/normal/normal.o sekihiZ.o
 #     cp shape/zelda2_dnc/zelda2_dnc.o Dnc.o
      cp shape/zelda2_wiz/zelda2_wiz.o Wiz.o
      cp shape/zelda2_ladder/zelda2_ladder.o Ladder.o
