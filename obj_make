@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.81  1999-06-08 15:40:20+09  umemiya
+# ダイオクタ削除し、ビッグスライム追加
+#
 # Revision 2.80  1999-06-04 14:32:16+09  yoshida
 # *** empty log message ***
 #
@@ -1781,3 +1784,4 @@ cp() {
      cp shape/zelda2_hanareyama_obj/zelda2_hanareyama_obj.o Hanareyama_Obj.o
      cp shape/zelda2_crace_object/zelda2_crace_object.o Crace_Object.o
      cp shape/zelda2_bigslime/zelda2_bigslime.o Bigslime.o
+     cp shape/zelda2_dno/zelda2_dno.o Dno.o
