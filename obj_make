@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.215  1999-12-03 11:40:42+09  kuzuhara
+# 蜂
+#
 # Revision 2.214  1999-12-02 14:36:39+09  sakaguti
 # *** empty log message ***
 #
@@ -2291,3 +2294,4 @@ cp() {
      cp shape/zelda2_gi_bottle_22/v2_bottle_22.o gi_bottle_22.o
      cp shape/zelda2_gi_gold_dust/v2_gold_dust.o gi_gold_dust.o
      cp shape/zelda2_bee/zelda2_bee.o Bee.o
+     cp shape/zelda2_ot/zelda2_ot.o Ot.o
