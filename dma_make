@@ -153,6 +153,7 @@ cp() {
 #####	カレイド・スコープ
      cp shape/TEXTURE2/ICON_ITEM2/icon_item.o .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_test.raw .
+
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_24.o .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_24_test.raw .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_field.o .
