@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.41  1999-03-31 10:23:57+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.40  1999-03-29 13:18:37+09  umemiya
 # スライム追加
 #
@@ -1627,3 +1630,4 @@ cp() {
      cp shape/zelda2_dblue_room/zelda2_dblue_room.o Dblue_Room.o
      cp shape/zelda2_keikoku_demo/zelda2_keikoku_demo.o Keikoku_Demo.o
      cp shape/zelda2_slime/zelda2_slime.o Slime.o
+     cp shape/zelda2_pr/zelda2_pr.o Pr.o
