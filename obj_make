@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.286  1998-08-17 16:46:53+09  yoshida
+# *** empty log message ***
+#
 # Revision 1.285  1998-08-17 16:44:51+09  yoshida
 # SPOT01オブジェクトその２追加
 #
@@ -1319,4 +1322,4 @@ cp() {
      cp shape/zelda_dog/zelda_dog.o Dog.o
      cp shape/zelda_jya_iron/zelda_jya_iron.o jya_iron.o
      cp shape/zelda_jya_door/zelda_jya_door.o jya_door.o
-     cp shape/zelda_jya_door/zelda_spot01_objects2.o spot01_objects2.o
+     cp shape/zelda_spot01_objects2/zelda_spot01_objects2.o spot01_objects2.o
