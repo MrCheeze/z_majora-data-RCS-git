@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.228  1999-12-09 15:02:39+09  nisiwaki
+# 反射光変更
+#
 # Revision 2.227  1999-12-09 15:01:28+09  sumiyosi
 # *** empty log message ***
 #
@@ -2343,3 +2346,4 @@ cp() {
      cp shape/zelda2_kin2_obj/zelda2_kin2_obj.o kin2_obj.o
      cp shape/zelda2_ishi/zelda2_ishi.o ishi.o
      cp shape/zelda2_hakugin_demo/zelda2_hakugin_demo.o Hakugin_Demo.o
+     cp shape/zelda2_jg/zelda2_jg.o jg.o
