@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.144  1999-10-08 13:00:55+09  sakakibara
+# market_obj
+#
 # Revision 2.143  1999-10-07 21:38:10+09  yoshida
 # *** empty log message ***
 #
@@ -1822,7 +1825,7 @@ cp() {
 #     cp shape/zelda_gi_coin/zelda_gi_coin.o gi_coin.o
      cp shape/zelda_kanban/zelda_kanban.o kanban.o
      cp shape/zelda_gjyo_objects/zelda_gjyo_objects.o Gjyo_objects.o
-     cp shape/zelda_owl/zelda_owl.o Owl.o
+     cp shape/zelda2_owl/zelda_owl.o Owl.o
      cp shape/zelda_mk/zelda_mk.o Mk.o
      cp shape/zelda_fu/zelda_fu.o Fu.o
      cp shape/zelda_gi_ki_tan_mask/zelda_gi_ki_tan_mask.o gi_ki_tan_mask.o 
