@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.317  1998-09-23 00:47:28+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 1.316  1998-09-18 21:44:26+09  sakakibara
 # 時の歌ブロック
 #
@@ -1353,7 +1356,7 @@ cp() {
      cp shape/zelda_gi_gloves/zelda_gi_gloves.o gi_gloves.o
      cp shape/zelda_gi_coin/zelda_gi_coin.o gi_coin.o
      cp shape/zelda_kanban/zelda_kanban.o kanban.o
-     cp shape/zelda_gjyo_objects/zelda_gjyo_objects.o gjyo_objects.o
+     cp shape/zelda_gjyo_objects/zelda_gjyo_objects.o Gjyo_objects.o
      cp shape/zelda_owl/zelda_owl.o Owl.o
      cp shape/zelda_mk/zelda_mk.o Mk.o
      cp shape/zelda_fu/zelda_fu.o Fu.o
