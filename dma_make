@@ -87,6 +87,12 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_div8_idx.o .
@@ -103,10 +109,6 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_div8_idx.o .
