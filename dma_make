@@ -14,10 +14,10 @@ echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_nightBG_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_nightBG_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_div8_pal.o .
      cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_div8_pal.o .
-echo cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_idx.o .
-     cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_idx.o .
-echo cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_pal.o .
-     cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_pal.o .
+     cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_pal.o .
 echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_pal.o .
@@ -62,6 +62,10 @@ echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_pal.o .
      cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_pal.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_pal.o .
+     cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_pal.o .
 echo cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
      cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
 echo cp shape/TEXTURE/DOKIDOKI/dokidoki_heart_idx.o .
