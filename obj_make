@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.364  2000-03-03 11:12:02+09  nisiwaki
+# *** empty log message ***
+#
 # Revision 2.363  2000-03-02 14:04:25+09  sakaguti
 # ドクロのお面を変える
 #
@@ -2896,3 +2899,4 @@ cp() {
      cp shape/zelda2_yado_obj/zelda2_yado_obj.o Yado_Obj.o
      cp shape/zelda2_syoten/zelda2_syoten.o Syoten.o
      cp shape/zelda2_moonend/zelda2_moonend.o Moonend.o
+     cp shape/zelda2_ob/zelda2_ob.o Ob.o
