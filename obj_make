@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.299  1998-08-22 15:45:36+09  takahata
+# *** empty log message ***
+#
 # Revision 1.298  1998-08-21 21:51:07+09  komatu
 # *** empty log message ***
 #
@@ -1223,6 +1226,7 @@ cp() {
      cp shape/zelda_scene_name2/G_pn_53/G_pn_53.o .
      cp shape/zelda_scene_name2/G_pn_54/G_pn_54.o .
      cp shape/zelda_scene_name2/G_pn_55/G_pn_55.o .
+     cp shape/zelda_scene_name2/G_pn_56/G_pn_56.o .
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
      cp shape/zelda_ani/zelda_ani.o ani.o
      cp shape/zelda_demo_6k/zelda_demo_6k.o D6k.o
