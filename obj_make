@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.247  1998-07-07 21:52:31+09  umemiya
+# ガノン内部・オブジェ追加
+#
 # Revision 1.246  1998-07-03 17:16:38+09  takahata
 # *** empty log message ***
 #
@@ -1139,3 +1142,6 @@ cp() {
      cp shape/zelda_gi_rabit_mask/zelda_gi_rabit_mask.o gi_rabit_mask.o
      cp shape/zelda_gi_truth_mask/zelda_gi_truth_mask.o gi_truth_mask.o
      cp shape/zelda_ganon_objects/zelda_ganon_objects.o ganon_objects.o
+     cp shape/zelda_siofuki/zelda_siofuki.o siofuki.o
+     cp shape/zelda_stream/zelda_stream.o stream.o
+     cp shape/zelda_mm/zelda_mm.o mm.o
