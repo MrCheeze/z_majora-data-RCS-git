@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.161  1999-10-25 16:55:42+09  yoshida
+# *** empty log message ***
+#
 # Revision 2.160  1999-10-25 11:49:32+09  umemiya
 # 白銀の砦・ボス追加
 #
@@ -2075,3 +2078,4 @@ cp() {
      cp shape/zelda2_comb/zelda2_comb.o comb.o
      cp shape/zelda2_hana/zelda2_hana.o hana.o
      cp shape/zelda2_boss_hakugin/zelda2_boss_hakugin.o Boss_Hakugin.o
+     cp shape/zelda2_meganeana_obj/zelda2_meganeana_obj.o Meganeana_Obj.o
