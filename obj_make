@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.242  1998-06-29 20:38:19+09  umemiya
+# ガノン城・オブジェ追加
+#
 # Revision 1.241  1998-06-26 15:29:24+09  takahata
 # *** empty log message ***
 #
@@ -1115,3 +1118,5 @@ cp() {
      cp shape/zelda_gi_coin/zelda_gi_coin.o gi_coin.o
      cp shape/zelda_kanban/zelda_kanban.o kanban.o
      cp shape/zelda_gjyo_objects/zelda_gjyo_objects.o gjyo_objects.o
+     cp shape/zelda_owl/zelda_owl.o Owl.o
+     cp shape/zelda_mk/zelda_mk.o Mk.o
