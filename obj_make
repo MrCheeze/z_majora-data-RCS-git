@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.27  1999-03-04 20:13:19+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.26  1999-03-04 11:39:34+09  umemiya
 # クモの巣追加
 #
@@ -1568,3 +1571,10 @@ cp() {
      cp shape/zelda2_icicle/zelda2_icicle.o Icicle.o
      cp shape/zelda2_spdweb/zelda2_spdweb.o Spdweb.o
      cp shape/zelda2_yh/zelda2_yh.o Yh.o
+     cp shape/zelda2_boss01/zelda2_boss01.o Boss01.o
+     cp shape/zelda2_boss02/zelda2_boss02.o Boss02.o
+     cp shape/zelda2_boss03/zelda2_boss03.o Boss03.o
+     cp shape/zelda2_boss04/zelda2_boss04.o Boss04.o
+     cp shape/zelda2_boss05/zelda2_boss05.o Boss05.o
+     cp shape/zelda2_boss06/zelda2_boss06.o Boss06.o
+     cp shape/zelda2_boss07/zelda2_boss07.o Boss07.o
