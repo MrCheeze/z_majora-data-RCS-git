@@ -4,6 +4,10 @@
 # $Id$
 #
 # $Log$
+# Revision 2.191  1999-11-18 11:35:48+09  umemiya
+# アイアンナック、デッドハンド、ドドンゴ復帰
+# ビリ、バリ削除
+#
 # Revision 2.190  1999-11-17 14:29:57+09  yoshida
 # *** empty log message ***
 #
@@ -2194,4 +2198,5 @@ cp() {
      cp shape/zelda2_oyu/zelda2_oyu.o oyu.o
      cp shape/zelda2_dnq/zelda2_dnq.o Dnq.o
      cp shape/zelda2_dai/zelda2_dai.o Dai.o
+     cp shape/zelda2_kgy/zelda2_kgy.o kgy.o
 
