@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.260  1998-07-20 15:12:33+09  okajima
+# *** empty log message ***
+#
 # Revision 1.259  1998-07-20 15:00:12+09  komatu
 # 大ゼルダのアニメバンクを別にした
 #
@@ -1209,3 +1212,6 @@ cp() {
      cp shape/zelda_efc_erupc/zelda_efc_erupc.o efc_erupc.o
      cp shape/zelda_zl2_anime1/zelda_zl2_anime1.o Zl2_Anime1.o
      cp shape/zelda_zl2_anime2/zelda_zl2_anime2.o Zl2_Anime2.o
+     cp shape/zelda_gi_golonmask/zelda_gi_golonmask.o gi_golonmask.o
+     cp shape/zelda_gi_zoramask/zelda_gi_zoramask.o gi_zoramask.o
+     cp shape/zelda_gi_gerudomask/zelda_gi_gerudomask.o gi_gerudomask.o
