@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.363  2000-03-02 14:04:25+09  sakaguti
+# ドクロのお面を変える
+#
 # Revision 2.362  2000-03-01 14:52:15+09  nisiwaki
 # 昇天エフェクト
 #
@@ -2892,3 +2895,4 @@ cp() {
      cp shape/zelda2_gi_mask21/v2_mask_21.o gi_bakuretsumask.o
      cp shape/zelda2_yado_obj/zelda2_yado_obj.o Yado_Obj.o
      cp shape/zelda2_syoten/zelda2_syoten.o Syoten.o
+     cp shape/zelda2_moonend/zelda2_moonend.o Moonend.o
