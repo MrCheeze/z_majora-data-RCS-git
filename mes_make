@@ -49,6 +49,15 @@ if [ -r shape/MESSAGE/japan2/japan2.o ]; then
 else
     echo -e "\007\033[37;41m只今メッセージは更新中、または壊れています\033[m"
 fi
+if [ -r shape/MESSAGE/USA/USA.o ]; then
+     cp shape/MESSAGE/USA/usa_table.h .
+     cp shape/MESSAGE/USA/usa_extern.h .
+     cp shape/MESSAGE/USA/USA.o .
+else
+    echo -e "\007\033[37;41m只今【ＵＳＡ版】メッセージは更新中、または壊れています\033[m"
+fi
+
+
      cp shape/TEXTURE/MESSAGE/texture/texture.o .
      cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
 ###
