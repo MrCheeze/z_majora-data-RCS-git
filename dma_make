@@ -60,14 +60,22 @@ cp() {
 ##########     cp shape/TEXTURE/MAP/map_HIDAN.o .
      cp shape/TEXTURE/MAP/map_48x85.o .
 #####	ＶＲーＢＯＸ
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_pal.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_pal.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_pal.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_pal.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine0_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine1_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine2_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine3_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine3_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
@@ -139,6 +147,8 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET/vr_MARKET_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET/vr_MARKET_pal.o .
 #####	カレイド・スコープ
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
