@@ -17,8 +17,8 @@ echo cp shape/TEXTURE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
      cp shape/TEXTURE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
 echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
-echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_div8_pal.o .
-     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_pal.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_pal.o .
 echo cp shape/TEXTURE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/MARKET_DAY/vr_market_dayVR_pal.o .
