@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.141  1999-10-05 10:54:08+09  umemiya
+# 大ツララ追加
+#
 # Revision 2.140  1999-10-05 10:32:24+09  kuzuhara
 # 外伝用兵士バンク作ったナリ
 #
@@ -1614,7 +1617,8 @@ cp() {
      cp shape/zelda_gi_bomb_2/zelda_gi_bomb_2.o gi_bomb_2.o
      cp shape/zelda_gi_egg/zelda_gi_egg.o gi_egg.o
      cp shape/zelda_gi_scale/zelda_gi_scale.o gi_scale.o
-     cp shape/zelda_gi_shield_2/zelda_gi_shield_2.o gi_shield_2.o
+#	cp shape/zelda_gi_shield_2/zelda_gi_shield_2.o gi_shield_2.o
+    cp shape/zelda2_gi_shield_01/v2_shield_01.o gi_shield_2.o
      cp shape/zelda_gi_hookshot/zelda_gi_hookshot.o gi_hookshot.o
      cp shape/zelda_gi_ocarina/zelda_gi_ocarina.o gi_ocarina.o
      cp shape/zelda_gi_milk/zelda_gi_milk.o gi_milk.o
@@ -1999,3 +2003,4 @@ cp() {
      cp shape/zelda2_shn/zelda2_shn.o Shn.o
      cp shape/zelda2_sd/zelda2_sd.o sd.o
      cp shape/zelda2_bigicicle/zelda2_bigicicle.o Bigicicle.o
+     cp shape/zelda2_gi_bottle_15/v2_bottle_15.o gi_bottle_15.o
