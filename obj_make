@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.280  1998-08-07 19:35:40+09  nisiwaki
+# Gla 追加
+#
 # Revision 1.279  1998-08-07 14:33:12+09  umemiya
 # SPOT00・こわれた橋追加
 #
@@ -1295,3 +1298,4 @@ cp() {
      cp shape/zelda_rs/zelda_rs.o Rs.o
      cp shape/zelda_spot00_break/zelda_spot00_break.o spot00_break.o
      cp shape/zelda_gla/zelda_gla.o Gla.o
+     cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
