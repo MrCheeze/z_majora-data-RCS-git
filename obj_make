@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.239  1999-12-16 14:44:27+09  umemiya
+# *** empty log message ***
+#
 # Revision 2.238  1999-12-15 13:14:30+09  nisiwaki
 # Gla 追加
 #
@@ -2388,3 +2391,4 @@ cp() {
      cp shape/zelda2_mbar_obj/zelda2_mbar_obj.o mbar_obj.o
      cp shape/zelda2_ikana_obj/zelda2_ikana_obj.o ikana_obj.o
      cp shape/zelda2_kz/zelda2_kz.o Kz.o
+     cp shape/zelda2_tokei_turret/zelda2_tokei_turret.o tokei_turret.o
