@@ -76,8 +76,8 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_pal.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_MNVR_div8_idx.o .
