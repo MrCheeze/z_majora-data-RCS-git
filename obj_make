@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.110  1999-08-05 16:51:43+09  takesita
+# フーセンポー追加。
+#
 # Revision 2.109  1999-08-04 14:04:25+09  sakakibara
 # デクナッツシティ・オブジェクト
 #
@@ -1770,7 +1773,7 @@ cp() {
      cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
      cp shape/zelda2_gelb/zelda2_gelb.o Gelb.o
      cp shape/zelda_gr/zelda_gr.o Gr.o
-     cp shape/zelda2_dog/zelda2_dog.o Dog.o
+     cp shape/zelda_dog/zelda_dog.o Dog.o
      cp shape/zelda_jya_iron/zelda_jya_iron.o jya_iron.o
      cp shape/zelda_jya_door/zelda_jya_door.o jya_door.o
      cp shape/zelda_kibako2/zelda_kibako2.o kibako2.o
