@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.70  1997/11/18  04:46:20  sumiyosi
+# *** empty log message ***
+#
 # Revision 1.69  1997/11/14  07:32:49  sumiyosi
 # コキリ族軍団追加
 #
@@ -316,4 +319,5 @@ cp() {
      cp shape/zelda_oE10/zelda_oE10.o OE10.o
      cp shape/zelda_oE11/zelda_oE11.o OE11.o
      cp shape/zelda_oE12/zelda_oE12.o OE12.o
+     cp shape/zelda_vali/zelda_vali.o Vali.o
 
