@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.116  1998/02/20  02:17:44  umemiya
+# スポット０２オブジェクト、墓追加
+#
 # Revision 1.115  1998/02/19  07:32:25  nisiwaki
 # ru1 を 追加
 #
@@ -532,5 +535,8 @@ cp() {
      cp shape/zelda_ru1/zelda_ru1.o ru1.o
      cp shape/zelda_spot02_objects/zelda_spot02_objects.o spot02_objects.o
      cp shape/zelda_haka/zelda_haka.o haka.o
+     cp shape/zelda_magic_wind/zelda_magic_wind.o magic_wind.o
+     cp shape/zelda_magic_fire/zelda_magic_fire.o magic_fire.o
+     cp shape/zelda_magic_ice/zelda_magic_ice.o magic_ice.o
 
 
