@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.176  1998/04/10  02:01:50  yoshida
+# マロン子供時代追加
+#
 # Revision 1.175  1998/04/09  03:05:41  takahata
 # *** empty log message ***
 #
@@ -786,3 +789,12 @@ cp() {
      cp shape/zelda_gi_ocarina/zelda_gi_ocarina.o gi_ocarina.o
      cp shape/zelda_gi_milk/zelda_gi_milk.o gi_milk.o
      cp shape/zelda_ma1/zelda_ma1.o Ma1.o
+     cp shape/zelda_ganon/zelda_ganon.o B_ganon.o
+     cp shape/zelda_sst/zelda_sst.o Sst.o
+     cp shape/zelda_go2/zelda_go2.o Go2.o
+     cp shape/zelda_stk/zelda_stk.o Stk.o
+     cp shape/zelda_ny/zelda_ny.o Ny.o
+     cp shape/zelda_fr/zelda_fr.o Fr.o
+     cp shape/zelda_gi_pachinko/zelda_gi_pachinko.o gi_pachinko.o
+     cp shape/zelda_gi_boomerang/zelda_gi_boomerang.o gi_boomerang.o
+     cp shape/zelda_gi_bow/zelda_gi_bow.o gi_bow.o
