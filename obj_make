@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.213  1998-06-01 20:11:45+10  hayakawa
+# object_hidan_objects[456]消した
+#
 # Revision 1.212  1998-06-01 16:41:50+09  sakakibara
 # Ｓｐｏｔ０８ オブジェクト追加
 #
@@ -990,3 +993,5 @@ cp() {
      cp shape/zelda_bba/zelda_bba.o Bba.o
      cp shape/zelda_gi_ocarina_0/zelda_gi_ocarina_0.o gi_ocarina_0.o
      cp shape/zelda_ds/zelda_ds.o Ds.o
+     cp shape/zelda_bba/zelda_ane.o Ane.o
+     cp shape/zelda_bba/zelda_boj.o Boj.o
