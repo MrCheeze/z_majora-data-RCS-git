@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.156  1999-10-22 14:52:35+09  nisiwaki
+# *** empty log message ***
+#
 # Revision 2.155  1999-10-22 14:07:18+09  nisiwaki
 # 巨人追加
 #
@@ -1636,7 +1639,7 @@ cp() {
 #     cp shape/zelda_oE4s/zelda_oE4s.o oE4s.o
      cp shape/zelda2_npc_anime/zelda2_npc_anime.o os_anime.o
      cp shape/zelda_gi_bottle/zelda_gi_bottle.o gi_bottle.o
-     cp shape/zelda_dy_obj/zelda_dy_obj.o dy_obj.o
+     cp shape/zelda2_dy_obj/zelda2_dy_obj.o dy_obj.o
      cp shape/zelda_gi_stick/zelda_gi_stick.o gi_stick.o
      cp shape/zelda_gi_map/zelda_gi_map.o gi_map.o
      cp shape/zelda2_oF1d/zelda2_oF1d.o oF1d_map.o
