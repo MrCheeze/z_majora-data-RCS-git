@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.58  1997/10/08  14:18:04  sumiyosi
+# インパ（マスク付）追加
+#
 # Revision 1.57  1997/10/08  02:28:05  sumiyosi
 # ゴロン族追加
 #
@@ -217,7 +220,7 @@ cp() {
      cp shape/zelda_zf/zelda_zf.o Zf.o
      cp shape/zelda_goma/zelda_goma.o Go.o
      cp shape/zelda_kdodongo/zelda_kdodongo.o Kdodongo.o
-     cp shape/zelda_tg/zelda_tg.o Tg.o
+     cp shape/zelda_zl1/zelda_zl1.o Zl1.o
      cp shape/zelda_ff/zelda_ff.o Ff.o
      cp shape/zelda_wm/zelda_wm.o Wm.o
      cp shape/zelda_po/zelda_po.o Po.o
