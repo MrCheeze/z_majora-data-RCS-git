@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.88  1999-07-05 15:57:20+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.87  1999-07-02 14:39:17+09  matutani
 # zelda_hlcをzelda2_hlcにした。
 #
@@ -1588,7 +1591,7 @@ cp() {
      cp shape/zelda_scene_name_PAL/G_pn_56/G_pn_56.o G_pn_56_PAL.o
      cp shape/zelda_scene_name_PAL/G_pn_57/G_pn_57.o G_pn_57_PAL.o
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
-     cp shape/zelda_ani/zelda_ani.o ani.o
+     cp shape/zelda2_ani/zelda2_ani.o ani.o
      cp shape/zelda_gi_shield_3/zelda_gi_shield_3.o gi_shield_3.o
      cp shape/zelda_gi_letter/zelda_gi_letter.o gi_letter.o
      cp shape/zelda_gi_clothes/zelda_gi_clothes.o gi_clothes.o
