@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.113  1999-08-09 15:41:10+09  takesita
+# Ma1.oのコピーもとをかえました。
+#
 # Revision 2.112  1999-08-06 18:02:50+09  sakakibara
 # レース壷
 #
@@ -1779,7 +1782,7 @@ cp() {
      cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
      cp shape/zelda2_gelb/zelda2_gelb.o Gelb.o
      cp shape/zelda_gr/zelda_gr.o Gr.o
-     cp shape/zelda_dog/zelda_dog.o Dog.o
+     cp shape/zelda2_dog2/zelda2_dog2.o Dog.o
      cp shape/zelda_jya_iron/zelda_jya_iron.o jya_iron.o
      cp shape/zelda_jya_door/zelda_jya_door.o jya_door.o
      cp shape/zelda_kibako2/zelda_kibako2.o kibako2.o
