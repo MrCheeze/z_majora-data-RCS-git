@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.362  2000-03-01 14:52:15+09  nisiwaki
+# 昇天エフェクト
+#
 # Revision 2.361  2000-03-01 14:32:24+09  yoshida
 # 宿屋オブジェクト追加
 #
@@ -2528,7 +2531,8 @@ cp() {
      cp shape/zelda_fu/zelda_fu.o Fu.o
      cp shape/zelda_gi_ki_tan_mask/zelda_gi_ki_tan_mask.o gi_ki_tan_mask.o 
 #     cp shape/zelda_gi_redead_mask/zelda_gi_redead_mask.o gi_redead_mask.o
-     cp shape/zelda_gi_skj_mask/zelda_gi_skj_mask.o gi_skj_mask.o
+#     cp shape/zelda_gi_skj_mask/zelda_gi_skj_mask.o gi_skj_mask.o
+     cp shape/zelda2_gi_mask18/zelda2_gi_mask18.o gi_skj_mask.o
      cp shape/zelda_gi_rabit_mask/zelda_gi_rabit_mask.o gi_rabit_mask.o
      cp shape/zelda_gi_truth_mask/zelda_gi_truth_mask.o gi_truth_mask.o
 #     cp shape/zelda_siofuki/zelda_siofuki.o siofuki.o
