@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.316  2000-02-04 14:33:00+09  umemiya
+# フライングアモス追加
+#
 # Revision 2.315  2000-02-04 13:45:12+09  kuzuhara
 # キミいくつ？ボク３ちゅのファイル追加
 #
@@ -2698,3 +2701,4 @@ cp() {
      cp shape/zelda2_tanron5/zelda2_tanron5.o Tanron5.o
      cp shape/zelda2_dt/zelda2_dt.o Dt.o
      cp shape/zelda2_famos/zelda2_famos.o Famos.o
+     cp shape/zelda2_gi_mask03/v2_mask_03.o gi_yusyamask.o
