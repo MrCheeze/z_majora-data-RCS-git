@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.200  1999-11-24 16:26:05+09  sakaguti
+# ゴロンキッド
+#
 # Revision 2.199  1999-11-24 16:02:47+09  nisiwaki
 # zelda_mk -> zelda2_mk
 #
@@ -2233,3 +2236,4 @@ cp() {
      cp shape/zelda2_fb/zelda2_fb.o fb.o
      cp shape/zelda2_taisou/zelda2_taisou.o Taisou.o
      cp shape/zelda2_gk/zelda2_gk.o gk.o
+     cp shape/zelda2_haka_obj/zelda2_haka_obj.o haka_obj.o
