@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.181  1999-11-12 14:01:40+09  sakakibara
+# spidertent
+#
 # Revision 2.180  1999-11-12 13:34:35+09  yoshida
 # ポゥ音楽家追加
 #
@@ -2016,7 +2019,7 @@ cp() {
      cp shape/zelda_haka_door/zelda_haka_door.o haka_door.o
      cp shape/zelda_gs/zelda_gs.o gs.o
      cp shape/zelda_ps/zelda_ps.o ps.o
-     cp shape/zelda_bwall/zelda_bwall.o Bwall.o
+     cp shape/zelda2_omoya_obj/zelda2_omoya_obj.o Bwall.o
      cp shape/zelda_crow/zelda_crow.o Crow.o
      cp shape/zelda_cow/zelda_cow.o Cow.o
      cp shape/zelda_cob/zelda_cob.o Cob.o
