@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.355  2000-02-28 17:25:03+09  nisiwaki
+# 金スタ屋の子供
+#
 # Revision 2.354  2000-02-28 14:18:23+09  nisiwaki
 # 口の開けた月を追加
 #
@@ -2860,3 +2863,4 @@ cp() {
      cp shape/zelda2_bsb/zelda2_bsb.o Bsb.o
      cp shape/zelda2_fall2/zelda2_fall2.o Fall2.o
      cp shape/zelda2_sth/zelda2_sth.o Sth.o
+     cp shape/zelda2_gi_mssa/mssa_mask.o gi_sunmask.o
