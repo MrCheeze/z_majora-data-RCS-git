@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.62  1997/10/20  10:45:48  sumiyosi
+# ハイリア住民さらに追加。
+#
 # Revision 1.61  1997/10/19  09:03:22  iwawaki
 # *** empty log message ***
 #
@@ -276,5 +279,7 @@ cp() {
      cp shape/zelda_oB2/zelda_oB2.o OB2.o
      cp shape/zelda_oB3/zelda_oB3.o OB3.o
      cp shape/zelda_oB4/zelda_oB4.o OB4.o
+     cp shape/zelda_horse_zelda/zelda_horse_zelda.o Horse_Zelda.o
 
+	
 
