@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.10  1999-02-15 09:35:11+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.9  1999-02-08 11:44:01+09  sakakibara
 # ダンジョンユニットＯＢＪ追加
 #
@@ -1509,3 +1512,4 @@ cp() {
      cp shape/zelda2_boyo/zelda2_boyo.o boyo.o
      cp shape/zelda2_fence/zelda2_fence.o fence.o
      cp shape/zelda2_hampost/zelda2_hampost.o hampost.o
+     cp shape/zelda2_swfl/zelda2_swfl.o swfl.o
