@@ -33,10 +33,11 @@ cp() {
      cp shape/TEXTURE/PARAMETER/parameter.o .
      cp shape/TEXTURE/DMA_MAKE/DO_ACTION/do_action_idx.o .
 #####	メッセージ
-     cp shape/TEXTURE/MESSAGE/NES/font_e.o .
      cp shape/TEXTURE/MESSAGE/texture/texture.o .
      cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
      cp shape/TEXTURE/MESSAGE/message/message.o .
+     cp shape/TEXTURE/MESSAGE/NES/font_e.o .
+     cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
 #####	ＭＡＰ
      cp shape/TEXTURE/MAP/map_grand.o .
      cp shape/TEXTURE/MAP/map_YDAN.o .
