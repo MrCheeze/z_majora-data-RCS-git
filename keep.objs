@@ -1,9 +1,3 @@
 shape/zelda_keep/zelda_keep.o
 shape/zelda_link/Anime_Table/Anime_Table.o
 shape/zelda_marker/Shape/Shape.o
-shape/TEXTURE/dokidoki/dokidoki.o
-shape/TEXTURE/polygon/polygon.o
-shape/TEXTURE/others/others.o
-shape/TEXTURE/rupy_num/rupy_num.o
-shape/TEXTURE/num_s/num_s.o
-shape/TEXTURE/m_meter/m_meter.o

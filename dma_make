@@ -66,11 +66,9 @@ echo cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_pal.o .
      cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_pal.o .
+echo cp shape/TEXTURE/KALEIDO_SCOPE/kaleido_scope_idx.o .
+     cp shape/TEXTURE/KALEIDO_SCOPE/kaleido_scope_idx.o .
 echo cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
      cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
 echo cp shape/TEXTURE/DOKIDOKI/dokidoki_heart_idx.o .
      cp shape/TEXTURE/DOKIDOKI/dokidoki_heart_idx.o .
-echo cp shape/TEXTURE/ICON_ITEM/icon_item_idx.o .
-     cp shape/TEXTURE/ICON_ITEM/icon_item_idx.o .
-echo cp shape/TEXTURE/ITEM_NAME/item_name_idx.o .
-     cp shape/TEXTURE/ITEM_NAME/item_name_idx.o .
