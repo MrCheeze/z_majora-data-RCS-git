@@ -64,6 +64,14 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy2_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy3_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy3_pal.o .
 #####	ＶＲーＢＯＸ（２５６）
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_pal.o .
