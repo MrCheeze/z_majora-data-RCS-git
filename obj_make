@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.109  1998/02/12  02:43:54  morita
+# fd追加
+#
 # Revision 1.108  1998/02/03  07:06:47  tarukado
 # ガノン と ファントムガノンを分たっス！！
 #
@@ -504,4 +507,5 @@ cp() {
      cp shape/zelda_heavy_object/zelda_heavy_object.o Heavy_object.o
      cp shape/zelda_gndd/zelda_gndd.o Gndd.o
      cp shape/zelda_fd/zelda_fd.o fd.o
+     cp shape/zelda_du/zelda_du.o du.o
 
