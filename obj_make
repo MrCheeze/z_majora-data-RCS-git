@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.83  1999-06-16 15:27:26+09  nisiwaki
+# Ta.o を 変更
+#
 # Revision 2.82  1999-06-09 14:08:08+09  yoshida
 # デクナッツ執事追加
 #
@@ -1390,7 +1393,7 @@ cp() {
      cp shape/zelda_haka_objects/zelda_haka_objects.o haka_objects.o
      cp shape/zelda_key/zelda_key.o gi_key.o
      cp shape/zelda_mir_ray/zelda_mir_ray.o mir_ray.o
-     cp shape/zelda_brob/zelda_brob.o Brob.o
+     cp shape/zelda2_ctower_rot/zelda2_ctower_rot.o Ctower_Rot.o
      cp shape/zelda_gi_jewel/zelda_gi_jewel.o gi_jewel.o
      cp shape/zelda_boss_door/zelda_boss_door.o bdoor.o
      cp shape/zelda_shop_tana/zelda_shop_tana.o shop_dungen.o
