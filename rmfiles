@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+#Revision 2.5  1999-09-01 18:42:39+09  iwawaki
+#*** empty log message ***
+#
 #Revision 2.4  1999-09-01 18:40:28+09  iwawaki
 #*** empty log message ***
 #
@@ -208,7 +211,6 @@ killer_door.o
 swfl.o
 Skje.o
 Stain.o
-daiku.o
 Dno.o
 "
 
