@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.231  1999-12-10 14:57:05+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.230  1999-12-09 16:16:51+09  sumiyosi
 # *** empty log message ***
 #
@@ -2356,3 +2359,4 @@ cp() {
      cp shape/zelda2_gi_sword_2/v2_sword_02.o gi_sword_2.o
      cp shape/zelda2_gi_sword_3/v2_sword_03.o gi_sword_3.o
      cp shape/zelda2_gi_sword_4/v2_sword_04.o gi_sword_4.o
+     cp shape/zelda2_um/zelda2_um.o um.o
