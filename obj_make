@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.381  2000-03-10 13:11:03+09  kuzuhara
+# ボンバーズ買え
+#
 # Revision 2.380  2000-03-10 11:22:02+09  yoshida
 # *** empty log message ***
 #
@@ -3007,3 +3010,4 @@ cp() {
      cp shape/zelda2_gi_mask17/zelda2_gi_mask17.o gi_dancermask.o
      cp shape/zelda2_lbfshot/zelda2_lbfshot.o lbfshot.o
      cp shape/zelda2_fusen/zelda2_fusen.o Fusen.o
+     cp shape/zelda2_ending_obj/zelda2_ending_obj.o Ending_Obj.o
