@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.307  1998-09-01 09:48:11+09  yoshida
+# ゴシップストーン追加
+#
 # Revision 1.306  1998-08-26 21:42:33+09  umemiya
 # 墓下ダンジョンドア追加
 #
@@ -1411,3 +1414,4 @@ cp() {
      cp shape/zelda_geff/zelda_geff.o geff.o
      cp shape/zelda_haka_door/zelda_haka_door.o haka_door.o
      cp shape/zelda_gs/zelda_gs.o gs.o
+     cp shape/zelda_ps/zelda_ps.o ps.o
