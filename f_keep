@@ -4,8 +4,11 @@ set -x
 # $Id$
 #
 # $Log$
+# Revision 2.1  1998-10-22 21:42:44+09  hayakawa
+# ＲＯＭ出しバージョン(NTSC)
+#
 # Revision 1.1  1997-04-18 19:45:09+09  iwawaki
 # Initial revision
 #
 #
-ld -r -o f_keep.o -objectlist f_keep.objs -m > f_keep.map
+/usr/bin/ld -r -o f_keep.o -objectlist f_keep.objs -m > f_keep.map
