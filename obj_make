@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.19  1999-03-01 13:06:57+09  kuzuhara
+# 騎士＆ワープタグ
+#
 # Revision 2.18  1999-02-25 09:59:58+09  kuzuhara
 # 暗殺者作成
 #
@@ -1424,7 +1427,7 @@ cp() {
      cp shape/zelda_gnd_magic/zelda_gnd_magic.o gnd_magic.o
      cp shape/zelda_d_elevator/zelda_d_elevator.o d_elevator.o
      cp shape/zelda_d_hsblock/zelda_d_hsblock.o d_hsblock.o
-     cp shape/zelda_d_lift/zelda_d_lift.o d_lift.o
+     cp shape/zelda2_d_lift/zelda2_d_lift.o d_lift.o
      cp shape/zelda_mamenoki/zelda_mamenoki.o mamenoki.o
      cp shape/zelda_goroiwa/zelda_goroiwa.o goroiwa.o
      cp shape/zelda_toryo/zelda_toryo.o toryo.o
