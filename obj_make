@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.341  2000-02-19 16:04:16+09  sakaguti
+# カーフェイのお面、座長のお面、ブレー面
+#
 # Revision 2.340  2000-02-19 14:53:28+09  matutani
 # *** empty log message ***
 #
@@ -2800,3 +2803,4 @@ cp() {
      cp shape/zelda2_gi_mask05/v2_mask_05.o gi_kerfaymask.o
      cp shape/zelda2_gi_mask11/v2_mask_11.o gi_zachomask.o
      cp shape/zelda2_gi_mask20/v2_mask_20.o gi_breemask.o
+     cp shape/zelda2_nnh/zelda2_nnh.o Nnh.o
