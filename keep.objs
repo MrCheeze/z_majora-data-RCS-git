@@ -2,7 +2,7 @@ shape/zelda_keep/zelda_keep.o
 shape/TEXTURE/button/button.o
 shape/TEXTURE/frame.a/frame.a.o
 shape/TEXTURE/heart/heart.o
-shape/TEXTURE/life/life.o
+shape/TEXTURE/life000/life000.o
 shape/TEXTURE/title/title.o
 shape/TEXTURE/polygon/polygon.o
 shape/TEXTURE/i_icons/i_icons.o
