@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.213  1999-12-02 13:29:20+09  umemiya
+# 水面氷追加
+#
 # Revision 2.212  1999-12-02 13:28:17+09  sumiyosi
 # *** empty log message ***
 #
@@ -2281,3 +2284,6 @@ cp() {
      cp shape/zelda2_dnt/zelda2_dnt.o Dnt.o
      cp shape/zelda2_yukiyama/zelda2_yukiyama.o Yukiyama.o
      cp shape/zelda2_icefloe/zelda2_icefloe.o Icefloe.o
+     cp shape/zelda2_gi_bottle_16/v2_bottle_16.o gi_bottle_16.o
+     cp shape/zelda2_gi_bottle_22/v2_bottle_22.o gi_bottle_22.o
+     cp shape/zelda2_gi_gold_dust/v2_gold_dust.o gi_gold_dust.o
