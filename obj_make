@@ -4,6 +4,9 @@ set -x
 # $Id$
 #
 # $Log$
+# Revision 1.5  1997/06/06  05:48:25  iwawaki
+# *** empty log message ***
+#
 # Revision 1.4  1997/06/05  07:49:04  iwawaki
 # *** empty log message ***
 #
@@ -17,8 +20,6 @@ set -x
 # Initial revision
 #
 
-echo cp shape/zelda_field_keep/zelda_keep.o Keep.o
-     cp shape/zelda_field_keep/zelda_keep.o Keep.o
 echo cp shape/zelda_field_keep/zelda_field_keep.o Field_keep.o
      cp shape/zelda_field_keep/zelda_field_keep.o Field_keep.o
 echo cp shape/zelda_dangeon_keep/zelda_dangeon_keep.o Dangeon_keep.o
