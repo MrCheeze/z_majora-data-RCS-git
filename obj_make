@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.337  2000-02-18 14:43:14+09  sakaguti
+# ボンバーズ団員手帳、石ころのお面
+#
 # Revision 2.336  2000-02-17 14:23:23+09  sakaguti
 # ルピーのバンクディレクトリの変更
 #
@@ -2124,7 +2127,7 @@ cp() {
 #     cp shape/zelda_bird/zelda_bird.o Bird.o
      cp shape/zelda_stree/zelda_stree.o Stree.o
      cp shape/zelda_kui/zelda_kui.o Kui.o
-     cp shape/zelda_maruta/zelda_maruta.o Maruta.o
+#     cp shape/zelda_maruta/zelda_maruta.o Maruta.o
      cp shape/zelda_saku/zelda_saku.o Saku.o
      cp shape/zelda2_wood02/zelda2_wood02.o Wood02.o
      cp shape/zelda_t_wood01/zelda_t_wood01.o Twood01.o
