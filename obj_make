@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.55  1999-04-14 17:24:32+09  umemiya
+# コウモリ追加
+#
 # Revision 2.54  1999-04-14 17:04:42+09  matutani
 # 宝箱シェイプ新版へ
 #
@@ -1678,3 +1681,7 @@ cp() {
      cp shape/zelda2_tsg/zelda2_tsg.o tsg.o
      cp shape/zelda2_gm/zelda2_gm.o Gmo.o
      cp shape/zelda2_bat/zelda2_bat.o Bat.o
+     cp shape/zelda2_sekihi/link/link.o sekihiL.o
+     cp shape/zelda2_sekihi/goro/goro.o sekihiG.o
+     cp shape/zelda2_sekihi/nut/nut.o sekihiD.o
+     cp shape/zelda2_sekihi/zora/zora.o sekihiZ.o
