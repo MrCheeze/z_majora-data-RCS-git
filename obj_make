@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.246  1999-12-22 17:44:16+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.245  1999-12-22 14:24:07+09  takesita
 # *** empty log message ***
 #
@@ -2265,7 +2268,7 @@ cp() {
      cp shape/zelda2_flowerpot/zelda2_flowerpot.o flowerpot.o
      cp shape/zelda2_spinyroll/zelda2_spinyroll.o spinyroll.o
      cp shape/zelda2_ice_block/zelda2_ice_block.o Ice_Block.o
-     cp shape/zelda2_dblue_room/zelda2_dblue_room.o Dblue_Room.o
+#     cp shape/zelda2_dblue_room/zelda2_dblue_room.o Dblue_Room.o
      cp shape/zelda2_keikoku_demo/zelda2_keikoku_demo.o Keikoku_Demo.o
      cp shape/zelda2_slime/zelda2_slime.o Slime.o
      cp shape/zelda2_pr/zelda2_pr.o Pr.o
@@ -2307,7 +2310,7 @@ cp() {
      cp shape/zelda2_trU/zelda2_trU.o Tru.o
      cp shape/zelda2_trT/zelda2_trT.o Trt.o
      cp shape/zelda2_hakugin_obj/zelda2_hakugin_obj.o hakugin_obj.o
-     cp shape/zelda2_pfslime/zelda2_pfslime.o Pfslime.o
+#     cp shape/zelda2_pfslime/zelda2_pfslime.o Pfslime.o
      cp shape/zelda2_horse_game_check/zelda2_horse_game_check.o Horse_Game_Check.o
      cp shape/zelda2_stk/zelda2_stk.o Stk.o
      cp shape/zelda2_mnk/zelda2_mnk.o Mnk.o
