@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.266  2000-01-13 15:31:18+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.265  2000-01-13 14:15:28+09  sakaguti
 # 魔法のきのこ
 #
@@ -2497,3 +2500,4 @@ cp() {
      cp shape/zelda2_tanron2/zelda2_tanron2.o Tanron2.o
      cp shape/zelda2_tanron3/zelda2_tanron3.o Tanron3.o
      cp shape/zelda2_gi_mushroom/v2_mushroom.o gi_mushroom2.o
+     cp shape/zelda2_chan/zelda2_chan.o Chan.o
