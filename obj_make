@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.361  2000-03-01 14:32:24+09  yoshida
+# 宿屋オブジェクト追加
+#
 # Revision 2.360  2000-03-01 13:05:23+09  sakaguti
 # *** empty log message ***
 #
@@ -2884,3 +2887,4 @@ cp() {
      cp shape/zelda2_thiefbird/zelda2_thiefbird.o Thiefbird.o
      cp shape/zelda2_gi_mask21/v2_mask_21.o gi_bakuretsumask.o
      cp shape/zelda2_yado_obj/zelda2_yado_obj.o Yado_Obj.o
+     cp shape/zelda2_syoten/zelda2_syoten.o Syoten.o
