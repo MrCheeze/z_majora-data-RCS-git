@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.170  1999-11-04 20:28:25+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.169  1999-11-02 20:12:48+09  takesita
 # 墓石を追加。
 #
@@ -2112,3 +2115,4 @@ cp() {
      cp shape/zelda2_dhouse/zelda2_dhouse.o dhouse.o
      cp shape/zelda2_hakaisi/zelda2_hakaisi.o Hakaisi.o
      cp shape/zelda_po/zelda_po.o Po.o
+     cp shape/zelda2_snowman/zelda2_snowman.o Snowman.o
