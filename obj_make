@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.312  1998-09-05 14:34:00+09  nisiwaki
+# *** empty log message ***
+#
 # Revision 1.311  1998-09-03 20:16:29+09  umemiya
 # 怪鳥グエー追加
 #
@@ -1430,3 +1433,4 @@ cp() {
      cp shape/zelda_bwall/zelda_bwall.o Bwall.o
      cp shape/zelda_crow/zelda_crow.o Crow.o
      cp shape/zelda_cow/zelda_cow.o Cow.o
+     cp shape/zelda_cob/zelda_cob.o Cob.o
