@@ -4,11 +4,14 @@ set -x
 # $Id$
 #
 # $Log$
-# Revision 1.1  1997/04/18  10:45:48  iwawaki
+# Revision 1.1  1997/04/18  11:52:25  iwawaki
 # Initial revision
 #
 # Revision 1.1  1997/04/18  10:45:48  iwawaki
 # Initial revision
 #
+# Revision 1.1  1997/04/18  10:45:48  iwawaki
+# Initial revision
 #
-ld -r -o d_keep.o -objectlist d_keep.objs -m > d_keep.map
+#
+ld -r -o keep.o -objectlist keep.objs -m > keep.map
