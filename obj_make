@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.208  1999-11-26 19:52:59+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.207  1999-11-26 14:36:17+09  sakaguti
 # *** empty log message ***
 #
@@ -1827,7 +1830,7 @@ cp() {
      cp shape/zelda_gi_arrow/zelda_gi_arrow.o gi_arrow.o
      cp shape/zelda_gi_bomb_2/zelda_gi_bomb_2.o gi_bomb_2.o
 #     cp shape/zelda_gi_egg/zelda_gi_egg.o gi_egg.o
-     cp shape/zelda_gi_scale/zelda_gi_scale.o gi_scale.o
+#     cp shape/zelda_gi_scale/zelda_gi_scale.o gi_scale.o
 #	cp shape/zelda_gi_shield_2/zelda_gi_shield_2.o gi_shield_2.o
     cp shape/zelda2_gi_shield_01/v2_shield_01.o gi_shield_2.o
      cp shape/zelda_gi_hookshot/zelda_gi_hookshot.o gi_hookshot.o
@@ -1845,7 +1848,7 @@ cp() {
      cp shape/zelda_ny/zelda_ny.o Ny.o
      cp shape/zelda2_fr/zelda2_fr.o Fr.o
 #     cp shape/zelda_gi_pachinko/zelda_gi_pachinko.o gi_pachinko.o
-     cp shape/zelda_gi_boomerang/zelda_gi_boomerang.o gi_boomerang.o
+#     cp shape/zelda_gi_boomerang/zelda_gi_boomerang.o gi_boomerang.o
      cp shape/zelda2_gi_bow/zelda2_gi_bow.o gi_bow.o
      cp shape/zelda_gi_glasses/zelda_gi_glasses.o gi_glasses.o
      cp shape/zelda2_scene_name/G_pn_01/G_pn_01.o .
@@ -1965,11 +1968,11 @@ cp() {
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
      cp shape/zelda2_ani/zelda2_ani.o ani.o
      cp shape/zelda_gi_shield_3/zelda_gi_shield_3.o gi_shield_3.o
-     cp shape/zelda_gi_letter/zelda_gi_letter.o gi_letter.o
+#     cp shape/zelda_gi_letter/zelda_gi_letter.o gi_letter.o
 #     cp shape/zelda_gi_clothes/zelda_gi_clothes.o gi_clothes.o
      cp shape/zelda_gi_bean/zelda_gi_bean.o gi_bean.o
      cp shape/zelda_gi_fish/zelda_gi_fish.o gi_fish.o
-     cp shape/zelda_gi_saw/zelda_gi_saw.o gi_saw.o
+#     cp shape/zelda_gi_saw/zelda_gi_saw.o gi_saw.o
      cp shape/zelda_gi_hammer/zelda_gi_hammer.o gi_hammer.o
 #     cp shape/zelda_gi_grass/zelda_gi_grass.o gi_grass.o
      cp shape/zelda_gi_longsword/zelda_gi_longsword.o gi_longsword.o
@@ -1988,9 +1991,9 @@ cp() {
      cp shape/zelda2_ik/zelda2_ik.o Ik.o
      cp shape/zelda_ahg/zelda_ahg.o Ahg.o
      cp shape/zelda_cne/zelda_cne.o Cne.o
-     cp shape/zelda_gi_chicken/zelda_gi_chicken.o gi_niwatori.o
+#     cp shape/zelda_gi_chicken/zelda_gi_chicken.o gi_niwatori.o
 #     cp shape/zelda2_skj/zelda2_skj.o Skj.o
-     cp shape/zelda_gi_bottle_letter/zelda_gi_bottle_letter.o gi_bottle_letter.o
+#     cp shape/zelda_gi_bottle_letter/zelda_gi_bottle_letter.o gi_bottle_letter.o
 #     cp shape/zelda_bji/zelda_bji.o Bji.o
      cp shape/zelda_bba/zelda_bba.o Bba.o
 #     cp shape/zelda_gi_ocarina_0/zelda_gi_ocarina_0.o gi_ocarina_0.o
@@ -2040,14 +2043,14 @@ cp() {
      cp shape/zelda2_mm/zelda2_mm.o mm.o
 #     cp shape/zelda_fa/zelda_fa.o fa.o
      cp shape/zelda_os/zelda_os.o os.o
-     cp shape/zelda_gi_eye_lotion/zelda_gi_eye_lotion.o gi_eye_lotion.o
-     cp shape/zelda_gi_powder/zelda_gi_powder.o gi_powder.o
+#     cp shape/zelda_gi_eye_lotion/zelda_gi_eye_lotion.o gi_eye_lotion.o
+#     cp shape/zelda_gi_powder/zelda_gi_powder.o gi_powder.o
      cp shape/zelda_gi_mushroom/zelda_gi_mushroom.o gi_mushroom.o
      cp shape/zelda_gi_ticketstone/zelda_gi_ticketstone.o gi_ticketstone.o
-     cp shape/zelda_gi_brokensword/zelda_gi_brokensword.o gi_brokensword.o
+#     cp shape/zelda_gi_brokensword/zelda_gi_brokensword.o gi_brokensword.o
      cp shape/zelda_js/zelda_js.o Js.o
      cp shape/zelda2_cs/zelda2_cs.o cs.o
-     cp shape/zelda_gi_prescription/zelda_gi_prescription.o gi_prescription.o
+#     cp shape/zelda_gi_prescription/zelda_gi_prescription.o gi_prescription.o
 #     cp shape/zelda_gi_bracelet/zelda_gi_bracelet.o gi_bracelet.o
      cp shape/zelda_gi_soldout/zelda_gi_soldout.o gi_soldout.o
      cp shape/zelda_gi_frog/zelda_gi_frog.o gi_frog.o
@@ -2072,7 +2075,7 @@ cp() {
 #     cp shape/zelda_ec/zelda_ec.o Ec.o
      cp shape/zelda_fishing/zelda_fishing.o Fish.o
      cp shape/zelda_gi_sutaru/zelda_gi_sutaru.o gi_sutaru.o
-     cp shape/zelda_gi_goddess/zelda_gi_goddess.o gi_goddess.o
+#     cp shape/zelda_gi_goddess/zelda_gi_goddess.o gi_goddess.o
 #     cp shape/zelda_ssh/zelda_ssh.o ssh.o
      cp shape/zelda2_bg/zelda2_bg.o Bg.o
      cp shape/zelda2_bombiwa/zelda2_bombiwa.o bombiwa.o
@@ -2099,7 +2102,7 @@ cp() {
      cp shape/zelda_po_field/zelda_po_field.o Po_Field.o
      cp shape/zelda_demo_kekkai/zelda_demo_kekkai.o Demo_Kekkai.o
      cp shape/zelda_efc_doughnut/zelda_efc_doughnut.o Efc_Doughnut.o
-     cp shape/zelda_gi_dekupouch/zelda_gi_dekupouch.o gi_dekupouch.o
+#     cp shape/zelda_gi_dekupouch/zelda_gi_dekupouch.o gi_dekupouch.o
      cp shape/zelda_gi_rupy/zelda_gi_rupy.o gi_rupy.o
 #     cp shape/zelda_po_composer/zelda_po_composer.o Po_Composer.o
      cp shape/zelda2_mu/zelda2_mu.o Mu.o
