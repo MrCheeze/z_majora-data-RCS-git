@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.148  1998/03/19  03:07:55  nisiwaki
+# Tr.o を 追加
+#
 # Revision 1.147  1998/03/18  13:46:47  yoshida
 # インゴー追加
 #
@@ -668,3 +671,4 @@ cp() {
      cp shape/zelda_gi_bombpouch/zelda_gi_bombpouch.o gi_bombpouch.o
      cp shape/zelda_in/zelda_in.o In.o
      cp shape/zelda_tr/zelda_tr.o Tr.o
+     cp shape/zelda_spot16_obj/zelda_spot16_obj.o spot16_obj.o
