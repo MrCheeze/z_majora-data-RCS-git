@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.256  2000-01-08 13:18:47+09  sakaguti
+# 思い出のペンダント
+#
 # Revision 2.255  2000-01-07 11:39:41+09  takesita
 # リーバもともとありました。追加したのは削除。トホホ…
 #
@@ -2303,7 +2306,8 @@ cp() {
      cp shape/zelda2_f52_obj/zelda2_f52_obj.o F52_Obj.o
      cp shape/zelda2_f53_obj/zelda2_f53_obj.o F53_Obj.o
      cp shape/zelda2_kibako/zelda2_kibako.o kibako.o
-     cp shape/zelda2_tsg/zelda2_tsg.o tsg.o
+#     cp shape/zelda2_tsg/zelda2_tsg.o tsg.o
+     cp shape/zelda2_sek/zelda2_sek.o tsg.o
      cp shape/zelda2_gmo/zelda2_gmo.o Gmo.o
      cp shape/zelda2_bat/zelda2_bat.o Bat.o
      cp shape/zelda2_sekihi/link/link.o sekihiL.o
