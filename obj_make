@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.225  1999-12-08 10:44:41+09  kuzuhara
+# 深海透明壁
+#
 # Revision 2.224  1999-12-07 16:09:38+09  takesita
 # 張り子の牛追加
 #
@@ -2170,12 +2173,12 @@ cp() {
     cp shape/zelda2_gi_sword_1/v2_sword_01.o gi_sword_1.o
 #     cp shape/zelda_killer_door/zelda_killer_door.o killer_door.o
      cp shape/zelda_ouke_haka/zelda_ouke_haka.o ouke_haka.o
-     cp shape/zelda2_timeblock/zelda2_timeblock.o timeblock.o
+#     cp shape/zelda2_timeblock/zelda2_timeblock.o timeblock.o
      cp shape/zelda2_zl/zelda2_zl.o Zl4.o
      cp shape/zelda2_kdz/zelda2_kdz.o Kdz.o
      cp shape/zelda2_boyo/zelda2_boyo.o boyo.o
-     cp shape/zelda2_fence/zelda2_fence.o fence.o
-     cp shape/zelda2_hampost/zelda2_hampost.o hampost.o
+#     cp shape/zelda2_fence/zelda2_fence.o fence.o
+#     cp shape/zelda2_hampost/zelda2_hampost.o hampost.o
 #     cp shape/zelda2_swfl/zelda2_swfl.o swfl.o
      cp shape/zelda2_fwall/zelda2_fwall.o Fwall.o
      cp shape/zelda2_jso/zelda2_jso.o Jso.o
@@ -2331,3 +2334,5 @@ cp() {
      cp shape/zelda2_hariko/zelda2_hariko.o Hariko.o
      cp shape/zelda2_dnj/zelda2_dnj.o Dnj.o
      cp shape/zelda2_sinkai_kabe/zelda2_sinkai_kabe.o Sinkai_Kabe.o
+     cp shape/zelda2_kin2_obj/zelda2_kin2_obj.o kin2_obj.o
+     cp shape/zelda2_ishi/zelda2_ishi.o ishi.o
