@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.331  2000-02-15 10:58:31+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.330  2000-02-14 22:04:24+09  iwawaki
 # *** empty log message ***
 #
@@ -2460,7 +2463,7 @@ cp() {
 #     cp shape/zelda_ganon2/zelda_ganon2.o B_ganon2.o
 #     cp shape/zelda_ganon2_PAL/zelda_ganon2_PAL.o B_ganon2_PAL.o
      cp shape/zelda_ka/zelda_ka.o Ka.o
-     cp shape/zelda_ts/zelda_ts.o Ts.o
+#     cp shape/zelda_ts/zelda_ts.o Ts.o
      cp shape/zelda_zg/zelda_zg.o Zg.o
 #     cp shape/zelda_gi_hoverboots/zelda_gi_hoverboots.o gi_hoverboots.o
      cp shape/zelda_gi_m_arrow/zelda_gi_m_arrow.o gi_m_arrow.o
@@ -2477,7 +2480,7 @@ cp() {
     cp shape/zelda2_rsn/zelda2_rsn.o Rs.o
 #     cp shape/zelda_spot00_break/zelda_spot00_break.o spot00_break.o
      cp shape/zelda2_gla/zelda2_gla.o Gla.o
-     cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
+#     cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
      cp shape/zelda2_gelb/zelda2_gelb.o Gelb.o
      cp shape/zelda2_dog2/zelda2_dog2.o Dog.o
      cp shape/zelda_jya_iron/zelda_jya_iron.o jya_iron.o
