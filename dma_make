@@ -155,10 +155,10 @@ cp() {
 ##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_pal.o .
 ##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_div8_idx.o .
 ##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_pal.o .
 #####	ＶＲーＢＯＸ（５１２）
 ##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_1_div8_idx.o .
 ##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_2_div8_idx.o .
