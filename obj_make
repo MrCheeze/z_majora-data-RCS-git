@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.155  1998/03/25  03:00:43  komatu
+# *** empty log message ***
+#
 # Revision 1.154  1998/03/24  04:06:57  komatu
 # *** empty log message ***
 #
@@ -698,3 +701,4 @@ cp() {
      cp shape/zelda_gi_map/zelda_gi_map.o gi_map.o
      cp shape/zelda_oF1d/zelda_oF1d.o oF1d_map.o
      cp shape/zelda_ru2/zelda_ru2.o ru2.o
+     cp shape/zelda_gi_shield_1/zelda_gi_shield_1.o gi_shield_1.o
