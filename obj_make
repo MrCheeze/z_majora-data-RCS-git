@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.172  1998/04/07  09:22:54  takahata
+# *** empty log message ***
+#
 # Revision 1.171  1998/04/07  02:20:53  kuzuhara
 # アヌビス作成
 #
@@ -539,8 +542,11 @@ cp() {
      cp shape/zelda_dangeon_keep/zelda_dangeon_keep.o Dangeon_keep.o
      cp shape/zelda_link_new/Anime_Data/Anime_Data.o Link_anime_data.o
 
-    cp shape/zelda_link_new/Skeleton/Boy/Boy.o Link_boy.o
-    cp shape/zelda_link_new/Skeleton/Child/Child.o Link_child.o
+     cp shape/zelda_link_ci/Boy/Boy.o Link_boy.o
+     cp shape/zelda_link_ci/Child/Child.o Link_child.o
+
+#    cp shape/zelda_link_new/Skeleton/Boy/Boy.o Link_boy.o
+#    cp shape/zelda_link_new/Skeleton/Child/Child.o Link_child.o
 
 #     cp /home/yoshida/gamegen/cnv/LINK/main/Boy/Boy.o Link_boy.o
 #     cp /home/yoshida/gamegen/cnv/LINK/main/Child/Child.o Link_child.o
