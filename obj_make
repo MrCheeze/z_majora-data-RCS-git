@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.61  1997/10/19  09:03:22  iwawaki
+# *** empty log message ***
+#
 # Revision 1.60  1997/10/17  08:26:27  sumiyosi
 # ハイリアの住民追加。
 #
@@ -268,4 +271,10 @@ cp() {
      cp shape/zelda_oA6/zelda_oA6.o OA6.o
      cp shape/zelda_oA7/zelda_oA7.o OA7.o
      cp shape/zelda_jj/zelda_jj.o Jj.o
+     cp shape/zelda_oA8/zelda_oA8.o OA8.o
+     cp shape/zelda_oA9/zelda_oA9.o OA9.o
+     cp shape/zelda_oB2/zelda_oB2.o OB2.o
+     cp shape/zelda_oB3/zelda_oB3.o OB3.o
+     cp shape/zelda_oB4/zelda_oB4.o OB4.o
+
 
