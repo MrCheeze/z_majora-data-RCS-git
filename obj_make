@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.219  1999-12-06 15:04:58+09  sakaguti
+# ゲットアイテムのタツノオトシゴ、ハイラルどじょう追加。
+#
 # Revision 2.218  1999-12-06 11:43:53+09  takesita
 # 銅鑼追加。ボワァ〜〜〜ン！！
 #
@@ -1741,8 +1744,8 @@ cp() {
 #     cp shape/zelda_vali/zelda_vali.o Vali.o
 #     cp shape/zelda_oA10/zelda_oA10.o OA10.o
 #     cp shape/zelda_oA11/zelda_oA11.o OA11.o
-     cp shape/zelda_fantomHG/zelda_fantomHG.o FantomHG.o
-     cp shape/zelda_fantomHG_PAL/zelda_fantomHG_PAL.o FantomHG_PAL.o
+#     cp shape/zelda_fantomHG/zelda_fantomHG.o FantomHG.o
+#     cp shape/zelda_fantomHG_PAL/zelda_fantomHG_PAL.o FantomHG_PAL.o
      cp shape/zelda_sh/zelda_sh.o OB1.o
      cp shape/zelda_bb/zelda_bb.o Bb.o
 #     cp shape/zelda_yukabyun/zelda_yukabyun.o Yukabyun.o
@@ -1810,7 +1813,7 @@ cp() {
      cp shape/zelda_efc_tw/zelda_efc_tw.o efc_tw.o
 #     cp shape/zelda_rl/zelda_rl.o Rl.o
 #     cp shape/zelda_tre_lgt/zelda_tre_lgt.o demo_tre_lgt.o
-     cp shape/zelda_haka_objects/zelda_haka_objects.o haka_objects.o
+#     cp shape/zelda_haka_objects/zelda_haka_objects.o haka_objects.o
      cp shape/zelda_key/zelda_key.o gi_key.o
      cp shape/zelda_mir_ray/zelda_mir_ray.o mir_ray.o
      cp shape/zelda2_ctower_rot/zelda2_ctower_rot.o Ctower_Rot.o
@@ -2129,7 +2132,7 @@ cp() {
      cp shape/zelda_gi_ghost/zelda_gi_ghost.o gi_ghost.o
      cp shape/zelda_gi_soul/zelda_gi_soul.o gi_soul.o
      cp shape/zelda_bowl/zelda_bowl.o Bowl.o
-     cp shape/zelda_po_field/zelda_po_field.o Po_Field.o
+#     cp shape/zelda_po_field/zelda_po_field.o Po_Field.o
      cp shape/zelda_demo_kekkai/zelda_demo_kekkai.o Demo_Kekkai.o
      cp shape/zelda_efc_doughnut/zelda_efc_doughnut.o Efc_Doughnut.o
 #     cp shape/zelda_gi_dekupouch/zelda_gi_dekupouch.o gi_dekupouch.o
