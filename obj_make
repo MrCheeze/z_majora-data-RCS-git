@@ -1,9 +1,12 @@
 #!/bin/sh
-set -x
+#set -x
 #
 # $Id$
 #
 # $Log$
+# Revision 1.27  1997/08/19  09:46:25  tarukado
+# *** empty log message ***
+#
 # Revision 1.26  1997/08/12  11:11:00  iwawaki
 # *** empty log message ***
 #
