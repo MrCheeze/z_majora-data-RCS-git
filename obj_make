@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.259  1998-07-20 15:00:12+09  komatu
+# 大ゼルダのアニメバンクを別にした
+#
 # Revision 1.258  1998-07-18 15:32:37+09  nisiwaki
 # *** empty log message ***
 #
@@ -1066,6 +1069,7 @@ cp() {
      cp shape/zelda_scene_name2/G_pn_16/G_pn_16.o .
      cp shape/zelda_scene_name2/G_pn_17/G_pn_17.o .
      cp shape/zelda_scene_name2/G_pn_18/G_pn_18.o .
+     cp shape/zelda_scene_name2/G_pn_19/G_pn_19.o .
      cp shape/zelda_scene_name2/G_pn_20/G_pn_20.o .
      cp shape/zelda_scene_name2/G_pn_21/G_pn_21.o .
      cp shape/zelda_scene_name2/G_pn_22/G_pn_22.o .
@@ -1092,6 +1096,14 @@ cp() {
      cp shape/zelda_scene_name2/G_pn_43/G_pn_43.o .
      cp shape/zelda_scene_name2/G_pn_44/G_pn_44.o .
      cp shape/zelda_scene_name2/G_pn_45/G_pn_45.o .
+     cp shape/zelda_scene_name2/G_pn_46/G_pn_46.o .
+     cp shape/zelda_scene_name2/G_pn_47/G_pn_47.o .
+     cp shape/zelda_scene_name2/G_pn_48/G_pn_48.o .
+     cp shape/zelda_scene_name2/G_pn_49/G_pn_49.o .
+     cp shape/zelda_scene_name2/G_pn_50/G_pn_50.o .
+     cp shape/zelda_scene_name2/G_pn_51/G_pn_51.o .
+     cp shape/zelda_scene_name2/G_pn_52/G_pn_52.o .
+     cp shape/zelda_scene_name2/G_pn_53/G_pn_53.o .
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
      cp shape/zelda_ani/zelda_ani.o ani.o
      cp shape/zelda_demo_6k/zelda_demo_6k.o D6k.o
