@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.236  1999-12-13 20:06:53+09  sakakibara
+# mbar_obj ikana_obj 追加
+#
 # Revision 2.235  1999-12-13 13:01:57+09  kuzuhara
 # 再生リーバ作成
 #
@@ -2378,3 +2381,4 @@ cp() {
      cp shape/zelda2_rb/zelda2_rb.o Rb.o
      cp shape/zelda2_mbar_obj/zelda2_mbar_obj.o mbar_obj.o
      cp shape/zelda2_ikana_obj/zelda2_ikana_obj.o ikana_obj.o
+     cp shape/zelda2_kz/zelda2_kz.o Kz.o
