@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.177  1999-11-11 18:00:30+09  sakaguti
+# 大爆弾を追加
+#
 # Revision 2.176  1999-11-11 16:03:58+09  kuzuhara
 # 墓地柱
 #
@@ -2140,3 +2143,4 @@ cp() {
      cp shape/zelda2_delf/zelda2_delf.o Delf.o
      cp shape/zelda2_botihasira/zelda2_botihasira.o Botihasira.o
      cp shape/zelda2_gi_bigbomb/v2_bigbomb.o gi_bigbomb.o
+     cp shape/zelda2_pst/zelda2_pst.o Pst.o
