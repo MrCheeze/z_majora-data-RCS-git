@@ -36,6 +36,7 @@ cp() {
 #####	ＧＡＴＥＷＡＹ
      cp shape/TEXTURE2/NINTENDO/NINTENDO.o .
      cp shape/TEXTURE/TITLE/gate.o .
+     cp shape/TEXTURE/TITLE/pal_gate.o .
 #####	ＰＡＲＡＭＥＴＥＲ
      cp shape/TEXTURE2/JAPAN/PARAMETER2/parameter.o .
      cp shape/TEXTURE2/JAPAN/PARAMETER2/parameter_show.o .

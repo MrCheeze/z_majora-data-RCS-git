@@ -71,7 +71,7 @@ if [ -r shape/MESSAGE/USA/USA.o ]; then
 else
     echo -e "\007\033[37;41m只今【ＰＡＬ版：英語】メッセージは更新中、または壊れています\033[m"
 fi
-## ドイツ語
+## ＰＡＬ版：ドイツ語
 if [ -r shape/MESSAGE/GER/GER.o ]; then
      cp shape/MESSAGE/GER/ger_extern.h .
      cp shape/MESSAGE/GER/ger_table.o .
@@ -79,7 +79,7 @@ if [ -r shape/MESSAGE/GER/GER.o ]; then
 else
     echo -e "\007\033[37;41m只今【ドイツ語版】メッセージは更新中、または壊れています\033[m"
 fi
-## フランス語
+## ＰＡＬ版：フランス語
 if [ -r shape/MESSAGE/FRA/FRA.o ]; then
      cp shape/MESSAGE/FRA/fra_extern.h .
      cp shape/MESSAGE/FRA/fra_table.o .
@@ -87,7 +87,7 @@ if [ -r shape/MESSAGE/FRA/FRA.o ]; then
 else
     echo -e "\007\033[37;41m只今【フランス語版】メッセージは更新中、または壊れています\033[m"
 fi
-## スペイン語
+## ＰＡＬ版：スペイン語
 if [ -r shape/MESSAGE/SPA/SPA.o ]; then
      cp shape/MESSAGE/SPA/spa_extern.h .
      cp shape/MESSAGE/SPA/spa_table.o .
@@ -97,7 +97,7 @@ else
 fi
 
 
-## ＧＡＴＥＷＡＹ版
+## ＮＥＳ版：ＧＡＴＥＷＡＹ
 if [ -r shape/MESSAGE/NesG/NesG.o ]; then
      cp shape/MESSAGE/NesG/nesG_table.h .
      cp shape/MESSAGE/NesG/nesG_extern.h .
@@ -107,6 +107,42 @@ else
 fi
 
 
+## ＰＡＬ版：ＧＡＴＥＷＡＹ
+## ＰＡＬ版：ＧＡＴＥＷＡＹ：英語
+if [ -r shape/MESSAGE/UsaG/UsaG.o ]; then
+     cp shape/MESSAGE/UsaG/usaG_extern.h .
+     cp shape/MESSAGE/UsaG/usaG_table.o .
+     cp shape/MESSAGE/UsaG/usaG_message_data.o UsaG.o
+else
+    echo -e "\007\033[37;41m只今【ＰＡＬ版：ＧＡＴＥＷＡＹ：英語】メッセージは更新中、または壊れています\033[m"
+fi
+## ＰＡＬ版：ＧＡＴＥＷＡＹ：ドイツ語
+if [ -r shape/MESSAGE/GerG/GerG.o ]; then
+     cp shape/MESSAGE/GerG/gerG_extern.h .
+     cp shape/MESSAGE/GerG/gerG_table.o .
+     cp shape/MESSAGE/GerG/gerG_message_data.o GerG.o
+else
+    echo -e "\007\033[37;41m只今【ＰＡＬ版：ＧＡＴＥＷＡＹ：ドイツ語版】メッセージは更新中、または壊れています\033[m"
+fi
+## ＰＡＬ版：ＧＡＴＥＷＡＹ：フランス語
+if [ -r shape/MESSAGE/FraG/FraG.o ]; then
+     cp shape/MESSAGE/FraG/fraG_extern.h .
+     cp shape/MESSAGE/FraG/fraG_table.o .
+     cp shape/MESSAGE/FraG/fraG_message_data.o FraG.o
+else
+    echo -e "\007\033[37;41m只今【ＰＡＬ版：ＧＡＴＥＷＡＹ：フランス語版】メッセージは更新中、または壊れています\033[m"
+fi
+## ＰＡＬ版：ＧＡＴＥＷＡＹ：スペイン語
+if [ -r shape/MESSAGE/SpaG/SpaG.o ]; then
+     cp shape/MESSAGE/SpaG/spaG_extern.h .
+     cp shape/MESSAGE/SpaG/spaG_table.o .
+     cp shape/MESSAGE/SpaG/spaG_message_data.o SpaG.o
+else
+    echo -e "\007\033[37;41m只今【ＰＡＬ版：ＧＡＴＥＷＡＹ：スペイン語版】メッセージは更新中、または壊れています\033[m"
+fi
+
+
+## その他
      cp shape/TEXTURE/MESSAGE/texture/texture.o .
      cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
 ###
