@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.36  1999-03-23 15:54:26+09  umemiya
+# 氷ブロック追加
+#
 # Revision 2.35  1999-03-18 15:17:28+09  umemiya
 # オクタロックzelda_oc2をzelda2_ocへ
 #
@@ -1567,7 +1570,7 @@ cp() {
      cp shape/zelda_gi_dekupouch/zelda_gi_dekupouch.o gi_dekupouch.o
      cp shape/zelda_gi_rupy/zelda_gi_rupy.o gi_rupy.o
      cp shape/zelda_po_composer/zelda_po_composer.o Po_Composer.o
-     cp shape/zelda_mu/zelda_mu.o Mu.o
+     cp shape/zelda2_mu/zelda2_mu.o Mu.o
      cp shape/zelda_wf/zelda_wf.o Wf.o
      cp shape/zelda_skb/zelda_skb.o Skb.o
      cp shape/zelda_gj/zelda_gj.o gj.o
