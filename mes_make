@@ -96,6 +96,7 @@ fi
      cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
 #2000/03/20     cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o .
      cp  shape/MESSAGE/staff/staff_c.o .
+     cp  shape/MESSAGE/usa_staff/usa_staff_c.o .
 ##### メッセージソースというか
      cp shape/TEXTURE/MESSAGE/NES/nes_a nes_a
      cp shape/TEXTURE/MESSAGE/NES/nes_b nes_b
