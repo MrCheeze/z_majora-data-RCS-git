@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.175  1999-11-11 11:50:31+09  sasaki
+# delf add
+#
 # Revision 2.174  1999-11-09 18:58:49+09  sakaguti
 # 旧ナイフを剣レベル１に変更
 #
@@ -2132,3 +2135,4 @@ cp() {
      cp shape/zelda2_pp/zelda2_pp.o Pp.o
      cp shape/zelda2_goronswitch/zelda2_goronswitch.o goronswitch.o
      cp shape/zelda2_delf/zelda2_delf.o Delf.o
+     cp shape/zelda2_botihasira/zelda2_botihasira.o Botihasira.o
