@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.133  1998/03/04  09:55:07  okajima
+# *** empty log message ***
+#
 # Revision 1.132  1998/03/04  09:34:58  sakakibara
 # *** empty log message ***
 #
@@ -422,11 +425,11 @@ cp() {
      cp shape/zelda_dangeon_keep/zelda_dangeon_keep.o Dangeon_keep.o
      cp shape/zelda_link_new/Anime_Data/Anime_Data.o Link_anime_data.o
 
-#     cp shape/zelda_link_new/Skeleton/Boy/Boy.o Link_boy.o
-#     cp shape/zelda_link_new/Skeleton/Child/Child.o Link_child.o
+    cp shape/zelda_link_new/Skeleton/Boy/Boy.o Link_boy.o
+    cp shape/zelda_link_new/Skeleton/Child/Child.o Link_child.o
 
-     cp /home/yoshida/gamegen/cnv/LINK/main/Boy/Boy.o Link_boy.o
-     cp /home/yoshida/gamegen/cnv/LINK/main/Child/Child.o Link_child.o
+#     cp /home/yoshida/gamegen/cnv/LINK/main/Boy/Boy.o Link_boy.o
+#     cp /home/yoshida/gamegen/cnv/LINK/main/Child/Child.o Link_child.o
 
      cp shape/zelda_baby_skel/zelda_baby_skel.o Baby_skel.o 
      cp shape/zelda_box/zelda_box.o Box.o
