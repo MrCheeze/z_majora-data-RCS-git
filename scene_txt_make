@@ -1,0 +1,33 @@
+#!/usr/local/bin/bash
+#set -x
+#
+# $Id$
+#
+# $Log$
+#
+
+cp2() {
+  if [ ! -e $2 -o $1 -nt $2 ]; then
+    echo    cp $1 $2
+    command cp $1 $2
+  fi
+}
+cp() {
+  SRC=$1
+  DEST=$2
+  SRCBASE=`basename $SRC`
+  if [ -d $DEST ]; then
+    cp2 $SRC $DEST/$SRCBASE
+  else
+    cp2 $SRC $DEST
+  fi
+}
+
+     cp shape/zelda2_scene_txt_1/zelda2_scene_txt_1.o Scene_Texture_01.o
+     cp shape/zelda2_scene_txt_2/zelda2_scene_txt_2.o Scene_Texture_02.o
+     cp shape/zelda2_scene_txt_3/zelda2_scene_txt_3.o Scene_Texture_03.o
+     cp shape/zelda2_scene_txt_4/zelda2_scene_txt_4.o Scene_Texture_04.o
+     cp shape/zelda2_scene_txt_5/zelda2_scene_txt_5.o Scene_Texture_05.o
+     cp shape/zelda2_scene_txt_6/zelda2_scene_txt_6.o Scene_Texture_06.o
+     cp shape/zelda2_scene_txt_7/zelda2_scene_txt_7.o Scene_Texture_07.o
+     cp shape/zelda2_scene_txt_8/zelda2_scene_txt_8.o Scene_Texture_08.o
