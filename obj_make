@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.194  1998/04/23 09:48:50  kuzuhara
+# ごめん
+#
 # Revision 1.193  1998-04-23 18:47:10+09  kuzuhara
 # すみません
 #
@@ -643,7 +646,8 @@ cp() {
      cp shape/zelda_kogoma/zelda_kogoma.o Gol.o
      cp shape/zelda_bubble/zelda_bubble.o Bubble.o
      cp shape/zelda_dodojr/zelda_dodojr.o Dodojr.o
-     cp shape/zelda_torch2/zelda_torch2.o Torch2.o
+#     cp shape/zelda_torch2/zelda_torch2.o Torch2.o
+     cp shape/zelda_black_link/zelda_black_link.o Torch2.o
      cp shape/zelda_bl/zelda_bl.o Bl.o
      cp shape/zelda_tp/zelda_tp.o Tp.o
      cp shape/zelda_bw/zelda_bw.o Bw.o
