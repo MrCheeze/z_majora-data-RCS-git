@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.89  1998/01/12  14:08:35  iwawaki
+# *** empty log message ***
+#
 # Revision 1.88  1998/01/08  10:46:44  umemiya
 # 森の神殿、炎の神殿テクスチャ追加
 #
@@ -405,4 +408,5 @@ cp() {
      cp shape/zelda_mori_tex/zelda_mori_tex.o mori_tex.o
      cp shape/zelda_hidan_tex/zelda_hidan_tex.o hidan_tex.o
      cp shape/zelda_warp2/zelda_warp2.o Warp2.o
+     cp shape/zelda_hata/zelda_hata.o Hata.o
                                                                           
