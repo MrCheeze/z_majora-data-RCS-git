@@ -34,6 +34,7 @@ cp() {
 #     cp shape/TEXTURE/TITLE/title.o .
      cp shape/TEXTURE2/JAPAN/FILE_NAME/file_name.o title.o
 #####	ＧＡＴＥＷＡＹ
+     cp shape/TEXTURE2/NINTENDO/NINTENDO.o .
      cp shape/TEXTURE/TITLE/gate.o .
 #####	ＰＡＲＡＭＥＴＥＲ
      cp shape/TEXTURE2/JAPAN/PARAMETER2/parameter.o .
