@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.83  1997/12/18  07:54:39  umemiya
+# 時の間・オブジェ追加
+#
 # Revision 1.82  1997/12/18  06:07:05  umemiya
 # *** empty log message ***
 #
@@ -364,3 +367,4 @@ cp() {
      cp shape/zelda_mori_hineri1/zelda_mori_hineri1.o mori_hineri1.o
      cp shape/zelda_bb/zelda_bb.o Bb.o
      cp shape/zelda_toki_objects/zelda_toki_objects.o toki_objects.o
+     cp shape/zelda_yukabyun/zelda_yukabyun.o Yukabyun.o
