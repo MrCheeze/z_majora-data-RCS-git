@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.210  1999-11-30 19:14:55+09  sasaki
+# 雪山地形 追加
+#
 # Revision 2.209  1999-11-27 16:32:08+09  iwawaki
 # *** empty log message ***
 #
@@ -1618,7 +1621,7 @@ cp() {
 
 #     cp shape/zelda2_link_new/Skeleton/Boy/Boy.o Link_boy.o
      cp shape/zelda2_link_new/Skeleton/Boy2/Boy2.o Link_boy.o
-     cp shape/zelda2_link_new/Skeleton/Child/Child.o Link_child.o
+     cp shape/zelda2_link_new/Skeleton/Child2/Child2.o Link_child.o
      cp shape/zelda2_link_new/Skeleton/Goron/Goron.o Link_goron.o
      cp shape/zelda2_link_new/Skeleton/Zora/Zora.o Link_zora.o
      cp shape/zelda2_link_new/Skeleton/Nuts/Nuts.o Link_nuts.o
