@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.177  1998/04/10 05:21:18  nisiwaki
+# たくさん 追加
+#
 # Revision 1.176  1998/04/10  02:01:50  yoshida
 # マロン子供時代追加
 #
@@ -798,3 +801,4 @@ cp() {
      cp shape/zelda_gi_pachinko/zelda_gi_pachinko.o gi_pachinko.o
      cp shape/zelda_gi_boomerang/zelda_gi_boomerang.o gi_boomerang.o
      cp shape/zelda_gi_bow/zelda_gi_bow.o gi_bow.o
+     cp shape/zelda_gi_glasses/zelda_gi_glasses.o gi_glasses.o
