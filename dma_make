@@ -25,13 +25,6 @@ cp() {
     fi
 }
 
-#####	メモリエラーメッセージ
-     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg.o .
-
-#####	イベント制御コード
-     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/change/save_list_txt.inc .
-     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/tool/week_event_reg.inc .
-
 #####	ＳＨＯＷ
      cp shape/TEXTURE2/SPACE_WORLD/space_world.o .
 
@@ -47,21 +40,6 @@ cp() {
      cp shape/TEXTURE2/PARAMETER2/youbi.o week.o
      cp shape/TEXTURE2/PARAMETER2/daytelop.o .
      cp shape/TEXTURE2/DO_ACTION2/do_action_idx.o .
-#####	メッセージ
-     cp shape/MESSAGE/japan/table.h .
-     cp shape/MESSAGE/japan/extern.h .
-     cp shape/MESSAGE/japan/japan.o .
-     cp shape/TEXTURE/MESSAGE/texture/texture.o .
-     cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
-###
-     cp shape/TEXTURE/MESSAGE/font/font_e.o .
-     cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
-     cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o .
-##### メッセージソースというか
-     cp shape/TEXTURE/MESSAGE/NES/nes_a nes_a
-     cp shape/TEXTURE/MESSAGE/NES/nes_b nes_b
-     cp shape/TEXTURE/MESSAGE/STAFF/staff_a staff_a
-     cp shape/TEXTURE/MESSAGE/STAFF/staff_b staff_b
 #####	ＭＡＰ
      cp shape/TEXTURE/MAP/map_fm.o map_grand.o
      cp shape/TEXTURE/MAP2/map_grand2.o .
