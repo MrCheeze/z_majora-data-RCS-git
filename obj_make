@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.26  1999-03-04 11:39:34+09  umemiya
+# クモの巣追加
+#
 # Revision 2.25  1999-03-03 15:03:17+09  umemiya
 # つらら復帰
 #
@@ -1564,3 +1567,4 @@ cp() {
      cp shape/zelda2_knight/zelda2_knight.o Knight.o
      cp shape/zelda2_icicle/zelda2_icicle.o Icicle.o
      cp shape/zelda2_spdweb/zelda2_spdweb.o Spdweb.o
+     cp shape/zelda2_yh/zelda2_yh.o Yh.o
