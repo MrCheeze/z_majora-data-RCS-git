@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.2  1998-10-27 14:20:50+09  komatu
+# PAL用シェイプデータXc_pal.oの追加
+#
 # Revision 2.1  1998-10-22 21:42:44+09  hayakawa
 # ＲＯＭ出しバージョン(NTSC)
 #
@@ -1128,7 +1131,7 @@ cp() {
      cp shape/dk_vase/dk_vase.o Vase.o
      cp shape/zelda_im/zelda_im.o Im.o
      cp shape/zelda_xc/zelda_xc.o Xc.o
-     cp shape/zelda_xc/zelda_xc_pal.o Xc_pal.o
+     cp shape/zelda_xc_pal/zelda_xc_pal.o Xc_pal.o
      cp shape/zelda_ta/zelda_ta.o Ta.o
      cp shape/zelda_tk/zelda_tk.o Tk.o
      cp shape/zelda_vm/zelda_vm.o Vm.o
