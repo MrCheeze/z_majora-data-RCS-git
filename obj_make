@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.68  1999-05-06 17:26:39+09  sakakibara
+# 時のブロック移動
+#
 # Revision 2.67  1999-04-28 18:22:18+09  umemiya
 # ボムチュウリアル追加
 #
@@ -1732,4 +1735,5 @@ cp() {
      cp shape/zelda2_sichitai_obj/zelda2_sichitai_obj.o Sichitai_Obj.o
      cp shape/zelda2_dekucity_ana_obj/zelda2_dekucity_ana_obj.o Dekucity_Ana_Obj.o
      cp shape/zelda2_rat/zelda2_rat.o Rat.o
+     cp shape/zelda2_water_effect/zelda2_water_effect.o Water_Effect.o
 
