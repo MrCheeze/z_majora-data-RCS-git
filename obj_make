@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.140  1999-10-05 10:32:24+09  kuzuhara
+# 外伝用兵士バンク作ったナリ
+#
 # Revision 2.139  1999-10-04 20:59:26+09  sakaguti
 # （元）宝屋店員、長髪の店員、（元）釣堀屋店員、（元）店員
 # 追加
@@ -1995,3 +1998,4 @@ cp() {
      cp shape/zelda2_fsn/zelda2_fsn.o Fsn.o
      cp shape/zelda2_shn/zelda2_shn.o Shn.o
      cp shape/zelda2_sd/zelda2_sd.o sd.o
+     cp shape/zelda2_bigicicle/zelda2_bigicicle.o Bigicicle.o
