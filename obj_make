@@ -4,6 +4,9 @@ set -x
 # $Id$
 #
 # $Log$
+# Revision 1.24  1997/08/04  02:38:22  iwawaki
+# *** empty log message ***
+#
 # Revision 1.23  1997/07/30  01:25:20  tarukado
 # *** empty log message ***
 #
@@ -92,18 +95,12 @@ echo cp shape/zelda_dodongo/zelda_dodongo.o Dodongo.o
      cp shape/zelda_dodongo/zelda_dodongo.o Dodongo.o
 echo cp shape/zelda_fire/zelda_fire.o Fire.o
      cp shape/zelda_fire/zelda_fire.o Fire.o
-echo cp shape/zelda_firefly/zelda_firefly.o Firefly.o
-     cp shape/zelda_firefly/zelda_firefly.o Firefly.o
 echo cp shape/zelda_human/zelda_human.o Human.o
      cp shape/zelda_human/zelda_human.o Human.o
 echo cp shape/zelda_ironknack/zelda_ironknack.o Ironknack.o
      cp shape/zelda_ironknack/zelda_ironknack.o Ironknack.o
 echo cp shape/zelda_nw/zelda_nw.o Niw.o
      cp shape/zelda_nw/zelda_nw.o Niw.o
-echo cp shape/zelda_okuta/zelda_okuta.o Okuta.o
-     cp shape/zelda_okuta/zelda_okuta.o Okuta.o
-echo cp shape/zelda_poh/zelda_poh.o Poh.o
-     cp shape/zelda_poh/zelda_poh.o Poh.o
 echo cp shape/zelda_rock/zelda_rock.o Rock.o
      cp shape/zelda_rock/zelda_rock.o Rock.o
 echo cp shape/zelda_skelton/zelda_skelton.o Skelton.o
@@ -114,14 +111,10 @@ echo cp shape/zelda_soldier/zelda_soldier.o Soldier.o
      cp shape/zelda_soldier/zelda_soldier.o Soldier.o
 echo cp shape/zelda_tt/zelda_tt.o Tite.o
      cp shape/zelda_tt/zelda_tt.o Tite.o
-echo cp shape/zelda_wallmaster/zelda_wallmaster.o Wallmaster.o
-     cp shape/zelda_wallmaster/zelda_wallmaster.o Wallmaster.o
 echo cp shape/zelda_rb/zelda_rb.o Reeba.o
      cp shape/zelda_rb/zelda_rb.o Reeba.o
 echo cp shape/zelda_ph/zelda_ph.o Peehat.o
      cp shape/zelda_ph/zelda_ph.o Peehat.o
-echo cp shape/zelda_kingdodongo/zelda_kingdodongo.o Kingdodongo.o
-     cp shape/zelda_kingdodongo/zelda_kingdodongo.o Kingdodongo.o
 echo cp shape/zelda_horse/zelda_horse.o Horse.o
      cp shape/zelda_horse/zelda_horse.o Horse.o
 echo cp shape/zelda_zf/zelda_zf.o Zf.o
