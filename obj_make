@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.91  1999-07-09 15:10:09+09  umemiya
+# ポウ削除、毒カエルスライム追加
+#
 # Revision 2.90  1999-07-08 17:37:22+09  sakakibara
 # 白銀の砦
 #
@@ -1818,3 +1821,4 @@ cp() {
      cp shape/zelda2_trT/zelda2_trT.o Trt.o
      cp shape/zelda2_hakugin_obj/zelda2_hakugin_obj.o hakugin_obj.o
      cp shape/zelda2_pfslime/zelda2_pfslime.o Pfslime.o
+     cp shape/zelda2_horse_game_check/zelda2_horse_game_check.o Horse_Game_Check.o
