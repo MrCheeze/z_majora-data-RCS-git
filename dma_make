@@ -21,6 +21,9 @@ cp() {
   fi
 }
 
+     cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
+     cp shape/TEXTURE/MESSAGE/message/message.o .
+     cp shape/TEXTURE/MAP/map_div4_idx.o .
      cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_pal.o .

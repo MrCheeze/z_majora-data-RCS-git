@@ -9,9 +9,7 @@ f_keep
 d_keep
 title
 nintendo_rogo
-message
 obj_make
 #scene_make
 scene_make_bash
 dma_make
-map_make
