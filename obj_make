@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.212  1998-06-01 16:41:50+09  sakakibara
+# Ｓｐｏｔ０８ オブジェクト追加
+#
 # Revision 1.211  1998-05-29 13:55:38+09  takahata
 # *** empty log message ***
 #
@@ -772,9 +775,9 @@ cp() {
      cp shape/zelda_mjin_oka/zelda_mjin_oka.o Oka_mjin.o
      cp shape/zelda_spot06_objects/zelda_spot06_objects.o spot06_objects.o
      cp shape/zelda_ice_objects/zelda_ice_objects.o ice_objects.o
-     cp shape/zelda_hidan_objects4/zelda_hidan_objects4.o hidan_objects4.o
-     cp shape/zelda_hidan_objects5/zelda_hidan_objects5.o hidan_objects5.o
-     cp shape/zelda_hidan_objects6/zelda_hidan_objects6.o hidan_objects6.o
+#     cp shape/zelda_hidan_objects4/zelda_hidan_objects4.o hidan_objects4.o
+#     cp shape/zelda_hidan_objects5/zelda_hidan_objects5.o hidan_objects5.o
+#     cp shape/zelda_hidan_objects6/zelda_hidan_objects6.o hidan_objects6.o
      cp shape/zelda_mori_hineri1a/zelda_mori_hineri1a.o mori_hineri1a.o
      cp shape/zelda_mori_hineri2/zelda_mori_hineri2.o mori_hineri2.o
      cp shape/zelda_mori_hineri2a/zelda_mori_hineri2a.o mori_hineri2a.o
