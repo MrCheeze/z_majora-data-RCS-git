@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.218  1999-12-06 11:43:53+09  takesita
+# 銅鑼追加。ボワァ〜〜〜ン！！
+#
 # Revision 2.217  1999-12-06 10:49:54+09  kuzuhara
 # うつぼ
 #
@@ -2303,3 +2306,5 @@ cp() {
      cp shape/zelda2_ot/zelda2_ot.o Ot.o
      cp shape/zelda2_utubo/zelda2_utubo.o Utubo.o
      cp shape/zelda2_dora/zelda2_dora.o Dora.o
+     cp shape/zelda2_gi_seahorse/zelda2_gi_seahorse.o gi_seahorse.o
+     cp shape/zelda2_gi_loach/zelda2_gi_loach.o gi_loach.o
