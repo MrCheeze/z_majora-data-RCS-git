@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.368  2000-03-04 14:54:17+09  matutani
+# ダンペイリフト（レール）
+#
 # Revision 2.367  2000-03-03 23:08:22+09  sumiyosi
 # *** empty log message ***
 #
@@ -2912,3 +2915,4 @@ cp() {
      cp shape/zelda2_gi_bottle_04/v2_bottle_04.o gi_fairy.o
      cp shape/zelda2_and/zelda2_and.o And.o
      cp shape/zelda2_obj_danpeilift/zelda2_obj_danpeilift.o Obj_Danpeilift.o
+     cp shape/zelda2_death/zelda2_death.o Death.o
