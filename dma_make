@@ -180,7 +180,12 @@ cp() {
 ################### ＮＥＳ／ＰＡＬ
 #####	ＰＡＲＡＭＥＴＥＲ
      cp shape/TEXTURE2/NES/PARAMETER2/nes_parameter.o .
-     cp shape/TEXTURE2/PAL/PARAMETER2/pal_parameter.o .
+###2000/09/05     cp shape/TEXTURE2/PAL/PARAMETER2/pal_parameter.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/pal_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/usa_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/ger_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/fra_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/spa_parameter2.o .
 #
      cp shape/TEXTURE2/NES/PARAMETER2/nes_youbi.o nes_week.o
      cp shape/TEXTURE2/PAL/YOUBI/pal_youbi.o pal_week.o
