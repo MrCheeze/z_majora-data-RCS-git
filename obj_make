@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.124  1999-09-13 14:49:50+09  sakaguti
+# 弓矢変更。zelda_gi_bow→zelda2_gi_bow
+#
 # Revision 2.123  1999-09-10 15:12:35+09  sakakibara
 # オープニングダンジョン・オブジェクト
 #
@@ -1932,3 +1935,4 @@ cp() {
      cp shape/zelda2_ha/zelda2_ha.o ha.o
      cp shape/zelda2_bigokuta/zelda2_bigokuta.o Bigokuta.o
      cp shape/zelda2_open_obj/zelda2_open_obj.o open_obj.o
+     cp shape/zelda2_fu_kaiten/zelda2_fu_kaiten.o Fu_Kaiten.o
