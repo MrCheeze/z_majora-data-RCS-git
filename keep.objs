@@ -9,3 +9,4 @@ shape/TEXTURE/polygon/polygon.o
 shape/TEXTURE/i_icons/i_icons.o
 shape/TEXTURE/e_icons/e_icons.o
 shape/TEXTURE/sample_map/sample_map.o
+shape/STATIC_DATA/SELECT/SELECT.o
