@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.315  1998-09-15 17:08:10+09  nisiwaki
+# *** empty log message ***
+#
 # Revision 1.314  1998-09-14 15:13:35+09  takahata
 # *** empty log message ***
 #
@@ -1443,3 +1446,4 @@ cp() {
      cp shape/zelda_gi_sword_1/zelda_gi_sword_1.o gi_sword_1.o
      cp shape/zelda_killer_door/zelda_killer_door.o killer_door.o
      cp shape/zelda_ouke_haka/zelda_ouke_haka.o ouke_haka.o
+     cp shape/zelda_timeblock/zelda_timeblock.o timeblock.o
