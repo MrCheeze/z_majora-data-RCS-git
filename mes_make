@@ -61,7 +61,8 @@ fi
      cp shape/TEXTURE/MESSAGE/texture/texture.o .
      cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
 ###
-     cp shape/TEXTURE/MESSAGE/font/font_e.o .
+#2000/05/24     cp shape/TEXTURE/MESSAGE/font/font_e.o .
+     cp shape/MESSAGE/font/font_e.o .
      cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
 #2000/03/20     cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o .
      cp  shape/MESSAGE/staff/staff_c.o .
