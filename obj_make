@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.273  1998-08-04 13:12:26+09  umemiya
+# ダイオクタ追加
+#
 # Revision 1.272  1998-08-03 17:54:46+09  nisiwaki
 # SSH 追加
 #
@@ -1266,3 +1269,4 @@ cp() {
      cp shape/zelda_gi_goddess/zelda_gi_goddess.o gi_goddess.o
      cp shape/zelda_ssh/zelda_ssh.o ssh.o
      cp shape/zelda_ocd/zelda_ocd.o Ocd.o
+     cp shape/zelda_bg/zelda_bg.o Bg.o
