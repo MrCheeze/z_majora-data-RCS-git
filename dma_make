@@ -35,8 +35,8 @@ cp() {
 #####	ＧＡＴＥＷＡＹ
      cp shape/TEXTURE/TITLE/gate.o .
 #####	ＰＡＲＡＭＥＴＥＲ
-     cp shape/TEXTURE/PARAMETER/parameter.o .
-     cp shape/TEXTURE/DMA_MAKE/WEEK/week.o .
+     cp shape/TEXTURE2/PARAMETER2/parameter.o .
+     cp shape/TEXTURE2/PARAMETER2/youbi.o week.o
      cp shape/TEXTURE/DMA_MAKE/DO_ACTION/do_action_idx.o .
 #####	メッセージ
      cp shape/MESSAGE/japan/japan.o .
@@ -158,12 +158,12 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_pal.o .
 #####	カレイド・スコープ
-     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
-     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
-     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_field.o .
-     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_dungeon.o .
-     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_jpn.o .
-     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_nes.o .
-     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_gameover.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_24.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_field.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_dungeon.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_jpn.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_nes.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_gameover.o .
      cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
      cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/map_name.o .
