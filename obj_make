@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.249  1998-07-09 14:26:28+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 1.248  1998-07-08 17:03:08+09  yoshida
 # 吸い込み渦 潮吹 追加
 #
@@ -1149,3 +1152,4 @@ cp() {
      cp shape/zelda_stream/zelda_stream.o stream.o
      cp shape/zelda_mm/zelda_mm.o mm.o
      cp shape/zelda_fa/zelda_fa.o fa.o
+     cp shape/zelda_os/zelda_os.o os.o
