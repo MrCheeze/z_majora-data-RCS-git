@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.37  1997/09/05  06:37:10  sumiyosi
+# *** empty log message ***
+#
 # Revision 1.36  1997/09/05  06:35:29  matutani
 # *** empty log message ***
 #
@@ -197,3 +200,10 @@ echo cp shape/zelda_horse_normal/zelda_horse_normal.o Horse_Normal.o
      cp shape/zelda_horse_normal/zelda_horse_normal.o Horse_Normal.o
 echo cp shape/zelda_o05/zelda_o05.o O05.o
      cp shape/zelda_o05/zelda_o05.o O05.o
+echo cp shape/zelda_o_anime/zelda_o_anime.o O_anime.o
+     cp shape/zelda_o_anime/zelda_o_anime.o O_anime.o
+echo cp shape/zelda_spo04_objects/zelda_spo04_objects.o spot04_objects.o
+     cp shape/zelda_spo04_objects/zelda_spo04_objects.o spot04_objects.o
+echo cp shape/zelda_ddan_objects/zelda_ddan_objects.o ddan_objects.o
+     cp shape/zelda_ddan_objects/zelda_ddan_objects.o ddan_objects.o
+
