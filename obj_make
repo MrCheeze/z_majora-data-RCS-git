@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.105  1999-07-28 14:51:27+09  umemiya
+# デクナッツのディレクトリ変更
+#
 # Revision 2.104  1999-07-28 09:52:21+09  takesita
 # リ─デッドのシェープうつしました。
 #
@@ -1867,3 +1870,4 @@ cp() {
      cp shape/zelda2_mnk/zelda2_mnk.o Mnk.o
      cp shape/zelda2_gi_bottle_red/zelda2_gi_bottle_red.o gi_bottle_red.o
      cp shape/zelda2_tokei_tobira/zelda2_tokei_tobira.o tokei_tobira.o
+     cp shape/zelda2_az/zelda2_az.o Az.o
