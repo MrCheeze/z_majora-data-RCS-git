@@ -3,7 +3,10 @@ set -x
 #
 # $Id$
 #
-play
+keep
+f_keep
+d_keep
+obj1
 title
 opening
 map_000
