@@ -41,6 +41,7 @@ cp() {
      cp shape/TEXTURE2/PARAMETER2/parameter.o .
      cp shape/TEXTURE2/PARAMETER2/parameter_show.o .
      cp shape/TEXTURE2/PARAMETER2/youbi.o week.o
+     cp shape/TEXTURE2/PARAMETER2/daytelop.o .
      cp shape/TEXTURE2/DO_ACTION2/do_action_idx.o .
 #####	メッセージ
      cp shape/MESSAGE/japan/table.h .
