@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.125  1999-09-14 15:02:57+09  takesita
+# Fu_Kaiten.o追加
+#
 # Revision 2.124  1999-09-13 14:49:50+09  sakaguti
 # 弓矢変更。zelda_gi_bow→zelda2_gi_bow
 #
@@ -1936,3 +1939,4 @@ cp() {
      cp shape/zelda2_bigokuta/zelda2_bigokuta.o Bigokuta.o
      cp shape/zelda2_open_obj/zelda2_open_obj.o open_obj.o
      cp shape/zelda2_fu_kaiten/zelda2_fu_kaiten.o Fu_Kaiten.o
+     cp shape/zelda2_fu_mato/zelda2_fu_mato.o Fu_Mato.o
