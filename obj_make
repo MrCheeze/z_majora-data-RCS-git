@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.127  1999-09-21 19:41:10+09  sasaki
+# *** empty log message ***
+#
 # Revision 2.126  1999-09-21 12:11:05+09  takesita
 # 風車小屋おじさんミニゲーム的追加。
 #
@@ -1944,3 +1947,5 @@ cp() {
      cp shape/zelda2_fu_kaiten/zelda2_fu_kaiten.o Fu_Kaiten.o
      cp shape/zelda2_fu_mato/zelda2_fu_mato.o Fu_Mato.o
      cp shape/zelda2_mtoride/zelda2_mtoride.o Mtoride.o
+     cp shape/zelda2_osn/zelda2_osn.o Osn.o
+
