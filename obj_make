@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.92  1998/01/14  05:51:46  tarukado
+# *** empty log message ***
+#
 # Revision 1.91  1998/01/14  02:37:00  tarukado
 # *** empty log message ***
 #
@@ -423,4 +426,12 @@ cp() {
      cp shape/zelda_wood02/zelda_wood02.o Wood02.o
      cp shape/zelda_t_wood01/zelda_t_wood01.o Twood01.o
      cp shape/zelda_kabu02/zelda_kabu02.o Kabu02.o
+     cp shape/dk_board/dk_board.o Board.o
+     cp shape/dk_floater/dk_floater.o Floater.o
+     cp shape/dk_lightbox/dk_lightbox.o Lightbox.o
+     cp shape/dk_pu_box/dk_pu_box.o Pu_box.o
+     cp shape/dk_spia/dk_spia.o Spia.o
+     cp shape/dk_stonebridge/dk_stonebridge.o Stonebridge.o
+     cp shape/dk_trap/dk_trap.o Trap.o
+     cp shape/dk_vase/dk_vase.o Vase.o
                                                                           
