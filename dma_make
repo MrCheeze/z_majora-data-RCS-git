@@ -32,21 +32,21 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
 #####	ファイル選択面
 #     cp shape/TEXTURE/TITLE/title.o .
-     cp shape/TEXTURE2/FILE_NAME/file_name.o title.o
+     cp shape/TEXTURE2/JAPAN/FILE_NAME/file_name.o title.o
      cp shape/TEXTURE2/NES/FILE_NAME/nes_file_name.o .
 #####	ＧＡＴＥＷＡＹ
      cp shape/TEXTURE/TITLE/gate.o .
 #####	ＰＡＲＡＭＥＴＥＲ
-     cp shape/TEXTURE2/PARAMETER2/parameter.o .
-     cp shape/TEXTURE2/PARAMETER2/parameter_show.o .
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/parameter.o .
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/parameter_show.o .
      cp shape/TEXTURE2/NES/PARAMETER2/nes_youbi.o nes_week.o
-     cp shape/TEXTURE2/PARAMETER2/youbi.o week.o
-     cp shape/TEXTURE2/PARAMETER2/daytelop.o .
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/youbi.o week.o
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/daytelop.o .
      cp shape/TEXTURE2/E3/daytelop/E3daytelop.o .
      cp shape/TEXTURE2/NES/PARAMETER2/nes_daytelop.o .
-     cp shape/TEXTURE2/PARAMETER2/story.o .
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/story.o .
 #####	ＤＯ ＡＣＴＩＯＮ
-     cp shape/TEXTURE2/DO_ACTION2/do_action_idx.o .
+     cp shape/TEXTURE2/JAPAN/DO_ACTION2/do_action_idx.o .
 #####	ＭＡＰ
      cp shape/TEXTURE/MAP/map_fm.o map_grand.o
 #     cp shape/TEXTURE/MAP2/map_grand2.o .
@@ -154,26 +154,26 @@ cp() {
 ##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_4_div8_idx.o .
 ##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_pal.o .
 #####	カレイド・スコープ
-     cp shape/TEXTURE2/ICON_ITEM2/icon_item.o .
-     cp shape/TEXTURE2/ICON_ITEM2/icon_item_test.raw .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_test.raw .
 
-     cp shape/TEXTURE2/ICON_ITEM2/icon_item_24.o .
-     cp shape/TEXTURE2/ICON_ITEM2/icon_item_24_test.raw .
-     cp shape/TEXTURE2/ICON_ITEM2/icon_item_field.o .
-     cp shape/TEXTURE2/ICON_ITEM2/icon_item_dungeon.o .
-     cp shape/TEXTURE2/ICON_ITEM2/icon_item_jpn.o .
-     cp shape/TEXTURE2/ICON_ITEM2/icon_item_nes.o .
-     cp shape/TEXTURE2/ICON_ITEM2/icon_item_gameover.o .
-#     cp shape/TEXTURE2/ITEM_NAME2/item_name.o .
-     cp shape/TEXTURE2/ITEM_NAME2/item_name_test.raw .
-#     cp shape/TEXTURE2/ITEM_NAME2/map_name.o .
-     cp shape/TEXTURE2/ITEM_NAME2/map_name_test.raw .
-     cp shape/TEXTURE2/ICON_ITEM2/icon_item_vtx.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_24.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_24_test.raw .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_field.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_dungeon.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_jpn.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_nes.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_gameover.o .
+#     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/item_name.o .
+     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/item_name_test.raw .
+#     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/map_name.o .
+     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/map_name_test.raw .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_vtx.o .
 
 #####	スケジュール
-     cp shape/TEXTURE2/SCHEDULE2/schedule_dma.o .
-     cp shape/TEXTURE2/SCHEDULE2/schedule_dma_test.raw .
-     cp shape/TEXTURE2/SCHEDULE2/schedule.o .
+     cp shape/TEXTURE2/JAPAN/SCHEDULE2/schedule_dma.o .
+     cp shape/TEXTURE2/JAPAN/SCHEDULE2/schedule_dma_test.raw .
+     cp shape/TEXTURE2/JAPAN/SCHEDULE2/schedule.o .
 #
 ######
 ######
