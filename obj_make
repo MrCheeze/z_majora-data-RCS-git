@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.52  1999-04-13 19:06:39+09  sasaki
+# *** empty log message ***
+#
 # Revision 2.51  1999-04-12 11:10:21+09  kuzuhara
 # 爆夫作成
 #
@@ -1161,7 +1164,7 @@ cp() {
      cp shape/zelda_rb/zelda_rb.o Reeba.o
      cp shape/zelda_ph/zelda_ph.o Peehat.o
      cp shape/zelda_horse/zelda_horse.o Horse.o
-     cp shape/zelda_zf/zelda_zf.o Zf.o
+     cp shape/zelda2_zf/zelda2_zf.o Zf.o
      cp shape/zelda_goma/zelda_goma.o Go.o
      cp shape/zelda_goma_PAL/zelda_goma_PAL.o Go_PAL.o
      cp shape/zelda_kdodongo/zelda_kdodongo.o Kdodongo.o
