@@ -84,10 +84,9 @@ cp() {
 ###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine2_pal.o .
 ###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine3_div8_idx.o .
 ###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine3_pal.o .
-     cp shape/TEXTURE2/VR_BOX2/fine03/d2_fine_div8_idx.o .
-     cp shape/TEXTURE2/VR_BOX2/fine03/d2_cloud_div8_idx.o .
-     cp shape/TEXTURE2/VR_BOX2/fine03/d2_rain_div8_idx.o .
-     cp shape/TEXTURE2/VR_BOX2/fine03/d2_fine_pal.o .
+     cp shape/TEXTURE2/VR_BOX2/fine04/d2_fine_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine04/d2_cloud_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine04/d2_fine_pal.o .
 ###########################
 ##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine0_div8_idx.o .
 ##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine0_pal.o .
