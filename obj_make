@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.293  2000-01-25 17:07:22+09  takesita
+# Ma2.oのもとファイルを変更
+#
 # Revision 2.292  2000-01-25 11:56:19+09  takesita
 # *** empty log message ***
 #
@@ -2609,3 +2612,6 @@ cp() {
      cp shape/zelda2_zov/zelda2_zov.o Zov.o
      cp shape/zelda2_ah/zelda2_ah.o Ah.o
      cp shape/zelda2_hgdoor/zelda2_hgdoor.o Hgdr.o
+     cp shape/zelda2_cs2/zelda2_cs2.o cs2.o
+     cp shape/zelda2_cs3/zelda2_cs3.o cs3.o
+     cp shape/zelda2_cs4/zelda2_cs4.o cs4.o
