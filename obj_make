@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.94  1998/01/19  12:34:08  umemiya
+# オクタロックのデータを新規に変更
+#
 # Revision 1.93  1998/01/19  06:39:13  tarukado
 # *** empty log message ***
 #
@@ -437,4 +440,8 @@ cp() {
      cp shape/dk_stonebridge/dk_stonebridge.o Stonebridge.o
      cp shape/dk_trap/dk_trap.o Trap.o
      cp shape/dk_vase/dk_vase.o Vase.o
+     cp shape/zelda_im/zelda_im.o Im.o
+     cp shape/zelda_xc/zelda_xc.o Xc.o
+     cp shape/zelda_ta/zelda_ta.o Ta.o
+     cp shape/zelda_tk/zelda_tk.o Tk.o
                                                                           
