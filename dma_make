@@ -51,6 +51,7 @@ cp() {
 #####	ＭＡＰ
 ####################     cp shape/TEXTURE/MAP/map_grand.o .
      cp shape/TEXTURE/MAP/map_fm.o map_grand.o
+     cp shape/TEXTURE/MAP2/map_grand2.o .
      cp shape/TEXTURE/MAP/map_i.o .
 ##########     cp shape/TEXTURE/MAP/map_YDAN.o .
 ##########     cp shape/TEXTURE/MAP/map_DDAN.o .
