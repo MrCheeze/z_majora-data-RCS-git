@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.119  1998/02/21  09:21:29  morita
+# *** empty log message ***
+#
 # Revision 1.118  1998/02/20  12:40:12  umemiya
 # 燭台をバンクに設定
 #
@@ -546,5 +549,6 @@ cp() {
      cp shape/zelda_magic_ice/zelda_magic_ice.o magic_ice.o
      cp shape/zelda_syokudai/zelda_syokudai.o syokudai.o
      cp shape/zelda_vba/zelda_vba.o fd2.o
+     cp shape/zelda_dh/zelda_dh.o Dh.o
 
 
