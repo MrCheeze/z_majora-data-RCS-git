@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.254  1998-07-15 13:54:45+09  yoshida
+# *** empty log message ***
+#
 # Revision 1.253  1998-07-14 19:58:36+09  nisiwaki
 # js 追加
 #
@@ -1172,3 +1175,7 @@ cp() {
      cp shape/zelda_gi_brokensword/zelda_gi_brokensword.o gi_brokensword.o
      cp shape/zelda_js/zelda_js.o Js.o
      cp shape/zelda_cs/zelda_cs.o cs.o
+     cp shape/zelda_gi_prescription/zelda_gi_prescription.o gi_prescription.o
+     cp shape/zelda_gi_bracelet/zelda_gi_bracelet.o gi_bracelet.o
+     cp shape/zelda_gi_soldout/zelda_gi_soldout.o gi_soldout.o
+     cp shape/zelda_gi_frog/zelda_gi_frog.o gi_frog.o
