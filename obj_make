@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.196  1999-11-20 20:03:30+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.195  1999-11-20 13:04:31+09  sumiyosi
 # *** empty log message ***
 #
@@ -2125,7 +2128,7 @@ cp() {
      cp shape/zelda2_mkk/zelda2_mkk.o Mkk.o
 #     cp shape/zelda2_obj_skje/zelda2_obj_skje.o Skje.o
 #     cp shape/zelda2_obj_stain/zelda2_obj_stain.o Stain.o
-     cp shape/zelda2_sekihi/toki/toki.o M_Stone.o
+#     cp shape/zelda2_sekihi/toki/toki.o M_Stone.o
      cp shape/zelda2_keikoku_obj/zelda2_keikoku_obj.o Keikoku_Obj.o
      cp shape/zelda2_sichitai_obj/zelda2_sichitai_obj.o Sichitai_Obj.o
      cp shape/zelda2_dekucity_ana_obj/zelda2_dekucity_ana_obj.o Dekucity_Ana_Obj.o
