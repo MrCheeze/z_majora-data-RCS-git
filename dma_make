@@ -30,6 +30,7 @@ cp() {
 
 #####	イベント制御コード
      cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/change/save_list_txt.inc .
+     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/tool/week_event_reg.inc .
 
 #####	ＳＨＯＷ
      cp shape/TEXTURE2/SPACE_WORLD/space_world.o .
