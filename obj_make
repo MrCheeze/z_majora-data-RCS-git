@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.183  1998/04/15 09:00:53  sumiyosi
+# *** empty log message ***
+#
 # Revision 1.182  1998/04/15 03:07:41  nisiwaki
 # 魔法関係 削除
 #
@@ -817,6 +820,50 @@ cp() {
      cp shape/zelda_gi_boomerang/zelda_gi_boomerang.o gi_boomerang.o
      cp shape/zelda_gi_bow/zelda_gi_bow.o gi_bow.o
      cp shape/zelda_gi_glasses/zelda_gi_glasses.o gi_glasses.o
-     cp shape/zelda_scene_name/g_pn_*.o .
+     cp shape/zelda_scene_name/g_pn_01.o g_pn_01.o
+     cp shape/zelda_scene_name/g_pn_02.o g_pn_02.o
+     cp shape/zelda_scene_name/g_pn_03.o g_pn_03.o
+     cp shape/zelda_scene_name/g_pn_04.o g_pn_04.o
+     cp shape/zelda_scene_name/g_pn_05.o g_pn_05.o
+     cp shape/zelda_scene_name/g_pn_06.o g_pn_06.o
+     cp shape/zelda_scene_name/g_pn_07.o g_pn_07.o
+     cp shape/zelda_scene_name/g_pn_08.o g_pn_08.o
+     cp shape/zelda_scene_name/g_pn_09.o g_pn_09.o
+     cp shape/zelda_scene_name/g_pn_10.o g_pn_10.o
+     cp shape/zelda_scene_name/g_pn_11.o g_pn_11.o
+     cp shape/zelda_scene_name/g_pn_12.o g_pn_12.o
+     cp shape/zelda_scene_name/g_pn_13.o g_pn_13.o
+     cp shape/zelda_scene_name/g_pn_14.o g_pn_14.o
+     cp shape/zelda_scene_name/g_pn_15.o g_pn_15.o
+     cp shape/zelda_scene_name/g_pn_16.o g_pn_16.o
+     cp shape/zelda_scene_name/g_pn_17.o g_pn_17.o
+     cp shape/zelda_scene_name/g_pn_18.o g_pn_18.o
+     cp shape/zelda_scene_name/g_pn_19.o g_pn_19.o
+     cp shape/zelda_scene_name/g_pn_20.o g_pn_20.o
+     cp shape/zelda_scene_name/g_pn_21.o g_pn_21.o
+     cp shape/zelda_scene_name/g_pn_22.o g_pn_22.o
+     cp shape/zelda_scene_name/g_pn_23.o g_pn_23.o
+     cp shape/zelda_scene_name/g_pn_24.o g_pn_24.o
+     cp shape/zelda_scene_name/g_pn_25.o g_pn_25.o
+     cp shape/zelda_scene_name/g_pn_26.o g_pn_26.o
+     cp shape/zelda_scene_name/g_pn_27.o g_pn_27.o
+     cp shape/zelda_scene_name/g_pn_28.o g_pn_28.o
+     cp shape/zelda_scene_name/g_pn_29.o g_pn_29.o
+     cp shape/zelda_scene_name/g_pn_30.o g_pn_30.o
+     cp shape/zelda_scene_name/g_pn_31.o g_pn_31.o
+     cp shape/zelda_scene_name/g_pn_32.o g_pn_32.o
+     cp shape/zelda_scene_name/g_pn_33.o g_pn_33.o
+     cp shape/zelda_scene_name/g_pn_34.o g_pn_34.o
+     cp shape/zelda_scene_name/g_pn_35.o g_pn_35.o
+     cp shape/zelda_scene_name/g_pn_36.o g_pn_36.o
+     cp shape/zelda_scene_name/g_pn_37.o g_pn_37.o
+     cp shape/zelda_scene_name/g_pn_38.o g_pn_38.o
+     cp shape/zelda_scene_name/g_pn_39.o g_pn_39.o
+     cp shape/zelda_scene_name/g_pn_40.o g_pn_40.o
+     cp shape/zelda_scene_name/g_pn_41.o g_pn_41.o
+     cp shape/zelda_scene_name/g_pn_42.o g_pn_42.o
+     cp shape/zelda_scene_name/g_pn_43.o g_pn_43.o
+     cp shape/zelda_scene_name/g_pn_44.o g_pn_44.o
+     cp shape/zelda_scene_name/g_pn_45.o g_pn_45.o
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
      cp shape/zelda_ani/zelda_ani.o ani.o
