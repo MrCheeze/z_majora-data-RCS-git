@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.242  1999-12-21 14:38:40+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.241  1999-12-20 15:17:28+09  nisiwaki
 # *** empty log message ***
 #
@@ -2071,7 +2074,8 @@ cp() {
      cp shape/zelda_scene_name_PAL/G_pn_57/G_pn_57.o G_pn_57_PAL.o
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
      cp shape/zelda2_ani/zelda2_ani.o ani.o
-     cp shape/zelda_gi_shield_3/zelda_gi_shield_3.o gi_shield_3.o
+#     cp shape/zelda_gi_shield_3/zelda_gi_shield_3.o gi_shield_3.o
+     cp shape/zelda2_gi_shield_02/zelda2_gi_shield_02.o gi_shield_3.o
 #     cp shape/zelda_gi_letter/zelda_gi_letter.o gi_letter.o
 #     cp shape/zelda_gi_clothes/zelda_gi_clothes.o gi_clothes.o
      cp shape/zelda_gi_bean/zelda_gi_bean.o gi_bean.o
@@ -2401,3 +2405,6 @@ cp() {
      cp shape/zelda2_zog/zelda2_zog.o Zog.o
      cp shape/zelda2_rotlift/zelda2_rotlift.o Rotlift.o
      cp shape/zelda2_posthouse_obj/zelda2_posthouse_obj.o Posthouse_obj.o
+     cp shape/zelda2_gi_mask09/v2_mask_09.o gi_jsonmask.o
+     cp shape/zelda2_gi_mask14/v2_mask_14.o gi_bigelfmask.o
+     cp shape/zelda2_gi_mask15/v2_mask_15.o gi_gibudomask.o
