@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.284  1998-08-12 14:44:01+09  sakakibara
+# 邪神像ダンジョン 鉄柱と鉄椅子 & ドア
+#
 # Revision 1.283  1998-08-11 12:54:11+09  kuzuhara
 # 犬やら鶏小娘やら
 #
@@ -1313,3 +1316,4 @@ cp() {
      cp shape/zelda_dog/zelda_dog.o Dog.o
      cp shape/zelda_jya_iron/zelda_jya_iron.o jya_iron.o
      cp shape/zelda_jya_door/zelda_jya_door.o jya_door.o
+     cp shape/zelda_jya_door/zelda_bg_spot01_objects2.o bg_spot01_objects2.o
