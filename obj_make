@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.232  1998-06-16 18:36:07+09  umemiya
+# 墓下子供ダンジョンオブジェ追加
+#
 # Revision 1.231  1998-06-16 12:05:59+09  nisiwaki
 # たくさん増やした
 #
@@ -772,7 +775,7 @@ cp() {
      cp shape/zelda_ddan_objects/zelda_ddan_objects.o ddan_objects.o
      cp shape/zelda_hidan_objects/zelda_hidan_objects.o hidan_objects.o
      cp shape/zelda_horse_ganon/zelda_horse_ganon.o Horse_Ganon.o
-     cp shape/zelda_oF1/zelda_oF1.o OF1.o
+#     cp shape/zelda_oF1/zelda_oF1.o OF1.o
      cp shape/zelda_oA2/zelda_oA2.o OA2.o
      cp shape/zelda_spot00_objects/zelda_spot00_objects.o spot00_objects.o
      cp shape/zelda_mb/zelda_mb.o Mb.o

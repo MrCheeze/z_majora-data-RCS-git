@@ -5,6 +5,11 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+#Revision 1.5  1998-06-01 19:12:49+09  hayakawa
+#hidan_objects4.o
+#hidan_objects5.o
+#hidan_objects6.o
+#
 #Revision 1.4  1998-01-20 16:58:41+09  soejima
 #*** empty log message ***
 #
@@ -46,6 +51,7 @@ parameter.objs
 parameter.objs~
 parameter~
 nintendo_rogo
+OF1.o
 "
 
 echo "使用しなくなったソースを削除します…"
