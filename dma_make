@@ -53,23 +53,23 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_pal.o .
 #####	ＶＲーＢＯＸ（２５６）
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_market_ruinsVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_market_ruinsVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_MNVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_MNVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_RUVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_RUVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME2/vr_KHVR2_div8_idx.o .
@@ -78,34 +78,34 @@ cp() {
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME3/vr_KHVR3_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP/vr_SP1a_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP/vr_SP1a_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON/vr_lonronVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON/vr_lonronVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_kakarikoVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_kakarikoVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_golonVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_golonVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_zooraVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_zooraVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_lonronShopVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_lonronShopVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_shopDragVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_shopDragVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_shopAlleyVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_shopAlleyVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_shopNightVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_shopNightVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_kakarikoHome2VR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_kakarikoHome2VR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_IMPA/vr_kakarikoImpaVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_IMPA/vr_kakarikoImpaVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_laboVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_laboVR_pal.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_tentVR_div8_idx.o .
-     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_tentVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL_RUINS/vr_CRVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL_RUINS/vr_CRVR_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL_NIGHT/vr_CNVR_div8_idx.o .
