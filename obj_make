@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.198  1998-05-06 15:24:14+09  sumiyosi
+# キングゾーラ追加
+#
 # Revision 1.197  1998/04/30 00:17:16  sumiyosi
 # *** empty log message ***
 #
@@ -929,3 +932,4 @@ cp() {
      cp shape/zelda_kw1/zelda_kw1.o Kw1.o
      cp shape/zelda_zo/zelda_zo.o Zo.o
      cp shape/zelda_kz/zelda_kz.o Kz.o
+     cp shape/zelda_umajump/zelda_umajump.o Umajump.o
