@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.290  1998-08-18 16:05:25+09  takahata
+# *** empty log message ***
+#
 # Revision 1.289  1998-08-18 11:38:36+09  kuzuhara
 # デグナッツのお面品評会
 #
@@ -1339,3 +1342,5 @@ cp() {
      cp shape/zelda_gi_fire/zelda_gi_fire.o gi_fire.o
      cp shape/zelda_gi_insect/zelda_gi_insect.o gi_insect.o
      cp shape/zelda_gi_butterfly/zelda_gi_butterfly.o gi_butterfly.o
+     cp shape/zelda_gi_ghost/zelda_gi_ghost.o gi_ghost.o
+     cp shape/zelda_gi_soul/zelda_gi_soul.o gi_soul.o
