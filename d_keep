@@ -4,5 +4,8 @@ set -x
 # $Id$
 #
 # $Log$
+# Revision 1.1  1997-04-18 19:45:48+09  iwawaki
+# Initial revision
+#
 #
 ld -r -o d_keep.o -objectlist d_keep.objs -m > d_keep.map

@@ -5,6 +5,9 @@
 # マップデータ作成用
 #
 # $Log$
+# Revision 1.2  1997-10-08 09:47:31+09  hayakawa
+# *** empty log message ***
+#
 # Revision 1.1  1997/03/25  05:49:22  hayakawa
 # Initial revision
 #
