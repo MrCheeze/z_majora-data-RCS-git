@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.269  2000-01-14 10:54:30+09  nisiwaki
+# ゾーラシンセサイザー
+#
 # Revision 2.268  2000-01-13 19:33:22+09  sakaguti
 # ロマーニの仮面
 #
@@ -2186,7 +2189,9 @@ cp() {
      cp shape/zelda_bba/zelda_bba.o Bba.o
 #     cp shape/zelda_gi_ocarina_0/zelda_gi_ocarina_0.o gi_ocarina_0.o
      cp shape/zelda_ds/zelda_ds.o Ds.o
-     cp shape/zelda_ane/zelda_ane.o Ane.o
+     cp shape/zelda2_an1/zelda2_an1.o An1.o
+     cp shape/zelda2_an2/zelda2_an2.o An2.o
+     cp shape/zelda2_an3/zelda2_an3.o An3.o
      cp shape/zelda2_boj/zelda2_boj.o Boj.o
      cp shape/zelda_elf_message/field/field.o EM_field.o
      cp shape/zelda_elf_message/ydan/ydan.o EM_ydan.o
