@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.40  1997/09/12  12:29:05  matutani
+# ガノン馬追加
+#
 # Revision 1.39  1997/09/11  06:45:09  umemiya
 # 火の神殿オブジェ追加
 #
@@ -178,8 +181,8 @@ echo cp shape/zelda_wm/zelda_wm.o Wm.o
      cp shape/zelda_wm/zelda_wm.o Wm.o
 echo cp shape/zelda_po/zelda_po.o Po.o
      cp shape/zelda_po/zelda_po.o Po.o
-echo cp shape/zelda_o01/zelda_o01.o O01.o
-     cp shape/zelda_o01/zelda_o01.o O01.o
+echo cp shape/zelda_oAx/zelda_oAx.o OAX.o
+     cp shape/zelda_oAx/zelda_oAx.o OAX.o
 echo cp shape/zelda_oc/zelda_oc.o Oc.o
      cp shape/zelda_oc/zelda_oc.o Oc.o
 echo cp shape/zelda_th/zelda_th.o Th.o
@@ -204,8 +207,8 @@ echo cp shape/zelda_ei/zelda_ei.o Ei.o
      cp shape/zelda_ei/zelda_ei.o Ei.o
 echo cp shape/zelda_horse_normal/zelda_horse_normal.o Horse_Normal.o
      cp shape/zelda_horse_normal/zelda_horse_normal.o Horse_Normal.o
-echo cp shape/zelda_o05/zelda_o05.o O05.o
-     cp shape/zelda_o05/zelda_o05.o O05.o
+echo cp shape/zelda_oBx/zelda_oBx.o OBX.o
+     cp shape/zelda_oBx/zelda_oBx.o OBX.o
 echo cp shape/zelda_o_anime/zelda_o_anime.o O_anime.o
      cp shape/zelda_o_anime/zelda_o_anime.o O_anime.o
 echo cp shape/zelda_spo04_objects/zelda_spo04_objects.o spot04_objects.o
