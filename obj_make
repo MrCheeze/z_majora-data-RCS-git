@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.69  1997/11/14  07:32:49  sumiyosi
+# コキリ族軍団追加
+#
 # Revision 1.68  1997/11/12  08:21:34  umemiya
 # 面クリダンジョンオブジェクト追加
 #
@@ -312,4 +315,5 @@ cp() {
      cp shape/zelda_oE9/zelda_oE9.o OE9.o
      cp shape/zelda_oE10/zelda_oE10.o OE10.o
      cp shape/zelda_oE11/zelda_oE11.o OE11.o
+     cp shape/zelda_oE12/zelda_oE12.o OE12.o
 
