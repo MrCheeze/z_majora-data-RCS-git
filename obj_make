@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.41  1997/09/16  08:47:02  sumiyosi
+# *** empty log message ***
+#
 # Revision 1.40  1997/09/12  12:29:05  matutani
 # ガノン馬追加
 #
@@ -219,4 +222,6 @@ echo cp shape/zelda_hidan_objects/zelda_hidan_objects.o hidan_objects.o
      cp shape/zelda_hidan_objects/zelda_hidan_objects.o hidan_objects.o
 echo cp shape/zelda_horse_ganon/zelda_horse_ganon.o Horse_Ganon.o
      cp shape/zelda_horse_ganon/zelda_horse_ganon.o Horse_Ganon.o
+echo cp shape/zelda_oA2/zelda_oA2.o OA2.o
+     cp shape/zelda_oA2/zelda_oA2.o OA2.o
 
