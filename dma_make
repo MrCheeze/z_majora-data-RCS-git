@@ -43,6 +43,7 @@ cp() {
 #####	ＭＡＰ
      cp shape/TEXTURE/MAP/map_fm.o map_grand.o
      cp shape/TEXTURE/MAP2/map_grand2.o .
+     cp shape/TEXTURE/MAP2/map_grand2_test.raw .
      cp shape/TEXTURE/KALEIDO_MAP2/kaleido_map_grand2.o .
      cp shape/TEXTURE/MAP/map_i.o .
      cp shape/TEXTURE/MAP/map_48x85.o .
