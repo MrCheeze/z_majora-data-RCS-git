@@ -1,6 +1,5 @@
 shape/zelda_keep/zelda_keep.o
 shape/TEXTURE/button/button.o
-shape/TEXTURE/font_6/font_6.o
 shape/TEXTURE/frame.a/frame.a.o
 shape/TEXTURE/heart/heart.o
 shape/TEXTURE/life/life.o
@@ -10,3 +9,6 @@ shape/TEXTURE/i_icons/i_icons.o
 shape/TEXTURE/e_icons/e_icons.o
 shape/TEXTURE/sample_map/sample_map.o
 shape/STATIC_DATA/SELECT/SELECT.o
+shape/TEXTURE/others/others.o
+shape/TEXTURE/rupy_num/rupy_num.o
+shape/TEXTURE/num_s/num_s.o
