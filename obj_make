@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.106  1998/01/30  02:59:57  umemiya
+# ポウ四姉妹追加
+#
 # Revision 1.105  1998/01/29  09:53:05  tarukado
 # *** empty log message ***
 #
@@ -492,4 +495,5 @@ cp() {
      cp shape/zelda_sd/zelda_sd.o Sd.o
      cp shape/zelda_rd/zelda_rd.o Rd.o
      cp shape/zelda_po_sisters/zelda_po_sisters.o Po_Sisters.o
+     cp shape/zelda_heavy_object/zelda_heavy_object.o Heavy_object.o
 
