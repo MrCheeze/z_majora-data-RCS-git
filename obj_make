@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.159  1999-10-25 10:13:40+09  nisiwaki
+# *** empty log message ***
+#
 # Revision 2.158  1999-10-22 16:04:12+09  sakakibara
 # comb hana
 #
@@ -2068,3 +2071,4 @@ cp() {
      cp shape/zelda2_giant/zelda2_giant.o Giant.o
      cp shape/zelda2_comb/zelda2_comb.o comb.o
      cp shape/zelda2_hana/zelda2_hana.o hana.o
+     cp shape/zelda2_boss_hakugin/zelda2_boss_hakugin.o Boss_Hakugin.o
