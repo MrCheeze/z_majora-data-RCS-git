@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.229  1998-06-15 13:27:03+09  takahata
+# *** empty log message ***
+#
 # Revision 1.228  1998-06-15 11:44:43+09  sakakibara
 # *** empty log message ***
 #
@@ -713,10 +716,10 @@ cp() {
 #     cp shape/zelda_link_ci/Boy/Boy.o Link_boy.o
 #     cp shape/zelda_link_ci/Child/Child.o Link_child.o
 
-#     cp shape/zelda_link_new/Skeleton/Boy/Boy.o Link_boy.o
-#     cp shape/zelda_link_new/Skeleton/Child/Child.o Link_child.o
-     cp /home/nisiwaki/ZELDA/LINK/Boy/Boy.o Link_boy.o
-     cp /home/nisiwaki/ZELDA/LINK/Child/Child.o Link_child.o
+     cp shape/zelda_link_new/Skeleton/Boy/Boy.o Link_boy.o
+     cp shape/zelda_link_new/Skeleton/Child/Child.o Link_child.o
+#     cp /home/nisiwaki/ZELDA/LINK/Boy/Boy.o Link_boy.o
+#     cp /home/nisiwaki/ZELDA/LINK/Child/Child.o Link_child.o
 
 #     cp /home/yoshida/gamegen/cnv/LINK/main/Boy/Boy.o Link_boy.o
 #     cp /home/yoshida/gamegen/cnv/LINK/main/Child/Child.o Link_child.o
