@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.57  1997/10/08  02:28:05  sumiyosi
+# ゴロン族追加
+#
 # Revision 1.56  1997/10/02  13:44:58  umemiya
 # *** empty log message ***
 #
@@ -250,4 +253,5 @@ cp() {
      cp shape/zelda_am/zelda_am.o Am.o
      cp shape/zelda_dekubaba/zelda_dekubaba.o Dekubaba.o
      cp shape/zelda_oF1/zelda_oF1.o OF1.o
+     cp shape/zelda_oA3/zelda_oA3.o OA3.o
 
