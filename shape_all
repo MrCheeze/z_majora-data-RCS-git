@@ -13,3 +13,4 @@ obj_make
 #scene_make
 scene_make_bash
 dma_make
+dd_dma_make
