@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.296  1998-08-21 14:34:59+09  okajima
+# *** empty log message ***
+#
 # Revision 1.295  1998-08-20 15:44:28+09  nisiwaki
 # Efc_Doughnut.o 追加
 #
@@ -1361,3 +1364,4 @@ cp() {
      cp shape/zelda_po_field/zelda_po_field.o Po_Field.o
      cp shape/zelda_demo_kekkai/zelda_demo_kekkai.o Demo_Kekkai.o
      cp shape/zelda_efc_doughnut/zelda_efc_doughnut.o Efc_Doughnut.o
+     cp shape/zelda_gi_dekupouch/zelda_gi_dekupouch.o gi_dekupouch.o
