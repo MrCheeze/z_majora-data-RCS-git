@@ -1,9 +1,12 @@
-#!/bin/sh
+!/bin/sh
 #set -x
 #
 # $Id$
 #
 # $Log$
+# Revision 1.44  1997/09/19  05:29:29  tarukado
+# モリブリン追加
+#
 # Revision 1.43  1997/09/17  13:51:39  umemiya
 # spot00オブジェ追加
 #
@@ -234,3 +237,5 @@ echo cp shape/zelda_spot00_objects/zelda_spot00_objects.o spot00_objects.o
      cp shape/zelda_spot00_objects/zelda_spot00_objects.o spot00_objects.o
 echo cp shape/zelda_mb/zelda_mb.o Mb.o
      cp shape/zelda_mb/zelda_mb.o Mb.o
+echo cp shape/zelda_bombf/zelda_bombf.o Bombf.o
+     cp shape/zelda_bombf/zelda_bombf.o Bombf.o
