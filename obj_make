@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.327  2000-02-14 10:58:25+09  nisiwaki
+# ダンサー関係追加
+#
 # Revision 2.326  2000-02-12 18:20:19+09  sakaguti
 # 使ってないゲットアイテム削除
 #
@@ -1986,6 +1989,7 @@ cp() {
      cp shape/zelda2_link_new/Skeleton/Mask/Kyojin/Kyojin.o Link_mask_kyojin.o
      cp shape/zelda2_link_new/Skeleton/Mask/Romerny/Romerny.o Link_mask_romerny.o
      cp shape/zelda2_link_new/Skeleton/Mask/Posthat/Posthat.o Link_mask_posthat.o
+     cp shape/zelda2_link_new/Skeleton/Mask/Zacho/Zacho.o Link_mask_zacho.o
      cp shape/zelda2_link_new/Skeleton/Mask/Goron/Goron.o Link_mask_goron.o
      cp shape/zelda2_link_new/Skeleton/Mask/Zora/Zora.o Link_mask_zora.o
      cp shape/zelda2_link_new/Skeleton/Mask/Nuts/Nuts.o Link_mask_nuts.o
