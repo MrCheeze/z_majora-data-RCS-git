@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.243  1998-06-30 17:56:20+09  nisiwaki
+# *** empty log message ***
+#
 # Revision 1.242  1998-06-29 20:38:19+09  umemiya
 # ガノン城・オブジェ追加
 #
@@ -1120,3 +1123,4 @@ cp() {
      cp shape/zelda_gjyo_objects/zelda_gjyo_objects.o gjyo_objects.o
      cp shape/zelda_owl/zelda_owl.o Owl.o
      cp shape/zelda_mk/zelda_mk.o Mk.o
+     cp shape/zelda_fu/zelda_fu.o Fu.o
