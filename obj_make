@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.55  1997/10/02  12:40:30  umemiya
+# デクババ追加
+#
 # Revision 1.54  1997/10/01  04:31:43  tarukado
 # がノンドロフ ＆ アモス 追加
 #
@@ -242,5 +245,5 @@ cp() {
      cp shape/zelda_ydan_objects/zelda_ydan_objects.o ydan_objects.o
      cp shape/zelda_gnd/zelda_gnd.o Gnd.o
      cp shape/zelda_am/zelda_am.o Am.o
-     cp shape/zelda_db/zelda_db.o Db.o
+     cp shape/zelda_dekubaba/zelda_dekubaba.o Dekubaba.o
 
