@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+#Revision 2.3  1999-09-01 15:04:18+09  iwawaki
+#*** empty log message ***
+#
 #Revision 2.2  1999-01-27 10:32:17+09  iwawaki
 #*** empty log message ***
 #
@@ -70,7 +73,6 @@ Soldier.o
 Human.o
 Fire.o
 Reeba.o
-Peehat.o
 Kdodongo.o
 Kdodongo_PAL.o
 Zf.o

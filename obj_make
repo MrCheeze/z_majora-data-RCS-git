@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.118  1999-09-01 15:04:30+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.117  1999-08-30 14:43:22+09  umemiya
 # 止めダイオクタ追加
 #
@@ -1358,7 +1361,7 @@ cp() {
      cp shape/zelda_st/zelda_st.o St.o
      cp shape/zelda_tt/zelda_tt.o Tite.o
 #     cp shape/zelda_rb/zelda_rb.o Reeba.o
-#     cp shape/zelda_ph/zelda_ph.o Peehat.o
+     cp shape/zelda_ph/zelda_ph.o Peehat.o
      cp shape/zelda_horse/zelda_horse.o Horse.o
 #     cp shape/zelda2_zf/zelda2_zf.o Zf.o
 #     cp shape/zelda_goma/zelda_goma.o Go.o
