@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.326  2000-02-12 18:20:19+09  sakaguti
+# 使ってないゲットアイテム削除
+#
 # Revision 2.325  2000-02-11 18:30:43+09  nisiwaki
 # *** empty log message ***
 #
@@ -2737,3 +2740,5 @@ cp() {
      cp shape/zelda2_lastday/zelda2_lastday.o Lastday.o
      cp shape/zelda2_bai/zelda2_bai.o Bai.o
      cp shape/zelda2_ikn_demo/zelda2_ikn_demo.o Ikndemo.o
+     cp shape/zelda2_yb/zelda2_yb.o Yb.o
+     cp shape/zelda2_rz/zelda2_rz.o Rz.o
