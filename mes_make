@@ -53,6 +53,7 @@ else
     echo -e "\007\033[37;41m只今メッセージは更新中、または壊れています\033[m"
 fi
 if [ -r shape/MESSAGE/USA/USA.o ]; then
+     cp shape/MESSAGE/USA/message_define.h .
      cp shape/MESSAGE/USA/usa_table.h .
      cp shape/MESSAGE/USA/usa_extern.h .
      cp shape/MESSAGE/USA/USA.o .
