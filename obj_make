@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.220  1998-06-04 16:17:06+10  yoshida
+# *** empty log message ***
+#
 # Revision 1.219  1998-06-04 14:19:16+09  umemiya
 # 墓下リレーオブジェ追加
 #
@@ -1019,3 +1022,4 @@ cp() {
      cp shape/zelda_spot07_object/zelda_spot07_object.o spot07_object.o
      cp shape/zelda_fz/zelda_fz.o Fz.o
      cp shape/zelda_relay_objects/zelda_relay_objects.o relay_objects.o
+     cp shape/zelda_bob/zelda_bob.o Bob.o
