@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.240  1998-06-25 19:18:07+09  kuzuhara
+# 爆破看板作成
+#
 # Revision 1.239  1998-06-24 20:32:24+09  okajima
 # 地名テロップのテクスチャを変えた（日本語、英語混在）
 #
@@ -1091,7 +1094,7 @@ cp() {
      cp shape/zelda_d_lift/zelda_d_lift.o d_lift.o
      cp shape/zelda_mamenoki/zelda_mamenoki.o mamenoki.o
      cp shape/zelda_goroiwa/zelda_goroiwa.o goroiwa.o
-     cp shape/zelda_gi_milk_2/zelda_gi_milk_2.o gi_milk_2.o
+#     cp shape/zelda_gi_milk_2/zelda_gi_milk_2.o gi_milk_2.o
      cp shape/zelda_toryo/zelda_toryo.o toryo.o
      cp shape/zelda_daiku/zelda_daiku.o daiku.o
      cp shape/zelda_stopge/zelda_stopge.o stopge.o
