@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.150  1998/03/21  06:43:33  sumiyosi
+# 村人シェアード実験追加。
+#
 # Revision 1.149  1998/03/19  06:39:39  sakakibara
 # Spot16 obj 追加
 #
@@ -678,3 +681,4 @@ cp() {
      cp shape/zelda_oE1s/zelda_oE1s.o oE1s.o
      cp shape/zelda_oE4s/zelda_oE4s.o oE4s.o
      cp shape/zelda_os_anime/zelda_os_anime.o os_anime.o
+     cp shape/zelda_gi_bottle/zelda_gi_bottle.o gi_bottle.o
