@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.73  1999-05-19 15:16:56+09  sakakibara
+# 流氷追加
+#
 # Revision 2.72  1999-05-19 11:21:23+09  yoshida
 # ワープ渦追加
 #
@@ -1553,7 +1556,7 @@ cp() {
      cp shape/zelda_gi_grass/zelda_gi_grass.o gi_grass.o
      cp shape/zelda_gi_longsword/zelda_gi_longsword.o gi_longsword.o
      cp shape/zelda_gate/zelda_gate.o Gate.o
-     cp shape/zelda_md/zelda_md.o Md.o
+     cp shape/zelda2_md/zelda2_md.o Md.o
      cp shape/zelda_km1/zelda_km1.o Km1.o
      cp shape/zelda_kw1/zelda_kw1.o Kw1.o
      cp shape/zelda_zo/zelda_zo.o Zo.o
