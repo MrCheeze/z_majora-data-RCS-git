@@ -4,6 +4,9 @@ set -x
 # $Id$
 #
 # $Log$
+# Revision 1.21  1997/07/18  01:16:01  tarukado
+# *** empty log message ***
+#
 # Revision 1.20  1997/07/17  09:49:45  iwawaki
 # *** empty log message ***
 #
@@ -89,8 +92,8 @@ echo cp shape/zelda_human/zelda_human.o Human.o
      cp shape/zelda_human/zelda_human.o Human.o
 echo cp shape/zelda_ironknack/zelda_ironknack.o Ironknack.o
      cp shape/zelda_ironknack/zelda_ironknack.o Ironknack.o
-echo cp shape/zelda_niw/zelda_niw.o Niw.o
-     cp shape/zelda_niw/zelda_niw.o Niw.o
+echo cp shape/zelda_nw/zelda_nw.o Niw.o
+     cp shape/zelda_nw/zelda_nw.o Niw.o
 echo cp shape/zelda_okuta/zelda_okuta.o Okuta.o
      cp shape/zelda_okuta/zelda_okuta.o Okuta.o
 echo cp shape/zelda_poh/zelda_poh.o Poh.o
@@ -103,12 +106,12 @@ echo cp shape/zelda_slime/zelda_slime.o Slime.o
      cp shape/zelda_slime/zelda_slime.o Slime.o
 echo cp shape/zelda_soldier/zelda_soldier.o Soldier.o
      cp shape/zelda_soldier/zelda_soldier.o Soldier.o
-echo cp shape/zelda_tite/zelda_tite.o Tite.o
-     cp shape/zelda_tite/zelda_tite.o Tite.o
+echo cp shape/zelda_tt/zelda_tt.o Tite.o
+     cp shape/zelda_tt/zelda_tt.o Tite.o
 echo cp shape/zelda_wallmaster/zelda_wallmaster.o Wallmaster.o
      cp shape/zelda_wallmaster/zelda_wallmaster.o Wallmaster.o
-echo cp shape/zelda_reeba/zelda_reeba.o Reeba.o
-     cp shape/zelda_reeba/zelda_reeba.o Reeba.o
+echo cp shape/zelda_rb/zelda_rb.o Reeba.o
+     cp shape/zelda_rb/zelda_rb.o Reeba.o
 echo cp shape/zelda_ph/zelda_ph.o Peehat.o
      cp shape/zelda_ph/zelda_ph.o Peehat.o
 echo cp shape/zelda_kingdodongo/zelda_kingdodongo.o Kingdodongo.o
@@ -133,14 +136,6 @@ echo cp shape/zelda_oc/zelda_oc.o Oc.o
      cp shape/zelda_oc/zelda_oc.o Oc.o
 echo cp shape/zelda_th/zelda_th.o Th.o
      cp shape/zelda_th/zelda_th.o Th.o
-echo cp shape/zelda_ph/zelda_ph.o Ph.o
-     cp shape/zelda_ph/zelda_ph.o Ph.o
-echo cp shape/zelda_rb/zelda_rb.o Rb.o
-     cp shape/zelda_rb/zelda_rb.o Rb.o
-echo cp shape/zelda_tt/zelda_tt.o Tt.o
-     cp shape/zelda_tt/zelda_tt.o Tt.o
-echo cp shape/zelda_nw/zelda_nw.o Nw.o
-     cp shape/zelda_nw/zelda_nw.o Nw.o
 echo cp shape/zelda_tg2/zelda_tg2.o Tg2.o
      cp shape/zelda_tg2/zelda_tg2.o Tg2.o
 echo cp shape/zelda_kogoma/zelda_kogoma.o Gol.o
