@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+#Revision 2.7  2000-01-15 18:45:11+09  iwawaki
+#*** empty log message ***
+#
 #Revision 2.6  1999-09-01 20:18:11+09  iwawaki
 #*** empty log message ***
 #
@@ -161,7 +164,6 @@ medal.o
 Haka.o
 ru1.o
 fd2.o
-Dh.o
 Rl.o
 demo_tre_lgt.o
 gi_jewel.o
