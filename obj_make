@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.113  1998/02/17  02:26:46  nisiwaki
+# *** empty log message ***
+#
 # Revision 1.112  1998/02/16  09:05:52  sumiyosi
 # フレイムダンサーを追加。
 #
@@ -519,5 +522,6 @@ cp() {
      cp shape/zelda_du/zelda_du.o du.o
      cp shape/zelda_fw/zelda_fw.o fw.o
      cp shape/zelda_medal/medal.o medal.o
+     cp shape/zelda_hlc/zelda_hlc.o hlc.o
 
 
