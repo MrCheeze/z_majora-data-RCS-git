@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.245  1998-07-02 15:53:39+09  takahata
+# *** empty log message ***
+#
 # Revision 1.244  1998-07-02 15:47:51+09  nisiwaki
 # Fu 風車小屋の男
 #
@@ -1131,3 +1134,4 @@ cp() {
      cp shape/zelda_gi_redead_mask/zelda_gi_redead_mask.o gi_redead_mask.o
      cp shape/zelda_gi_skj_mask/zelda_gi_skj_mask.o gi_skj_mask.o
      cp shape/zelda_gi_rabit_mask/zelda_gi_rabit_mask.o gi_rabit_mask.o
+     cp shape/zelda_gi_truth_mask/zelda_gi_truth_mask.o gi_truth_mask.o
