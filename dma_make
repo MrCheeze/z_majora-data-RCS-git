@@ -30,8 +30,9 @@ cp() {
 
 #####	任天堂ロゴ
      cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
-#####	ＴＩＴＬＥ
-     cp shape/TEXTURE/TITLE/title.o .
+#####	ファイル選択面
+#     cp shape/TEXTURE/TITLE/title.o .
+     cp shape/TEXTURE2/FILE_NAME/file_name.o title.o
 #####	ＧＡＴＥＷＡＹ
      cp shape/TEXTURE/TITLE/gate.o .
 #####	ＰＡＲＡＭＥＴＥＲ
