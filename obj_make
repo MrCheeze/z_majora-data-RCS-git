@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.173  1999-11-09 15:24:41+09  sakakibara
+# goronswitch
+#
 # Revision 2.172  1999-11-08 13:35:33+09  kuzuhara
 # ヒップループ追加
 #
@@ -1996,7 +1999,8 @@ cp() {
      cp shape/zelda_crow/zelda_crow.o Crow.o
      cp shape/zelda_cow/zelda_cow.o Cow.o
      cp shape/zelda_cob/zelda_cob.o Cob.o
-     cp shape/zelda_gi_sword_1/zelda_gi_sword_1.o gi_sword_1.o
+#     cp shape/zelda_gi_sword_1/zelda_gi_sword_1.o gi_sword_1.o
+    cp shape/zelda2_gi_sword_1/v2_sword_01.o gi_sword_1.o
 #     cp shape/zelda_killer_door/zelda_killer_door.o killer_door.o
      cp shape/zelda_ouke_haka/zelda_ouke_haka.o ouke_haka.o
      cp shape/zelda2_timeblock/zelda2_timeblock.o timeblock.o
