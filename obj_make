@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.152  1999-10-20 09:41:09+09  nisiwaki
+# 雪山の木追加
+#
 # Revision 2.151  1999-10-19 11:33:07+09  kuzuhara
 # 町内止め兵士できたー
 #
@@ -1810,7 +1813,7 @@ cp() {
      cp shape/zelda_gi_chicken/zelda_gi_chicken.o gi_niwatori.o
      cp shape/zelda2_skj/zelda2_skj.o Skj.o
      cp shape/zelda_gi_bottle_letter/zelda_gi_bottle_letter.o gi_bottle_letter.o
-     cp shape/zelda_bji/zelda_bji.o Bji.o
+#     cp shape/zelda_bji/zelda_bji.o Bji.o
      cp shape/zelda_bba/zelda_bba.o Bba.o
 #     cp shape/zelda_gi_ocarina_0/zelda_gi_ocarina_0.o gi_ocarina_0.o
      cp shape/zelda_ds/zelda_ds.o Ds.o
@@ -2043,3 +2046,4 @@ cp() {
      cp shape/zelda2_wdhand/zelda2_wdhand.o Wdhand.o
      cp shape/zelda2_sdn/zelda2_sdn.o Sdn.o
      cp shape/zelda2_snowwd/zelda2_snowwd.o Snowwd.o
+     cp shape/zelda2_bji/zelda2_bji.o Bji.o
