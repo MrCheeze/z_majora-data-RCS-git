@@ -25,12 +25,16 @@ cp() {
      cp shape/TEXTURE/MESSAGE/message/message.o .
      cp shape/TEXTURE/MAP/map_div4_idx.o .
      cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_pal.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
