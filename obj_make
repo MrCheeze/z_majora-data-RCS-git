@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.229  1999-12-09 15:30:05+09  sakaguti
+# *** empty log message ***
+#
 # Revision 2.228  1999-12-09 15:02:39+09  nisiwaki
 # 反射光変更
 #
@@ -1786,7 +1789,7 @@ cp() {
 #     cp shape/zelda_mjin_wind/zelda_mjin_wind.o Wind_mjin.o
 #     cp shape/zelda_mjin_oka/zelda_mjin_oka.o Oka_mjin.o
 #     cp shape/zelda_warp2/zelda_warp2.o Warp2.o
-     cp shape/zelda_hata/zelda_hata.o Hata.o
+     cp shape/zelda2_hata/zelda2_hata.o Hata.o
 #     cp shape/zelda_bird/zelda_bird.o Bird.o
      cp shape/zelda_stree/zelda_stree.o Stree.o
      cp shape/zelda_kui/zelda_kui.o Kui.o
