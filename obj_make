@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.174  1998/04/08  06:14:51  takahata
+# *** empty log message ***
+#
 # Revision 1.173  1998/04/08  02:34:48  nisiwaki
 # リンクのCI化
 #
@@ -777,3 +780,5 @@ cp() {
      cp shape/zelda_gi_scale/zelda_gi_scale.o gi_scale.o
      cp shape/zelda_gi_shield_2/zelda_gi_shield_2.o gi_shield_2.o
      cp shape/zelda_gi_hookshot/zelda_gi_hookshot.o gi_hookshot.o
+     cp shape/zelda_gi_ocarina/zelda_gi_ocarina.o gi_ocarina.o
+     cp shape/zelda_gi_milk/zelda_gi_milk.o gi_milk.o
