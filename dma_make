@@ -50,6 +50,18 @@ echo cp shape/TEXTURE/VR_BOX/fine/vr_fine3_div8_idx.o .
      cp shape/TEXTURE/VR_BOX/fine/vr_fine3_div8_idx.o .
 echo cp shape/TEXTURE/VR_BOX/fine/vr_fine3_pal.o .
      cp shape/TEXTURE/VR_BOX/fine/vr_fine3_pal.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud1_pal.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud1_pal.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud2_pal.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud2_pal.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_pal.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_pal.o .
 echo cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
      cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
 echo cp shape/TEXTURE/DOKIDOKI/dokidoki_heart_idx.o .
