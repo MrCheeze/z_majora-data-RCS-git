@@ -2,16 +2,13 @@ shape/zelda_keep/zelda_keep.o
 shape/zelda_link/Anime_Table/Anime_Table.o
 shape/zelda_marker/Shape/Shape.o
 shape/TEXTURE/button/button.o
-shape/TEXTURE/frame.a/frame.a.o
 shape/TEXTURE/heart/heart.o
 shape/TEXTURE/dokidoki/dokidoki.o
 shape/TEXTURE/title/title.o
 shape/TEXTURE/polygon/polygon.o
-shape/TEXTURE/i_icons/i_icons.o
-shape/TEXTURE/e_icons/e_icons.o
 shape/TEXTURE/sample_map/sample_map.o
-shape/STATIC_DATA/SELECT/SELECT.o
 shape/TEXTURE/others/others.o
 shape/TEXTURE/rupy_num/rupy_num.o
 shape/TEXTURE/num_s/num_s.o
 shape/TEXTURE/m_meter/m_meter.o
+shape/TEXTURE/SELECT/select_frame/select_frame.o
