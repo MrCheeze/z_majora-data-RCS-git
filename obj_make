@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.22  1999-03-02 14:07:19+09  yoshida
+# zelda_mmをzelda2_mmに変更。
+#
 # Revision 2.21  1999-03-02 14:05:41+09  yoshida
 # *** empty log message ***
 #
@@ -1462,7 +1465,7 @@ cp() {
      cp shape/zelda_gi_truth_mask/zelda_gi_truth_mask.o gi_truth_mask.o
      cp shape/zelda_siofuki/zelda_siofuki.o siofuki.o
      cp shape/zelda_stream/zelda_stream.o stream.o
-     cp shape/zelda2_mm2/zelda2_mm.o mm.o
+     cp shape/zelda2_mm/zelda2_mm.o mm.o
      cp shape/zelda_fa/zelda_fa.o fa.o
      cp shape/zelda_os/zelda_os.o os.o
      cp shape/zelda_gi_eye_lotion/zelda_gi_eye_lotion.o gi_eye_lotion.o
