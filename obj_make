@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.245  1999-12-22 14:24:07+09  takesita
+# *** empty log message ***
+#
 # Revision 2.244  1999-12-22 14:22:59+09  yoshida
 # *** empty log message ***
 #
@@ -2416,3 +2419,4 @@ cp() {
      cp shape/zelda2_gi_mask15/v2_mask_15.o gi_gibudomask.o
      cp shape/zelda2_inibs_object/zelda2_inibs_object.o Inibs_Object.o
      cp shape/zelda2_tree/zelda2_tree.o Tree.o
+     cp shape/zelda2_kaizoku_obj/zelda2_kaizoku_obj.o Kaizoku_obj.o
