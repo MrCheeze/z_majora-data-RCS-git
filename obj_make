@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.168  1999-11-01 20:01:09+09  sakakibara
+# dhouse
+#
 # Revision 2.167  1999-11-01 16:34:26+09  yoshida
 # ダンペイイベント用オブジェクト追加
 #
@@ -2104,3 +2107,4 @@ cp() {
      cp shape/zelda2_spot11_obj/zelda2_spot11_obj.o Spot11_Obj.o
      cp shape/zelda2_danpei_object/zelda2_danpei_object.o Danpei_Object.o
      cp shape/zelda2_dhouse/zelda2_dhouse.o dhouse.o
+     cp shape/zelda2_hakaisi/zelda2_hakaisi.o Hakaisi.o
