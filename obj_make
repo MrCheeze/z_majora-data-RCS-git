@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.308  2000-01-31 15:58:12+09  kuzuhara
+# 鶏娘削除
+#
 # Revision 2.307  2000-01-31 14:27:33+09  yoshida
 # *** empty log message ***
 #
@@ -2664,3 +2667,4 @@ cp() {
      cp shape/zelda2_iknv_obj/zelda2_iknv_obj.o Iknv_Obj.o
      cp shape/zelda2_pamera/zelda2_pamera.o Pamera.o
      cp shape/zelda2_hsstump/zelda2_hsstump.o HsStump.o
+     cp shape/zelda2_zm/zelda2_zm.o Zm.o
