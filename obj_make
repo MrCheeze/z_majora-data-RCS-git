@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.224  1998-06-09 20:51:53+09  kuzuhara
+# ヤブサメスコア登録
+#
 # Revision 1.223  1998-06-09 14:57:59+09  nisiwaki
 # *** empty log message ***
 #
@@ -1036,3 +1039,5 @@ cp() {
      cp shape/zelda_bob/zelda_bob.o Bob.o
      cp shape/zelda_ge1/zelda_ge1.o Ge1.o
      cp shape/zelda_yabusame_point/zelda_yabusame_point.o yabusame_point.o
+     cp shape/zelda_gi_boots_2/zelda_gi_boots_2.o gi_boots_2.o
+     cp shape/zelda_gi_seed/zelda_gi_seed.o gi_seed.o
