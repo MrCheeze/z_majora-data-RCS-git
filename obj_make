@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.265  1998-07-23 17:21:56+09  kuzuhara
+# 宝箱屋作成
+#
 # Revision 1.264  1998-07-23 13:03:46+09  kuzuhara
 # 案山子
 #
@@ -1231,3 +1234,4 @@ cp() {
      cp shape/zelda_ganon2/zelda_ganon2.o B_ganon2.o
      cp shape/zelda_ka/zelda_ka.o Ka.o
      cp shape/zelda_ts/zelda_ts.o Ts.o
+     cp shape/zelda_zg/zelda_zg.o Zg.o
