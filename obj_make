@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.235  1999-12-13 13:01:57+09  kuzuhara
+# 再生リーバ作成
+#
 # Revision 2.234  1999-12-11 20:11:34+09  iwawaki
 # *** empty log message ***
 #
@@ -2373,3 +2376,5 @@ cp() {
      cp shape/zelda2_gi_sword_4/v2_sword_04.o gi_sword_4.o
      cp shape/zelda2_um/zelda2_um.o um.o
      cp shape/zelda2_rb/zelda2_rb.o Rb.o
+     cp shape/zelda2_mbar_obj/zelda2_mbar_obj.o mbar_obj.o
+     cp shape/zelda2_ikana_obj/zelda2_ikana_obj.o ikana_obj.o
