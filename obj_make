@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.297  2000-01-27 15:57:27+09  umemiya
+# デドハンド削除
+#
 # Revision 2.296  2000-01-27 14:53:13+09  kuzuhara
 # ボンバーズばんくもどし（T＿T）
 #
@@ -2263,13 +2266,13 @@ cp() {
      cp shape/zelda_gi_longsword/zelda_gi_longsword.o gi_longsword.o
 #     cp shape/zelda_gate/zelda_gate.o Gate.o
 #     cp shape/zelda2_md/zelda2_md.o Md.o
-     cp shape/zelda_km1/zelda_km1.o Km1.o
+#     cp shape/zelda_km1/zelda_km1.o Km1.o
 #     cp shape/zelda_kw1/zelda_kw1.o Kw1.o
      cp shape/zelda2_zo/zelda2_zo.o Zo.o
 #     cp shape/zelda_kz/zelda_kz.o Kz.o
      cp shape/zelda_umajump/zelda_umajump.o Umajump.o
-     cp shape/zelda_masterkokiri/zelda_masterkokiri.o masterkokiri.o
-     cp shape/zelda_masterkokirihead/zelda_masterkokirihead.o masterkokirihead.o
+#     cp shape/zelda_masterkokiri/zelda_masterkokiri.o masterkokiri.o
+#     cp shape/zelda_masterkokirihead/zelda_masterkokirihead.o masterkokirihead.o
      cp shape/zelda_mastergolon/zelda_mastergolon.o mastergolon.o
      cp shape/zelda_masterzoora/zelda_masterzoora.o masterzoora.o
      cp shape/zelda_aob/zelda_aob.o Aob.o
@@ -2329,7 +2332,7 @@ cp() {
      cp shape/zelda_stream/zelda_stream.o stream.o
      cp shape/zelda2_mm/zelda2_mm.o mm.o
 #     cp shape/zelda_fa/zelda_fa.o fa.o
-     cp shape/zelda_os/zelda_os.o os.o
+#     cp shape/zelda_os/zelda_os.o os.o
 #     cp shape/zelda_gi_eye_lotion/zelda_gi_eye_lotion.o gi_eye_lotion.o
 #     cp shape/zelda_gi_powder/zelda_gi_powder.o gi_powder.o
      cp shape/zelda_gi_mushroom/zelda_gi_mushroom.o gi_mushroom.o
