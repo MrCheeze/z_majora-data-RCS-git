@@ -3,9 +3,11 @@ set -x
 #
 # $Id$
 #
+opening
 keep
 f_keep
 d_keep
 title
 obj_make
 scene_make
+dma_make
