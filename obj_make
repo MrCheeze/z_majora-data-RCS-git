@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.279  2000-01-19 17:37:17+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.278  2000-01-19 11:39:00+09  sakaguti
 # ポストハット、巨人のお面を追加
 #
@@ -2063,7 +2066,7 @@ cp() {
 #     cp shape/zelda_sst/zelda_sst.o Sst.o
 #     cp shape/zelda_sst_PAL/zelda_sst_PAL.o Sst_PAL.o
 #     cp shape/zelda_go2/zelda_go2.o Go2.o
-     cp shape/zelda_ny/zelda_ny.o Ny.o
+     cp shape/zelda2_ny/zelda2_ny.o Ny.o
      cp shape/zelda2_fr/zelda2_fr.o Fr.o
 #     cp shape/zelda_gi_pachinko/zelda_gi_pachinko.o gi_pachinko.o
 #     cp shape/zelda_gi_boomerang/zelda_gi_boomerang.o gi_boomerang.o
