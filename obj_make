@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.349  2000-02-24 11:35:06+09  sakaguti
+# 夜更かしのお面、ゲーロのお面を追加
+#
 # Revision 2.348  2000-02-23 10:57:48+09  nisiwaki
 # キータン追加
 #
@@ -2559,7 +2562,7 @@ cp() {
 #     cp shape/zelda_gi_rupy/zelda_gi_rupy.o gi_rupy.o
      cp shape/zelda2_gi_ruppy/zelda2_gi_ruppy.o gi_rupy.o
      cp shape/zelda2_mu/zelda2_mu.o Mu.o
-     cp shape/zelda_wf/zelda_wf.o Wf.o
+     cp shape/zelda2_wf/zelda2_wf.o Wf.o
      cp shape/zelda2_skb/zelda2_skb.o Skb.o
      cp shape/zelda_gj/zelda_gj.o gj.o
      cp shape/zelda_geff/zelda_geff.o geff.o
