@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.75  1999-05-26 17:12:59+09  sakakibara
+# *** empty log message ***
+#
 # Revision 2.74  1999-05-24 11:15:14+09  sumiyosi
 # *** empty log message ***
 #
@@ -1758,4 +1761,5 @@ cp() {
      cp shape/zelda2_bal/zelda2_bal.o Bal.o
      cp shape/zelda2_warp_uzu/zelda2_warp_uzu.o Warp_Uzu.o
      cp shape/zelda2_driftice/zelda2_driftice.o driftice.o
-
+     cp shape/zelda2_en_fall/zelda2_en_fall.o Fall.o
+     
