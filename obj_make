@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.274  1998-08-05 18:14:16+09  kuzuhara
+# ボムチュウアルバイトねーちゃん作成
+#
 # Revision 1.273  1998-08-04 13:12:26+09  umemiya
 # ダイオクタ追加
 #
@@ -1270,3 +1273,4 @@ cp() {
      cp shape/zelda_ssh/zelda_ssh.o ssh.o
      cp shape/zelda_ocd/zelda_ocd.o Ocd.o
      cp shape/zelda_bg/zelda_bg.o Bg.o
+     cp shape/zelda_spot05_objects/zelda_spot05_objects.o spot05_objects.o
