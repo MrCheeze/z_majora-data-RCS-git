@@ -1,0 +1,8 @@
+#!/bin/sh
+set -x
+#
+# $Id$
+#
+# $Log$
+#
+ld -r -o f_keep.o -objectlist f_keep.objs -m > f_keep.map

@@ -1,0 +1,8 @@
+#!/bin/sh
+set -x
+#
+# $Id$
+#
+# $Log$
+#
+ld -r -o d_keep.o -objectlist d_keep.objs -m > d_keep.map
