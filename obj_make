@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.275  1998-08-06 11:40:47+09  umemiya
+# SPOT05オブジェクト追加
+#
 # Revision 1.274  1998-08-05 18:14:16+09  kuzuhara
 # ボムチュウアルバイトねーちゃん作成
 #
@@ -1274,3 +1277,5 @@ cp() {
      cp shape/zelda_ocd/zelda_ocd.o Ocd.o
      cp shape/zelda_bg/zelda_bg.o Bg.o
      cp shape/zelda_spot05_objects/zelda_spot05_objects.o spot05_objects.o
+     cp shape/zelda_spot12_obj/zelda_spot12_obj.o spot12_obj.o
+     cp shape/zelda_bombiwa/zelda_bombiwa.o bombiwa.o
