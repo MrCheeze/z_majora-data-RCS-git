@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.133  1999-09-24 16:15:42+09  sakaguti
+# zelda_rs/zelda_rs.o → zelda2_rsn/zelda2_rsn.o に変えた。
+#
 # Revision 2.132  1999-09-24 15:13:11+09  sakakibara
 # tokei_step
 #
@@ -1806,7 +1809,7 @@ cp() {
      cp shape/zelda_gi_ticketstone/zelda_gi_ticketstone.o gi_ticketstone.o
      cp shape/zelda_gi_brokensword/zelda_gi_brokensword.o gi_brokensword.o
      cp shape/zelda_js/zelda_js.o Js.o
-     cp shape/zelda_cs/zelda_cs.o cs.o
+     cp shape/zelda2_cs/zelda2_cs.o cs.o
      cp shape/zelda_gi_prescription/zelda_gi_prescription.o gi_prescription.o
 #     cp shape/zelda_gi_bracelet/zelda_gi_bracelet.o gi_bracelet.o
      cp shape/zelda_gi_soldout/zelda_gi_soldout.o gi_soldout.o
