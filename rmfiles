@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+# Revision 1.1  1997/09/03  06:03:11  soejima
+# Initial revision
+#
 #
 
 #set -x
@@ -13,11 +16,10 @@
 #ファイルはここに登録
 #
 RMFILES="
-message
-message.objs
 opening
 opening.map
 opening.objs
+map_pal.o
 "
 
 echo "使用しなくなったソースを削除します…"
