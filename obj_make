@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.71  1997/11/26  07:33:26  umemiya
+# バリ追加
+#
 # Revision 1.70  1997/11/18  04:46:20  sumiyosi
 # *** empty log message ***
 #
@@ -320,4 +323,7 @@ cp() {
      cp shape/zelda_oE11/zelda_oE11.o OE11.o
      cp shape/zelda_oE12/zelda_oE12.o OE12.o
      cp shape/zelda_vali/zelda_vali.o Vali.o
+     cp shape/zelda_oA10/zelda_oA10.o OA10.o
+     cp shape/zelda_oA11/zelda_oA11.o OA11.o
+
 
