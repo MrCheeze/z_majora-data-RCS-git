@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.226  1999-12-08 17:28:28+09  sakakibara
+# ishi, kin2_obj 追加   timeblock, fence, hampost 削除
+#
 # Revision 2.225  1999-12-08 10:44:41+09  kuzuhara
 # 深海透明壁
 #
@@ -2336,3 +2339,4 @@ cp() {
      cp shape/zelda2_sinkai_kabe/zelda2_sinkai_kabe.o Sinkai_Kabe.o
      cp shape/zelda2_kin2_obj/zelda2_kin2_obj.o kin2_obj.o
      cp shape/zelda2_ishi/zelda2_ishi.o ishi.o
+     cp shape/zelda2_hakugin_demo/zelda2_hakugin_demo.o Hakugin_Demo.o
