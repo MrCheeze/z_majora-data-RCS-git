@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.304  1998-08-26 11:05:25+09  komatu
+# *** empty log message ***
+#
 # Revision 1.303  1998-08-26 00:34:00+09  sumiyosi
 # 敵(群れ、カップル、ベビースタル、ワーウルフ)追加。
 #
@@ -1399,3 +1402,4 @@ cp() {
      cp shape/zelda_wf/zelda_wf.o Wf.o
      cp shape/zelda_skb/zelda_skb.o Skb.o
      cp shape/zelda_gj/zelda_gj.o gj.o
+     cp shape/zelda_geff/zelda_geff.o geff.o
