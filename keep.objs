@@ -14,3 +14,4 @@ shape/STATIC_DATA/SELECT/SELECT.o
 shape/TEXTURE/others/others.o
 shape/TEXTURE/rupy_num/rupy_num.o
 shape/TEXTURE/num_s/num_s.o
+shape/TEXTURE/b_button/b_button.o
