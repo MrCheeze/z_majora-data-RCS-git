@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.299  2000-01-27 18:16:11+09  matutani
+# 汎用馬のバンク削除
+#
 # Revision 2.298  2000-01-27 17:54:39+09  sakaguti
 # 旧お面屋＆コキリ店主削除
 #
@@ -2634,3 +2637,4 @@ cp() {
      cp shape/zelda2_last_obj/zelda2_last_obj.o Last_Obj.o
      cp shape/zelda2_redead_obj/zelda2_redead_obj.o Redead_Obj.o
      cp shape/zelda2_ikninside_obj/zelda2_ikninside_obj.o Ikninside_Obj.o
+     cp shape/zelda2_iknv_obj/zelda2_iknv_obj.o Iknv_Obj.o
