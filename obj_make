@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.16  1999-02-22 17:24:38+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.15  1999-02-19 16:05:50+09  kuzuhara
 # 炎の壁
 #
@@ -1036,7 +1039,7 @@ cp() {
      cp shape/zelda2_link_new/Skeleton/Child/Child.o Link_child.o
      cp shape/zelda2_link_new/Skeleton/Goron/Goron.o Link_goron.o
      cp shape/zelda2_link_new/Skeleton/Zora/Zora.o Link_zora.o
-     cp shape/zelda2_link_new/Skeleton/Zora/Nuts.o Link_nuts.o
+     cp shape/zelda2_link_new/Skeleton/Nuts/Nuts.o Link_nuts.o
 #     cp /home/nisiwaki/ZELDA/LINK/Boy/Boy.o Link_boy.o
 #     cp /home/nisiwaki/ZELDA/LINK/Child/Child.o Link_child.o
 
