@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.9  1999-02-08 11:44:01+09  sakakibara
+# ダンジョンユニットＯＢＪ追加
+#
 # Revision 2.8  1999-02-03 17:13:05+09  kuzuhara
 # 切り裂きバッタ作成
 #
@@ -1054,9 +1057,6 @@ cp() {
      cp shape/zelda_horse_normal/zelda_horse_normal.o Horse_Normal.o
      cp shape/zelda_oBx/zelda_oBx.o OBX.o
      cp shape/zelda_o_anime/zelda_o_anime.o O_anime.o
-     cp shape/zelda_spo04_objects/zelda_spo04_objects.o spot04_objects.o
-     cp shape/zelda_ddan_objects/zelda_ddan_objects.o ddan_objects.o
-     cp shape/zelda_hidan_objects/zelda_hidan_objects.o hidan_objects.o
      cp shape/zelda_horse_ganon/zelda_horse_ganon.o Horse_Ganon.o
      cp shape/zelda_oA2/zelda_oA2.o OA2.o
      cp shape/zelda_spot00_objects/zelda_spot00_objects.o spot00_objects.o
@@ -1066,7 +1066,6 @@ cp() {
      cp shape/zelda_oE1/zelda_oE1.o OE1.o
      cp shape/zelda_oE_anime/zelda_oE_anime.o OE_anime.o
      cp shape/zelda_oE2/zelda_oE2.o OE2.o
-     cp shape/zelda_ydan_objects/zelda_ydan_objects.o ydan_objects.o
      cp shape/zelda_gnd/zelda_gnd.o Gnd.o
      cp shape/zelda_am/zelda_am.o Am.o
      cp shape/zelda_dekubaba/zelda_dekubaba.o Dekubaba.o
@@ -1075,7 +1074,6 @@ cp() {
      cp shape/zelda_oA5/zelda_oA5.o OA5.o
      cp shape/zelda_oA6/zelda_oA6.o OA6.o
      cp shape/zelda_oA7/zelda_oA7.o OA7.o
-     cp shape/zelda_jj/zelda_jj.o Jj.o
      cp shape/zelda_oA8/zelda_oA8.o OA8.o
      cp shape/zelda_oA9/zelda_oA9.o OA9.o
      cp shape/zelda_oB2/zelda_oB2.o OB2.o
@@ -1100,13 +1098,10 @@ cp() {
      cp shape/zelda_vali/zelda_vali.o Vali.o
      cp shape/zelda_oA10/zelda_oA10.o OA10.o
      cp shape/zelda_oA11/zelda_oA11.o OA11.o
-     cp shape/zelda_mizu_objects/zelda_mizu_objects.o mizu_objects.o
      cp shape/zelda_fantomHG/zelda_fantomHG.o FantomHG.o
      cp shape/zelda_fantomHG_PAL/zelda_fantomHG_PAL.o FantomHG_PAL.o
      cp shape/zelda_sh/zelda_sh.o OB1.o
-     cp shape/zelda_mori_hineri1/zelda_mori_hineri1.o mori_hineri1.o
      cp shape/zelda_bb/zelda_bb.o Bb.o
-     cp shape/zelda_toki_objects/zelda_toki_objects.o toki_objects.o
      cp shape/zelda_yukabyun/zelda_yukabyun.o Yukabyun.o
      cp shape/zelda_zl2/zelda_zl2.o Zl2.o
      cp shape/zelda_mjin/zelda_mjin.o Mjin.o
@@ -1117,14 +1112,6 @@ cp() {
      cp shape/zelda_mjin_soul/zelda_mjin_soul.o Soul_mjin.o
      cp shape/zelda_mjin_wind/zelda_mjin_wind.o Wind_mjin.o
      cp shape/zelda_mjin_oka/zelda_mjin_oka.o Oka_mjin.o
-     cp shape/zelda_spot06_objects/zelda_spot06_objects.o spot06_objects.o
-     cp shape/zelda_ice_objects/zelda_ice_objects.o ice_objects.o
-     cp shape/zelda_mori_hineri1a/zelda_mori_hineri1a.o mori_hineri1a.o
-     cp shape/zelda_mori_hineri2/zelda_mori_hineri2.o mori_hineri2.o
-     cp shape/zelda_mori_hineri2a/zelda_mori_hineri2a.o mori_hineri2a.o
-     cp shape/zelda_mori_objects/zelda_mori_objects.o mori_objects.o
-     cp shape/zelda_mori_tex/zelda_mori_tex.o mori_tex.o
-     cp shape/zelda_spot08_obj/zelda_spot08_obj.o spot08_obj.o
      cp shape/zelda_warp2/zelda_warp2.o Warp2.o
      cp shape/zelda_hata/zelda_hata.o Hata.o
      cp shape/zelda_bird/zelda_bird.o Bird.o
@@ -1159,7 +1146,6 @@ cp() {
      cp shape/zelda_god_lgt/zelda_god_lgt.o god_lgt.o   
      cp shape/zelda_light_ring/zelda_light_ring.o light_ring.o   
      cp shape/zelda_triforce_spot/zelda_triforce_spot.o  triforce_spot.o
-     cp shape/zelda_bdan_objects/zelda_bdan_objects.o bdan_objects.o
      cp shape/zelda_sd/zelda_sd.o Sd.o
      cp shape/zelda_rd/zelda_rd.o Rd.o
      cp shape/zelda_po_sisters/zelda_po_sisters.o Po_Sisters.o
@@ -1173,7 +1159,6 @@ cp() {
      cp shape/zelda_medal/medal.o medal.o
      cp shape/zelda_hlc/zelda_hlc.o hlc.o
      cp shape/zelda_ru1/zelda_ru1.o ru1.o
-     cp shape/zelda_spot02_objects/zelda_spot02_objects.o spot02_objects.o
      cp shape/zelda_haka/zelda_haka.o Haka.o
      cp shape/zelda_syokudai/zelda_syokudai.o syokudai.o
      cp shape/zelda_vba/zelda_vba.o fd2.o
@@ -1186,11 +1171,8 @@ cp() {
      cp shape/zelda_mir_ray/zelda_mir_ray.o mir_ray.o
      cp shape/zelda_brob/zelda_brob.o Brob.o
      cp shape/zelda_gi_jewel/zelda_gi_jewel.o gi_jewel.o
-     cp shape/zelda_spot09_obj/zelda_spot09_obj.o spot09_obj.o
-     cp shape/zelda_spot18_obj/zelda_spot18_obj.o spot18_obj.o
      cp shape/zelda_boss_door/zelda_boss_door.o bdoor.o
      cp shape/zelda_shop_tana/zelda_shop_tana.o shop_dungen.o
-     cp shape/zelda_spot17_obj/zelda_spot17_obj.o spot17_obj.o
      cp shape/zelda_nb/zelda_nb.o nb.o
      cp shape/zelda_mo/zelda_mo.o mo.o
      cp shape/zelda_mo_PAL/zelda_mo_PAL.o mo_PAL.o
@@ -1207,7 +1189,6 @@ cp() {
      cp shape/zelda_gi_bombpouch/zelda_gi_bombpouch.o gi_bombpouch.o
      cp shape/zelda_in/zelda_in.o In.o
      cp shape/zelda_tr/zelda_tr.o Tr.o
-     cp shape/zelda_spot16_obj/zelda_spot16_obj.o spot16_obj.o
      cp shape/zelda_oE1s/zelda_oE1s.o oE1s.o
      cp shape/zelda_oE4s/zelda_oE4s.o oE4s.o
      cp shape/zelda_os_anime/zelda_os_anime.o os_anime.o
@@ -1371,11 +1352,8 @@ cp() {
      cp shape/zelda_scene_name_PAL/G_pn_57/G_pn_57.o G_pn_57_PAL.o
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
      cp shape/zelda_ani/zelda_ani.o ani.o
-     cp shape/zelda_demo_6k/zelda_demo_6k.o D6k.o
      cp shape/zelda_gi_shield_3/zelda_gi_shield_3.o gi_shield_3.o
      cp shape/zelda_gi_letter/zelda_gi_letter.o gi_letter.o
-     cp shape/zelda_spot15_obj/zelda_spot15_obj.o spot15_obj.o
-     cp shape/zelda_jya_obj/zelda_jya_obj.o jya_obj.o
      cp shape/zelda_gi_clothes/zelda_gi_clothes.o gi_clothes.o
      cp shape/zelda_gi_bean/zelda_gi_bean.o gi_bean.o
      cp shape/zelda_gi_fish/zelda_gi_fish.o gi_fish.o
@@ -1383,7 +1361,6 @@ cp() {
      cp shape/zelda_gi_hammer/zelda_gi_hammer.o gi_hammer.o
      cp shape/zelda_gi_grass/zelda_gi_grass.o gi_grass.o
      cp shape/zelda_gi_longsword/zelda_gi_longsword.o gi_longsword.o
-     cp shape/zelda_spot01_objects/zelda_spot01_objects.o spot01_objects.o
      cp shape/zelda_gate/zelda_gate.o Gate.o
      cp shape/zelda_md/zelda_md.o Md.o
      cp shape/zelda_km1/zelda_km1.o Km1.o
@@ -1410,10 +1387,7 @@ cp() {
      cp shape/zelda_boj/zelda_boj.o Boj.o
      cp shape/zelda_elf_message/field/field.o EM_field.o
      cp shape/zelda_elf_message/ydan/ydan.o EM_ydan.o
-     cp shape/zelda_spot03_object/zelda_spot03_object.o spot03_object.o
-     cp shape/zelda_spot07_object/zelda_spot07_object.o spot07_object.o
      cp shape/zelda_fz/zelda_fz.o Fz.o
-     cp shape/zelda_relay_objects/zelda_relay_objects.o relay_objects.o
      cp shape/zelda_bob/zelda_bob.o Bob.o
      cp shape/zelda_ge1/zelda_ge1.o Ge1.o
      cp shape/zelda_yabusame_point/zelda_yabusame_point.o yabusame_point.o
@@ -1429,7 +1403,6 @@ cp() {
      cp shape/zelda_daiku/zelda_daiku.o daiku.o
      cp shape/zelda_stopge/zelda_stopge.o stopge.o
      cp shape/zelda_nwc/zelda_nwc.o nwc.o
-     cp shape/zelda_blkobj/zelda_blkobj.o blkobj.o
      cp shape/zelda_hakach_objects/zelda_hakach_objects.o hakach_objects.o
      cp shape/zelda_gm/zelda_gm.o gm.o
      cp shape/zelda_ms/zelda_ms.o ms.o
@@ -1450,7 +1423,6 @@ cp() {
      cp shape/zelda_gi_skj_mask/zelda_gi_skj_mask.o gi_skj_mask.o
      cp shape/zelda_gi_rabit_mask/zelda_gi_rabit_mask.o gi_rabit_mask.o
      cp shape/zelda_gi_truth_mask/zelda_gi_truth_mask.o gi_truth_mask.o
-     cp shape/zelda_ganon_objects/zelda_ganon_objects.o ganon_objects.o
      cp shape/zelda_siofuki/zelda_siofuki.o siofuki.o
      cp shape/zelda_stream/zelda_stream.o stream.o
      cp shape/zelda_mm/zelda_mm.o mm.o
@@ -1468,7 +1440,6 @@ cp() {
      cp shape/zelda_gi_soldout/zelda_gi_soldout.o gi_soldout.o
      cp shape/zelda_gi_frog/zelda_gi_frog.o gi_frog.o
      cp shape/zelda_mag/zelda_mag.o mag.o
-     cp shape/zelda_door_gerudo/zelda_door_gerudo.o door_gerudo.o
      cp shape/zelda_gt/zelda_gt.o gt.o
      cp shape/zelda_efc_erupc/zelda_efc_erupc.o efc_erupc.o
      cp shape/zelda_zl2_anime1/zelda_zl2_anime1.o Zl2_Anime1.o
@@ -1491,8 +1462,6 @@ cp() {
      cp shape/zelda_ssh/zelda_ssh.o ssh.o
      cp shape/zelda_ocd/zelda_ocd.o Ocd.o
      cp shape/zelda_bg/zelda_bg.o Bg.o
-     cp shape/zelda_spot05_objects/zelda_spot05_objects.o spot05_objects.o
-     cp shape/zelda_spot12_obj/zelda_spot12_obj.o spot12_obj.o
      cp shape/zelda_bombiwa/zelda_bombiwa.o bombiwa.o
      cp shape/zelda_hintnuts/zelda_hintnuts.o Hintnuts.o
      cp shape/zelda_rs/zelda_rs.o Rs.o
@@ -1504,8 +1473,6 @@ cp() {
      cp shape/zelda_dog/zelda_dog.o Dog.o
      cp shape/zelda_jya_iron/zelda_jya_iron.o jya_iron.o
      cp shape/zelda_jya_door/zelda_jya_door.o jya_door.o
-     cp shape/zelda_spot01_objects2/zelda_spot01_objects2.o spot01_objects2.o
-     cp shape/zelda_spot11_obj/zelda_spot11_obj.o spot11_obj.o
      cp shape/zelda_kibako2/zelda_kibako2.o kibako2.o
      cp shape/zelda_dns/zelda_dns.o Dns.o
      cp shape/zelda_dnk/zelda_dnk.o Dnk.o
@@ -1520,8 +1487,6 @@ cp() {
      cp shape/zelda_efc_doughnut/zelda_efc_doughnut.o Efc_Doughnut.o
      cp shape/zelda_gi_dekupouch/zelda_gi_dekupouch.o gi_dekupouch.o
      cp shape/zelda_gi_rupy/zelda_gi_rupy.o gi_rupy.o
-     cp shape/zelda_spot01_matoya/zelda_spot01_matoya.o spot01_matoya.o
-     cp shape/zelda_spot01_matoyab/zelda_spot01_matoyab.o spot01_matoyab.o
      cp shape/zelda_po_composer/zelda_po_composer.o Po_Composer.o
      cp shape/zelda_mu/zelda_mu.o Mu.o
      cp shape/zelda_wf/zelda_wf.o Wf.o
