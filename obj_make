@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.267  1998-07-30 11:32:27+09  takahata
+# *** empty log message ***
+#
 # Revision 1.266  1998-07-29 13:30:13+09  komatu
 # Zgの追加
 #
@@ -1241,3 +1244,4 @@ cp() {
      cp shape/zelda_gi_hoverboots/zelda_gi_hoverboots.o gi_hoverboots.o
      cp shape/zelda_gi_m_arrow/zelda_gi_m_arrow.o gi_m_arrow.o
      cp shape/zelda_ds2/zelda_ds2.o Ds2.o
+     cp shape/zelda_ec/zelda_ec.o Ec.o
