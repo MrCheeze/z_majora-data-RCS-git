@@ -115,5 +115,7 @@ cp() {
 #####	カレイド・スコープ
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_field.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_dungeon.o .
      cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
      cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/map_name.o .
