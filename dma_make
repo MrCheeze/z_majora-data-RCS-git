@@ -33,17 +33,14 @@ cp() {
 #####	ファイル選択面
 #     cp shape/TEXTURE/TITLE/title.o .
      cp shape/TEXTURE2/JAPAN/FILE_NAME/file_name.o title.o
-     cp shape/TEXTURE2/NES/FILE_NAME/nes_file_name.o .
 #####	ＧＡＴＥＷＡＹ
      cp shape/TEXTURE/TITLE/gate.o .
 #####	ＰＡＲＡＭＥＴＥＲ
      cp shape/TEXTURE2/JAPAN/PARAMETER2/parameter.o .
      cp shape/TEXTURE2/JAPAN/PARAMETER2/parameter_show.o .
-     cp shape/TEXTURE2/NES/PARAMETER2/nes_youbi.o nes_week.o
      cp shape/TEXTURE2/JAPAN/PARAMETER2/youbi.o week.o
      cp shape/TEXTURE2/JAPAN/PARAMETER2/daytelop.o .
      cp shape/TEXTURE2/E3/daytelop/E3daytelop.o .
-     cp shape/TEXTURE2/NES/PARAMETER2/nes_daytelop.o .
      cp shape/TEXTURE2/JAPAN/PARAMETER2/story.o .
 #####	ＤＯ ＡＣＴＩＯＮ
      cp shape/TEXTURE2/JAPAN/DO_ACTION2/do_action_idx.o .
@@ -162,7 +159,6 @@ cp() {
      cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_field.o .
      cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_dungeon.o .
      cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_jpn.o .
-     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_nes.o .
      cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_gameover.o .
 #     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/item_name.o .
      cp shape/TEXTURE2/JAPAN/ITEM_NAME2/item_name_test.raw .
@@ -180,10 +176,55 @@ cp() {
 ######
 ######
 #######
-################### ＮＥＳ
-######
+################### ＮＥＳ／ＰＡＬ
 #####	ＰＡＲＡＭＥＴＥＲ
      cp shape/TEXTURE2/NES/PARAMETER2/nes_parameter.o .
+#
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_youbi.o nes_week.o
+     cp shape/TEXTURE2/PAL/GER/PARAMETER2/ger_youbi.o ger_week.o
+     cp shape/TEXTURE2/PAL/FRA/PARAMETER2/fra_youbi.o fra_week.o
+     cp shape/TEXTURE2/PAL/SPA/PARAMETER2/spa_youbi.o spa_week.o
+#
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_daytelop.o .
+     cp shape/TEXTURE2/PAL/GER/PARAMETER2/ger_daytelop.o .
+     cp shape/TEXTURE2/PAL/FRA/PARAMETER2/fra_daytelop.o .
+     cp shape/TEXTURE2/PAL/SPA/PARAMETER2/spa_daytelop.o .
+#####	ファイル選択面
+     cp shape/TEXTURE2/NES/FILE_NAME/nes_file_name.o .
+#
+     cp shape/TEXTURE2/PAL/FILE_NAME/pal_file_name.o .
+######  アイテム名
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_item_name_test.raw .
+     cp shape/TEXTURE2/PAL/GER/ITEM_NAME2/ger_item_name_test.raw .
+     cp shape/TEXTURE2/PAL/FRA/ITEM_NAME2/fra_item_name_test.raw .
+     cp shape/TEXTURE2/PAL/SPA/ITEM_NAME2/spa_item_name_test.raw .
+#
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_map_name_test.raw .
+     cp shape/TEXTURE2/PAL/GER/ITEM_NAME2/ger_map_name_test.raw .
+     cp shape/TEXTURE2/PAL/FRA/ITEM_NAME2/fra_map_name_test.raw .
+     cp shape/TEXTURE2/PAL/SPA/ITEM_NAME2/spa_map_name_test.raw .
+#
+     cp shape/TEXTURE2/NES/ICON_ITEM2/nes_icon_item_nes.o .
+     cp shape/TEXTURE2/PAL/GER/ICON_ITEM2/ger_icon_item.o .
+     cp shape/TEXTURE2/PAL/FRA/ICON_ITEM2/fra_icon_item.o .
+     cp shape/TEXTURE2/PAL/SPA/ICON_ITEM2/spa_icon_item.o .
+#####	ＤＯ ＡＣＴＩＯＮ
+     cp shape/TEXTURE2/NES/DO_ACTION2/nes_do_action_idx.o .
+     cp shape/TEXTURE2/PAL/GER/DO_ACTION2/ger_do_action_idx.o .
+     cp shape/TEXTURE2/PAL/FRA/DO_ACTION2/fra_do_action_idx.o .
+     cp shape/TEXTURE2/PAL/SPA/DO_ACTION2/spa_do_action_idx.o .
+#####	スケジュール
+     cp shape/TEXTURE2/NES/SCHEDULE2/nes_schedule.o .
+#
+######
+######
+######
+######
+#######
+################### ＰＡＬ
+######
+#####	ファイル選択面
+#####	ＰＡＲＡＭＥＴＥＲ
 ######
      cp shape/TEXTURE2/NES/ITEM_NAME2/nes_item_name_test.raw .
      cp shape/TEXTURE2/NES/ITEM_NAME2/nes_map_name_test.raw .
