@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.60  1999-04-21 13:43:49+09  umemiya
+# はしご、クロスケ追加
+#
 # Revision 2.59  1999-04-16 11:35:23+09  kuzuhara
 # ウィズローブとブロック作成
 #
@@ -1701,3 +1704,4 @@ cp() {
      cp shape/zelda2_wiz/zelda2_wiz.o Wiz.o
      cp shape/zelda2_ladder/zelda2_ladder.o Ladder.o
      cp shape/zelda2_mkk/zelda2_mkk.o Mkk.o
+     cp shape/zelda2_obj_skje/zelda2_obj_skje.o Skje.o
