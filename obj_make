@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.318  2000-02-07 09:41:39+09  nisiwaki
+# チャイム追加
+#
 # Revision 2.317  2000-02-04 14:47:46+09  sakaguti
 # 勇者の仮面
 #
@@ -2706,3 +2709,4 @@ cp() {
      cp shape/zelda2_famos/zelda2_famos.o Famos.o
      cp shape/zelda2_gi_mask03/v2_mask_03.o gi_yusyamask.o
      cp shape/zelda2_cha/zelda2_cha.o Cha.o
+     cp shape/zelda2_dinner/zelda2_dinner.o Dinner.o
