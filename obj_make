@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.202  1998-05-11 22:42:10+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 1.201  1998/05/08 05:01:34  takahata
 # *** empty log message ***
 #
@@ -692,7 +695,6 @@ cp() {
      cp shape/zelda_gnd/zelda_gnd.o Gnd.o
      cp shape/zelda_am/zelda_am.o Am.o
      cp shape/zelda_dekubaba/zelda_dekubaba.o Dekubaba.o
-     cp shape/zelda_oF1/zelda_oF1.o OF1.o
      cp shape/zelda_oA3/zelda_oA3.o OA3.o
      cp shape/zelda_oA4/zelda_oA4.o OA4.o
      cp shape/zelda_oA5/zelda_oA5.o OA5.o
@@ -947,3 +949,4 @@ cp() {
      cp shape/zelda_mastergolon/zelda_mastergolon.o mastergolon.o
      cp shape/zelda_masterzoora/zelda_masterzoora.o masterzoora.o
      cp shape/zelda_aob/zelda_aob.o Aob.o
+     cp shape/zelda_ik/zelda_ik.o Ik.o
