@@ -43,6 +43,7 @@ cp() {
      cp shape/TEXTURE2/PARAMETER2/youbi.o week.o
      cp shape/TEXTURE2/PARAMETER2/daytelop.o .
      cp shape/TEXTURE2/E3/daytelop/E3daytelop.o .
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_daytelop.o .
      cp shape/TEXTURE2/PARAMETER2/story.o .
 #####	ＤＯ ＡＣＴＩＯＮ
      cp shape/TEXTURE2/DO_ACTION2/do_action_idx.o .
