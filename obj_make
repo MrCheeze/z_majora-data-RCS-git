@@ -1,9 +1,12 @@
-!/bin/sh
-#set -x
+#!/bin/sh
+set -x
 #
 # $Id$
 #
 # $Log$
+# Revision 1.45  1997/09/19  08:57:12  tarukado
+# *** empty log message ***
+#
 # Revision 1.44  1997/09/19  05:29:29  tarukado
 # モリブリン追加
 #
