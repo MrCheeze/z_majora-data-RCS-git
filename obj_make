@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.298  2000-01-27 17:54:39+09  sakaguti
+# 旧お面屋＆コキリ店主削除
+#
 # Revision 2.297  2000-01-27 15:57:27+09  umemiya
 # デドハンド削除
 #
@@ -1940,7 +1943,7 @@ cp() {
 #     cp shape/zelda_tp/zelda_tp.o Tp.o
 #     cp shape/zelda_bw/zelda_bw.o Bw.o
 #     cp shape/zelda_ei/zelda_ei.o Ei.o
-     cp shape/zelda_horse_normal/zelda_horse_normal.o Horse_Normal.o
+#     cp shape/zelda_horse_normal/zelda_horse_normal.o Horse_Normal.o
 #     cp shape/zelda_oBx/zelda_oBx.o OBX.o
 #     cp shape/zelda_o_anime/zelda_o_anime.o O_anime.o
 #     cp shape/zelda_horse_ganon/zelda_horse_ganon.o Horse_Ganon.o
