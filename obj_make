@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.31  1997/08/25  13:37:44  sumiyosi
+# スタルチュラ追加。
+#
 # Revision 1.30  1997/08/25  01:51:32  sumiyosi
 # *** empty log message ***
 #
@@ -151,8 +154,8 @@ echo cp shape/zelda_wm/zelda_wm.o Wm.o
      cp shape/zelda_wm/zelda_wm.o Wm.o
 echo cp shape/zelda_po/zelda_po.o Po.o
      cp shape/zelda_po/zelda_po.o Po.o
-echo cp shape/zelda_o01/zelda_o01.o O01.o
-     cp shape/zelda_o01/zelda_o01.o O01.o
+echo cp shape/zelda_o01_2/zelda_o01_2.o O01.o
+     cp shape/zelda_o01_2/zelda_o01_2.o O01.o
 echo cp shape/zelda_oc/zelda_oc.o Oc.o
      cp shape/zelda_oc/zelda_oc.o Oc.o
 echo cp shape/zelda_th/zelda_th.o Th.o
