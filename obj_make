@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.129  1999-09-22 16:44:05+09  umemiya
+# 白銀眼鏡壁を削除
+#
 # Revision 2.128  1999-09-21 19:45:00+09  sakaguti
 # お面屋、新規登録
 #
@@ -1832,7 +1835,7 @@ cp() {
      cp shape/zelda_jya_iron/zelda_jya_iron.o jya_iron.o
      cp shape/zelda_jya_door/zelda_jya_door.o jya_door.o
      cp shape/zelda_kibako2/zelda_kibako2.o kibako2.o
-     cp shape/zelda_dns/zelda_dns.o Dns.o
+     cp shape/zelda2_dns/zelda2_dns.o Dns.o
      cp shape/zelda2_dnk/zelda2_dnk.o Dnk.o
      cp shape/zelda_gi_fire/zelda_gi_fire.o gi_fire.o
      cp shape/zelda_gi_insect/zelda_gi_insect.o gi_insect.o
