@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.72  1999-05-19 11:21:23+09  yoshida
+# ワープ渦追加
+#
 # Revision 2.71  1999-05-17 16:33:04+09  takesita
 # フーセンマン（Bal.o）追加
 #
@@ -1748,4 +1751,5 @@ cp() {
      cp shape/zelda2_dblue_object/zelda2_dblue_object.o Dblue_Object.o
      cp shape/zelda2_bal/zelda2_bal.o Bal.o
      cp shape/zelda2_warp_uzu/zelda2_warp_uzu.o Warp_Uzu.o
+     cp shape/zelda2_driftice/zelda2_driftice.o driftice.o
 
