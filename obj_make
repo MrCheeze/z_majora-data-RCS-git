@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.278  1998-08-06 20:07:33+09  takahata
+# *** empty log message ***
+#
 # Revision 1.277  1998-08-06 17:58:48+09  umemiya
 # ヒントナッツ追加
 #
@@ -1287,3 +1290,4 @@ cp() {
      cp shape/zelda_bombiwa/zelda_bombiwa.o bombiwa.o
      cp shape/zelda_hintnuts/zelda_hintnuts.o Hintnuts.o
      cp shape/zelda_rs/zelda_rs.o Rs.o
+     cp shape/zelda_spot00_break/zelda_spot00_break.o spot00_break.o
