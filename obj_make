@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.66  1997/11/08  08:37:53  umemiya
+# デクナッツ追加
+#
 # Revision 1.65  1997/11/07  04:05:52  iwawaki
 # *** empty log message ***
 #
@@ -293,6 +296,8 @@ cp() {
      cp shape/zelda_warp1/zelda_warp1.o Warp1.o
      cp shape/zelda_b_heart/zelda_b_heart.o B_heart.o
      cp shape/zelda_dekunuts/zelda_dekunuts.o Dekunuts.o
+     cp shape/zelda_oE3/zelda_oE3.o OE3.o
+     cp shape/zelda_oE4/zelda_oE4.o OE4.o
 
 	
 
