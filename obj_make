@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.162  1998/03/27  04:25:47  takahata
+# *** empty log message ***
+#
 # Revision 1.161  1998/03/27  04:20:40  sumiyosi
 # シェアード版ゴロン追加。
 #
@@ -724,4 +727,4 @@ cp() {
      cp shape/zelda_gi_magicpot/zelda_gi_magicpot.o gi_magicpot.o
      cp shape/zelda_gi_bomb_1/zelda_gi_bomb_1.o gi_bomb_1.o
      cp shape/zelda_oF1s/zelda_oF1s.o oF1s.o
-
+     cp shape/zelda_ma2/zelda_ma2.o Ma2.o
