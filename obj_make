@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.383  2000-03-13 21:54:00+09  sakaguti
+# めおとのお面
+#
 # Revision 2.382  2000-03-12 02:24:50+09  yoshida
 # *** empty log message ***
 #
@@ -2651,7 +2654,7 @@ cp() {
      cp shape/zelda2_dog2/zelda2_dog2.o Dog.o
      cp shape/zelda_jya_iron/zelda_jya_iron.o jya_iron.o
      cp shape/zelda_jya_door/zelda_jya_door.o jya_door.o
-     cp shape/zelda_kibako2/zelda_kibako2.o kibako2.o
+     cp shape/zelda2_kibako2/zelda2_kibako2.o kibako2.o
      cp shape/zelda2_dns/zelda2_dns.o Dns.o
      cp shape/zelda2_dnk/zelda2_dnk.o Dnk.o
 #     cp shape/zelda_gi_fire/zelda_gi_fire.o gi_fire.o
