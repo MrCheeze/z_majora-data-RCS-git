@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.61  1999-04-22 11:00:16+09  nisiwaki
+# スタルキッドの絵追加
+#
 # Revision 2.60  1999-04-21 13:43:49+09  umemiya
 # はしご、クロスケ追加
 #
@@ -1705,3 +1708,4 @@ cp() {
      cp shape/zelda2_ladder/zelda2_ladder.o Ladder.o
      cp shape/zelda2_mkk/zelda2_mkk.o Mkk.o
      cp shape/zelda2_obj_skje/zelda2_obj_skje.o Skje.o
+     cp shape/zelda2_obj_stain/zelda2_obj_stain.o Stain.o
