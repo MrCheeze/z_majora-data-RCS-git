@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 #$Log$
+#Revision 2.6  1999-09-01 20:18:11+09  iwawaki
+#*** empty log message ***
+#
 #Revision 2.5  1999-09-01 18:42:39+09  iwawaki
 #*** empty log message ***
 #
@@ -212,6 +215,16 @@ swfl.o
 Skje.o
 Stain.o
 Dno.o
+G_pn_19.o
+G_pn_20.o
+G_pn_21.o
+G_pn_24.o
+G_pn_29.o
+G_pn_32.o
+G_pn_43.o
+G_pn_44.o
+G_pn_46.o
+G_pn_54.o
 "
 
 echo "使用しなくなったソースを削除します…"
