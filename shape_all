@@ -9,6 +9,7 @@ f_keep
 d_keep
 obj_make
 scene_make_bash
+scene_make2
 dma_make
 pal_dma_make
 dd_dma_make
