@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.269  1998-07-31 11:19:39+09  kuzuhara
+# 魚追加
+#
 # Revision 1.268  1998-07-30 11:51:55+09  komatu
 # Ecの追加
 #
@@ -1249,3 +1252,5 @@ cp() {
      cp shape/zelda_ds2/zelda_ds2.o Ds2.o
      cp shape/zelda_ec/zelda_ec.o Ec.o
      cp shape/zelda_fishing/zelda_fishing.o Fish.o
+     cp shape/zelda_gi_sutaru/zelda_gi_sutaru.o gi_sutaru.o
+     cp shape/zelda_gi_goddess/zelda_gi_goddess.o gi_goddess.o
