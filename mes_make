@@ -6,7 +6,7 @@
 
 cp2() {
     if [ ! -e $1 ]; then
-	echo "ファイルがありません $1"
+	echo -e "\007\033[37;41mファイルがありません $1\033[m"
     else
 	if [ ! -e $2 -o $1 -nt $2 ]; then
 	    echo    cp $1 $2
@@ -41,7 +41,7 @@ if [ -r shape/MESSAGE/japan/japan.o ]; then
      cp shape/MESSAGE/japan/extern.h .
      cp shape/MESSAGE/japan/japan.o .
 else
-    echo "只今メッセージは更新中または壊れています"
+    echo -e "\007\033[37;41m只今メッセージは更新中、または壊れています\033[m"
 fi
      cp shape/TEXTURE/MESSAGE/texture/texture.o .
      cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
