@@ -21,6 +21,7 @@ cp() {
   fi
 }
 
+     cp shape/TEXTURE/MESSAGE/texture/texture.o .
      cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
      cp shape/TEXTURE/MESSAGE/message/message.o .
      cp shape/TEXTURE/MAP/map_div4_idx.o .
