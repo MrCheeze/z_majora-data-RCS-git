@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.56  1997/10/02  13:44:58  umemiya
+# *** empty log message ***
+#
 # Revision 1.55  1997/10/02  12:40:30  umemiya
 # デクババ追加
 #
@@ -246,4 +249,5 @@ cp() {
      cp shape/zelda_gnd/zelda_gnd.o Gnd.o
      cp shape/zelda_am/zelda_am.o Am.o
      cp shape/zelda_dekubaba/zelda_dekubaba.o Dekubaba.o
+     cp shape/zelda_oF1/zelda_oF1.o OF1.o
 
