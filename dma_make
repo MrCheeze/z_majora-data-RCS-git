@@ -154,6 +154,7 @@ cp() {
      cp shape/TEXTURE2/ICON_ITEM2/icon_item.o .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_test.raw .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_24.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_24_test.raw .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_field.o .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_dungeon.o .
      cp shape/TEXTURE2/ICON_ITEM2/icon_item_jpn.o .
@@ -166,6 +167,7 @@ cp() {
 
 #####	スケジュール
      cp shape/TEXTURE2/SCHEDULE2/schedule_dma.o .
+     cp shape/TEXTURE2/SCHEDULE2/schedule_dma_test.raw .
      cp shape/TEXTURE2/SCHEDULE2/schedule.o .
 #
 ######
