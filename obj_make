@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.281  1998-08-08 16:05:20+09  umemiya
+# 売りナッツ追加
+#
 # Revision 1.280  1998-08-07 19:35:40+09  nisiwaki
 # Gla 追加
 #
@@ -1299,3 +1302,4 @@ cp() {
      cp shape/zelda_spot00_break/zelda_spot00_break.o spot00_break.o
      cp shape/zelda_gla/zelda_gla.o Gla.o
      cp shape/zelda_shopnuts/zelda_shopnuts.o Shopnuts.o
+     cp shape/zelda_gelb/zelda_gelb.o Gelb.o
