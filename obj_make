@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.37  1999-03-24 21:42:22+09  sumiyosi
+# *** empty log message ***
+#
 # Revision 2.36  1999-03-23 15:54:26+09  umemiya
 # 氷ブロック追加
 #
@@ -1612,3 +1615,4 @@ cp() {
      cp shape/zelda2_flowerpot/zelda2_flowerpot.o flowerpot.o
      cp shape/zelda2_spinyroll/zelda2_spinyroll.o spinyroll.o
      cp shape/zelda2_ice_block/zelda2_ice_block.o Ice_Block.o
+     cp shape/zelda2_dblue_room/zelda2_dblue_room.o Dblue_Room.o
