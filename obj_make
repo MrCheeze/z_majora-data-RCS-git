@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.345  2000-02-21 13:38:03+09  matutani
+# ミルク瓶追加
+#
 # Revision 2.344  2000-02-21 13:00:26+09  takesita
 # 海賊の砦の柵追加
 #
@@ -2821,3 +2824,4 @@ cp() {
      cp shape/zelda2_nnh/zelda2_nnh.o Nnh.o
      cp shape/zelda2_kzsaku/zelda2_kzsaku.o Kzsaku.o
      cp shape/zelda2_obj_milk_bin/zelda2_obj_milk_bin.o Obj_Milk_Bin.o
+     cp shape/zelda2_random_obj/zelda2_random_obj.o Random_Obj.o
