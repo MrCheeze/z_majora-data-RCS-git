@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.282  2000-01-21 14:42:07+09  kuzuhara
+# sd ＳＤ チェンジ
+#
 # Revision 2.281  2000-01-20 19:44:34+09  soejima
 # mag.o
 #
@@ -2567,3 +2570,5 @@ cp() {
      cp shape/zelda2_trO/zelda2_trO.o Tro.o
      cp shape/zelda2_gi_mask12/v2_mask_12.o gi_posthat.o
      cp shape/zelda2_gi_mask23/v2_mask_23.o gi_giantmask.o
+     cp shape/zelda2_gi_bottle_21/v2_bottle_21.o gi_syatoromani.o
+     cp shape/zelda2_gi_camera/v2_camera.o gi_picturebox.o
