@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.164  1999-10-28 17:31:24+09  sasaki
+# スタル アニメ分割
+#
 # Revision 2.163  1999-10-28 14:42:41+09  sakaguti
 # *** empty log message ***
 #
@@ -1929,7 +1932,7 @@ cp() {
      cp shape/zelda_gi_sutaru/zelda_gi_sutaru.o gi_sutaru.o
      cp shape/zelda_gi_goddess/zelda_gi_goddess.o gi_goddess.o
 #     cp shape/zelda_ssh/zelda_ssh.o ssh.o
-     cp shape/zelda_bg/zelda_bg.o Bg.o
+     cp shape/zelda2_bg/zelda2_bg.o Bg.o
      cp shape/zelda2_bombiwa/zelda2_bombiwa.o bombiwa.o
      cp shape/zelda_hintnuts/zelda_hintnuts.o Hintnuts.o
 #     cp shape/zelda_rs/zelda_rs.o Rs.o
