@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.3  1998/10/28 03:46:57  komatu
+# PAL用シェイプデータXc_pal.oの追加の間違いを修正
+#
 # Revision 2.2  1998-10-27 14:20:50+09  komatu
 # PAL用シェイプデータXc_pal.oの追加
 #
@@ -1019,7 +1022,9 @@ cp() {
      cp shape/zelda_horse/zelda_horse.o Horse.o
      cp shape/zelda_zf/zelda_zf.o Zf.o
      cp shape/zelda_goma/zelda_goma.o Go.o
+     cp shape/zelda_goma_PAL/zelda_goma_PAL.o Go_PAL.o
      cp shape/zelda_kdodongo/zelda_kdodongo.o Kdodongo.o
+     cp shape/zelda_kdodongo_PAL/zelda_kdodongo_PAL.o Kdodongo_PAL.o
      cp shape/zelda_zl1/zelda_zl1.o Zl1.o
      cp shape/zelda_ff/zelda_ff.o Ff.o
      cp shape/zelda_wm2/zelda_wm2.o Wm.o
@@ -1088,6 +1093,7 @@ cp() {
      cp shape/zelda_oA11/zelda_oA11.o OA11.o
      cp shape/zelda_mizu_objects/zelda_mizu_objects.o mizu_objects.o
      cp shape/zelda_fantomHG/zelda_fantomHG.o FantomHG.o
+     cp shape/zelda_fantomHG_PAL/zelda_fantomHG_PAL.o FantomHG_PAL.o
 #     cp shape/zelda_oB1/zelda_oB1.o OB1.o
      cp shape/zelda_sh/zelda_sh.o OB1.o
      cp shape/zelda_mori_hineri1/zelda_mori_hineri1.o mori_hineri1.o
@@ -1136,6 +1142,7 @@ cp() {
      cp shape/zelda_tk/zelda_tk.o Tk.o
      cp shape/zelda_vm/zelda_vm.o Vm.o
      cp shape/zelda_bv/zelda_bv.o Bv.o
+     cp shape/zelda_bv_PAL/zelda_bv_PAL.o Bv_PAL.o
 #     cp shape/zelda_firecircle/zelda_firecircle.o  Firecircle.o
      cp shape/zelda_efc_crystal_light/zelda_efc_crystal_light.o  efc_crystal_light.o
      cp shape/zelda_efc_fire_ball/zelda_efc_fire_ball.o  efc_fire_ball.o
@@ -1152,6 +1159,7 @@ cp() {
      cp shape/zelda_heavy_object/zelda_heavy_object.o Heavy_object.o
      cp shape/zelda_gndd/zelda_gndd.o Gndd.o
      cp shape/zelda_fd/zelda_fd.o fd.o
+     cp shape/zelda_fd_PAL/zelda_fd_PAL.o fd_PAL.o
      cp shape/zelda_du/zelda_du.o du.o
      cp shape/zelda_fw/zelda_fw.o fw.o
      cp shape/zelda_medal/medal.o medal.o
@@ -1181,6 +1189,7 @@ cp() {
      cp shape/zelda_spot17_obj/zelda_spot17_obj.o spot17_obj.o
      cp shape/zelda_nb/zelda_nb.o nb.o
      cp shape/zelda_mo/zelda_mo.o mo.o
+     cp shape/zelda_mo_PAL/zelda_mo_PAL.o mo_PAL.o
      cp shape/zelda_sb/zelda_sb.o sb.o
      cp shape/zelda_gi_melody/zelda_gi_melody.o gi_melody.o
      cp shape/zelda_gi_heart/zelda_gi_heart.o gi_heart.o
@@ -1213,6 +1222,7 @@ cp() {
      cp shape/zelda_gi_purse/zelda_gi_purse.o gi_purse.o
      cp shape/zelda_hni/zelda_hni.o Hni.o
      cp shape/zelda_tw/zelda_tw.o tw.o
+     cp shape/zelda_tw_PAL/zelda_tw_PAL.o tw_PAL.o
      cp shape/zelda_rr/zelda_rr.o rr.o
      cp shape/zelda_bxa/zelda_bxa.o bxa.o
      cp shape/zelda_av/zelda_av.o Av.o
@@ -1227,10 +1237,12 @@ cp() {
      cp shape/zelda_gi_milk/zelda_gi_milk.o gi_milk.o
      cp shape/zelda_ma1/zelda_ma1.o Ma1.o
      cp shape/zelda_ganon/zelda_ganon.o B_ganon.o
+     cp shape/zelda_ganon_PAL/zelda_ganon_PAL.o B_ganon_PAL.o
      cp shape/zelda_ganon_anime1/zelda_ganon_anime1.o Ganon_Anime1.o
      cp shape/zelda_ganon_anime2/zelda_ganon_anime2.o Ganon_Anime2.o
      cp shape/zelda_ganon_anime3/zelda_ganon_anime3.o Ganon_Anime3.o
      cp shape/zelda_sst/zelda_sst.o Sst.o
+     cp shape/zelda_sst_PAL/zelda_sst_PAL.o Sst_PAL.o
      cp shape/zelda_go2/zelda_go2.o Go2.o
      cp shape/zelda_stk/zelda_stk.o Stk.o
      cp shape/zelda_ny/zelda_ny.o Ny.o
@@ -1296,6 +1308,63 @@ cp() {
      cp shape/zelda_scene_name2/G_pn_55/G_pn_55.o .
      cp shape/zelda_scene_name2/G_pn_56/G_pn_56.o .
      cp shape/zelda_scene_name2/G_pn_57/G_pn_57.o .
+     cp shape/zelda_scene_name_PAL/G_pn_01/G_pn_01.o G_pn_01_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_02/G_pn_02.o G_pn_02_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_03/G_pn_03.o G_pn_03_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_04/G_pn_04.o G_pn_04_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_05/G_pn_05.o G_pn_05_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_06/G_pn_06.o G_pn_06_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_07/G_pn_07.o G_pn_07_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_08/G_pn_08.o G_pn_08_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_09/G_pn_09.o G_pn_09_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_10/G_pn_10.o G_pn_10_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_11/G_pn_11.o G_pn_11_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_12/G_pn_12.o G_pn_12_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_13/G_pn_13.o G_pn_13_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_14/G_pn_14.o G_pn_14_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_15/G_pn_15.o G_pn_15_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_16/G_pn_16.o G_pn_16_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_17/G_pn_17.o G_pn_17_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_18/G_pn_18.o G_pn_18_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_19/G_pn_19.o G_pn_19_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_20/G_pn_20.o G_pn_20_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_21/G_pn_21.o G_pn_21_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_22/G_pn_22.o G_pn_22_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_23/G_pn_23.o G_pn_23_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_24/G_pn_24.o G_pn_24_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_25/G_pn_25.o G_pn_25_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_26/G_pn_26.o G_pn_26_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_27/G_pn_27.o G_pn_27_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_28/G_pn_28.o G_pn_28_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_29/G_pn_29.o G_pn_29_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_30/G_pn_30.o G_pn_30_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_31/G_pn_31.o G_pn_31_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_32/G_pn_32.o G_pn_32_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_33/G_pn_33.o G_pn_33_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_34/G_pn_34.o G_pn_34_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_35/G_pn_35.o G_pn_35_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_36/G_pn_36.o G_pn_36_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_37/G_pn_37.o G_pn_37_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_38/G_pn_38.o G_pn_38_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_39/G_pn_39.o G_pn_39_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_40/G_pn_40.o G_pn_40_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_41/G_pn_41.o G_pn_41_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_42/G_pn_42.o G_pn_42_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_43/G_pn_43.o G_pn_43_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_44/G_pn_44.o G_pn_44_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_45/G_pn_45.o G_pn_45_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_46/G_pn_46.o G_pn_46_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_47/G_pn_47.o G_pn_47_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_48/G_pn_48.o G_pn_48_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_49/G_pn_49.o G_pn_49_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_50/G_pn_50.o G_pn_50_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_51/G_pn_51.o G_pn_51_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_52/G_pn_52.o G_pn_52_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_53/G_pn_53.o G_pn_53_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_54/G_pn_54.o G_pn_54_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_55/G_pn_55.o G_pn_55_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_56/G_pn_56.o G_pn_56_PAL.o
+     cp shape/zelda_scene_name_PAL/G_pn_57/G_pn_57.o G_pn_57_PAL.o
      cp shape/zelda_gi_liquid/zelda_gi_liquid.o gi_liquid.o
      cp shape/zelda_ani/zelda_ani.o ani.o
      cp shape/zelda_demo_6k/zelda_demo_6k.o D6k.o
@@ -1406,6 +1475,7 @@ cp() {
      cp shape/zelda_gi_zoramask/zelda_gi_zoramask.o gi_zoramask.o
      cp shape/zelda_gi_gerudomask/zelda_gi_gerudomask.o gi_gerudomask.o
      cp shape/zelda_ganon2/zelda_ganon2.o B_ganon2.o
+     cp shape/zelda_ganon2_PAL/zelda_ganon2_PAL.o B_ganon2_PAL.o
      cp shape/zelda_ka/zelda_ka.o Ka.o
      cp shape/zelda_ts/zelda_ts.o Ts.o
      cp shape/zelda_zg/zelda_zg.o Zg.o
