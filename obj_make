@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.128  1999-09-21 19:45:00+09  sakaguti
+# お面屋、新規登録
+#
 # Revision 2.127  1999-09-21 19:41:10+09  sasaki
 # *** empty log message ***
 #
@@ -1931,8 +1934,6 @@ cp() {
      cp shape/zelda2_pfslime/zelda2_pfslime.o Pfslime.o
      cp shape/zelda2_horse_game_check/zelda2_horse_game_check.o Horse_Game_Check.o
      cp shape/zelda2_stk/zelda2_stk.o Stk.o
-     cp shape/zelda2_hakugin_051/zelda2_hakugin_051.o Hakugin_051.o
-     cp shape/zelda2_hakugin_081/zelda2_hakugin_081.o Hakugin_081.o
      cp shape/zelda2_mnk/zelda2_mnk.o Mnk.o
      cp shape/zelda2_gi_bottle_red/zelda2_gi_bottle_red.o gi_bottle_red.o
      cp shape/zelda2_tokei_tobira/zelda2_tokei_tobira.o tokei_tobira.o
