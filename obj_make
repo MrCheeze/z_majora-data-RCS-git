@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.178  1998/04/13 02:33:15  takahata
+# *** empty log message ***
+#
 # Revision 1.177  1998/04/10 05:21:18  nisiwaki
 # たくさん 追加
 #
@@ -802,3 +805,4 @@ cp() {
      cp shape/zelda_gi_boomerang/zelda_gi_boomerang.o gi_boomerang.o
      cp shape/zelda_gi_bow/zelda_gi_bow.o gi_bow.o
      cp shape/zelda_gi_glasses/zelda_gi_glasses.o gi_glasses.o
+     cp shape/zelda_scene_name/*.o .
