@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.8  1999-02-03 17:13:05+09  kuzuhara
+# 切り裂きバッタ作成
+#
 # Revision 2.7  1999-02-02 15:41:59+09  iwawaki
 # *** empty log message ***
 #
@@ -1538,3 +1541,6 @@ cp() {
      cp shape/zelda_timeblock/zelda_timeblock.o timeblock.o
      cp shape/zelda_zl4/zelda_zl4.o Zl4.o
      cp shape/zelda2_kdz/zelda2_kdz.o Kdz.o
+     cp shape/zelda2_boyo/zelda2_boyo.o boyo.o
+     cp shape/zelda2_fence/zelda2_fence.o fence.o
+     cp shape/zelda2_hampost/zelda2_hampost.o hampost.o
