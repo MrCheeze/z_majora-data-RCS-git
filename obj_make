@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.241  1998-06-26 15:29:24+09  takahata
+# *** empty log message ***
+#
 # Revision 1.240  1998-06-25 19:18:07+09  kuzuhara
 # 爆破看板作成
 #
@@ -1111,3 +1114,4 @@ cp() {
      cp shape/zelda_gi_gloves/zelda_gi_gloves.o gi_gloves.o
      cp shape/zelda_gi_coin/zelda_gi_coin.o gi_coin.o
      cp shape/zelda_kanban/zelda_kanban.o kanban.o
+     cp shape/zelda_gjyo_objects/zelda_gjyo_objects.o gjyo_objects.o
