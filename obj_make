@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.64  1997/10/25  05:44:13  iwawaki
+# *** empty log message ***
+#
 # Revision 1.63  1997/10/21  09:14:32  matutani
 # ゼルダ馬
 #
@@ -284,6 +287,8 @@ cp() {
      cp shape/zelda_oB4/zelda_oB4.o OB4.o
      cp shape/zelda_horse_zelda/zelda_horse_zelda.o Horse_Zelda.o
      cp shape/zelda_opdemo1/zelda_opdemo1.o Opening_Demo1.o
+     cp shape/zelda_warp1/zelda_warp1.o Warp1.o
+     cp shape/zelda_b_heart/zelda_b_heart.o B_heart.o
 
 	
 
