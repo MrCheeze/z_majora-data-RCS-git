@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.264  2000-01-13 11:18:57+09  nisiwaki
+# *** empty log message ***
+#
 # Revision 2.263  2000-01-12 17:32:46+09  kuzuhara
 # タンロンさん専用
 #
@@ -2490,3 +2493,4 @@ cp() {
      cp shape/zelda2_tanron1/zelda2_tanron1.o Tanron1.o
      cp shape/zelda2_tanron2/zelda2_tanron2.o Tanron2.o
      cp shape/zelda2_tanron3/zelda2_tanron3.o Tanron3.o
+     cp shape/zelda2_gi_mushroom/v2_mushroom.o gi_mushroom.o
