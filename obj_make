@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.308  1998-09-01 17:58:15+09  takahata
+# *** empty log message ***
+#
 # Revision 1.307  1998-09-01 09:48:11+09  yoshida
 # ゴシップストーン追加
 #
@@ -965,7 +968,7 @@ cp() {
      cp shape/zelda_human/zelda_human.o Human.o
      cp shape/zelda_ironknack/zelda_ironknack.o Ironknack.o
      cp shape/zelda_nw/zelda_nw.o Niw.o
-     cp shape/zelda_rock/zelda_rock.o Rock.o
+#     cp shape/zelda_rock/zelda_rock.o Rock.o
      cp shape/zelda_skelton/zelda_skelton.o Skelton.o
      cp shape/zelda_slime/zelda_slime.o Slime.o
      cp shape/zelda_soldier/zelda_soldier.o Soldier.o
