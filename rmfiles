@@ -5,6 +5,9 @@
 # １ヶ月をめどに消去する
 #
 # $Log$
+# Revision 2.12  2000-04-24 13:00:43+09  iwawaki
+# *** empty log message ***
+#
 # Revision 2.11  2000-02-19 20:33:42+09  hayakawa
 # *** empty log message ***
 #
@@ -73,6 +76,10 @@ hidan_objects4.o
 hidan_objects5.o
 hidan_objects6.o
 Heavy_object.o
+keep_PAL
+keep_PAL.objs
+keep_PAL.map
+keep_PAL.o
 "
 
 echo "使用しなくなったソースを削除します…"
