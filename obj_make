@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 1.170  1998/04/06  11:43:31  tarukado
+# *** empty log message ***
+#
 # Revision 1.169  1998/04/06  09:35:20  kuzuhara
 # 削除俺様大妖精
 #
@@ -754,3 +757,4 @@ cp() {
      cp shape/zelda_tw/zelda_tw.o tw.o
      cp shape/zelda_rr/zelda_rr.o rr.o
      cp shape/zelda_bxa/zelda_bxa.o bxa.o
+     cp shape/zelda_av/zelda_av.o Av.o
