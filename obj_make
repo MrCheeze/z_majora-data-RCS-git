@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.358  2000-02-29 17:28:13+09  umemiya
+# 泥棒鳥追加
+#
 # Revision 2.357  2000-02-29 16:47:14+09  sasaki
 # *** empty log message ***
 #
@@ -2529,7 +2532,8 @@ cp() {
 #     cp shape/zelda_gi_mushroom/zelda_gi_mushroom.o gi_mushroom.o
 #     cp shape/zelda_gi_ticketstone/zelda_gi_ticketstone.o gi_ticketstone.o
 #     cp shape/zelda_gi_brokensword/zelda_gi_brokensword.o gi_brokensword.o
-     cp shape/zelda_js/zelda_js.o Js.o
+#     cp shape/zelda_js/zelda_js.o Js.o
+     cp shape/zelda2_js/zelda2_js.o Js.o
      cp shape/zelda2_cs/zelda2_cs.o cs.o
 #     cp shape/zelda_gi_prescription/zelda_gi_prescription.o gi_prescription.o
 #     cp shape/zelda_gi_bracelet/zelda_gi_bracelet.o gi_bracelet.o
