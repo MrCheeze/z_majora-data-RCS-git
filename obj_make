@@ -4,6 +4,9 @@
 # $Id$
 #
 # $Log$
+# Revision 2.97  1999-07-21 11:12:27+09  nisiwaki
+# Obj_Moguri.o の 内容変更
+#
 # Revision 2.96  1999-07-21 10:06:12+09  nisiwaki
 # 猿追加
 #
@@ -1841,3 +1844,4 @@ cp() {
      cp shape/zelda2_hakugin_051/zelda2_hakugin_051.o Hakugin_051.o
      cp shape/zelda2_hakugin_081/zelda2_hakugin_081.o Hakugin_081.o
      cp shape/zelda2_mnk/zelda2_mnk.o Mnk.o
+     cp shape/zelda2_gi_bottle_red/zelda2_gi_bottle_red.o gi_bottle_red.o
